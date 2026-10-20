@@ -1,0 +1,40 @@
+# Unity-generated directories
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Bb]uild/
+/[Bb]uilds/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# IDE and generated solutions
+/.vs/
+/.idea/
+/.vscode/
+/.vsconfig
+/*.csproj
+/*.sln
+/*.slnx
+/*.suo
+/*.user
+/*.pidb
+/*.booproj
+/*.opendb
+/*.VC.db
+
+# Local agent settings, credentials and transient files
+/.codex/
+/.agents/
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.key
+*.log
+.DS_Store
+Thumbs.db
+/Assets/StreamingAssets/aa.meta
+/Assets/StreamingAssets/aa/

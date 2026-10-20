@@ -1,0 +1,2347 @@
+{
+  "fields": [
+    {
+      "column": "CM-S01",
+      "displayName": "출처 DB",
+      "options": [
+        {
+          "code": "1",
+          "label": "전도 DB",
+          "unknown": false
+        },
+        {
+          "code": "2",
+          "label": "시나리오 통합 DB",
+          "unknown": false
+        },
+        {
+          "code": "3",
+          "label": "두 DB 모두(중복 병합)",
+          "unknown": false
+        },
+        {
+          "code": "4",
+          "label": "조선업 중대재해 사례집(확장)",
+          "unknown": false
+        },
+        {
+          "code": "5",
+          "label": "CSI 해상·선박 작업(확장)",
+          "unknown": false
+        }
+      ]
+    },
+    {
+      "column": "CM-A01",
+      "displayName": "사고유형",
+      "options": [
+        {
+          "code": "11",
+          "label": "크레인 전도",
+          "unknown": false
+        },
+        {
+          "code": "12",
+          "label": "크레인 구조·와이어 파손",
+          "unknown": false
+        },
+        {
+          "code": "13",
+          "label": "크레인 간 충돌",
+          "unknown": false
+        },
+        {
+          "code": "21",
+          "label": "인양물·부품 낙하",
+          "unknown": false
+        },
+        {
+          "code": "22",
+          "label": "인양물·장비 충돌",
+          "unknown": false
+        },
+        {
+          "code": "23",
+          "label": "인양물 전도(미체결·조기해체)",
+          "unknown": false
+        },
+        {
+          "code": "31",
+          "label": "끼임·깔림",
+          "unknown": false
+        },
+        {
+          "code": "41",
+          "label": "떨어짐(추락)",
+          "unknown": false
+        },
+        {
+          "code": "51",
+          "label": "넘어짐",
+          "unknown": false
+        },
+        {
+          "code": "61",
+          "label": "감전·접촉",
+          "unknown": false
+        },
+        {
+          "code": "91",
+          "label": "기타",
+          "unknown": false
+        },
+        {
+          "code": "71",
+          "label": "화재·폭발",
+          "unknown": false
+        },
+        {
+          "code": "72",
+          "label": "질식·유해가스",
+          "unknown": false
+        },
+        {
+          "code": "73",
+          "label": "잠수작업",
+          "unknown": false
+        },
+        {
+          "code": "74",
+          "label": "설비·기계·문 끼임",
+          "unknown": false
+        },
+        {
+          "code": "75",
+          "label": "차량·운반기계(지게차·트레일러·굴착기·트랜스포터·고소작업대)",
+          "unknown": false
+        },
+        {
+          "code": "76",
+          "label": "추락(비계·개구부·사다리·선내)",
+          "unknown": false
+        },
+        {
+          "code": "77",
+          "label": "비크레인 중량물·부재 전도·낙하",
+          "unknown": false
+        },
+        {
+          "code": "78",
+          "label": "공구·연삭숫돌 파편·절단",
+          "unknown": false
+        },
+        {
+          "code": "79",
+          "label": "감전(비크레인)",
+          "unknown": false
+        },
+        {
+          "code": "80",
+          "label": "선박 동요·계류로프·승하선",
+          "unknown": false
+        }
+      ]
+    },
+    {
+      "column": "CM-A03",
+      "displayName": "인적피해 형태",
+      "options": [
+        {
+          "code": "0",
+          "label": "인명피해 없음",
+          "unknown": false
+        },
+        {
+          "code": "10",
+          "label": "떨어짐(높이 미상)",
+          "unknown": false
+        },
+        {
+          "code": "11",
+          "label": "떨어짐 2m 미만",
+          "unknown": false
+        },
+        {
+          "code": "12",
+          "label": "떨어짐 2~3m",
+          "unknown": false
+        },
+        {
+          "code": "13",
+          "label": "떨어짐 3~5m",
+          "unknown": false
+        },
+        {
+          "code": "14",
+          "label": "떨어짐 5~10m",
+          "unknown": false
+        },
+        {
+          "code": "15",
+          "label": "떨어짐 10m 이상",
+          "unknown": false
+        },
+        {
+          "code": "20",
+          "label": "깔림",
+          "unknown": false
+        },
+        {
+          "code": "30",
+          "label": "끼임",
+          "unknown": false
+        },
+        {
+          "code": "40",
+          "label": "물체에 맞음",
+          "unknown": false
+        },
+        {
+          "code": "50",
+          "label": "부딪힘",
+          "unknown": false
+        },
+        {
+          "code": "60",
+          "label": "감전",
+          "unknown": false
+        },
+        {
+          "code": "70",
+          "label": "넘어짐(기타)",
+          "unknown": false
+        },
+        {
+          "code": "71",
+          "label": "넘어짐(미끄러짐)",
+          "unknown": false
+        },
+        {
+          "code": "72",
+          "label": "넘어짐(물체에 걸림)",
+          "unknown": false
+        },
+        {
+          "code": "81",
+          "label": "절단·베임",
+          "unknown": false
+        },
+        {
+          "code": "82",
+          "label": "찔림",
+          "unknown": false
+        },
+        {
+          "code": "83",
+          "label": "화재·폭발",
+          "unknown": false
+        },
+        {
+          "code": "89",
+          "label": "기타",
+          "unknown": false
+        },
+        {
+          "code": "99",
+          "label": "미상",
+          "unknown": true
+        },
+        {
+          "code": "84",
+          "label": "질식·산소결핍·중독",
+          "unknown": false
+        },
+        {
+          "code": "85",
+          "label": "익사",
+          "unknown": false
+        },
+        {
+          "code": "86",
+          "label": "화상",
+          "unknown": false
+        }
+      ]
+    },
+    {
+      "column": "CM-A04",
+      "displayName": "물적사고 형태",
+      "options": [
+        {
+          "code": "0",
+          "label": "없음",
+          "unknown": true
+        },
+        {
+          "code": "1",
+          "label": "붕괴",
+          "unknown": false
+        },
+        {
+          "code": "2",
+          "label": "전도",
+          "unknown": false
+        },
+        {
+          "code": "3",
+          "label": "낙하",
+          "unknown": false
+        },
+        {
+          "code": "4",
+          "label": "충돌",
+          "unknown": false
+        },
+        {
+          "code": "5",
+          "label": "화재·폭발",
+          "unknown": false
+        },
+        {
+          "code": "6",
+          "label": "탈락",
+          "unknown": false
+        },
+        {
+          "code": "7",
+          "label": "파열·파단",
+          "unknown": false
+        },
+        {
+          "code": "8",
+          "label": "기타",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "미상",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "CM-P01",
+      "displayName": "국가",
+      "options": [
+        {
+          "code": "410",
+          "label": "한국",
+          "unknown": false
+        },
+        {
+          "code": "392",
+          "label": "일본",
+          "unknown": false
+        },
+        {
+          "code": "840",
+          "label": "미국",
+          "unknown": false
+        },
+        {
+          "code": "826",
+          "label": "영국",
+          "unknown": false
+        },
+        {
+          "code": "36",
+          "label": "호주",
+          "unknown": false
+        },
+        {
+          "code": "276",
+          "label": "독일",
+          "unknown": false
+        },
+        {
+          "code": "756",
+          "label": "스위스",
+          "unknown": false
+        },
+        {
+          "code": "372",
+          "label": "아일랜드",
+          "unknown": false
+        },
+        {
+          "code": "578",
+          "label": "노르웨이",
+          "unknown": false
+        },
+        {
+          "code": "724",
+          "label": "스페인",
+          "unknown": false
+        },
+        {
+          "code": "380",
+          "label": "이탈리아",
+          "unknown": false
+        },
+        {
+          "code": "710",
+          "label": "남아공",
+          "unknown": false
+        },
+        {
+          "code": "156",
+          "label": "중국",
+          "unknown": false
+        },
+        {
+          "code": "76",
+          "label": "브라질",
+          "unknown": false
+        },
+        {
+          "code": "484",
+          "label": "멕시코",
+          "unknown": false
+        },
+        {
+          "code": "554",
+          "label": "뉴질랜드",
+          "unknown": false
+        },
+        {
+          "code": "682",
+          "label": "사우디",
+          "unknown": false
+        },
+        {
+          "code": "702",
+          "label": "싱가포르",
+          "unknown": false
+        },
+        {
+          "code": "112",
+          "label": "벨라루스",
+          "unknown": false
+        },
+        {
+          "code": "51",
+          "label": "아르메니아",
+          "unknown": false
+        },
+        {
+          "code": "152",
+          "label": "칠레",
+          "unknown": false
+        },
+        {
+          "code": "999",
+          "label": "미상",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "CM-P02",
+      "displayName": "지역",
+      "options": [
+        {
+          "code": "11",
+          "label": "서울",
+          "unknown": false
+        },
+        {
+          "code": "26",
+          "label": "부산",
+          "unknown": false
+        },
+        {
+          "code": "27",
+          "label": "대구",
+          "unknown": false
+        },
+        {
+          "code": "28",
+          "label": "인천",
+          "unknown": false
+        },
+        {
+          "code": "29",
+          "label": "광주",
+          "unknown": false
+        },
+        {
+          "code": "30",
+          "label": "대전",
+          "unknown": false
+        },
+        {
+          "code": "31",
+          "label": "울산",
+          "unknown": false
+        },
+        {
+          "code": "36",
+          "label": "세종",
+          "unknown": false
+        },
+        {
+          "code": "41",
+          "label": "경기",
+          "unknown": false
+        },
+        {
+          "code": "42",
+          "label": "강원",
+          "unknown": false
+        },
+        {
+          "code": "43",
+          "label": "충북",
+          "unknown": false
+        },
+        {
+          "code": "44",
+          "label": "충남",
+          "unknown": false
+        },
+        {
+          "code": "45",
+          "label": "전북",
+          "unknown": false
+        },
+        {
+          "code": "46",
+          "label": "전남",
+          "unknown": false
+        },
+        {
+          "code": "47",
+          "label": "경북",
+          "unknown": false
+        },
+        {
+          "code": "48",
+          "label": "경남",
+          "unknown": false
+        },
+        {
+          "code": "50",
+          "label": "제주",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해외",
+          "unknown": false
+        },
+        {
+          "code": "99",
+          "label": "미상",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "CM-P03",
+      "displayName": "업종",
+      "options": [
+        {
+          "code": "1",
+          "label": "건설업",
+          "unknown": false
+        },
+        {
+          "code": "2",
+          "label": "제조업",
+          "unknown": false
+        },
+        {
+          "code": "3",
+          "label": "조선업",
+          "unknown": false
+        },
+        {
+          "code": "4",
+          "label": "서비스업",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "미상",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "CM-P04",
+      "displayName": "공종·현장",
+      "options": [
+        {
+          "code": "1",
+          "label": "건축",
+          "unknown": false
+        },
+        {
+          "code": "2",
+          "label": "토목",
+          "unknown": false
+        },
+        {
+          "code": "3",
+          "label": "기계·전기설비",
+          "unknown": false
+        },
+        {
+          "code": "4",
+          "label": "플랜트·에너지",
+          "unknown": false
+        },
+        {
+          "code": "5",
+          "label": "항만·해상",
+          "unknown": false
+        },
+        {
+          "code": "6",
+          "label": "공장·물류",
+          "unknown": false
+        },
+        {
+          "code": "7",
+          "label": "조선소",
+          "unknown": false
+        },
+        {
+          "code": "8",
+          "label": "기타",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "미상",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "CM-W01",
+      "displayName": "날씨",
+      "options": [
+        {
+          "code": "1",
+          "label": "맑음",
+          "unknown": false
+        },
+        {
+          "code": "2",
+          "label": "흐림",
+          "unknown": false
+        },
+        {
+          "code": "3",
+          "label": "비",
+          "unknown": false
+        },
+        {
+          "code": "4",
+          "label": "눈",
+          "unknown": false
+        },
+        {
+          "code": "5",
+          "label": "안개",
+          "unknown": false
+        },
+        {
+          "code": "6",
+          "label": "강풍·폭풍",
+          "unknown": false
+        },
+        {
+          "code": "7",
+          "label": "결빙",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "미상",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "CM-W06",
+      "displayName": "기상값 출처",
+      "options": [
+        {
+          "code": "1",
+          "label": "보고서 기재",
+          "unknown": false
+        },
+        {
+          "code": "2",
+          "label": "기상청 보완",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "CM-E01",
+      "displayName": "크레인 분류",
+      "options": [
+        {
+          "code": "10",
+          "label": "타워크레인",
+          "unknown": false
+        },
+        {
+          "code": "21",
+          "label": "이동식-휠(하이드로·기중기·올테레인·러프테레인)",
+          "unknown": false
+        },
+        {
+          "code": "22",
+          "label": "이동식-차량탑재(카고·로더)",
+          "unknown": false
+        },
+        {
+          "code": "23",
+          "label": "이동식-관절형",
+          "unknown": false
+        },
+        {
+          "code": "30",
+          "label": "크롤러",
+          "unknown": false
+        },
+        {
+          "code": "40",
+          "label": "천장크레인",
+          "unknown": false
+        },
+        {
+          "code": "41",
+          "label": "갠트리·골리앗",
+          "unknown": false
+        },
+        {
+          "code": "42",
+          "label": "지브·포스트",
+          "unknown": false
+        },
+        {
+          "code": "43",
+          "label": "호이스트·체인블록",
+          "unknown": false
+        },
+        {
+          "code": "44",
+          "label": "마그넷",
+          "unknown": false
+        },
+        {
+          "code": "45",
+          "label": "집게",
+          "unknown": false
+        },
+        {
+          "code": "50",
+          "label": "해상·선상·바지선",
+          "unknown": false
+        },
+        {
+          "code": "60",
+          "label": "데릭",
+          "unknown": false
+        },
+        {
+          "code": "99",
+          "label": "미상",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "CM-H03",
+      "displayName": "재해자 위치",
+      "options": [
+        {
+          "code": "1",
+          "label": "인양물 하부",
+          "unknown": false
+        },
+        {
+          "code": "2",
+          "label": "인양물 주변(작업반경)",
+          "unknown": false
+        },
+        {
+          "code": "3",
+          "label": "적재함·차량 위",
+          "unknown": false
+        },
+        {
+          "code": "4",
+          "label": "크레인·구조물 상부",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "미상",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "CM-H04",
+      "displayName": "재해자 역할",
+      "options": [
+        {
+          "code": "1",
+          "label": "크레인 운전원",
+          "unknown": false
+        },
+        {
+          "code": "2",
+          "label": "신호수",
+          "unknown": false
+        },
+        {
+          "code": "3",
+          "label": "줄걸이·도비공",
+          "unknown": false
+        },
+        {
+          "code": "4",
+          "label": "유도원",
+          "unknown": false
+        },
+        {
+          "code": "5",
+          "label": "통행·무관 작업자",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "미상",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "CM-K01",
+      "displayName": "작업단계",
+      "options": [
+        {
+          "code": "1",
+          "label": "인양(줄걸이·권상 개시)",
+          "unknown": false
+        },
+        {
+          "code": "2",
+          "label": "운반(선회·주행·횡행)",
+          "unknown": false
+        },
+        {
+          "code": "3",
+          "label": "하강·하역·상차",
+          "unknown": false
+        },
+        {
+          "code": "4",
+          "label": "줄걸이 해체·착지",
+          "unknown": false
+        },
+        {
+          "code": "5",
+          "label": "크레인 설치·해체·조립·정비·점검",
+          "unknown": false
+        },
+        {
+          "code": "6",
+          "label": "이동·접근",
+          "unknown": false
+        },
+        {
+          "code": "7",
+          "label": "대기·적치",
+          "unknown": false
+        },
+        {
+          "code": "8",
+          "label": "기타 양중 작업",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "미상",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "DR-X01",
+      "displayName": "낙하물",
+      "options": [
+        {
+          "code": "1",
+          "label": "인양물(전체·일부)",
+          "unknown": false
+        },
+        {
+          "code": "2",
+          "label": "후크·후크블록",
+          "unknown": false
+        },
+        {
+          "code": "3",
+          "label": "줄걸이 용구·부속",
+          "unknown": false
+        },
+        {
+          "code": "4",
+          "label": "크레인 구조물(붐·지브·마스트)",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "미상",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "DR-X02",
+      "displayName": "낙하 메커니즘(주)",
+      "options": [
+        {
+          "code": "1",
+          "label": "줄걸이 용구 파단",
+          "unknown": false
+        },
+        {
+          "code": "2",
+          "label": "줄걸이·달기구 이탈",
+          "unknown": false
+        },
+        {
+          "code": "3",
+          "label": "인양물 결속·포장 불량",
+          "unknown": false
+        },
+        {
+          "code": "4",
+          "label": "권상 와이어로프 파단·풀림",
+          "unknown": false
+        },
+        {
+          "code": "5",
+          "label": "크레인 구조 파손·전도",
+          "unknown": false
+        },
+        {
+          "code": "6",
+          "label": "흡착·파지 상실",
+          "unknown": false
+        },
+        {
+          "code": "7",
+          "label": "간섭·충돌·바람",
+          "unknown": false
+        },
+        {
+          "code": "8",
+          "label": "러그·가용접·지그 파손",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "운전·신호 오류",
+          "unknown": false
+        },
+        {
+          "code": "10",
+          "label": "조립·해체 중 지지 해제",
+          "unknown": false
+        },
+        {
+          "code": "99",
+          "label": "미상",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "OT-X01",
+      "displayName": "전도 방향",
+      "options": [
+        {
+          "code": "1",
+          "label": "전방",
+          "unknown": false
+        },
+        {
+          "code": "2",
+          "label": "후방",
+          "unknown": false
+        },
+        {
+          "code": "3",
+          "label": "측방",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "미상",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "OT-X02",
+      "displayName": "아웃트리거 상태",
+      "options": [
+        {
+          "code": "1",
+          "label": "완전 확장",
+          "unknown": false
+        },
+        {
+          "code": "2",
+          "label": "부분·한쪽 확장",
+          "unknown": false
+        },
+        {
+          "code": "3",
+          "label": "미확장",
+          "unknown": false
+        },
+        {
+          "code": "8",
+          "label": "해당없음(크롤러·타워 등)",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "미상",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "OT-X03",
+      "displayName": "지면 종류",
+      "options": [
+        {
+          "code": "1",
+          "label": "연약토",
+          "unknown": false
+        },
+        {
+          "code": "2",
+          "label": "성토·되메움",
+          "unknown": false
+        },
+        {
+          "code": "3",
+          "label": "포장",
+          "unknown": false
+        },
+        {
+          "code": "4",
+          "label": "슬래브",
+          "unknown": false
+        },
+        {
+          "code": "5",
+          "label": "지하공동 인접",
+          "unknown": false
+        },
+        {
+          "code": "6",
+          "label": "안벽·제방",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "미상",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "OT-X04",
+      "displayName": "주원인",
+      "options": [
+        {
+          "code": "11",
+          "label": "OT-L01 정격하중 초과",
+          "unknown": false
+        },
+        {
+          "code": "12",
+          "label": "OT-L02 중량 미확인·오판",
+          "unknown": false
+        },
+        {
+          "code": "13",
+          "label": "OT-L03 강풍",
+          "unknown": false
+        },
+        {
+          "code": "14",
+          "label": "OT-L04 동적·특수 하중",
+          "unknown": false
+        },
+        {
+          "code": "21",
+          "label": "OT-S01 지반 침하·관통",
+          "unknown": false
+        },
+        {
+          "code": "22",
+          "label": "OT-S02 받침판 부적절",
+          "unknown": false
+        },
+        {
+          "code": "23",
+          "label": "OT-S03 아웃트리거 미확장",
+          "unknown": false
+        },
+        {
+          "code": "24",
+          "label": "OT-S04 카운터웨이트 미장착",
+          "unknown": false
+        },
+        {
+          "code": "25",
+          "label": "OT-S05 경사·수평 불량",
+          "unknown": false
+        },
+        {
+          "code": "26",
+          "label": "OT-S06 지지 구조 결함",
+          "unknown": false
+        },
+        {
+          "code": "99",
+          "label": "미상",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "CM-Q01",
+      "displayName": "근거 등급",
+      "options": [
+        {
+          "code": "1",
+          "label": "A 공식 조사·처분·기소·정부 기록",
+          "unknown": false
+        },
+        {
+          "code": "2",
+          "label": "B 학술·기관 사례·제조사",
+          "unknown": false
+        },
+        {
+          "code": "3",
+          "label": "C 언론·업계 매체",
+          "unknown": false
+        }
+      ]
+    },
+    {
+      "column": "CM-A05",
+      "displayName": "크레인 관련 여부",
+      "options": [
+        {
+          "code": "1",
+          "label": "크레인·양중 관련",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "무관",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "미상",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "CM-A06",
+      "displayName": "작업형태",
+      "options": [
+        {
+          "code": "1",
+          "label": "중량물 취급",
+          "unknown": false
+        },
+        {
+          "code": "2",
+          "label": "화기(절단·용접)",
+          "unknown": false
+        },
+        {
+          "code": "3",
+          "label": "운반기계·설비",
+          "unknown": false
+        },
+        {
+          "code": "4",
+          "label": "이동·교통",
+          "unknown": false
+        },
+        {
+          "code": "5",
+          "label": "정비·유지보수·청소",
+          "unknown": false
+        },
+        {
+          "code": "6",
+          "label": "도장",
+          "unknown": false
+        },
+        {
+          "code": "7",
+          "label": "밀폐공간",
+          "unknown": false
+        },
+        {
+          "code": "8",
+          "label": "잠수",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "점검·검사",
+          "unknown": false
+        },
+        {
+          "code": "10",
+          "label": "비계(족장)",
+          "unknown": false
+        },
+        {
+          "code": "99",
+          "label": "미상",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "CM-A07",
+      "displayName": "사례 종류",
+      "options": [
+        {
+          "code": "1",
+          "label": "재해(실제 사고)",
+          "unknown": false
+        },
+        {
+          "code": "2",
+          "label": "아차사고",
+          "unknown": false
+        }
+      ]
+    },
+    {
+      "column": "CM-P05",
+      "displayName": "조선소 구역",
+      "options": [
+        {
+          "code": "1",
+          "label": "강재적치장",
+          "unknown": false
+        },
+        {
+          "code": "2",
+          "label": "가공·판넬공장",
+          "unknown": false
+        },
+        {
+          "code": "3",
+          "label": "조립공장·블록",
+          "unknown": false
+        },
+        {
+          "code": "4",
+          "label": "도장공장·쉘터",
+          "unknown": false
+        },
+        {
+          "code": "5",
+          "label": "PE장·탑재장",
+          "unknown": false
+        },
+        {
+          "code": "6",
+          "label": "도크",
+          "unknown": false
+        },
+        {
+          "code": "7",
+          "label": "안벽·본선(선내)",
+          "unknown": false
+        },
+        {
+          "code": "8",
+          "label": "선대·수리조선",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "야드 도로",
+          "unknown": false
+        },
+        {
+          "code": "10",
+          "label": "해상·수중",
+          "unknown": false
+        },
+        {
+          "code": "11",
+          "label": "사무·편의시설",
+          "unknown": false
+        },
+        {
+          "code": "99",
+          "label": "미상",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "CM-P06",
+      "displayName": "공간 유형",
+      "options": [
+        {
+          "code": "1",
+          "label": "옥외 야드",
+          "unknown": false
+        },
+        {
+          "code": "2",
+          "label": "공장 내부",
+          "unknown": false
+        },
+        {
+          "code": "3",
+          "label": "블록 내부·상부",
+          "unknown": false
+        },
+        {
+          "code": "4",
+          "label": "선박 내부(탱크·엔진룸·화물창)",
+          "unknown": false
+        },
+        {
+          "code": "5",
+          "label": "선박 외부·갑판",
+          "unknown": false
+        },
+        {
+          "code": "6",
+          "label": "수중",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "미상",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "CM-W05",
+      "displayName": "직전 3일 강수",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "CM-F01",
+      "displayName": "신호 불일치·부재 언급",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "CM-F02",
+      "displayName": "운전원 임의조작 언급",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "CM-F03",
+      "displayName": "신호수 언급",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "CM-F04",
+      "displayName": "아웃트리거 언급",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "CM-F05",
+      "displayName": "지반 언급",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "CM-F06",
+      "displayName": "경사 언급",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "CM-F07",
+      "displayName": "와이어로프 언급",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "CM-F08",
+      "displayName": "슬링벨트 언급",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "CM-F09",
+      "displayName": "후크 언급",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "CM-F10",
+      "displayName": "체인 언급",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "CM-F11",
+      "displayName": "샤클 언급",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "CM-F12",
+      "displayName": "파렛트 언급",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "CM-F13",
+      "displayName": "핀 언급",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "CM-F14",
+      "displayName": "볼트 언급",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "CM-F15",
+      "displayName": "타이바 언급",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "DR-M01",
+      "displayName": "줄걸이 용구 파단",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "DR-M02",
+      "displayName": "줄걸이·달기구 이탈",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "DR-M03",
+      "displayName": "인양물 결속·포장 불량",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "DR-M04",
+      "displayName": "권상 와이어로프 파단·풀림",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "DR-M05",
+      "displayName": "크레인 구조 파손·전도",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "DR-M06",
+      "displayName": "흡착·파지 상실",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "DR-M07",
+      "displayName": "간섭·충돌·바람",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "DR-M08",
+      "displayName": "러그·가용접·지그 파손",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "DR-M09",
+      "displayName": "운전·신호 오류",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "DR-M10",
+      "displayName": "조립·해체 중 지지 해제",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "OT-L01",
+      "displayName": "정격하중 초과",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "OT-L02",
+      "displayName": "중량 미확인·오판",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "OT-L03",
+      "displayName": "강풍",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "OT-L04",
+      "displayName": "동적·특수 하중",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "OT-S01",
+      "displayName": "지반 침하·관통",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "OT-S02",
+      "displayName": "받침판 부적절",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "OT-S03",
+      "displayName": "아웃트리거 미확장",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "OT-S04",
+      "displayName": "카운터웨이트 미장착·축소",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "OT-S05",
+      "displayName": "경사·수평 불량",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "OT-S06",
+      "displayName": "지지 구조 결함",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "OT-D01",
+      "displayName": "방호장치 해제·고장",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "OT-D02",
+      "displayName": "작업계획 부재",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "OT-D03",
+      "displayName": "하중표·제조사 기준 미준수",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "OT-D04",
+      "displayName": "운전원 자격·교육 부족",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "OT-D05",
+      "displayName": "신호·감시 부재, 경보 무시",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "OT-D06",
+      "displayName": "점검 미흡",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "OT-C01",
+      "displayName": "선회 중",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "OT-C02",
+      "displayName": "붐 기복·신장 중",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "OT-C03",
+      "displayName": "주행 중",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "OT-C04",
+      "displayName": "무인·대기 중",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    },
+    {
+      "column": "OT-C05",
+      "displayName": "설치·해체·정비 중",
+      "options": [
+        {
+          "code": "1",
+          "label": "해당",
+          "unknown": false
+        },
+        {
+          "code": "0",
+          "label": "해당 없음 확인",
+          "unknown": false
+        },
+        {
+          "code": "9",
+          "label": "정보 없음",
+          "unknown": true
+        }
+      ]
+    }
+  ]
+}
