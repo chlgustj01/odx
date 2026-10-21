@@ -1,0 +1,23 @@
+
+using System;using System.IO;using System.Linq;using System.Reflection;using System.Collections.Generic;using Newtonsoft.Json;using Newtonsoft.Json.Linq;using UnityEditor;using UnityEngine;
+public static class Phase2FpsProbe {
+ static ShipyardExploreCameraController e;static double ready,last;static int lastFrame=-1;static List<double> intervals=new List<double>();static Vector3 player,camera;static Quaternion cameraRot;static EditorWindow game;static PropertyInfo size;static int oldSize;static string label;
+ public static string Run(){
+ label="After";e=UnityEngine.Object.FindFirstObjectByType<ShipyardExploreCameraController>();
+ game=EditorWindow.GetWindow(typeof(Editor).Assembly.GetType("UnityEditor.GameView"));size=game.GetType().GetProperty("selectedSizeIndex",BindingFlags.Instance|BindingFlags.Public|BindingFlags.NonPublic);oldSize=(int)size.GetValue(game);size.SetValue(game,3);
+ var f=e.shipyard.catalog.Find(10);e.shipyard.selection.SelectFacility(f);e.shipyard.overview.EnterFacility();e.Enter(true);e.UnlockCursor();
+ if(label!="Before"){var d=JObject.Parse(File.ReadAllText(@"D:\UnityProject\CraneSignalAI\Phase2A\Fps_Before.json"));e.Teleport(new Vector3((float)d["player"][0],(float)d["player"][1],(float)d["player"][2]));typeof(ShipyardExploreCameraController).GetProperty("Yaw").SetValue(e,(float)d["yaw"]);typeof(ShipyardExploreCameraController).GetProperty("Pitch").SetValue(e,(float)d["pitch"]);e.UpdateCamera();}
+ ready=EditorApplication.timeSinceStartup+2.5;last=0;EditorApplication.update+=Tick;return "10-second "+label+" FPS measurement scheduled at validated F10 Explore spawn";
+ }
+ static void Tick(){
+ try{
+ game.Focus();game.GetType().GetMethod("RepaintImmediately",BindingFlags.Instance|BindingFlags.Public|BindingFlags.NonPublic).Invoke(game,null);EditorApplication.QueuePlayerLoopUpdate();
+ if(lastFrame==Time.frameCount)return;lastFrame=Time.frameCount;double now=EditorApplication.timeSinceStartup;if(now<ready)return;
+ if(last==0){last=now;player=e.player.position;camera=e.exploreCamera.transform.position;cameraRot=e.exploreCamera.transform.rotation;return;}
+ intervals.Add(now-last);last=now;if(intervals.Sum()<10)return;
+ var result=new {label,seconds=intervals.Sum(),frames=intervals.Count,averageFps=intervals.Count/intervals.Sum(),minimumFps=1/intervals.Max(),averageFrameTimeMs=intervals.Average()*1000,player=new[]{player.x,player.y,player.z},camera=new[]{camera.x,camera.y,camera.z},cameraRotation=new[]{cameraRot.x,cameraRot.y,cameraRot.z,cameraRot.w},yaw=e.Yaw,pitch=e.Pitch,facility="F10",mode=e.Mode.ToString(),screen=new[]{Screen.width,Screen.height},eyeHeight=e.eyeHeight,quality=QualitySettings.GetQualityLevel(),captureDeltaTime=Time.captureDeltaTime,playerDrift=Vector3.Distance(player,e.player.position),cameraDrift=Vector3.Distance(camera,e.exploreCamera.transform.position),method="Editor GameView real frame intervals; 2.5s warmup then >=10s; fixed validated F10 spawn, third person, cursor unlocked, no product features disabled",frameIntervalsSeconds=intervals};
+ File.WriteAllText(@"D:\UnityProject\CraneSignalAI\Phase2A\Fps_"+label+".json",JsonConvert.SerializeObject(result,Formatting.Indented));Finish();
+ }catch(Exception ex){File.WriteAllText(@"D:\UnityProject\CraneSignalAI\Phase2A\Fps_"+label+"_error.txt",ex.ToString());Finish();}
+ }
+ static void Finish(){EditorApplication.update-=Tick;var ui=UnityEngine.Object.FindFirstObjectByType<WorkerSelectUI>();ui.Open();File.WriteAllText(@"D:\UnityProject\CraneSignalAI\Phase2A\LifecycleModalProbe.json",JsonConvert.SerializeObject(new {exploringAtPlayStop=e.IsExploring,modalOpenAtPlayStop=ui.agent.selection.modalOpen,explicitExploreExitCalled=false}));size.SetValue(game,oldSize);EditorApplication.isPlaying=false;}
+}

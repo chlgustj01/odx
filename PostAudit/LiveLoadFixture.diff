@@ -1,0 +1,6 @@
+Existing source: no changes
+D:\UnityProject\CraneSignalAI\Assets\Editor\Prediction\LiveLoadPathPlayModeChecks.cs
+                worker.transform.position=index==5?new Vector3(Mathf.Sin(20*Mathf.Deg2Rad)*3,0,Mathf.Cos(20*Mathf.Deg2Rad)*3):new Vector3(20,0,20);
+
+New runner absent before Phase1: /dev/null -> D:\UnityProject\CraneSignalAI\Assets\Editor\UI\FacilityEntranceRegressionRunner.cs
++                 if (index == 5 && stage >= 1 && stage <= 6) GameObject.Find("Worker_01").transform.position = GameObject.Find("TowerCraneRoot").transform.position + new Vector3(Mathf.Sin(20 * Mathf.Deg2Rad) * 3, 0, Mathf.Cos(20 * Mathf.Deg2Rad) * 3);

@@ -1,0 +1,98 @@
+#if UNITY_EDITOR
+using System;using System.IO;using System.Linq;using System.Reflection;using Newtonsoft.Json;using UnityEditor;using UnityEngine;using UnityEngine.InputSystem;
+// Editor orchestration: legacy assertions are immutable. NEVER writes Worker/crane/load geometry or hazard state.
+[InitializeOnLoad] public static class FacilityEntranceRegressionRunner
+{
+ const string Key="FacilityEntranceRegression.";
+ [Serializable] public sealed class Job { public string suite,name;public bool commandUI,clock; }
+ static double ready,started,nextTrace;static bool clockHeld;static float oldCaptureDelta;
+ static string Root=>SessionState.GetString(Key+"root","");static string State{get=>SessionState.GetString(Key+"state","");set=>SessionState.SetString(Key+"state",value);}
+ static int Index{get=>SessionState.GetInt(Key+"index",0);set=>SessionState.SetInt(Key+"index",value);}
+ static Job[] Jobs=>JsonConvert.DeserializeObject<Job[]>(SessionState.GetString(Key+"jobs","[]"));static Job Current=>Jobs[Index];static string Folder=>Path.Combine(Root,Current.name);
+ static FacilityEntranceRegressionRunner(){EditorApplication.update+=Tick;EditorApplication.playModeStateChanged+=Mode;}
+ // Editor-only file request bridge lets the same suites finish even when MCP's
+ // domain-reload connection is unavailable. Fixed project-local path, JSON jobs only.
+ static void TryRequest()
+ {
+  string file=Path.GetFullPath(Path.Combine(Application.dataPath,"../BlockerFix/RunnerRequest.json"));if(!File.Exists(file))return;
+  var request=JsonConvert.DeserializeObject<Request>(File.ReadAllText(file));File.Delete(file);
+  if(request.snapshot){Capture(request.root);return;}StartJobs(request.root,request.jobs);
+ }
+ [Serializable] public sealed class Request{public string root;public Job[] jobs;public bool snapshot;}
+ static void Capture(string directory)
+ {
+  Directory.CreateDirectory(directory);var scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene();var r=GameObject.Find("TowerCraneRoot");var p=r.transform.position;var q=r.transform.rotation;var sc=r.transform.localScale;var f=r.GetComponent<CraneFaultInjector>();var sf=new SerializedObject(f);int missing=0;
+  foreach(var go in scene.GetRootGameObjects())foreach(var t in go.GetComponentsInChildren<Transform>(true))missing+=GameObjectUtility.GetMonoBehavioursWithMissingScriptCount(t.gameObject);
+  var ty=typeof(Editor).Assembly.GetType("UnityEditor.LogEntries");var binding=BindingFlags.Static|BindingFlags.Public|BindingFlags.NonPublic;object[] counts={0,0,0};ty.GetMethod("GetCountsByType",binding).Invoke(null,counts);
+  File.WriteAllText(Path.Combine(directory,"State.json"),JsonConvert.SerializeObject(new{utc=DateTime.UtcNow,scene=scene.path,dirty=scene.isDirty,playing=EditorApplication.isPlaying,compiling=EditorApplication.isCompiling,missingScripts=missing,position=new[]{p.x,p.y,p.z},rotation=new[]{q.x,q.y,q.z,q.w},scale=new[]{sc.x,sc.y,sc.z},parent=r.transform.parent==null?null:r.transform.parent.name,controllerEnabled=r.GetComponent<TowerCraneController>().enabled,receiverEnabled=UnityEngine.Object.FindFirstObjectByType<CommandReceiver>().enabled,faultComponentEnabled=f.enabled,faultEnabled=sf.FindProperty("faultEnabled").boolValue,faultMode=sf.FindProperty("faultMode").enumDisplayNames[sf.FindProperty("faultMode").enumValueIndex],captureDeltaTime=Time.captureDeltaTime,errors=counts[0],warnings=counts[1],logs=counts[2]},Formatting.Indented));
+  var entryType=typeof(Editor).Assembly.GetType("UnityEditor.LogEntry");var entries=new System.Collections.Generic.List<object>();ty.GetMethod("StartGettingEntries",binding).Invoke(null,null);
+  try{int n=(int)ty.GetMethod("GetCount",binding).Invoke(null,null);for(int i=0;i<n;i++){var entry=Activator.CreateInstance(entryType);ty.GetMethod("GetEntryInternal",binding).Invoke(null,new object[]{i,entry});var fields=entryType.GetFields(BindingFlags.Public|BindingFlags.NonPublic|BindingFlags.Instance);entries.Add(new{index=i,message=fields.First(x=>x.Name=="message").GetValue(entry),mode=fields.First(x=>x.Name=="mode").GetValue(entry),file=fields.First(x=>x.Name=="file").GetValue(entry),line=fields.First(x=>x.Name=="line").GetValue(entry)});}}
+  finally{ty.GetMethod("EndGettingEntries",binding).Invoke(null,null);}File.WriteAllText(Path.Combine(directory,"Console.json"),JsonConvert.SerializeObject(new{errors=counts[0],warnings=counts[1],logs=counts[2],rows=entries},Formatting.Indented));
+ }
+ public static string Start(string root)
+ {
+  var jobs=new[]{
+   new Job{suite="Original103",name="01_Original103"},new Job{suite="Confidence",name="02_Confidence17"},new Job{suite="Entrance",name="03_Entrance44"},
+   new Job{suite="LiveLoad",name="04_LegacyLiveLoad",clock=true},new Job{suite="Relative",name="05_SceneRelative"},new Job{suite="Timeline",name="06_Timeline"},
+   new Job{suite="Operator",name="07_OperatorUI",commandUI=true},new Job{suite="HMI",name="08_HMI"}
+  };
+  return StartJobs(root,jobs);
+ }
+ public static string StartJobs(string root,Job[] jobs)
+ {
+  if(EditorApplication.isPlaying||SessionState.GetBool(Key+"active",false))throw new Exception("Fresh edit state required");
+  if(UnityEngine.SceneManagement.SceneManager.GetActiveScene().isDirty)throw new Exception("Dirty Scene; runner never saves it");
+  Directory.CreateDirectory(root);SessionState.SetString(Key+"root",root);SessionState.SetString(Key+"jobs",JsonConvert.SerializeObject(jobs));Index=0;
+  SessionState.SetBool(Key+"active",true);State="enter";ready=EditorApplication.timeSinceStartup+1;Write("STARTED");return "Started "+jobs.Length+" jobs; no geometry rebase";
+ }
+ static void Mode(PlayModeStateChange mode){if(!SessionState.GetBool(Key+"active",false)||State=="original")return;if(mode==PlayModeStateChange.EnteredPlayMode){State="ready";ready=EditorApplication.timeSinceStartup+3;}if(mode==PlayModeStateChange.EnteredEditMode&&State=="leave"){Index++;State="enter";ready=EditorApplication.timeSinceStartup+1;}}
+ static bool Running{get{switch(Current.suite){case "Entrance":return FacilityEntranceChecks.Running;case "LiveLoad":return LiveLoadPathPlayModeChecks.Running;case "Shipyard":return ShipyardPlayChecks.Running;case "Timeline":return CommandTimelinePlayModeChecks.Running;case "Operator":return OperatorCommandUIPlayModeChecks.Running;case "HMI":return TaskHmiPlayChecks.Running;case "Relative":return(bool)typeof(FacilityEntranceRegressionRunner).Assembly.GetType("LiveLoadSceneRelativeChecks").GetProperty("Running").GetValue(null);default:return false;}}}
+ static void Write(string status){File.WriteAllText(Path.Combine(Root,"RunnerStatus.json"),JsonConvert.SerializeObject(new{status,index=Index,state=State,playing=EditorApplication.isPlaying,utc=DateTime.UtcNow},Formatting.Indented));}
+ static void RestoreClock(){if(!clockHeld)return;Time.captureDeltaTime=oldCaptureDelta;clockHeld=false;}
+ static void Helpers()
+ {
+  // Mouse isolation and held-key reinjection were removed after ablations.
+  // Legacy suites now own their original input stimulus without this runner rewriting it.
+  if(!Application.isPlaying){RestoreClock();return;}
+  // A, opt-in timing control: legacy's 0.075UU decimation assertion assumes
+  // more than 26.67 simulation frames/s at 2UU/s. Low Editor render FPS can violate
+  // that assumption. A 60Hz capture clock separates that automation precondition
+  // from geometry without changing any expected value or controller/sampler code.
+  // Raw-clock ablations are kept as failures; this is NOT identical wall timing.
+  if(Current.clock){if(!clockHeld){oldCaptureDelta=Time.captureDeltaTime;clockHeld=true;}Time.captureDeltaTime=1f/60f;}else RestoreClock();
+  // A: focus/repaint schedules real PlayerLoop/input. Does not set product state.
+  var game=EditorWindow.GetWindow(typeof(Editor).Assembly.GetType("UnityEditor.GameView"));game.Focus();game.GetType().GetMethod("RepaintImmediately",BindingFlags.Instance|BindingFlags.Public|BindingFlags.NonPublic).Invoke(game,null);EditorApplication.QueuePlayerLoopUpdate();
+ }
+ static void Trace()
+ {
+  if(!Application.isPlaying||Current.suite!="LiveLoad"||!LiveLoadPathPlayModeChecks.Running||EditorApplication.timeSinceStartup<nextTrace)return;nextTrace=EditorApplication.timeSinceStartup+.15;
+  var type=typeof(LiveLoadPathPlayModeChecks);var flags=BindingFlags.NonPublic|BindingFlags.Static;var r=GameObject.Find("TowerCraneRoot");var live=r.GetComponent<LiveLoadPathTracker>();var w=GameObject.Find("Worker_01").transform.position;var p=r.transform.position;var l=live.CurrentLoadPosition;
+  File.AppendAllText(Path.Combine(Folder,"GeometryTrace.jsonl"),JsonConvert.SerializeObject(new{frame=Time.frameCount,deltaTime=Time.deltaTime,captureDeltaTime=Time.captureDeltaTime,index=(int)type.GetField("index",flags).GetValue(null),stage=(int)type.GetField("stage",flags).GetValue(null),worker=new[]{w.x,w.y,w.z},root=new[]{p.x,p.y,p.z},load=new[]{l.x,l.y,l.z},live.ActualSampleCount,live.CurrentValue,live.RemainingValue,live.TargetReached,live.WorkerInRemainingArea,hazard=UnityEngine.Object.FindFirstObjectByType<HazardZoneEvaluator>().CurrentHazardState.ToString(),dPressed=Keyboard.current!=null&&Keyboard.current.dKey.isPressed})+"\n");
+ }
+ static void BeginSuite()
+ {
+  Directory.CreateDirectory(Folder);started=EditorApplication.timeSinceStartup;
+  if(Current.commandUI){
+   // A: normal public crane-selection/COMMAND navigation; no SetActive bypass,
+   // no Canvas toggles, and no disabling of overview or UI binder.
+   var ui=UnityEngine.Object.FindFirstObjectByType<ShipyardUIBinder>();ui.selection.SelectCrane(GameObject.Find("TowerCraneRoot"));ui.overview.monitoringUI.GetComponent<TaskHmiDashboard>().SelectCommand();}
+  switch(Current.suite){case "Entrance":FacilityEntranceChecks.Run(Folder);break;case "LiveLoad":LiveLoadPathPlayModeChecks.Run(Folder);break;case "Shipyard":ShipyardPlayChecks.Run(Folder);break;case "Timeline":CommandTimelinePlayModeChecks.Run(Folder);break;case "Operator":OperatorCommandUIPlayModeChecks.Run(Folder);break;case "HMI":var ui=UnityEngine.Object.FindFirstObjectByType<ShipyardUIBinder>();ui.selection.SelectCrane(GameObject.Find("TowerCraneRoot"));TaskHmiPlayChecks.Run(Folder);break;case "Relative":typeof(FacilityEntranceRegressionRunner).Assembly.GetType("LiveLoadSceneRelativeChecks").GetMethod("Run").Invoke(null,new object[]{Folder});break;}
+ }
+ static void Tick()
+ {
+  if(!SessionState.GetBool(Key+"active",false)){TryRequest();return;}
+  try{
+   if(Index>=Jobs.Length){RestoreClock();SessionState.SetBool(Key+"active",false);State="complete";Write("COMPLETE");Capture(Root);return;}
+   Helpers();Trace();if(EditorApplication.isCompiling||EditorApplication.isUpdating||EditorApplication.timeSinceStartup<ready)return;
+   if(State=="original"){if(SessionState.GetBool("ConfidenceRegression.active",false))return;Index++;State="enter";Write("ORIGINAL_FINISHED");return;}
+   if(State=="enter"){
+    if(Current.suite=="Original103"){State="original";typeof(ConfidenceRegressionRunner).GetMethod("Start",BindingFlags.NonPublic|BindingFlags.Static).Invoke(null,new object[]{Folder});Write("ORIGINAL_STARTED");return;}
+    if(Current.suite=="Confidence"){ShipyardConfidenceChecks.Run(Folder);Index++;Write("CONFIDENCE_FINISHED");return;}
+    State="changing";Write("ENTERING");EditorApplication.isPlaying=true;
+   }else if(State=="ready"){BeginSuite();State="running";ready=EditorApplication.timeSinceStartup+1;Write("RUNNING");}
+   else if(State=="running"&&!Running){RestoreClock();State="leave";Write("SUITE_FINISHED");EditorApplication.isPlaying=false;}
+   else if(State=="running"&&EditorApplication.timeSinceStartup-started>300)throw new Exception("Harness watchdog 300s");
+  }catch(Exception ex){Directory.CreateDirectory(Folder);File.WriteAllText(Path.Combine(Folder,"HarnessError.txt"),ex.ToString());RestoreClock();State="leave";Write("SUITE_FAILED");if(EditorApplication.isPlaying)EditorApplication.isPlaying=false;else{Index++;State="enter";}}
+ }
+}
+#endif

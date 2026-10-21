@@ -1,0 +1,278 @@
+{
+  "passed": true,
+  "error": null,
+  "cleanupVerified": true,
+  "rootUnchanged": true,
+  "rows": [
+    {
+      "test": "A1",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "A2",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "A3",
+      "passed": true,
+      "data": {
+        "languages": 3,
+        "profiles": 4,
+        "localizedPages": 12
+      }
+    },
+    {
+      "test": "A28",
+      "passed": true,
+      "data": {
+        "coverage": "visible Worker UI, all four profiles x KO/EN/VI, no auto-add"
+      }
+    },
+    {
+      "test": "A4",
+      "passed": true,
+      "data": {
+        "workerId": "WKR_SIGNAL_01",
+        "roleCode": "SIGNALER",
+        "activeVisual": "ActiveWorkerVisual"
+      }
+    },
+    {
+      "test": "A5",
+      "passed": true,
+      "data": {
+        "workerId": "WKR_RIG_01",
+        "roleCode": "RIGGER",
+        "activeVisual": "ActiveWorkerVisual"
+      }
+    },
+    {
+      "test": "A6",
+      "passed": true,
+      "data": {
+        "workerId": "WKR_WELD_01",
+        "roleCode": "WELDER_FITTER",
+        "activeVisual": "ActiveWorkerVisual"
+      }
+    },
+    {
+      "test": "A7",
+      "passed": true,
+      "data": {
+        "workerId": "WKR_OUTFIT_01",
+        "roleCode": "OUTFITTING_PIPE",
+        "activeVisual": "ActiveWorkerVisual"
+      }
+    },
+    {
+      "test": "A8",
+      "passed": true,
+      "data": {
+        "characterCount": 1,
+        "height": 1.8,
+        "radius": 0.28,
+        "center": [
+          0.0,
+          0.9,
+          0.0
+        ],
+        "step": 0.25
+      }
+    },
+    {
+      "test": "A9",
+      "passed": true,
+      "data": {
+        "eye": 1.7,
+        "targetId": 56772,
+        "cameraId": 61842,
+        "interactionId": 55334
+      }
+    },
+    {
+      "test": "A21",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "A10",
+      "passed": true,
+      "data": {
+        "expected": [
+          -51.0,
+          -5.58793545E-08,
+          -36.0771141
+        ],
+        "actual": [
+          -51.0,
+          -1.15484E-07,
+          -36.0771141
+        ],
+        "errorM": 5.96046448E-08
+      }
+    },
+    {
+      "test": "A12",
+      "passed": true,
+      "data": {
+        "isolated": true,
+        "pointCap": 2000,
+        "retained": 1005,
+        "decimationPasses": 3
+      }
+    },
+    {
+      "test": "A13",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "A14",
+      "passed": true,
+      "data": {
+        "workers": 4,
+        "labels": [
+          "WKR_SIGNAL_01",
+          "WKR_RIG_01",
+          "WKR_WELD_01",
+          "WKR_OUTFIT_01"
+        ],
+        "patterns": [
+          "- - - -",
+          "- . - .",
+          "--------",
+          ". . . ."
+        ]
+      }
+    },
+    {
+      "test": "A15",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "A16",
+      "passed": true,
+      "data": {
+        "plannerSupportsRolePreference": false,
+        "newPathfinding": false,
+        "signalCost": 2.0,
+        "welderCost": 1.4
+      }
+    },
+    {
+      "test": "A16-1",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "A16-2",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "A11",
+      "passed": true,
+      "data": [
+        {
+          "kind": "WALL",
+          "requested": [
+            -53.8799973,
+            -1.15484E-07,
+            -31.0
+          ],
+          "restored": [
+            -54.07134,
+            0.075,
+            -31.46194
+          ],
+          "distanceXZ": 0.5000008,
+          "reason": "NEAREST_WALKABLE_WITHIN_3M"
+        },
+        {
+          "kind": "SEA",
+          "requested": [
+            110.0,
+            0.0,
+            110.0
+          ],
+          "restored": [
+            -51.0,
+            0.004999999,
+            -35.0
+          ],
+          "distanceXZ": 216.670258,
+          "reason": "FACILITY_VALIDATED_SPAWN"
+        },
+        {
+          "kind": "DOOR_FRAME",
+          "requested": [
+            -54.0399971,
+            0.04,
+            -31.0
+          ],
+          "restored": [
+            -54.23134,
+            0.075,
+            -31.46194
+          ],
+          "distanceXZ": 0.5000008,
+          "reason": "NEAREST_WALKABLE_WITHIN_3M"
+        }
+      ]
+    },
+    {
+      "test": "A20",
+      "passed": true,
+      "data": {
+        "voiceOnlyUnchanged": true,
+        "playerUnchanged": true,
+        "operatorUnchanged": true,
+        "doorUnchanged": true
+      }
+    },
+    {
+      "test": "A26",
+      "passed": true,
+      "data": {
+        "signalerCases": 35,
+        "riggerCases": 65
+      }
+    },
+    {
+      "test": "A27",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "A23",
+      "passed": true,
+      "data": {
+        "directory": "C:/Users/chlgu/AppData/LocalLow/DefaultCompany/CraneSignalAI\\WorkerRoutes\\20261021_150344_486",
+        "count": 4
+      }
+    },
+    {
+      "test": "A24",
+      "passed": true,
+      "data": {
+        "count": 4
+      }
+    },
+    {
+      "test": "A25",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "A22",
+      "passed": true,
+      "data": {
+        "cachedRenderers": true,
+        "globalSceneSearches": 0
+      }
+    }
+  ]
+}

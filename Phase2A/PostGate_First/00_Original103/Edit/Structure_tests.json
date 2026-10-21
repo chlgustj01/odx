@@ -1,0 +1,102 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "test": "A Main Scene",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Normalized source row counts",
+      "passed": true,
+      "detail": {
+        "facilities": 22,
+        "cranes": 18,
+        "floating": 3,
+        "overview": 11,
+        "sources": 13
+      }
+    },
+    {
+      "test": "B One adapter per original FacilityInfo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "One central background scale",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "E Dock width/length ratio",
+      "passed": true,
+      "detail": {
+        "f01": "(13.10, 0.16, 53.00)",
+        "f02": "(8.10, 0.16, 54.00)",
+        "ratio": 0.618320644
+      }
+    },
+    {
+      "test": "F Goliath source capacity 900t",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Goliath named hierarchy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Source conflicts and unknowns preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "G Royal No.1 dimensions",
+      "passed": true,
+      "detail": {
+        "lengthM": 298.0,
+        "widthM": 62.5,
+        "depthM": 20.5
+      }
+    },
+    {
+      "test": "G Royal No.2 dimensions",
+      "passed": true,
+      "detail": {
+        "lengthM": 250.0,
+        "widthM": 38.9,
+        "depthM": 26.8
+      }
+    },
+    {
+      "test": "G Royal No.3 dimensions",
+      "passed": true,
+      "detail": {
+        "lengthM": 141.0,
+        "widthM": 25.0,
+        "depthM": 17.0
+      }
+    },
+    {
+      "test": "F09 total reconstructed quay length",
+      "passed": true,
+      "detail": 3600.0
+    },
+    {
+      "test": "Single original LIVE controller and receiver",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "LIVE rig root unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Public DB runtime read-only integration",
+      "passed": true,
+      "detail": null
+    }
+  ]
+}

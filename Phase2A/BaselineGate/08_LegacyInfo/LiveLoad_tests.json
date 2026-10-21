@@ -1,0 +1,31 @@
+{
+  "passed": false,
+  "error": "System.Exception: B-TROLLEY: Committed a pose every frame\r\n  at LiveLoadPathPlayModeChecks.Check (System.Boolean ok, System.String message) [0x0002d] in D:\\UnityProject\\CraneSignalAI\\Assets\\Editor\\Prediction\\LiveLoadPathPlayModeChecks.cs:69 \r\n  at LiveLoadPathPlayModeChecks.Tick () [0x005f5] in D:\\UnityProject\\CraneSignalAI\\Assets\\Editor\\Prediction\\LiveLoadPathPlayModeChecks.cs:118 ",
+  "cleanupVerified": true,
+  "rows": [
+    {
+      "test": "A-SLEW-MidMotion",
+      "passed": true,
+      "initialRemaining": 30.0,
+      "currentRemaining": 17.7110939,
+      "target": 30.0,
+      "actualSamples": 7,
+      "remainingSamples": 10,
+      "elapsedFrames": 12,
+      "fullUnchanged": true,
+      "load": "(-45.3615, 6.0500, 34.9313)",
+      "workerInRemaining": false,
+      "hazard": "SAFE"
+    },
+    {
+      "test": "A-SLEW-Completed",
+      "passed": true,
+      "current": 29.9522552,
+      "target": 30.0,
+      "actualSamples": 12,
+      "remainingEmpty": true,
+      "fullUnchanged": true,
+      "voiceOnlyUnchanged": true
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "path": "Final/02_Confidence17/Confidence_tests.json",
+    "passed": true,
+    "count": 17,
+    "error": null
+  },
+  {
+    "path": "Final/03_Entrance44/Entrance_tests.json",
+    "passed": true,
+    "count": 44,
+    "error": null
+  },
+  {
+    "path": "Final/04_LegacyLiveLoad/LiveLoad_tests.json",
+    "passed": false,
+    "count": 8,
+    "error": "System.Exception: E-Worker: Worker/full hazard/remaining debug disagree\r\n  at LiveLoadPathPlayModeChecks.Check (System.Boolean ok, System.String message) [0x0002d] in D:\\UnityProject\\CraneSignalAI\\Assets\\Editor\\Prediction\\LiveLoadPathPlayModeChecks.cs:69 \r\n  at LiveLoadPathPlayModeChecks.Tick () [0x0085f] in D:\\UnityProject\\CraneSignalAI\\Assets\\Editor\\Prediction\\LiveLoadPathPlayModeChecks.cs:126 "
+  },
+  {
+    "path": "Final/05_SceneRelative/SceneRelative_tests.json",
+    "passed": true,
+    "count": 8,
+    "error": null
+  },
+  {
+    "path": "Final/06_Timeline/D3_Phase3_tests.json",
+    "passed": true,
+    "count": 11,
+    "error": null
+  },
+  {
+    "path": "Final/07_OperatorUI/D4_tests.json",
+    "passed": true,
+    "count": 18,
+    "error": null
+  },
+  {
+    "path": "Final/08_HMI/HMI_tests.json",
+    "passed": true,
+    "count": 13,
+    "error": null
+  },
+  {
+    "path": "Final/01_Original103/AccidentEvidence/Core_tests.json",
+    "passed": true,
+    "count": 12,
+    "error": null
+  },
+  {
+    "path": "Final/01_Original103/AccidentEvidence/Play_tests.json",
+    "passed": true,
+    "count": 13,
+    "error": null
+  },
+  {
+    "path": "Final/01_Original103/DB/DB_Play_tests.json",
+    "passed": true,
+    "count": 16,
+    "error": null
+  },
+  {
+    "path": "Final/01_Original103/Edit/Structure_tests.json",
+    "passed": true,
+    "count": 15,
+    "error": null
+  },
+  {
+    "path": "Final/01_Original103/Explore/Explore_tests.json",
+    "passed": true,
+    "count": 17,
+    "error": null
+  },
+  {
+    "path": "Final/01_Original103/Regression/Shipyard_tests.json",
+    "passed": true,
+    "count": 19,
+    "error": null
+  },
+  {
+    "path": "Final/01_Original103/WorkerRoute/WorkerRoute_tests.json",
+    "passed": true,
+    "count": 11,
+    "error": null
+  }
+]

@@ -1,0 +1,159 @@
+{
+  "passed": true,
+  "error": null,
+  "cleanupVerified": true,
+  "rows": [
+    {
+      "test": "A-SLEW-MidMotion",
+      "passed": true,
+      "initialRemaining": 30.0,
+      "currentRemaining": 17.78712,
+      "target": 30.0,
+      "actualSamples": 8,
+      "remainingSamples": 10,
+      "elapsedFrames": 23,
+      "fullUnchanged": true,
+      "load": "(0.6346, 6.0500, 2.9321)",
+      "workerInRemaining": false,
+      "hazard": "SAFE"
+    },
+    {
+      "test": "A-SLEW-Completed",
+      "passed": true,
+      "current": 29.8681889,
+      "target": 30.0,
+      "actualSamples": 14,
+      "remainingEmpty": true,
+      "fullUnchanged": true,
+      "voiceOnlyUnchanged": true
+    },
+    {
+      "test": "B-TROLLEY-MidMotion",
+      "passed": true,
+      "initialRemaining": 1.0,
+      "currentRemaining": 0.5609038,
+      "target": 4.0,
+      "actualSamples": 5,
+      "remainingSamples": 7,
+      "elapsedFrames": 10,
+      "fullUnchanged": true,
+      "load": "(0.0000, 6.0500, 3.4391)",
+      "workerInRemaining": false,
+      "hazard": "SAFE"
+    },
+    {
+      "test": "B-TROLLEY-Completed",
+      "passed": true,
+      "current": 4.15641737,
+      "target": 4.0,
+      "actualSamples": 7,
+      "remainingEmpty": true,
+      "fullUnchanged": true,
+      "voiceOnlyUnchanged": true
+    },
+    {
+      "test": "C-HOIST-MidMotion",
+      "passed": true,
+      "initialRemaining": 1.0,
+      "currentRemaining": 0.5633855,
+      "target": 5.5,
+      "actualSamples": 5,
+      "remainingSamples": 7,
+      "elapsedFrames": 9,
+      "fullUnchanged": true,
+      "load": "(0.0000, 5.6134, 3.0000)",
+      "workerInRemaining": false,
+      "hazard": "SAFE"
+    },
+    {
+      "test": "C-HOIST-Completed",
+      "passed": true,
+      "current": 5.287583,
+      "target": 5.5,
+      "actualSamples": 7,
+      "remainingEmpty": true,
+      "fullUnchanged": true,
+      "voiceOnlyUnchanged": true
+    },
+    {
+      "test": "D-SmallLoad",
+      "passed": true,
+      "footprintArea": 2.0,
+      "fullBoundsArea": 7.485251,
+      "visualSize": "(1.0000, 0.1000, 2.0000)",
+      "voiceOnlyUnchanged": true
+    },
+    {
+      "test": "D-LargeLoad",
+      "passed": true,
+      "footprintArea": 8.0,
+      "fullBoundsArea": 20.6827068,
+      "visualSize": "(2.0000, 0.1000, 4.0000)",
+      "voiceOnlyUnchanged": true
+    },
+    {
+      "test": "E-Worker-MidMotion",
+      "passed": true,
+      "initialRemaining": 30.0,
+      "currentRemaining": 17.56118,
+      "target": 30.0,
+      "actualSamples": 8,
+      "remainingSamples": 10,
+      "elapsedFrames": 21,
+      "fullUnchanged": true,
+      "load": "(0.6462, 6.0500, 2.9296)",
+      "workerInRemaining": true,
+      "hazard": "DANGER"
+    },
+    {
+      "test": "E-Worker-Completed",
+      "passed": true,
+      "current": 29.98016,
+      "target": 30.0,
+      "actualSamples": 13,
+      "remainingEmpty": true,
+      "fullUnchanged": true,
+      "voiceOnlyUnchanged": true
+    },
+    {
+      "test": "Wrap-MidMotion",
+      "passed": true,
+      "initialRemaining": 30.0,
+      "currentRemaining": 17.9072876,
+      "target": 379.999969,
+      "actualSamples": 8,
+      "remainingSamples": 10,
+      "elapsedFrames": 22,
+      "fullUnchanged": true,
+      "load": "(0.1095, 6.0500, 2.9980)",
+      "workerInRemaining": false,
+      "hazard": "SAFE"
+    },
+    {
+      "test": "Wrap-Completed",
+      "passed": true,
+      "current": 386.9216,
+      "target": 379.999969,
+      "actualSamples": 14,
+      "remainingEmpty": true,
+      "fullUnchanged": true,
+      "voiceOnlyUnchanged": true
+    },
+    {
+      "test": "WrongDirection",
+      "passed": true,
+      "initialRemaining": 30.0,
+      "currentRemaining": 36.6790771,
+      "target": 30.0,
+      "fullUnchanged": true
+    },
+    {
+      "test": "STOP-History",
+      "passed": true,
+      "historySamples": 5,
+      "currentFootprint": true,
+      "remainingEmpty": true,
+      "stopVerification": "STOP_VERIFIED"
+    }
+  ]
+}

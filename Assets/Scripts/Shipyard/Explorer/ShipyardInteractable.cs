@@ -16,6 +16,13 @@ public sealed class ShipyardInteractable : MonoBehaviour
             string values=p.HasPrediction&&live.CurrentCommandId==p.CurrentCommandId?"CURRENT  "+live.CurrentValue.ToString("F2")+"\nTARGET  "+live.CommandTargetValue.ToString("F2")+"\nREMAINING  "+live.RemainingValue.ToString("F2"):"CURRENT / TARGET / REMAINING  N/A";
             return title+"\n"+f+"\n\nVOICE  "+(c==null?"WAITING":c.action+" "+c.direction)+"\nHAZARD  "+(h!=null?h.CurrentHazardState.ToString():"N/A")+"\n\n"+values+"\n\n상세 조회 전용 / 크레인 조작 없음";
         }
+        var cm=subject!=null?subject.GetComponentInParent<CraneAssetMetadata>():null;
+        if(cm!=null)return cm.Describe();
+        var pm=subject!=null?subject.GetComponentInParent<PublicAssetMetadata>():null;
+        if(pm!=null)return pm.Describe();
+        var data=facility!=null?facility.GetComponent<ShipyardFacilityAdapter>():null;
+        if(data!=null&&kind==ShipyardPoiKind.Facility)return data.Describe();
         return title+"\n\nFACILITY  "+f+"\nSTATUS  "+status+"\nALERT  "+(facility!=null&&facility.IsAlert?"1":"0")+"\n\n"+(kind==ShipyardPoiKind.Worker?"기존 Worker_01 상태를 읽는 POI":kind==ShipyardPoiKind.Hazard?"위험 표시는 탐색자 전용 / DEMO 구역 참고":"공개 자료 참고 외형 / 운영 정보 일부 DEMO");
     }
 }
+

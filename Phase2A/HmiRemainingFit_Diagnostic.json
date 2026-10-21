@@ -1,0 +1,62 @@
+[
+  {
+    "min": 27.2,
+    "actual": 27.2,
+    "truncated": true,
+    "width": 200.0,
+    "height": 48.0,
+    "prefWidth": 310.48,
+    "prefHeight": 37.99,
+    "lines": 1,
+    "active": true,
+    "font": "OperatorCommand SDF"
+  },
+  {
+    "min": 24.0,
+    "actual": 24.0,
+    "truncated": true,
+    "width": 200.0,
+    "height": 48.0,
+    "prefWidth": 310.48,
+    "prefHeight": 37.99,
+    "lines": 1,
+    "active": true,
+    "font": "OperatorCommand SDF"
+  },
+  {
+    "min": 22.0,
+    "actual": 22.0,
+    "truncated": true,
+    "width": 200.0,
+    "height": 48.0,
+    "prefWidth": 310.48,
+    "prefHeight": 37.99,
+    "lines": 1,
+    "active": true,
+    "font": "OperatorCommand SDF"
+  },
+  {
+    "min": 20.0,
+    "actual": 21.9,
+    "truncated": false,
+    "width": 200.0,
+    "height": 48.0,
+    "prefWidth": 310.48,
+    "prefHeight": 37.99,
+    "lines": 1,
+    "active": true,
+    "font": "OperatorCommand SDF"
+  },
+  {
+    "min": 18.0,
+    "actual": 21.9,
+    "truncated": false,
+    "width": 200.0,
+    "height": 48.0,
+    "prefWidth": 310.48,
+    "prefHeight": 37.99,
+    "lines": 1,
+    "active": true,
+    "font": "OperatorCommand SDF"
+  }
+]

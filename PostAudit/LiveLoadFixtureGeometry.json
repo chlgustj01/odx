@@ -1,0 +1,47 @@
+{
+  "beforeWorkerWorld": [
+    1.0260604299770062,
+    0,
+    2.8190778623577253
+  ],
+  "afterWorkerWorld": [
+    -44.97393957002299,
+    0,
+    34.81907786235772
+  ],
+  "liveRoot": [
+    -46,
+    0,
+    32
+  ],
+  "beforeWorkerRelativeToRoot": [
+    47.02606042997701,
+    0,
+    -29.180922137642273
+  ],
+  "afterWorkerRelativeToRoot": [
+    1.0260604299770062,
+    0,
+    2.8190778623577253
+  ],
+  "rootDistanceBefore": 55.34416479058104,
+  "rootDistanceAfter": 2.9999999999999987,
+  "baselineHookWorld": [
+    -46,
+    6.5,
+    35
+  ],
+  "baselineHookDistanceBefore": 57.35252487199534,
+  "baselineHookDistanceAfter": 6.582972947373675,
+  "initialHookXZDistanceBefore": 56.982998422273674,
+  "initialHookXZDistanceAfter": 1.0418890660015843,
+  "sweepCenterAt20deg": [
+    -44.97393957002299,
+    0,
+    34.81907786235772
+  ],
+  "beforePlanarDistanceTo20degPathCenter": 56.0357029044876,
+  "afterPlanarDistanceTo20degPathCenter": 0,
+  "translationMagnitude": 56.0357029044876,
+  "note": "Actual Phase1 pre-backup root was already (-46,0,32). This is not equivalent to the hypothetical root-at-origin fixture. Hook 3D distance uses Scene baseline Y; XZ distances do not depend on hoist fixture Y."
+}

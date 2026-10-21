@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "data_status": "DEMO / SIMULATION",
+    "generated_timestamp": "2026-10-21T15:03:44.7173290Z",
+    "operational_meters_per_UU": 1,
+    "workerId": "WKR_OUTFIT_01",
+    "roleCode": "OUTFITTING_PIPE",
+    "sessionId": "WKR_OUTFIT_01-0c76c0d047ab4cacafdeefb6c79dd765",
+    "phase": "2A",
+    "craneStagePolicy": "NOT_EVALUATED",
+    "loadIdPolicy": "NOT_AVAILABLE (no existing stable load ID)",
+    "exposureAndSessionRiskPolicy": "NOT_EVALUATED_IN_2A"
+  },
+  "session": {
+    "workerId": "WKR_OUTFIT_01",
+    "sessionId": "WKR_OUTFIT_01-0c76c0d047ab4cacafdeefb6c79dd765",
+    "startTime": "2026-10-21T15:03:37.1727196Z",
+    "endTime": "2026-10-21T15:03:37.7683922Z",
+    "distanceM": 0.0,
+    "exposureTime": null,
+    "highestRisk": "NOT_EVALUATED",
+    "visitedFacilities": [
+      "OUTSIDE"
+    ],
+    "visitedRiskZones": [],
+    "totalSamples": 2,
+    "decimationPasses": 0,
+    "nearMissEvents": [],
+    "authorizedProximityEvents": [],
+    "sampledPositions": [
+      {
+        "position": {
+          "x": -51.0,
+          "y": -1.15484E-07,
+          "z": -35.0
+        },
+        "timestampUtc": "2026-10-21T15:03:37.1727196Z",
+        "elapsedSeconds": 16.149489299998095,
+        "facilityId": "OUTSIDE",
+        "loadId": "NOT_AVAILABLE",
+        "craneStage": "NOT_EVALUATED",
+        "breakBefore": true
+      },
+      {
+        "position": {
+          "x": -51.0,
+          "y": -1.15484E-07,
+          "z": -35.0
+        },
+        "timestampUtc": "2026-10-21T15:03:37.7246546Z",
+        "elapsedSeconds": 16.701148399995873,
+        "facilityId": "OUTSIDE",
+        "loadId": "NOT_AVAILABLE",
+        "craneStage": "NOT_EVALUATED",
+        "breakBefore": false
+      }
+    ]
+  }
+}

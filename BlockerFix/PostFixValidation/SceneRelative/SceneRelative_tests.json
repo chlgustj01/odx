@@ -1,0 +1,119 @@
+{
+  "passed": true,
+  "error": null,
+  "cleanupVerified": true,
+  "rows": [
+    {
+      "test": "Rigid translation: path, corners, Worker/sweep relative geometry",
+      "passed": true,
+      "data": {
+        "R_old": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "R_new": [
+          -46.0,
+          0.0,
+          32.0
+        ],
+        "translation": [
+          -46.0,
+          0.0,
+          32.0
+        ],
+        "workerOld": [
+          1.02606034,
+          0.0,
+          2.819078
+        ],
+        "workerNew": [
+          -44.973938,
+          0.0,
+          34.8190765
+        ],
+        "oldRelative": [
+          1.02606034,
+          -6.05,
+          -0.180922031
+        ],
+        "newRelative": [
+          1.026062,
+          -6.05,
+          -0.180923462
+        ],
+        "oldDistance": 6.139058,
+        "newDistance": 6.13905859,
+        "relativeError": 2.19811068E-06,
+        "distanceError": 4.76837158E-07,
+        "pathMaxError": 3.81469727E-06,
+        "cornerMaxError": 5.39479652E-06,
+        "angleMaxError": 4.386902E-05,
+        "positionTolerance": 0.01,
+        "angleTolerance": 0.1,
+        "oldInside": true,
+        "newInside": true
+      }
+    },
+    {
+      "test": "Voice does not move crane",
+      "passed": true,
+      "data": {
+        "unchanged": true
+      }
+    },
+    {
+      "test": "Full and Remaining both detect translated design Worker",
+      "passed": true,
+      "data": {
+        "WorkerInRemainingArea": true,
+        "hazard": "DANGER"
+      }
+    },
+    {
+      "test": "Negative control >=30m: SAFE, no remaining overlap",
+      "passed": true,
+      "data": {
+        "distanceToSweptBoundary": 37.703228,
+        "worker": [
+          -6.0,
+          0.0,
+          32.0
+        ],
+        "WorkerInRemainingArea": false,
+        "hazard": "SAFE",
+        "testOnly": true
+      }
+    },
+    {
+      "test": "Positive control recovers DANGER after negative control",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "Operator motion: full DANGER + remaining Worker",
+      "passed": true,
+      "data": {
+        "RemainingValue": 17.108675,
+        "ActualSampleCount": 7,
+        "WorkerInRemainingArea": true,
+        "hazard": "DANGER"
+      }
+    },
+    {
+      "test": "Completed: Full DANGER retained, Remaining empty + Worker false",
+      "passed": true,
+      "data": {
+        "TargetReached": true,
+        "RemainingSampleCount": 0,
+        "WorkerInRemainingArea": false,
+        "hazard": "DANGER"
+      }
+    },
+    {
+      "test": "STOP clears prediction",
+      "passed": true,
+      "data": null
+    }
+  ]
+}

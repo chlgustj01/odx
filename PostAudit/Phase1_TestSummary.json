@@ -1,0 +1,85 @@
+{
+  "allPassed": true,
+  "original103Passed": true,
+  "originalCount": 103,
+  "suites": [
+    {
+      "file": "Regression/Edit/Structure_tests.json",
+      "passed": true,
+      "count": 15,
+      "error": null
+    },
+    {
+      "file": "Regression/Regression/Shipyard_tests.json",
+      "passed": true,
+      "count": 19,
+      "error": null
+    },
+    {
+      "file": "Regression/Explore/Explore_tests.json",
+      "passed": true,
+      "count": 17,
+      "error": null
+    },
+    {
+      "file": "Regression/WorkerRoute/WorkerRoute_tests.json",
+      "passed": true,
+      "count": 11,
+      "error": null
+    },
+    {
+      "file": "Regression/AccidentEvidence/Core_tests.json",
+      "passed": true,
+      "count": 12,
+      "error": null
+    },
+    {
+      "file": "Regression/AccidentEvidence/Play_tests.json",
+      "passed": true,
+      "count": 13,
+      "error": null
+    },
+    {
+      "file": "Regression/DB/DB_Play_tests.json",
+      "passed": true,
+      "count": 16,
+      "error": null
+    },
+    {
+      "file": "Confidence/Confidence_tests.json",
+      "passed": true,
+      "count": 17,
+      "error": null
+    },
+    {
+      "file": "Walking/Entrance_tests.json",
+      "passed": true,
+      "count": 44,
+      "error": null
+    },
+    {
+      "file": "LiveLoad/LiveLoad_tests.json",
+      "passed": true,
+      "count": 14,
+      "error": null
+    },
+    {
+      "file": "Timeline/D3_Phase3_tests.json",
+      "passed": true,
+      "count": 11,
+      "error": null
+    },
+    {
+      "file": "OperatorUI/D4_tests.json",
+      "passed": true,
+      "count": 18,
+      "error": null
+    },
+    {
+      "file": "HMI/HMI_tests.json",
+      "passed": true,
+      "count": 13,
+      "error": null
+    }
+  ]
+}

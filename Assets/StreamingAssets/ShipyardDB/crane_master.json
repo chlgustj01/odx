@@ -1,0 +1,205 @@
+{
+  "sourceWorkbook": "한화오션_거제사업장_시설DB (1).xlsx",
+  "sourceSha256": "60bf40ec0719fccb58e583831d6a21deb538c6d63615f36c07e65d3461adbd3b",
+  "sheet": "크레인",
+  "records": [
+    {
+      "facilityId": "F01",
+      "facilityName": "1도크와 900톤 골리앗 크레인",
+      "craneType": "갠트리(골리앗)",
+      "capacityText": "900",
+      "capacityTon": 900,
+      "quantity": 1,
+      "source": "한화오션 공식 홈페이지 > 거제사업장 소개 > Facilities",
+      "sourceRow": 2,
+      "quantityBasis": "WORKBOOK_PUBLIC_DATA"
+    },
+    {
+      "facilityId": "F01",
+      "facilityName": "1도크와 900톤 골리앗 크레인",
+      "craneType": "집 크레인",
+      "capacityText": "200",
+      "capacityTon": 200,
+      "quantity": 1,
+      "source": "한화오션 공식 홈페이지 > 거제사업장 소개 > Facilities",
+      "sourceRow": 3,
+      "quantityBasis": "CONFLICTING_TABLE_VS_TEXT"
+    },
+    {
+      "facilityId": "F01",
+      "facilityName": "1도크와 900톤 골리앗 크레인",
+      "craneType": "집 크레인",
+      "capacityText": "50",
+      "capacityTon": 50,
+      "quantity": 3,
+      "source": "한화오션 공식 홈페이지 > 거제사업장 소개 > Facilities",
+      "sourceRow": 4,
+      "quantityBasis": "CONFLICTING_TABLE_VS_TEXT"
+    },
+    {
+      "facilityId": "F01",
+      "facilityName": "1도크와 900톤 골리앗 크레인",
+      "craneType": "주행식 타워크레인",
+      "capacityText": "60",
+      "capacityTon": 60,
+      "quantity": 1,
+      "source": "한화오션 공식 홈페이지 > 거제사업장 소개 > Facilities",
+      "sourceRow": 5,
+      "quantityBasis": "WORKBOOK_PUBLIC_DATA"
+    },
+    {
+      "facilityId": "F01",
+      "facilityName": "1도크와 900톤 골리앗 크레인",
+      "craneType": "타워크레인",
+      "capacityText": "60",
+      "capacityTon": 60,
+      "quantity": 1,
+      "source": "한화오션 공식 홈페이지 > 거제사업장 소개 > Facilities",
+      "sourceRow": 6,
+      "quantityBasis": "WORKBOOK_PUBLIC_DATA"
+    },
+    {
+      "facilityId": "F01",
+      "facilityName": "1도크와 900톤 골리앗 크레인",
+      "craneType": "집 크레인",
+      "capacityText": "50",
+      "capacityTon": 50,
+      "quantity": 4,
+      "source": "한화오션 공식 홈페이지 > 거제사업장 소개 > Facilities",
+      "sourceRow": 7,
+      "quantityBasis": "CONFLICTING_TABLE_VS_TEXT"
+    },
+    {
+      "facilityId": "F02",
+      "facilityName": "2도크와 900톤 골리앗 크레인",
+      "craneType": "갠트리(골리앗)",
+      "capacityText": "900",
+      "capacityTon": 900,
+      "quantity": 1,
+      "source": "한화오션 공식 홈페이지 > 거제사업장 소개 > Facilities",
+      "sourceRow": 8,
+      "quantityBasis": "WORKBOOK_PUBLIC_DATA"
+    },
+    {
+      "facilityId": "F02",
+      "facilityName": "2도크와 900톤 골리앗 크레인",
+      "craneType": "타워크레인",
+      "capacityText": "50",
+      "capacityTon": 50,
+      "quantity": 3,
+      "source": "한화오션 공식 홈페이지 > 거제사업장 소개 > Facilities",
+      "sourceRow": 9,
+      "quantityBasis": "WORKBOOK_PUBLIC_DATA"
+    },
+    {
+      "facilityId": "F09",
+      "facilityName": "의장안벽",
+      "craneType": "집 크레인",
+      "capacityText": "30~50",
+      "capacityTon": null,
+      "quantity": null,
+      "source": "한화오션 공식 홈페이지 > 거제사업장 소개 > Facilities",
+      "sourceRow": 10,
+      "quantityBasis": "UNKNOWN"
+    },
+    {
+      "facilityId": "F09",
+      "facilityName": "의장안벽",
+      "craneType": "주행식 타워크레인",
+      "capacityText": "60",
+      "capacityTon": 60,
+      "quantity": null,
+      "source": "한화오션 공식 홈페이지 > 거제사업장 소개 > Facilities",
+      "sourceRow": 11,
+      "quantityBasis": "UNKNOWN"
+    },
+    {
+      "facilityId": "F13",
+      "facilityName": "조립 2공장",
+      "craneType": "천장크레인",
+      "capacityText": "미공개",
+      "capacityTon": null,
+      "quantity": null,
+      "source": "한화오션 공식 홈페이지 > 거제사업장 소개 > Facilities",
+      "sourceRow": 12,
+      "quantityBasis": "UNKNOWN"
+    },
+    {
+      "facilityId": "F15",
+      "facilityName": "하역안벽 및 강재적치장",
+      "craneType": "대형 하역 크레인",
+      "capacityText": "미공개",
+      "capacityTon": null,
+      "quantity": null,
+      "source": "한화오션 공식 홈페이지 > 거제사업장 소개 > Facilities",
+      "sourceRow": 13,
+      "quantityBasis": "UNKNOWN"
+    },
+    {
+      "facilityId": "F17",
+      "facilityName": "해양제작 1공장",
+      "craneType": "크레인",
+      "capacityText": "100",
+      "capacityTon": 100,
+      "quantity": 2,
+      "source": "한화오션 공식 홈페이지 > 거제사업장 소개 > Facilities",
+      "sourceRow": 14,
+      "quantityBasis": "WORKBOOK_PUBLIC_DATA"
+    },
+    {
+      "facilityId": "F17",
+      "facilityName": "해양제작 1공장",
+      "craneType": "크레인",
+      "capacityText": "50",
+      "capacityTon": 50,
+      "quantity": 2,
+      "source": "한화오션 공식 홈페이지 > 거제사업장 소개 > Facilities",
+      "sourceRow": 15,
+      "quantityBasis": "WORKBOOK_PUBLIC_DATA"
+    },
+    {
+      "facilityId": "F18",
+      "facilityName": "해양제작 2공장",
+      "craneType": "크레인",
+      "capacityText": "미공개",
+      "capacityTon": null,
+      "quantity": null,
+      "source": "한화오션 공식 홈페이지 > 거제사업장 소개 > Facilities",
+      "sourceRow": 16,
+      "quantityBasis": "UNKNOWN"
+    },
+    {
+      "facilityId": "F19",
+      "facilityName": "해양제작 3공장",
+      "craneType": "천장크레인",
+      "capacityText": "250",
+      "capacityTon": 250,
+      "quantity": null,
+      "source": "한화오션 공식 홈페이지 > 거제사업장 소개 > Facilities",
+      "sourceRow": 17,
+      "quantityBasis": "UNKNOWN"
+    },
+    {
+      "facilityId": "F19",
+      "facilityName": "해양제작 3공장",
+      "craneType": "천장크레인",
+      "capacityText": "50",
+      "capacityTon": 50,
+      "quantity": null,
+      "source": "한화오션 공식 홈페이지 > 거제사업장 소개 > Facilities",
+      "sourceRow": 18,
+      "quantityBasis": "UNKNOWN"
+    },
+    {
+      "facilityId": "F21",
+      "facilityName": "해양플랜트 옥외 조립장",
+      "craneType": "크롤러 크레인",
+      "capacityText": "미공개",
+      "capacityTon": null,
+      "quantity": null,
+      "source": "한화오션 공식 홈페이지 > 거제사업장 소개 > Facilities",
+      "sourceRow": 19,
+      "quantityBasis": "UNKNOWN"
+    }
+  ]
+}

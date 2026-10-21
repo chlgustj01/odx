@@ -1,0 +1,4 @@
+{
+  "source": "C:\\Users\\chlgu\\Documents\\Codex\\2026-10-19\\unity-mcp-main-scene-hierarchy-towercraneroot\\outputs\\FacilityEntrances\\Backup\\working-tree-overlay.zip!/Assets/Scenes/Main.unity",
+  "rootTransformBlock": "--- !u!4 &95066709\nTransform:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 95066708}\n  serializedVersion: 2\n  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}\n  m_LocalPosition: {x: -46, y: 0, z: 32}\n  m_LocalScale: {x: 1, y: 1, z: 1}\n  m_ConstrainProportionsScale: 0\n  m_Children:\n  - {fileID: 1167872030}\n  - {fileID: 2043457370}\n  - {fileID: 2136981007}\n  - {fileID: 900034567}\n  - {fileID: 1053133429}\n  - {fileID: 89227382}\n  - {fileID: 1420880716}\n  - {fileID: 1725603134}\n  m_Father: {fileID: 0}\n  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}\n"
+}

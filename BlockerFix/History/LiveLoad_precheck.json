@@ -1,0 +1,33 @@
+{
+  "error": null,
+  "rows": [
+    {
+      "axis": "SLEW",
+      "followed": true,
+      "orientation": true,
+      "loadPosition": "(0.2468, 6.0500, 2.9898)",
+      "visualPosition": "(0.2468, 6.0500, 2.9898)",
+      "size": "(1.0000, 0.1000, 2.0000)",
+      "passed": true
+    },
+    {
+      "axis": "TROLLEY",
+      "followed": true,
+      "orientation": true,
+      "loadPosition": "(0.2747, 6.0500, 3.3273)",
+      "visualPosition": "(0.2747, 6.0500, 3.3273)",
+      "size": "(1.0000, 0.1000, 2.0000)",
+      "passed": true
+    },
+    {
+      "axis": "HOIST",
+      "followed": true,
+      "orientation": true,
+      "loadPosition": "(0.2747, 5.7228, 3.3273)",
+      "visualPosition": "(0.2747, 5.7228, 3.3273)",
+      "size": "(1.0000, 0.1000, 2.0000)",
+      "passed": true
+    }
+  ],
+  "settingsRestored": true
+}

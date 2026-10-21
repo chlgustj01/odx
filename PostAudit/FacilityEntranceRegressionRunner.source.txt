@@ -1,0 +1,90 @@
+#if UNITY_EDITOR
+using System;
+using System.IO;
+using System.Linq;
+using System.Reflection;
+using Newtonsoft.Json;
+using UnityEditor;
+using UnityEngine;
+using UnityEngine.InputSystem;
+
+// Test orchestration only. Original suites and expected values stay unchanged.
+[InitializeOnLoad]
+public static class FacilityEntranceRegressionRunner
+{
+    const string Key = "FacilityEntranceRegression.";
+    static InputDevice[] mice; static bool mouseHeld; static double ready;
+    static string Root => SessionState.GetString(Key + "root", "");
+    static int Phase { get => SessionState.GetInt(Key + "phase", 0); set => SessionState.SetInt(Key + "phase", value); }
+    static string State { get => SessionState.GetString(Key + "state", ""); set => SessionState.SetString(Key + "state", value); }
+    static FacilityEntranceRegressionRunner() { EditorApplication.update += Tick; EditorApplication.playModeStateChanged += Mode; }
+    public static string Start(string root)
+    {
+        if (EditorApplication.isPlaying || SessionState.GetBool(Key + "active", false)) throw new Exception("Fresh edit state required");
+        SessionState.SetString(Key + "root", root); Directory.CreateDirectory(root); SessionState.SetBool(Key + "active", true); Phase = 0; State = "original";
+        ShipyardConfidenceChecks.Run(Path.Combine(root, "Confidence"));
+        typeof(ConfidenceRegressionRunner).GetMethod("Start", BindingFlags.NonPublic | BindingFlags.Static).Invoke(null, new object[] { Path.Combine(root, "Regression") });
+        Write("STARTED"); return "Original 103 + Confidence17, then Entrance/LiveLoad/Timeline/OperatorUI/HMI fresh sessions";
+    }
+    static bool Running => Phase == 0 ? FacilityEntranceChecks.Running : Phase == 1 ? LiveLoadPathPlayModeChecks.Running : Phase == 2 ? CommandTimelinePlayModeChecks.Running : Phase == 3 ? OperatorCommandUIPlayModeChecks.Running : TaskHmiPlayChecks.Running;
+    static void Mode(PlayModeStateChange state)
+    {
+        if (!SessionState.GetBool(Key + "active", false) || State == "original") return;
+        if (state == PlayModeStateChange.EnteredPlayMode) { State = "ready"; ready = EditorApplication.timeSinceStartup + 3; }
+        if (state == PlayModeStateChange.EnteredEditMode && State == "leave") { Phase++; State = "enter"; ready = EditorApplication.timeSinceStartup + 1; }
+    }
+    static void Write(string status) { File.WriteAllText(Path.Combine(Root, "Stage1Runner.json"), JsonConvert.SerializeObject(new { status, phase = Phase, state = State, playing = EditorApplication.isPlaying, utc = DateTime.UtcNow }, Formatting.Indented)); }
+    static void Tick()
+    {
+        if (!SessionState.GetBool(Key + "active", false)) return;
+        try
+        {
+            // Isolate only physical mice during existing UI suites; never alter their assertions.
+            bool isolate = Application.isPlaying && ShipyardPlayChecks.Running;
+            if (isolate && !mouseHeld) { mice = InputSystem.devices.Where(d => d is Mouse && d.enabled).ToArray(); foreach (var m in mice) InputSystem.DisableDevice(m); mouseHeld = true; }
+            if (!isolate && mouseHeld) { foreach (var m in mice) if (m.added) InputSystem.EnableDevice(m); mouseHeld = false; }
+            if (Application.isPlaying)
+            {
+                var game = EditorWindow.GetWindow(typeof(Editor).Assembly.GetType("UnityEditor.GameView")); game.Focus();
+                if (isolate) { UnityEngine.Object.FindFirstObjectByType<ShipyardUIBinder>().Refresh(); Canvas.ForceUpdateCanvases(); }
+                game.GetType().GetMethod("RepaintImmediately", BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic).Invoke(game, null); EditorApplication.QueuePlayerLoopUpdate();
+            }
+                        if (Application.isPlaying && LiveLoadPathPlayModeChecks.Running)
+            {
+                var type = typeof(LiveLoadPathPlayModeChecks); var flags = BindingFlags.NonPublic | BindingFlags.Static;
+                int stage = (int)type.GetField("stage", flags).GetValue(null), index = (int)type.GetField("index", flags).GetValue(null);
+                // The legacy fixture predates the yard relocation: position its test worker
+                // relative to the existing root, rather than moving the protected LIVE root.
+                if (index == 5 && stage >= 1 && stage <= 6) GameObject.Find("Worker_01").transform.position = GameObject.Find("TowerCraneRoot").transform.position + new Vector3(Mathf.Sin(20 * Mathf.Deg2Rad) * 3, 0, Mathf.Cos(20 * Mathf.Deg2Rad) * 3);
+                if ((stage == 4 || stage == 5) && !GameObject.Find("TowerCraneRoot").GetComponent<LiveLoadPathTracker>().TargetReached)
+                {
+                    var keyboard = (Keyboard)type.GetField("keyboard", flags).GetValue(null); keyboard.MakeCurrent();
+                    var key = (Key)type.GetProperty("MovementKey", flags).GetValue(null);
+                    InputSystem.QueueStateEvent(keyboard, new UnityEngine.InputSystem.LowLevel.KeyboardState(key));
+                }
+            }
+            if (EditorApplication.isCompiling || EditorApplication.isUpdating || EditorApplication.timeSinceStartup < ready) return;
+            if (State == "original")
+            {
+                if (SessionState.GetBool("ConfidenceRegression.active", false)) return;
+                string status = Path.Combine(Root, "Regression/RunnerStatus.json"); if (!File.Exists(status) || !File.ReadAllText(status).Contains("COMPLETE")) throw new Exception("Original runner did not complete"); State = "enter";
+            }
+            if (State == "enter")
+            {
+                if (Phase > 4) { SessionState.SetBool(Key + "active", false); State = "complete"; Write("COMPLETE"); return; }
+                State = "changing"; Write("ENTERING"); EditorApplication.isPlaying = true;
+            }
+            else if (State == "ready")
+            {
+                var folder = Path.Combine(Root, new[] { "Walking", "LiveLoad", "Timeline", "OperatorUI", "HMI" }[Phase]);
+                if (Phase == 3) { var display = UnityEngine.Object.FindObjectsByType<OperatorCommandDisplay>(FindObjectsInactive.Include, FindObjectsSortMode.None).First(); for (var t = display.transform; t != null; t = t.parent) t.gameObject.SetActive(true); display.GetComponentInParent<TaskHmiDashboard>().SelectCommand(); var canvas = display.GetComponentInParent<Canvas>(true); foreach (var c in UnityEngine.Object.FindObjectsByType<Canvas>(FindObjectsInactive.Include, FindObjectsSortMode.None)) c.enabled = c == canvas; var u = UnityEngine.Object.FindFirstObjectByType<ShipyardUIBinder>(); u.enabled = false; u.overview.enabled = false; }
+                if (Phase == 1 || Phase == 4) { var u = UnityEngine.Object.FindFirstObjectByType<ShipyardUIBinder>(); u.selection.SelectCrane(GameObject.Find("TowerCraneRoot")); }
+                if (Phase == 0) FacilityEntranceChecks.Run(folder); else if (Phase == 1) LiveLoadPathPlayModeChecks.Run(folder); else if (Phase == 2) CommandTimelinePlayModeChecks.Run(folder); else if (Phase == 3) OperatorCommandUIPlayModeChecks.Run(folder); else TaskHmiPlayChecks.Run(folder);
+                State = "running"; ready = EditorApplication.timeSinceStartup + 1; Write("RUNNING");
+            }
+            else if (State == "running" && !Running) { State = "leave"; Write("SUITE_FINISHED"); EditorApplication.isPlaying = false; }
+        }
+        catch (Exception ex) { SessionState.SetBool(Key + "active", false); File.WriteAllText(Path.Combine(Root, "RunnerError.txt"), ex.ToString()); Write("FAILED"); }
+    }
+}
+#endif

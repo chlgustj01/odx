@@ -1,0 +1,44 @@
+[
+  {
+    "path": "Assets/Scripts/Shipyard/Explorer/FacilityEntrance.cs",
+    "phase1Compiled": "af4ed6b2e019e6b2cdcbfb6dda4470f83dd314e38131ec8170c4e09a8109eda9",
+    "current": "af4ed6b2e019e6b2cdcbfb6dda4470f83dd314e38131ec8170c4e09a8109eda9",
+    "match": true,
+    "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/Explorer/ShipyardExploreCameraController.cs",
+    "phase1Compiled": "1a7dc0be386a0239d4aefc505483f900b445fedf9cf57aafca07a80361b0b3e3",
+    "current": "1a7dc0be386a0239d4aefc505483f900b445fedf9cf57aafca07a80361b0b3e3",
+    "match": true,
+    "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/Explorer/ShipyardExploreHUD.cs",
+    "phase1Compiled": "7221cccf43d762f465c3a065860bca6891b80dc75e3d95d5899a1c87c592b65a",
+    "current": "7221cccf43d762f465c3a065860bca6891b80dc75e3d95d5899a1c87c592b65a",
+    "match": true,
+    "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+  },
+  {
+    "path": "Assets/Editor/UI/FacilityEntranceChecks.cs",
+    "phase1Compiled": "f5a724648eb13609a93e88e652cfcfad357d29324bf4314ecec62212b90babc8",
+    "current": "f5a724648eb13609a93e88e652cfcfad357d29324bf4314ecec62212b90babc8",
+    "match": true,
+    "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+  },
+  {
+    "path": "Assets/Editor/UI/FacilityEntranceRegressionRunner.cs",
+    "phase1Compiled": "c4b227a331b45b794417ec77bfd1027d3c520c054d025591c02134710716a631",
+    "current": "c4b227a331b45b794417ec77bfd1027d3c520c054d025591c02134710716a631",
+    "match": true,
+    "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+  },
+  {
+    "path": "Assets/Editor/UI/FacilityEntranceSetup.cs",
+    "phase1Compiled": "e2a7ddd347a8299029db126c67b20f58f08799e0e752ad50cce4069bf7712795",
+    "current": "e2a7ddd347a8299029db126c67b20f58f08799e0e752ad50cce4069bf7712795",
+    "match": true,
+    "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+  }
+]

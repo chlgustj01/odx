@@ -1,0 +1,86 @@
+[
+  {
+    "path": "Assets/Editor/AccidentEvidence/AccidentEvidenceChecks.cs",
+    "phase1Before": "2adcab8ebfa67791db6cd8f3d9f4fa41511d44951c045f97bc9af21d3e585192",
+    "blockerBefore": "2adcab8ebfa67791db6cd8f3d9f4fa41511d44951c045f97bc9af21d3e585192",
+    "after": "2adcab8ebfa67791db6cd8f3d9f4fa41511d44951c045f97bc9af21d3e585192",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Editor/Prediction/LiveLoadPathPlayModeChecks.cs",
+    "phase1Before": "1f24eec45461e98178ee61c7eaf4a090d2df3577afcda9bdb7fe343757ca8283",
+    "blockerBefore": "1f24eec45461e98178ee61c7eaf4a090d2df3577afcda9bdb7fe343757ca8283",
+    "after": "1f24eec45461e98178ee61c7eaf4a090d2df3577afcda9bdb7fe343757ca8283",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Editor/ShipyardDB/ConfidenceRegressionRunner.cs",
+    "phase1Before": "8d1a17ddd7446ff85c0f8780bf2a75880bb60137a7259c3b7864f3059a226f02",
+    "blockerBefore": "8d1a17ddd7446ff85c0f8780bf2a75880bb60137a7259c3b7864f3059a226f02",
+    "after": "8d1a17ddd7446ff85c0f8780bf2a75880bb60137a7259c3b7864f3059a226f02",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Editor/ShipyardDB/FacilityValueEvidenceChecks.cs",
+    "phase1Before": "6b5c951ea94ac3d80059fbdc7228b8b11bac162e772469374483aead602eea89",
+    "blockerBefore": "6b5c951ea94ac3d80059fbdc7228b8b11bac162e772469374483aead602eea89",
+    "after": "6b5c951ea94ac3d80059fbdc7228b8b11bac162e772469374483aead602eea89",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Editor/ShipyardDB/ShipyardConfidenceChecks.cs",
+    "phase1Before": "4d241581c4eeb6f8c07cd32d4e3dc731f11982fffc0d7dd16b2cd2bc0e9b5322",
+    "blockerBefore": "4d241581c4eeb6f8c07cd32d4e3dc731f11982fffc0d7dd16b2cd2bc0e9b5322",
+    "after": "4d241581c4eeb6f8c07cd32d4e3dc731f11982fffc0d7dd16b2cd2bc0e9b5322",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Editor/ShipyardDB/ShipyardPublicDataChecks.cs",
+    "phase1Before": "d4c28c3cb0f9c5ff6ffc93bec3474fda6e1ffa58cee77b6c296f0d2580f82d72",
+    "blockerBefore": "d4c28c3cb0f9c5ff6ffc93bec3474fda6e1ffa58cee77b6c296f0d2580f82d72",
+    "after": "d4c28c3cb0f9c5ff6ffc93bec3474fda6e1ffa58cee77b6c296f0d2580f82d72",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Editor/Timing/CommandTimelinePlayModeChecks.cs",
+    "phase1Before": "19219866f6936180663a521e149a3be21d87349364437bec9c0ada63790b2f62",
+    "blockerBefore": "19219866f6936180663a521e149a3be21d87349364437bec9c0ada63790b2f62",
+    "after": "19219866f6936180663a521e149a3be21d87349364437bec9c0ada63790b2f62",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Editor/UI/OperatorCommandUIPlayModeChecks.cs",
+    "phase1Before": "5743d1958e52b434baa9e72a0a2cfd0108e51677966f5b5b93c454ad882d2fee",
+    "blockerBefore": "5743d1958e52b434baa9e72a0a2cfd0108e51677966f5b5b93c454ad882d2fee",
+    "after": "5743d1958e52b434baa9e72a0a2cfd0108e51677966f5b5b93c454ad882d2fee",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Editor/UI/ShipyardExploreChecks.cs",
+    "phase1Before": "fdef9fd7d7b1dadc4437dbd6a297054bb88aa3fd0cfdb194e903faed3ebb696a",
+    "blockerBefore": "fdef9fd7d7b1dadc4437dbd6a297054bb88aa3fd0cfdb194e903faed3ebb696a",
+    "after": "fdef9fd7d7b1dadc4437dbd6a297054bb88aa3fd0cfdb194e903faed3ebb696a",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Editor/UI/ShipyardPlayChecks.cs",
+    "phase1Before": "170adfde3ff5b2f6e598e629cdc947da8453901d1b4798f832de0213cb0b30f4",
+    "blockerBefore": "170adfde3ff5b2f6e598e629cdc947da8453901d1b4798f832de0213cb0b30f4",
+    "after": "170adfde3ff5b2f6e598e629cdc947da8453901d1b4798f832de0213cb0b30f4",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Editor/UI/TaskHmiPlayChecks.cs",
+    "phase1Before": "00481633ffd1ecd2f7fc222063610a669f60cfe1c5ea5761bb932fdb012ba613",
+    "blockerBefore": "00481633ffd1ecd2f7fc222063610a669f60cfe1c5ea5761bb932fdb012ba613",
+    "after": "00481633ffd1ecd2f7fc222063610a669f60cfe1c5ea5761bb932fdb012ba613",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Editor/UI/WorkerRouteRiskChecks.cs",
+    "phase1Before": "b3e4ac9d33a4eacf1d0e81a8be046151736442832dd341213e8c3ac90d88b643",
+    "blockerBefore": "b3e4ac9d33a4eacf1d0e81a8be046151736442832dd341213e8c3ac90d88b643",
+    "after": "b3e4ac9d33a4eacf1d0e81a8be046151736442832dd341213e8c3ac90d88b643",
+    "unchanged": true
+  }
+]

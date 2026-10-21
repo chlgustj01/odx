@@ -1,0 +1,78 @@
+{
+  "saved": true,
+  "scene": "Assets/Scenes/Main.unity",
+  "dirty": false,
+  "playing": false,
+  "compiling": false,
+  "position": [
+    -46.0,
+    0.0,
+    32.0
+  ],
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "parent": null,
+  "faultComponentEnabled": false,
+  "faultEnabled": false,
+  "faultMode": "NONE",
+  "controllerEnabled": true,
+  "inputEnabled": true,
+  "receiverEnabled": true,
+  "legacyF19Inactive": true,
+  "entrances": [
+    {
+      "id": "F19",
+      "doorOpen": true,
+      "dockAccess": false,
+      "clearWidth": 1.2,
+      "clearHeight": 2.2
+    },
+    {
+      "id": "F01",
+      "doorOpen": true,
+      "dockAccess": true,
+      "clearWidth": 2.4,
+      "clearHeight": 2.2
+    },
+    {
+      "id": "F12",
+      "doorOpen": true,
+      "dockAccess": false,
+      "clearWidth": 1.2,
+      "clearHeight": 2.2
+    },
+    {
+      "id": "F10",
+      "doorOpen": true,
+      "dockAccess": false,
+      "clearWidth": 1.2,
+      "clearHeight": 2.2
+    },
+    {
+      "id": "F11",
+      "doorOpen": true,
+      "dockAccess": false,
+      "clearWidth": 1.2,
+      "clearHeight": 2.2
+    }
+  ],
+  "inputDevices": [
+    {
+      "name": "Keyboard",
+      "enabled": true
+    },
+    {
+      "name": "Mouse",
+      "enabled": true
+    }
+  ]
+}

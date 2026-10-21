@@ -1,0 +1,3278 @@
+[
+  {
+    "character": "분",
+    "unicode": "U+BD84",
+    "phrase": "현재 분석 대상 작업자",
+    "screen": "WorkerUI/active/KO"
+  },
+  {
+    "character": "석",
+    "unicode": "U+C11D",
+    "phrase": "현재 분석 대상 작업자",
+    "screen": "WorkerUI/active/KO"
+  },
+  {
+    "character": "분",
+    "unicode": "U+BD84",
+    "phrase": "현재 분석 대상 작업자 선택",
+    "screen": "WorkerUI/choose/KO"
+  },
+  {
+    "character": "석",
+    "unicode": "U+C11D",
+    "phrase": "현재 분석 대상 작업자 선택",
+    "screen": "WorkerUI/choose/KO"
+  },
+  {
+    "character": "택",
+    "unicode": "U+D0DD",
+    "phrase": "현재 분석 대상 작업자 선택",
+    "screen": "WorkerUI/choose/KO"
+  },
+  {
+    "character": "Ọ",
+    "unicode": "U+1ECC",
+    "phrase": "CHỌN NGƯỜI ĐANG PHÂN TÍCH",
+    "screen": "WorkerUI/choose/VI"
+  },
+  {
+    "character": "변",
+    "unicode": "U+BCC0",
+    "phrase": "작업자 변경",
+    "screen": "WorkerUI/change/KO"
+  },
+  {
+    "character": "Ổ",
+    "unicode": "U+1ED4",
+    "phrase": "ĐỔI NGƯỜI",
+    "screen": "WorkerUI/change/VI"
+  },
+  {
+    "character": "구",
+    "unicode": "U+AD6C",
+    "phrase": "작업구역",
+    "screen": "WorkerUI/facility/KO"
+  },
+  {
+    "character": "역",
+    "unicode": "U+C5ED",
+    "phrase": "작업구역",
+    "screen": "WorkerUI/facility/KO"
+  },
+  {
+    "character": "ự",
+    "unicode": "U+1EF1",
+    "phrase": "Khu vực",
+    "screen": "WorkerUI/facility/VI"
+  },
+  {
+    "character": "록",
+    "unicode": "U+B85D",
+    "phrase": "이동 기록",
+    "screen": "WorkerUI/route/KO"
+  },
+  {
+    "character": "ộ",
+    "unicode": "U+1ED9",
+    "phrase": "Lộ trình",
+    "screen": "WorkerUI/route/VI"
+  },
+  {
+    "character": "세",
+    "unicode": "U+C138",
+    "phrase": "세션 위험",
+    "screen": "WorkerUI/sessionRisk/KO"
+  },
+  {
+    "character": "션",
+    "unicode": "U+C158",
+    "phrase": "세션 위험",
+    "screen": "WorkerUI/sessionRisk/KO"
+  },
+  {
+    "character": "ủ",
+    "unicode": "U+1EE7",
+    "phrase": "Rủi ro phiên",
+    "screen": "WorkerUI/sessionRisk/VI"
+  },
+  {
+    "character": "평",
+    "unicode": "U+D3C9",
+    "phrase": "2A 미평가",
+    "screen": "WorkerUI/riskNotEvaluated/KO"
+  },
+  {
+    "character": "가",
+    "unicode": "U+AC00",
+    "phrase": "2A 미평가",
+    "screen": "WorkerUI/riskNotEvaluated/KO"
+  },
+  {
+    "character": "체",
+    "unicode": "U+CCB4",
+    "phrase": "전체 작업자 경로",
+    "screen": "WorkerUI/all/KO"
+  },
+  {
+    "character": "Ấ",
+    "unicode": "U+1EA4",
+    "phrase": "TẤT CẢ NGƯỜI",
+    "screen": "WorkerUI/all/VI"
+  },
+  {
+    "character": "세",
+    "unicode": "U+C138",
+    "phrase": "현재 세션 지우기",
+    "screen": "WorkerUI/clear/KO"
+  },
+  {
+    "character": "션",
+    "unicode": "U+C158",
+    "phrase": "현재 세션 지우기",
+    "screen": "WorkerUI/clear/KO"
+  },
+  {
+    "character": "보",
+    "unicode": "U+BCF4",
+    "phrase": "내보내기",
+    "screen": "WorkerUI/export/KO"
+  },
+  {
+    "character": "Ấ",
+    "unicode": "U+1EA4",
+    "phrase": "XUẤT",
+    "screen": "WorkerUI/export/VI"
+  },
+  {
+    "character": "록",
+    "unicode": "U+B85D",
+    "phrase": "기록 시점이 다른 경로를 겹쳐 표시 (DEMO)",
+    "screen": "WorkerUI/allDisclosure/KO"
+  },
+  {
+    "character": "시",
+    "unicode": "U+C2DC",
+    "phrase": "기록 시점이 다른 경로를 겹쳐 표시 (DEMO)",
+    "screen": "WorkerUI/allDisclosure/KO"
+  },
+  {
+    "character": "점",
+    "unicode": "U+C810",
+    "phrase": "기록 시점이 다른 경로를 겹쳐 표시 (DEMO)",
+    "screen": "WorkerUI/allDisclosure/KO"
+  },
+  {
+    "character": "다",
+    "unicode": "U+B2E4",
+    "phrase": "기록 시점이 다른 경로를 겹쳐 표시 (DEMO)",
+    "screen": "WorkerUI/allDisclosure/KO"
+  },
+  {
+    "character": "른",
+    "unicode": "U+B978",
+    "phrase": "기록 시점이 다른 경로를 겹쳐 표시 (DEMO)",
+    "screen": "WorkerUI/allDisclosure/KO"
+  },
+  {
+    "character": "를",
+    "unicode": "U+B97C",
+    "phrase": "기록 시점이 다른 경로를 겹쳐 표시 (DEMO)",
+    "screen": "WorkerUI/allDisclosure/KO"
+  },
+  {
+    "character": "겹",
+    "unicode": "U+ACB9",
+    "phrase": "기록 시점이 다른 경로를 겹쳐 표시 (DEMO)",
+    "screen": "WorkerUI/allDisclosure/KO"
+  },
+  {
+    "character": "쳐",
+    "unicode": "U+CCD0",
+    "phrase": "기록 시점이 다른 경로를 겹쳐 표시 (DEMO)",
+    "screen": "WorkerUI/allDisclosure/KO"
+  },
+  {
+    "character": "시",
+    "unicode": "U+C2DC",
+    "phrase": "기록 시점이 다른 경로를 겹쳐 표시 (DEMO)",
+    "screen": "WorkerUI/allDisclosure/KO"
+  },
+  {
+    "character": "ồ",
+    "unicode": "U+1ED3",
+    "phrase": "Chồng lộ trình ghi ở thời điểm khác nhau (DEMO)",
+    "screen": "WorkerUI/allDisclosure/VI"
+  },
+  {
+    "character": "ộ",
+    "unicode": "U+1ED9",
+    "phrase": "Chồng lộ trình ghi ở thời điểm khác nhau (DEMO)",
+    "screen": "WorkerUI/allDisclosure/VI"
+  },
+  {
+    "character": "ở",
+    "unicode": "U+1EDF",
+    "phrase": "Chồng lộ trình ghi ở thời điểm khác nhau (DEMO)",
+    "screen": "WorkerUI/allDisclosure/VI"
+  },
+  {
+    "character": "ờ",
+    "unicode": "U+1EDD",
+    "phrase": "Chồng lộ trình ghi ở thời điểm khác nhau (DEMO)",
+    "screen": "WorkerUI/allDisclosure/VI"
+  },
+  {
+    "character": "đ",
+    "unicode": "U+0111",
+    "phrase": "Chồng lộ trình ghi ở thời điểm khác nhau (DEMO)",
+    "screen": "WorkerUI/allDisclosure/VI"
+  },
+  {
+    "character": "ể",
+    "unicode": "U+1EC3",
+    "phrase": "Chồng lộ trình ghi ở thời điểm khác nhau (DEMO)",
+    "screen": "WorkerUI/allDisclosure/VI"
+  },
+  {
+    "character": "역",
+    "unicode": "U+C5ED",
+    "phrase": "역할별 DEMO 선호 / 실제 허가 경로 아님",
+    "screen": "WorkerUI/routePreferenceDisclosure/KO"
+  },
+  {
+    "character": "할",
+    "unicode": "U+D560",
+    "phrase": "역할별 DEMO 선호 / 실제 허가 경로 아님",
+    "screen": "WorkerUI/routePreferenceDisclosure/KO"
+  },
+  {
+    "character": "별",
+    "unicode": "U+BCC4",
+    "phrase": "역할별 DEMO 선호 / 실제 허가 경로 아님",
+    "screen": "WorkerUI/routePreferenceDisclosure/KO"
+  },
+  {
+    "character": "호",
+    "unicode": "U+D638",
+    "phrase": "역할별 DEMO 선호 / 실제 허가 경로 아님",
+    "screen": "WorkerUI/routePreferenceDisclosure/KO"
+  },
+  {
+    "character": "실",
+    "unicode": "U+C2E4",
+    "phrase": "역할별 DEMO 선호 / 실제 허가 경로 아님",
+    "screen": "WorkerUI/routePreferenceDisclosure/KO"
+  },
+  {
+    "character": "제",
+    "unicode": "U+C81C",
+    "phrase": "역할별 DEMO 선호 / 실제 허가 경로 아님",
+    "screen": "WorkerUI/routePreferenceDisclosure/KO"
+  },
+  {
+    "character": "허",
+    "unicode": "U+D5C8",
+    "phrase": "역할별 DEMO 선호 / 실제 허가 경로 아님",
+    "screen": "WorkerUI/routePreferenceDisclosure/KO"
+  },
+  {
+    "character": "가",
+    "unicode": "U+AC00",
+    "phrase": "역할별 DEMO 선호 / 실제 허가 경로 아님",
+    "screen": "WorkerUI/routePreferenceDisclosure/KO"
+  },
+  {
+    "character": "ả",
+    "unicode": "U+1EA3",
+    "phrase": "ƯU TIÊN DEMO / không phải tuyến được cấp phép",
+    "screen": "WorkerUI/routePreferenceDisclosure/VI"
+  },
+  {
+    "character": "ế",
+    "unicode": "U+1EBF",
+    "phrase": "ƯU TIÊN DEMO / không phải tuyến được cấp phép",
+    "screen": "WorkerUI/routePreferenceDisclosure/VI"
+  },
+  {
+    "character": "đ",
+    "unicode": "U+0111",
+    "phrase": "ƯU TIÊN DEMO / không phải tuyến được cấp phép",
+    "screen": "WorkerUI/routePreferenceDisclosure/VI"
+  },
+  {
+    "character": "ư",
+    "unicode": "U+01B0",
+    "phrase": "ƯU TIÊN DEMO / không phải tuyến được cấp phép",
+    "screen": "WorkerUI/routePreferenceDisclosure/VI"
+  },
+  {
+    "character": "ợ",
+    "unicode": "U+1EE3",
+    "phrase": "ƯU TIÊN DEMO / không phải tuyến được cấp phép",
+    "screen": "WorkerUI/routePreferenceDisclosure/VI"
+  },
+  {
+    "character": "ấ",
+    "unicode": "U+1EA5",
+    "phrase": "ƯU TIÊN DEMO / không phải tuyến được cấp phép",
+    "screen": "WorkerUI/routePreferenceDisclosure/VI"
+  },
+  {
+    "character": "실",
+    "unicode": "U+C2E4",
+    "phrase": "DEMO / SIMULATION · 실제 작업허가·안전 판정 아님",
+    "screen": "WorkerUI/disclosure/KO"
+  },
+  {
+    "character": "제",
+    "unicode": "U+C81C",
+    "phrase": "DEMO / SIMULATION · 실제 작업허가·안전 판정 아님",
+    "screen": "WorkerUI/disclosure/KO"
+  },
+  {
+    "character": "허",
+    "unicode": "U+D5C8",
+    "phrase": "DEMO / SIMULATION · 실제 작업허가·안전 판정 아님",
+    "screen": "WorkerUI/disclosure/KO"
+  },
+  {
+    "character": "가",
+    "unicode": "U+AC00",
+    "phrase": "DEMO / SIMULATION · 실제 작업허가·안전 판정 아님",
+    "screen": "WorkerUI/disclosure/KO"
+  },
+  {
+    "character": "판",
+    "unicode": "U+D310",
+    "phrase": "DEMO / SIMULATION · 실제 작업허가·안전 판정 아님",
+    "screen": "WorkerUI/disclosure/KO"
+  },
+  {
+    "character": "ả",
+    "unicode": "U+1EA3",
+    "phrase": "DEMO / SIMULATION · không phải giấy phép hay chứng nhận an toàn",
+    "screen": "WorkerUI/disclosure/VI"
+  },
+  {
+    "character": "ấ",
+    "unicode": "U+1EA5",
+    "phrase": "DEMO / SIMULATION · không phải giấy phép hay chứng nhận an toàn",
+    "screen": "WorkerUI/disclosure/VI"
+  },
+  {
+    "character": "ứ",
+    "unicode": "U+1EE9",
+    "phrase": "DEMO / SIMULATION · không phải giấy phép hay chứng nhận an toàn",
+    "screen": "WorkerUI/disclosure/VI"
+  },
+  {
+    "character": "ậ",
+    "unicode": "U+1EAD",
+    "phrase": "DEMO / SIMULATION · không phải giấy phép hay chứng nhận an toàn",
+    "screen": "WorkerUI/disclosure/VI"
+  },
+  {
+    "character": "닫",
+    "unicode": "U+B2EB",
+    "phrase": "닫기",
+    "screen": "WorkerUI/close/KO"
+  },
+  {
+    "character": "Ớ",
+    "unicode": "U+1EDA",
+    "phrase": "TRƯỚC",
+    "screen": "WorkerUI/previous/VI"
+  },
+  {
+    "character": "다",
+    "unicode": "U+B2E4",
+    "phrase": "다음 작업자",
+    "screen": "WorkerUI/next/KO"
+  },
+  {
+    "character": "분",
+    "unicode": "U+BD84",
+    "phrase": "현재 분석 대상 작업자로 선택",
+    "screen": "WorkerUI/select/KO"
+  },
+  {
+    "character": "석",
+    "unicode": "U+C11D",
+    "phrase": "현재 분석 대상 작업자로 선택",
+    "screen": "WorkerUI/select/KO"
+  },
+  {
+    "character": "택",
+    "unicode": "U+D0DD",
+    "phrase": "현재 분석 대상 작업자로 선택",
+    "screen": "WorkerUI/select/KO"
+  },
+  {
+    "character": "Ọ",
+    "unicode": "U+1ECC",
+    "phrase": "CHỌN NGƯỜI HIỆN TẠI",
+    "screen": "WorkerUI/select/VI"
+  },
+  {
+    "character": "역",
+    "unicode": "U+C5ED",
+    "phrase": "역할 기반 사고 근거 보기",
+    "screen": "WorkerUI/accidentEvidence/KO"
+  },
+  {
+    "character": "할",
+    "unicode": "U+D560",
+    "phrase": "역할 기반 사고 근거 보기",
+    "screen": "WorkerUI/accidentEvidence/KO"
+  },
+  {
+    "character": "반",
+    "unicode": "U+BC18",
+    "phrase": "역할 기반 사고 근거 보기",
+    "screen": "WorkerUI/accidentEvidence/KO"
+  },
+  {
+    "character": "사",
+    "unicode": "U+C0AC",
+    "phrase": "역할 기반 사고 근거 보기",
+    "screen": "WorkerUI/accidentEvidence/KO"
+  },
+  {
+    "character": "고",
+    "unicode": "U+ACE0",
+    "phrase": "역할 기반 사고 근거 보기",
+    "screen": "WorkerUI/accidentEvidence/KO"
+  },
+  {
+    "character": "근",
+    "unicode": "U+ADFC",
+    "phrase": "역할 기반 사고 근거 보기",
+    "screen": "WorkerUI/accidentEvidence/KO"
+  },
+  {
+    "character": "거",
+    "unicode": "U+AC70",
+    "phrase": "역할 기반 사고 근거 보기",
+    "screen": "WorkerUI/accidentEvidence/KO"
+  },
+  {
+    "character": "보",
+    "unicode": "U+BCF4",
+    "phrase": "역할 기반 사고 근거 보기",
+    "screen": "WorkerUI/accidentEvidence/KO"
+  },
+  {
+    "character": "Ữ",
+    "unicode": "U+1EEE",
+    "phrase": "XEM DỮ LIỆU TAI NẠN THEO VAI TRÒ",
+    "screen": "WorkerUI/accidentEvidence/VI"
+  },
+  {
+    "character": "역",
+    "unicode": "U+C5ED",
+    "phrase": "역할 기반 사고 필터 데이터 없음",
+    "screen": "WorkerUI/noRoleData/KO"
+  },
+  {
+    "character": "할",
+    "unicode": "U+D560",
+    "phrase": "역할 기반 사고 필터 데이터 없음",
+    "screen": "WorkerUI/noRoleData/KO"
+  },
+  {
+    "character": "반",
+    "unicode": "U+BC18",
+    "phrase": "역할 기반 사고 필터 데이터 없음",
+    "screen": "WorkerUI/noRoleData/KO"
+  },
+  {
+    "character": "사",
+    "unicode": "U+C0AC",
+    "phrase": "역할 기반 사고 필터 데이터 없음",
+    "screen": "WorkerUI/noRoleData/KO"
+  },
+  {
+    "character": "고",
+    "unicode": "U+ACE0",
+    "phrase": "역할 기반 사고 필터 데이터 없음",
+    "screen": "WorkerUI/noRoleData/KO"
+  },
+  {
+    "character": "필",
+    "unicode": "U+D544",
+    "phrase": "역할 기반 사고 필터 데이터 없음",
+    "screen": "WorkerUI/noRoleData/KO"
+  },
+  {
+    "character": "터",
+    "unicode": "U+D130",
+    "phrase": "역할 기반 사고 필터 데이터 없음",
+    "screen": "WorkerUI/noRoleData/KO"
+  },
+  {
+    "character": "데",
+    "unicode": "U+B370",
+    "phrase": "역할 기반 사고 필터 데이터 없음",
+    "screen": "WorkerUI/noRoleData/KO"
+  },
+  {
+    "character": "터",
+    "unicode": "U+D130",
+    "phrase": "역할 기반 사고 필터 데이터 없음",
+    "screen": "WorkerUI/noRoleData/KO"
+  },
+  {
+    "character": "ữ",
+    "unicode": "U+1EEF",
+    "phrase": "Không có dữ liệu lọc tai nạn theo vai trò",
+    "screen": "WorkerUI/noRoleData/VI"
+  },
+  {
+    "character": "ệ",
+    "unicode": "U+1EC7",
+    "phrase": "Không có dữ liệu lọc tai nạn theo vai trò",
+    "screen": "WorkerUI/noRoleData/VI"
+  },
+  {
+    "character": "ọ",
+    "unicode": "U+1ECD",
+    "phrase": "Không có dữ liệu lọc tai nạn theo vai trò",
+    "screen": "WorkerUI/noRoleData/VI"
+  },
+  {
+    "character": "ạ",
+    "unicode": "U+1EA1",
+    "phrase": "Không có dữ liệu lọc tai nạn theo vai trò",
+    "screen": "WorkerUI/noRoleData/VI"
+  },
+  {
+    "character": "당",
+    "unicode": "U+B2F9",
+    "phrase": "해당 역할 기록",
+    "screen": "WorkerUI/matchingCases/KO"
+  },
+  {
+    "character": "역",
+    "unicode": "U+C5ED",
+    "phrase": "해당 역할 기록",
+    "screen": "WorkerUI/matchingCases/KO"
+  },
+  {
+    "character": "할",
+    "unicode": "U+D560",
+    "phrase": "해당 역할 기록",
+    "screen": "WorkerUI/matchingCases/KO"
+  },
+  {
+    "character": "록",
+    "unicode": "U+B85D",
+    "phrase": "해당 역할 기록",
+    "screen": "WorkerUI/matchingCases/KO"
+  },
+  {
+    "character": "ả",
+    "unicode": "U+1EA3",
+    "phrase": "Bản ghi cùng vai trò",
+    "screen": "WorkerUI/matchingCases/VI"
+  },
+  {
+    "character": "베",
+    "unicode": "U+BCA0",
+    "phrase": "베트남어 번역 검수 필요",
+    "screen": "WorkerUI/translationNotice/KO"
+  },
+  {
+    "character": "번",
+    "unicode": "U+BC88",
+    "phrase": "베트남어 번역 검수 필요",
+    "screen": "WorkerUI/translationNotice/KO"
+  },
+  {
+    "character": "역",
+    "unicode": "U+C5ED",
+    "phrase": "베트남어 번역 검수 필요",
+    "screen": "WorkerUI/translationNotice/KO"
+  },
+  {
+    "character": "검",
+    "unicode": "U+AC80",
+    "phrase": "베트남어 번역 검수 필요",
+    "screen": "WorkerUI/translationNotice/KO"
+  },
+  {
+    "character": "필",
+    "unicode": "U+D544",
+    "phrase": "베트남어 번역 검수 필요",
+    "screen": "WorkerUI/translationNotice/KO"
+  },
+  {
+    "character": "요",
+    "unicode": "U+C694",
+    "phrase": "베트남어 번역 검수 필요",
+    "screen": "WorkerUI/translationNotice/KO"
+  },
+  {
+    "character": "ả",
+    "unicode": "U+1EA3",
+    "phrase": "Bản dịch tiếng Việt cần kiểm tra",
+    "screen": "WorkerUI/translationNotice/VI"
+  },
+  {
+    "character": "ị",
+    "unicode": "U+1ECB",
+    "phrase": "Bản dịch tiếng Việt cần kiểm tra",
+    "screen": "WorkerUI/translationNotice/VI"
+  },
+  {
+    "character": "ế",
+    "unicode": "U+1EBF",
+    "phrase": "Bản dịch tiếng Việt cần kiểm tra",
+    "screen": "WorkerUI/translationNotice/VI"
+  },
+  {
+    "character": "ệ",
+    "unicode": "U+1EC7",
+    "phrase": "Bản dịch tiếng Việt cần kiểm tra",
+    "screen": "WorkerUI/translationNotice/VI"
+  },
+  {
+    "character": "ầ",
+    "unicode": "U+1EA7",
+    "phrase": "Bản dịch tiếng Việt cần kiểm tra",
+    "screen": "WorkerUI/translationNotice/VI"
+  },
+  {
+    "character": "ể",
+    "unicode": "U+1EC3",
+    "phrase": "Bản dịch tiếng Việt cần kiểm tra",
+    "screen": "WorkerUI/translationNotice/VI"
+  },
+  {
+    "character": "저",
+    "unicode": "U+C800",
+    "phrase": "저장 경로",
+    "screen": "WorkerUI/exported/KO"
+  },
+  {
+    "character": "장",
+    "unicode": "U+C7A5",
+    "phrase": "저장 경로",
+    "screen": "WorkerUI/exported/KO"
+  },
+  {
+    "character": "ư",
+    "unicode": "U+01B0",
+    "phrase": "Đường dẫn xuất",
+    "screen": "WorkerUI/exported/VI"
+  },
+  {
+    "character": "ờ",
+    "unicode": "U+1EDD",
+    "phrase": "Đường dẫn xuất",
+    "screen": "WorkerUI/exported/VI"
+  },
+  {
+    "character": "ẫ",
+    "unicode": "U+1EAB",
+    "phrase": "Đường dẫn xuất",
+    "screen": "WorkerUI/exported/VI"
+  },
+  {
+    "character": "ấ",
+    "unicode": "U+1EA5",
+    "phrase": "Đường dẫn xuất",
+    "screen": "WorkerUI/exported/VI"
+  },
+  {
+    "character": "분",
+    "unicode": "U+BD84",
+    "phrase": "분석 대상",
+    "screen": "WorkerUI/analysisContext/KO"
+  },
+  {
+    "character": "석",
+    "unicode": "U+C11D",
+    "phrase": "분석 대상",
+    "screen": "WorkerUI/analysisContext/KO"
+  },
+  {
+    "character": "Ố",
+    "unicode": "U+1ED0",
+    "phrase": "ĐỐI TƯỢNG PHÂN TÍCH",
+    "screen": "WorkerUI/analysisContext/VI"
+  },
+  {
+    "character": "존",
+    "unicode": "U+C874",
+    "phrase": "기존 공간 위험",
+    "screen": "WorkerUI/existingHazard/KO"
+  },
+  {
+    "character": "공",
+    "unicode": "U+ACF5",
+    "phrase": "기존 공간 위험",
+    "screen": "WorkerUI/existingHazard/KO"
+  },
+  {
+    "character": "간",
+    "unicode": "U+AC04",
+    "phrase": "기존 공간 위험",
+    "screen": "WorkerUI/existingHazard/KO"
+  },
+  {
+    "character": "Ơ",
+    "unicode": "U+01A0",
+    "phrase": "NGUY CƠ HÌNH HỌC",
+    "screen": "WorkerUI/existingHazard/VI"
+  },
+  {
+    "character": "Ọ",
+    "unicode": "U+1ECC",
+    "phrase": "NGUY CƠ HÌNH HỌC",
+    "screen": "WorkerUI/existingHazard/VI"
+  },
+  {
+    "character": "역",
+    "unicode": "U+C5ED",
+    "phrase": "역할별 위험 규칙: 2A 미평가",
+    "screen": "WorkerUI/rulesDeferred/KO"
+  },
+  {
+    "character": "할",
+    "unicode": "U+D560",
+    "phrase": "역할별 위험 규칙: 2A 미평가",
+    "screen": "WorkerUI/rulesDeferred/KO"
+  },
+  {
+    "character": "별",
+    "unicode": "U+BCC4",
+    "phrase": "역할별 위험 규칙: 2A 미평가",
+    "screen": "WorkerUI/rulesDeferred/KO"
+  },
+  {
+    "character": "규",
+    "unicode": "U+ADDC",
+    "phrase": "역할별 위험 규칙: 2A 미평가",
+    "screen": "WorkerUI/rulesDeferred/KO"
+  },
+  {
+    "character": "칙",
+    "unicode": "U+CE59",
+    "phrase": "역할별 위험 규칙: 2A 미평가",
+    "screen": "WorkerUI/rulesDeferred/KO"
+  },
+  {
+    "character": "평",
+    "unicode": "U+D3C9",
+    "phrase": "역할별 위험 규칙: 2A 미평가",
+    "screen": "WorkerUI/rulesDeferred/KO"
+  },
+  {
+    "character": "가",
+    "unicode": "U+AC00",
+    "phrase": "역할별 위험 규칙: 2A 미평가",
+    "screen": "WorkerUI/rulesDeferred/KO"
+  },
+  {
+    "character": "ắ",
+    "unicode": "U+1EAF",
+    "phrase": "Quy tắc theo vai trò: CHƯA ĐÁNH GIÁ 2A",
+    "screen": "WorkerUI/rulesDeferred/VI"
+  },
+  {
+    "character": "크",
+    "unicode": "U+D06C",
+    "phrase": "크레인 신호수",
+    "screen": "WorkerCard/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "레",
+    "unicode": "U+B808",
+    "phrase": "크레인 신호수",
+    "screen": "WorkerCard/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "호",
+    "unicode": "U+D638",
+    "phrase": "크레인 신호수",
+    "screen": "WorkerCard/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "주",
+    "unicode": "U+C8FC",
+    "phrase": "주요 작업: 인양 신호 전달·작업 협의\n주요 위험: 하중 이동, 끼임, 차량\n주요 작업구역: 크레인 작업구역 주변\nPPE: 형광 조끼, 무전기, 수신호 장갑, 호루라기\nDEMO 선호: 인양 구역 주변 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "요",
+    "unicode": "U+C694",
+    "phrase": "주요 작업: 인양 신호 전달·작업 협의\n주요 위험: 하중 이동, 끼임, 차량\n주요 작업구역: 크레인 작업구역 주변\nPPE: 형광 조끼, 무전기, 수신호 장갑, 호루라기\nDEMO 선호: 인양 구역 주변 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "양",
+    "unicode": "U+C591",
+    "phrase": "주요 작업: 인양 신호 전달·작업 협의\n주요 위험: 하중 이동, 끼임, 차량\n주요 작업구역: 크레인 작업구역 주변\nPPE: 형광 조끼, 무전기, 수신호 장갑, 호루라기\nDEMO 선호: 인양 구역 주변 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "호",
+    "unicode": "U+D638",
+    "phrase": "주요 작업: 인양 신호 전달·작업 협의\n주요 위험: 하중 이동, 끼임, 차량\n주요 작업구역: 크레인 작업구역 주변\nPPE: 형광 조끼, 무전기, 수신호 장갑, 호루라기\nDEMO 선호: 인양 구역 주변 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "협",
+    "unicode": "U+D611",
+    "phrase": "주요 작업: 인양 신호 전달·작업 협의\n주요 위험: 하중 이동, 끼임, 차량\n주요 작업구역: 크레인 작업구역 주변\nPPE: 형광 조끼, 무전기, 수신호 장갑, 호루라기\nDEMO 선호: 인양 구역 주변 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "의",
+    "unicode": "U+C758",
+    "phrase": "주요 작업: 인양 신호 전달·작업 협의\n주요 위험: 하중 이동, 끼임, 차량\n주요 작업구역: 크레인 작업구역 주변\nPPE: 형광 조끼, 무전기, 수신호 장갑, 호루라기\nDEMO 선호: 인양 구역 주변 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "주",
+    "unicode": "U+C8FC",
+    "phrase": "주요 작업: 인양 신호 전달·작업 협의\n주요 위험: 하중 이동, 끼임, 차량\n주요 작업구역: 크레인 작업구역 주변\nPPE: 형광 조끼, 무전기, 수신호 장갑, 호루라기\nDEMO 선호: 인양 구역 주변 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "요",
+    "unicode": "U+C694",
+    "phrase": "주요 작업: 인양 신호 전달·작업 협의\n주요 위험: 하중 이동, 끼임, 차량\n주요 작업구역: 크레인 작업구역 주변\nPPE: 형광 조끼, 무전기, 수신호 장갑, 호루라기\nDEMO 선호: 인양 구역 주변 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "중",
+    "unicode": "U+C911",
+    "phrase": "주요 작업: 인양 신호 전달·작업 협의\n주요 위험: 하중 이동, 끼임, 차량\n주요 작업구역: 크레인 작업구역 주변\nPPE: 형광 조끼, 무전기, 수신호 장갑, 호루라기\nDEMO 선호: 인양 구역 주변 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "끼",
+    "unicode": "U+B07C",
+    "phrase": "주요 작업: 인양 신호 전달·작업 협의\n주요 위험: 하중 이동, 끼임, 차량\n주요 작업구역: 크레인 작업구역 주변\nPPE: 형광 조끼, 무전기, 수신호 장갑, 호루라기\nDEMO 선호: 인양 구역 주변 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "임",
+    "unicode": "U+C784",
+    "phrase": "주요 작업: 인양 신호 전달·작업 협의\n주요 위험: 하중 이동, 끼임, 차량\n주요 작업구역: 크레인 작업구역 주변\nPPE: 형광 조끼, 무전기, 수신호 장갑, 호루라기\nDEMO 선호: 인양 구역 주변 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "차",
+    "unicode": "U+CC28",
+    "phrase": "주요 작업: 인양 신호 전달·작업 협의\n주요 위험: 하중 이동, 끼임, 차량\n주요 작업구역: 크레인 작업구역 주변\nPPE: 형광 조끼, 무전기, 수신호 장갑, 호루라기\nDEMO 선호: 인양 구역 주변 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "주",
+    "unicode": "U+C8FC",
+    "phrase": "주요 작업: 인양 신호 전달·작업 협의\n주요 위험: 하중 이동, 끼임, 차량\n주요 작업구역: 크레인 작업구역 주변\nPPE: 형광 조끼, 무전기, 수신호 장갑, 호루라기\nDEMO 선호: 인양 구역 주변 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "요",
+    "unicode": "U+C694",
+    "phrase": "주요 작업: 인양 신호 전달·작업 협의\n주요 위험: 하중 이동, 끼임, 차량\n주요 작업구역: 크레인 작업구역 주변\nPPE: 형광 조끼, 무전기, 수신호 장갑, 호루라기\nDEMO 선호: 인양 구역 주변 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "구",
+    "unicode": "U+AD6C",
+    "phrase": "주요 작업: 인양 신호 전달·작업 협의\n주요 위험: 하중 이동, 끼임, 차량\n주요 작업구역: 크레인 작업구역 주변\nPPE: 형광 조끼, 무전기, 수신호 장갑, 호루라기\nDEMO 선호: 인양 구역 주변 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "역",
+    "unicode": "U+C5ED",
+    "phrase": "주요 작업: 인양 신호 전달·작업 협의\n주요 위험: 하중 이동, 끼임, 차량\n주요 작업구역: 크레인 작업구역 주변\nPPE: 형광 조끼, 무전기, 수신호 장갑, 호루라기\nDEMO 선호: 인양 구역 주변 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "크",
+    "unicode": "U+D06C",
+    "phrase": "주요 작업: 인양 신호 전달·작업 협의\n주요 위험: 하중 이동, 끼임, 차량\n주요 작업구역: 크레인 작업구역 주변\nPPE: 형광 조끼, 무전기, 수신호 장갑, 호루라기\nDEMO 선호: 인양 구역 주변 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "레",
+    "unicode": "U+B808",
+    "phrase": "주요 작업: 인양 신호 전달·작업 협의\n주요 위험: 하중 이동, 끼임, 차량\n주요 작업구역: 크레인 작업구역 주변\nPPE: 형광 조끼, 무전기, 수신호 장갑, 호루라기\nDEMO 선호: 인양 구역 주변 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "구",
+    "unicode": "U+AD6C",
+    "phrase": "주요 작업: 인양 신호 전달·작업 협의\n주요 위험: 하중 이동, 끼임, 차량\n주요 작업구역: 크레인 작업구역 주변\nPPE: 형광 조끼, 무전기, 수신호 장갑, 호루라기\nDEMO 선호: 인양 구역 주변 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "역",
+    "unicode": "U+C5ED",
+    "phrase": "주요 작업: 인양 신호 전달·작업 협의\n주요 위험: 하중 이동, 끼임, 차량\n주요 작업구역: 크레인 작업구역 주변\nPPE: 형광 조끼, 무전기, 수신호 장갑, 호루라기\nDEMO 선호: 인양 구역 주변 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "주",
+    "unicode": "U+C8FC",
+    "phrase": "주요 작업: 인양 신호 전달·작업 협의\n주요 위험: 하중 이동, 끼임, 차량\n주요 작업구역: 크레인 작업구역 주변\nPPE: 형광 조끼, 무전기, 수신호 장갑, 호루라기\nDEMO 선호: 인양 구역 주변 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "변",
+    "unicode": "U+BCC0",
+    "phrase": "주요 작업: 인양 신호 전달·작업 협의\n주요 위험: 하중 이동, 끼임, 차량\n주요 작업구역: 크레인 작업구역 주변\nPPE: 형광 조끼, 무전기, 수신호 장갑, 호루라기\nDEMO 선호: 인양 구역 주변 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "형",
+    "unicode": "U+D615",
+    "phrase": "주요 작업: 인양 신호 전달·작업 협의\n주요 위험: 하중 이동, 끼임, 차량\n주요 작업구역: 크레인 작업구역 주변\nPPE: 형광 조끼, 무전기, 수신호 장갑, 호루라기\nDEMO 선호: 인양 구역 주변 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "광",
+    "unicode": "U+AD11",
+    "phrase": "주요 작업: 인양 신호 전달·작업 협의\n주요 위험: 하중 이동, 끼임, 차량\n주요 작업구역: 크레인 작업구역 주변\nPPE: 형광 조끼, 무전기, 수신호 장갑, 호루라기\nDEMO 선호: 인양 구역 주변 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "조",
+    "unicode": "U+C870",
+    "phrase": "주요 작업: 인양 신호 전달·작업 협의\n주요 위험: 하중 이동, 끼임, 차량\n주요 작업구역: 크레인 작업구역 주변\nPPE: 형광 조끼, 무전기, 수신호 장갑, 호루라기\nDEMO 선호: 인양 구역 주변 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "끼",
+    "unicode": "U+B07C",
+    "phrase": "주요 작업: 인양 신호 전달·작업 협의\n주요 위험: 하중 이동, 끼임, 차량\n주요 작업구역: 크레인 작업구역 주변\nPPE: 형광 조끼, 무전기, 수신호 장갑, 호루라기\nDEMO 선호: 인양 구역 주변 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "무",
+    "unicode": "U+BB34",
+    "phrase": "주요 작업: 인양 신호 전달·작업 협의\n주요 위험: 하중 이동, 끼임, 차량\n주요 작업구역: 크레인 작업구역 주변\nPPE: 형광 조끼, 무전기, 수신호 장갑, 호루라기\nDEMO 선호: 인양 구역 주변 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "호",
+    "unicode": "U+D638",
+    "phrase": "주요 작업: 인양 신호 전달·작업 협의\n주요 위험: 하중 이동, 끼임, 차량\n주요 작업구역: 크레인 작업구역 주변\nPPE: 형광 조끼, 무전기, 수신호 장갑, 호루라기\nDEMO 선호: 인양 구역 주변 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "장",
+    "unicode": "U+C7A5",
+    "phrase": "주요 작업: 인양 신호 전달·작업 협의\n주요 위험: 하중 이동, 끼임, 차량\n주요 작업구역: 크레인 작업구역 주변\nPPE: 형광 조끼, 무전기, 수신호 장갑, 호루라기\nDEMO 선호: 인양 구역 주변 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "갑",
+    "unicode": "U+AC11",
+    "phrase": "주요 작업: 인양 신호 전달·작업 협의\n주요 위험: 하중 이동, 끼임, 차량\n주요 작업구역: 크레인 작업구역 주변\nPPE: 형광 조끼, 무전기, 수신호 장갑, 호루라기\nDEMO 선호: 인양 구역 주변 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "호",
+    "unicode": "U+D638",
+    "phrase": "주요 작업: 인양 신호 전달·작업 협의\n주요 위험: 하중 이동, 끼임, 차량\n주요 작업구역: 크레인 작업구역 주변\nPPE: 형광 조끼, 무전기, 수신호 장갑, 호루라기\nDEMO 선호: 인양 구역 주변 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "루",
+    "unicode": "U+B8E8",
+    "phrase": "주요 작업: 인양 신호 전달·작업 협의\n주요 위험: 하중 이동, 끼임, 차량\n주요 작업구역: 크레인 작업구역 주변\nPPE: 형광 조끼, 무전기, 수신호 장갑, 호루라기\nDEMO 선호: 인양 구역 주변 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "라",
+    "unicode": "U+B77C",
+    "phrase": "주요 작업: 인양 신호 전달·작업 협의\n주요 위험: 하중 이동, 끼임, 차량\n주요 작업구역: 크레인 작업구역 주변\nPPE: 형광 조끼, 무전기, 수신호 장갑, 호루라기\nDEMO 선호: 인양 구역 주변 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "호",
+    "unicode": "U+D638",
+    "phrase": "주요 작업: 인양 신호 전달·작업 협의\n주요 위험: 하중 이동, 끼임, 차량\n주요 작업구역: 크레인 작업구역 주변\nPPE: 형광 조끼, 무전기, 수신호 장갑, 호루라기\nDEMO 선호: 인양 구역 주변 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "양",
+    "unicode": "U+C591",
+    "phrase": "주요 작업: 인양 신호 전달·작업 협의\n주요 위험: 하중 이동, 끼임, 차량\n주요 작업구역: 크레인 작업구역 주변\nPPE: 형광 조끼, 무전기, 수신호 장갑, 호루라기\nDEMO 선호: 인양 구역 주변 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "구",
+    "unicode": "U+AD6C",
+    "phrase": "주요 작업: 인양 신호 전달·작업 협의\n주요 위험: 하중 이동, 끼임, 차량\n주요 작업구역: 크레인 작업구역 주변\nPPE: 형광 조끼, 무전기, 수신호 장갑, 호루라기\nDEMO 선호: 인양 구역 주변 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "역",
+    "unicode": "U+C5ED",
+    "phrase": "주요 작업: 인양 신호 전달·작업 협의\n주요 위험: 하중 이동, 끼임, 차량\n주요 작업구역: 크레인 작업구역 주변\nPPE: 형광 조끼, 무전기, 수신호 장갑, 호루라기\nDEMO 선호: 인양 구역 주변 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "주",
+    "unicode": "U+C8FC",
+    "phrase": "주요 작업: 인양 신호 전달·작업 협의\n주요 위험: 하중 이동, 끼임, 차량\n주요 작업구역: 크레인 작업구역 주변\nPPE: 형광 조끼, 무전기, 수신호 장갑, 호루라기\nDEMO 선호: 인양 구역 주변 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "변",
+    "unicode": "U+BCC0",
+    "phrase": "주요 작업: 인양 신호 전달·작업 협의\n주요 위험: 하중 이동, 끼임, 차량\n주요 작업구역: 크레인 작업구역 주변\nPPE: 형광 조끼, 무전기, 수신호 장갑, 호루라기\nDEMO 선호: 인양 구역 주변 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "중",
+    "unicode": "U+C911",
+    "phrase": "주요 작업: 인양 신호 전달·작업 협의\n주요 위험: 하중 이동, 끼임, 차량\n주요 작업구역: 크레인 작업구역 주변\nPPE: 형광 조끼, 무전기, 수신호 장갑, 호루라기\nDEMO 선호: 인양 구역 주변 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "피",
+    "unicode": "U+D53C",
+    "phrase": "주요 작업: 인양 신호 전달·작업 협의\n주요 위험: 하중 이동, 끼임, 차량\n주요 작업구역: 크레인 작업구역 주변\nPPE: 형광 조끼, 무전기, 수신호 장갑, 호루라기\nDEMO 선호: 인양 구역 주변 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/KO"
+  },
+  {
+    "character": "ư",
+    "unicode": "U+01B0",
+    "phrase": "Người ra tín hiệu cẩu",
+    "screen": "WorkerCard/WKR_SIGNAL_01/VI"
+  },
+  {
+    "character": "ờ",
+    "unicode": "U+1EDD",
+    "phrase": "Người ra tín hiệu cẩu",
+    "screen": "WorkerCard/WKR_SIGNAL_01/VI"
+  },
+  {
+    "character": "ệ",
+    "unicode": "U+1EC7",
+    "phrase": "Người ra tín hiệu cẩu",
+    "screen": "WorkerCard/WKR_SIGNAL_01/VI"
+  },
+  {
+    "character": "ẩ",
+    "unicode": "U+1EA9",
+    "phrase": "Người ra tín hiệu cẩu",
+    "screen": "WorkerCard/WKR_SIGNAL_01/VI"
+  },
+  {
+    "character": "ệ",
+    "unicode": "U+1EC7",
+    "phrase": "CÔNG VIỆC: tín hiệu nâng và phối hợp\nNGUY CƠ: tải di chuyển, kẹp, xe cộ\nKHU VỰC: quanh khu vận hành cẩu\nPPE: áo phản quang, bộ đàm, găng tay, còi\nƯU TIÊN DEMO: quanh khu nâng; tránh đường tải",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/VI"
+  },
+  {
+    "character": "ố",
+    "unicode": "U+1ED1",
+    "phrase": "CÔNG VIỆC: tín hiệu nâng và phối hợp\nNGUY CƠ: tải di chuyển, kẹp, xe cộ\nKHU VỰC: quanh khu vận hành cẩu\nPPE: áo phản quang, bộ đàm, găng tay, còi\nƯU TIÊN DEMO: quanh khu nâng; tránh đường tải",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/VI"
+  },
+  {
+    "character": "ợ",
+    "unicode": "U+1EE3",
+    "phrase": "CÔNG VIỆC: tín hiệu nâng và phối hợp\nNGUY CƠ: tải di chuyển, kẹp, xe cộ\nKHU VỰC: quanh khu vận hành cẩu\nPPE: áo phản quang, bộ đàm, găng tay, còi\nƯU TIÊN DEMO: quanh khu nâng; tránh đường tải",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/VI"
+  },
+  {
+    "character": "Ơ",
+    "unicode": "U+01A0",
+    "phrase": "CÔNG VIỆC: tín hiệu nâng và phối hợp\nNGUY CƠ: tải di chuyển, kẹp, xe cộ\nKHU VỰC: quanh khu vận hành cẩu\nPPE: áo phản quang, bộ đàm, găng tay, còi\nƯU TIÊN DEMO: quanh khu nâng; tránh đường tải",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/VI"
+  },
+  {
+    "character": "ả",
+    "unicode": "U+1EA3",
+    "phrase": "CÔNG VIỆC: tín hiệu nâng và phối hợp\nNGUY CƠ: tải di chuyển, kẹp, xe cộ\nKHU VỰC: quanh khu vận hành cẩu\nPPE: áo phản quang, bộ đàm, găng tay, còi\nƯU TIÊN DEMO: quanh khu nâng; tránh đường tải",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/VI"
+  },
+  {
+    "character": "ể",
+    "unicode": "U+1EC3",
+    "phrase": "CÔNG VIỆC: tín hiệu nâng và phối hợp\nNGUY CƠ: tải di chuyển, kẹp, xe cộ\nKHU VỰC: quanh khu vận hành cẩu\nPPE: áo phản quang, bộ đàm, găng tay, còi\nƯU TIÊN DEMO: quanh khu nâng; tránh đường tải",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/VI"
+  },
+  {
+    "character": "ẹ",
+    "unicode": "U+1EB9",
+    "phrase": "CÔNG VIỆC: tín hiệu nâng và phối hợp\nNGUY CƠ: tải di chuyển, kẹp, xe cộ\nKHU VỰC: quanh khu vận hành cẩu\nPPE: áo phản quang, bộ đàm, găng tay, còi\nƯU TIÊN DEMO: quanh khu nâng; tránh đường tải",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/VI"
+  },
+  {
+    "character": "ộ",
+    "unicode": "U+1ED9",
+    "phrase": "CÔNG VIỆC: tín hiệu nâng và phối hợp\nNGUY CƠ: tải di chuyển, kẹp, xe cộ\nKHU VỰC: quanh khu vận hành cẩu\nPPE: áo phản quang, bộ đàm, găng tay, còi\nƯU TIÊN DEMO: quanh khu nâng; tránh đường tải",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/VI"
+  },
+  {
+    "character": "ậ",
+    "unicode": "U+1EAD",
+    "phrase": "CÔNG VIỆC: tín hiệu nâng và phối hợp\nNGUY CƠ: tải di chuyển, kẹp, xe cộ\nKHU VỰC: quanh khu vận hành cẩu\nPPE: áo phản quang, bộ đàm, găng tay, còi\nƯU TIÊN DEMO: quanh khu nâng; tránh đường tải",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/VI"
+  },
+  {
+    "character": "ẩ",
+    "unicode": "U+1EA9",
+    "phrase": "CÔNG VIỆC: tín hiệu nâng và phối hợp\nNGUY CƠ: tải di chuyển, kẹp, xe cộ\nKHU VỰC: quanh khu vận hành cẩu\nPPE: áo phản quang, bộ đàm, găng tay, còi\nƯU TIÊN DEMO: quanh khu nâng; tránh đường tải",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/VI"
+  },
+  {
+    "character": "ả",
+    "unicode": "U+1EA3",
+    "phrase": "CÔNG VIỆC: tín hiệu nâng và phối hợp\nNGUY CƠ: tải di chuyển, kẹp, xe cộ\nKHU VỰC: quanh khu vận hành cẩu\nPPE: áo phản quang, bộ đàm, găng tay, còi\nƯU TIÊN DEMO: quanh khu nâng; tránh đường tải",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/VI"
+  },
+  {
+    "character": "ộ",
+    "unicode": "U+1ED9",
+    "phrase": "CÔNG VIỆC: tín hiệu nâng và phối hợp\nNGUY CƠ: tải di chuyển, kẹp, xe cộ\nKHU VỰC: quanh khu vận hành cẩu\nPPE: áo phản quang, bộ đàm, găng tay, còi\nƯU TIÊN DEMO: quanh khu nâng; tránh đường tải",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/VI"
+  },
+  {
+    "character": "đ",
+    "unicode": "U+0111",
+    "phrase": "CÔNG VIỆC: tín hiệu nâng và phối hợp\nNGUY CƠ: tải di chuyển, kẹp, xe cộ\nKHU VỰC: quanh khu vận hành cẩu\nPPE: áo phản quang, bộ đàm, găng tay, còi\nƯU TIÊN DEMO: quanh khu nâng; tránh đường tải",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/VI"
+  },
+  {
+    "character": "ă",
+    "unicode": "U+0103",
+    "phrase": "CÔNG VIỆC: tín hiệu nâng và phối hợp\nNGUY CƠ: tải di chuyển, kẹp, xe cộ\nKHU VỰC: quanh khu vận hành cẩu\nPPE: áo phản quang, bộ đàm, găng tay, còi\nƯU TIÊN DEMO: quanh khu nâng; tránh đường tải",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/VI"
+  },
+  {
+    "character": "đ",
+    "unicode": "U+0111",
+    "phrase": "CÔNG VIỆC: tín hiệu nâng và phối hợp\nNGUY CƠ: tải di chuyển, kẹp, xe cộ\nKHU VỰC: quanh khu vận hành cẩu\nPPE: áo phản quang, bộ đàm, găng tay, còi\nƯU TIÊN DEMO: quanh khu nâng; tránh đường tải",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/VI"
+  },
+  {
+    "character": "ư",
+    "unicode": "U+01B0",
+    "phrase": "CÔNG VIỆC: tín hiệu nâng và phối hợp\nNGUY CƠ: tải di chuyển, kẹp, xe cộ\nKHU VỰC: quanh khu vận hành cẩu\nPPE: áo phản quang, bộ đàm, găng tay, còi\nƯU TIÊN DEMO: quanh khu nâng; tránh đường tải",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/VI"
+  },
+  {
+    "character": "ờ",
+    "unicode": "U+1EDD",
+    "phrase": "CÔNG VIỆC: tín hiệu nâng và phối hợp\nNGUY CƠ: tải di chuyển, kẹp, xe cộ\nKHU VỰC: quanh khu vận hành cẩu\nPPE: áo phản quang, bộ đàm, găng tay, còi\nƯU TIÊN DEMO: quanh khu nâng; tránh đường tải",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/VI"
+  },
+  {
+    "character": "ả",
+    "unicode": "U+1EA3",
+    "phrase": "CÔNG VIỆC: tín hiệu nâng và phối hợp\nNGUY CƠ: tải di chuyển, kẹp, xe cộ\nKHU VỰC: quanh khu vận hành cẩu\nPPE: áo phản quang, bộ đàm, găng tay, còi\nƯU TIÊN DEMO: quanh khu nâng; tránh đường tải",
+    "screen": "WorkerDescription/WKR_SIGNAL_01/VI"
+  },
+  {
+    "character": "조",
+    "unicode": "U+C870",
+    "phrase": "CA-00159 / [조선14호] 크레인으로 중량물(밸브) 이동중 낙하",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "호",
+    "unicode": "U+D638",
+    "phrase": "CA-00159 / [조선14호] 크레인으로 중량물(밸브) 이동중 낙하",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "크",
+    "unicode": "U+D06C",
+    "phrase": "CA-00159 / [조선14호] 크레인으로 중량물(밸브) 이동중 낙하",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "레",
+    "unicode": "U+B808",
+    "phrase": "CA-00159 / [조선14호] 크레인으로 중량물(밸브) 이동중 낙하",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "으",
+    "unicode": "U+C73C",
+    "phrase": "CA-00159 / [조선14호] 크레인으로 중량물(밸브) 이동중 낙하",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "중",
+    "unicode": "U+C911",
+    "phrase": "CA-00159 / [조선14호] 크레인으로 중량물(밸브) 이동중 낙하",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "밸",
+    "unicode": "U+BC38",
+    "phrase": "CA-00159 / [조선14호] 크레인으로 중량물(밸브) 이동중 낙하",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "브",
+    "unicode": "U+BE0C",
+    "phrase": "CA-00159 / [조선14호] 크레인으로 중량물(밸브) 이동중 낙하",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "중",
+    "unicode": "U+C911",
+    "phrase": "CA-00159 / [조선14호] 크레인으로 중량물(밸브) 이동중 낙하",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "낙",
+    "unicode": "U+B099",
+    "phrase": "CA-00159 / [조선14호] 크레인으로 중량물(밸브) 이동중 낙하",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "구",
+    "unicode": "U+AD6C",
+    "phrase": "CA-00211 / OO지구 토목건축공사현장에서 인양중이던 자재 이탈로 아래에서 작업중이던 근로자 부딪힘",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "토",
+    "unicode": "U+D1A0",
+    "phrase": "CA-00211 / OO지구 토목건축공사현장에서 인양중이던 자재 이탈로 아래에서 작업중이던 근로자 부딪힘",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "건",
+    "unicode": "U+AC74",
+    "phrase": "CA-00211 / OO지구 토목건축공사현장에서 인양중이던 자재 이탈로 아래에서 작업중이던 근로자 부딪힘",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "축",
+    "unicode": "U+CD95",
+    "phrase": "CA-00211 / OO지구 토목건축공사현장에서 인양중이던 자재 이탈로 아래에서 작업중이던 근로자 부딪힘",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "공",
+    "unicode": "U+ACF5",
+    "phrase": "CA-00211 / OO지구 토목건축공사현장에서 인양중이던 자재 이탈로 아래에서 작업중이던 근로자 부딪힘",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "사",
+    "unicode": "U+C0AC",
+    "phrase": "CA-00211 / OO지구 토목건축공사현장에서 인양중이던 자재 이탈로 아래에서 작업중이던 근로자 부딪힘",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "장",
+    "unicode": "U+C7A5",
+    "phrase": "CA-00211 / OO지구 토목건축공사현장에서 인양중이던 자재 이탈로 아래에서 작업중이던 근로자 부딪힘",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "에",
+    "unicode": "U+C5D0",
+    "phrase": "CA-00211 / OO지구 토목건축공사현장에서 인양중이던 자재 이탈로 아래에서 작업중이던 근로자 부딪힘",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "서",
+    "unicode": "U+C11C",
+    "phrase": "CA-00211 / OO지구 토목건축공사현장에서 인양중이던 자재 이탈로 아래에서 작업중이던 근로자 부딪힘",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "양",
+    "unicode": "U+C591",
+    "phrase": "CA-00211 / OO지구 토목건축공사현장에서 인양중이던 자재 이탈로 아래에서 작업중이던 근로자 부딪힘",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "중",
+    "unicode": "U+C911",
+    "phrase": "CA-00211 / OO지구 토목건축공사현장에서 인양중이던 자재 이탈로 아래에서 작업중이던 근로자 부딪힘",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "던",
+    "unicode": "U+B358",
+    "phrase": "CA-00211 / OO지구 토목건축공사현장에서 인양중이던 자재 이탈로 아래에서 작업중이던 근로자 부딪힘",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "탈",
+    "unicode": "U+D0C8",
+    "phrase": "CA-00211 / OO지구 토목건축공사현장에서 인양중이던 자재 이탈로 아래에서 작업중이던 근로자 부딪힘",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "래",
+    "unicode": "U+B798",
+    "phrase": "CA-00211 / OO지구 토목건축공사현장에서 인양중이던 자재 이탈로 아래에서 작업중이던 근로자 부딪힘",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "에",
+    "unicode": "U+C5D0",
+    "phrase": "CA-00211 / OO지구 토목건축공사현장에서 인양중이던 자재 이탈로 아래에서 작업중이던 근로자 부딪힘",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "서",
+    "unicode": "U+C11C",
+    "phrase": "CA-00211 / OO지구 토목건축공사현장에서 인양중이던 자재 이탈로 아래에서 작업중이던 근로자 부딪힘",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "중",
+    "unicode": "U+C911",
+    "phrase": "CA-00211 / OO지구 토목건축공사현장에서 인양중이던 자재 이탈로 아래에서 작업중이던 근로자 부딪힘",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "던",
+    "unicode": "U+B358",
+    "phrase": "CA-00211 / OO지구 토목건축공사현장에서 인양중이던 자재 이탈로 아래에서 작업중이던 근로자 부딪힘",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "근",
+    "unicode": "U+ADFC",
+    "phrase": "CA-00211 / OO지구 토목건축공사현장에서 인양중이던 자재 이탈로 아래에서 작업중이던 근로자 부딪힘",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "부",
+    "unicode": "U+BD80",
+    "phrase": "CA-00211 / OO지구 토목건축공사현장에서 인양중이던 자재 이탈로 아래에서 작업중이던 근로자 부딪힘",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "딪",
+    "unicode": "U+B52A",
+    "phrase": "CA-00211 / OO지구 토목건축공사현장에서 인양중이던 자재 이탈로 아래에서 작업중이던 근로자 부딪힘",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "힘",
+    "unicode": "U+D798",
+    "phrase": "CA-00211 / OO지구 토목건축공사현장에서 인양중이던 자재 이탈로 아래에서 작업중이던 근로자 부딪힘",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "송",
+    "unicode": "U+C1A1",
+    "phrase": "CA-00270 / 송도11-1공구 기반시설 건설공사(1-2구역) 낙하물 재해",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "공",
+    "unicode": "U+ACF5",
+    "phrase": "CA-00270 / 송도11-1공구 기반시설 건설공사(1-2구역) 낙하물 재해",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "구",
+    "unicode": "U+AD6C",
+    "phrase": "CA-00270 / 송도11-1공구 기반시설 건설공사(1-2구역) 낙하물 재해",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "반",
+    "unicode": "U+BC18",
+    "phrase": "CA-00270 / 송도11-1공구 기반시설 건설공사(1-2구역) 낙하물 재해",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "시",
+    "unicode": "U+C2DC",
+    "phrase": "CA-00270 / 송도11-1공구 기반시설 건설공사(1-2구역) 낙하물 재해",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "설",
+    "unicode": "U+C124",
+    "phrase": "CA-00270 / 송도11-1공구 기반시설 건설공사(1-2구역) 낙하물 재해",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "건",
+    "unicode": "U+AC74",
+    "phrase": "CA-00270 / 송도11-1공구 기반시설 건설공사(1-2구역) 낙하물 재해",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "설",
+    "unicode": "U+C124",
+    "phrase": "CA-00270 / 송도11-1공구 기반시설 건설공사(1-2구역) 낙하물 재해",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "공",
+    "unicode": "U+ACF5",
+    "phrase": "CA-00270 / 송도11-1공구 기반시설 건설공사(1-2구역) 낙하물 재해",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "사",
+    "unicode": "U+C0AC",
+    "phrase": "CA-00270 / 송도11-1공구 기반시설 건설공사(1-2구역) 낙하물 재해",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "구",
+    "unicode": "U+AD6C",
+    "phrase": "CA-00270 / 송도11-1공구 기반시설 건설공사(1-2구역) 낙하물 재해",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "역",
+    "unicode": "U+C5ED",
+    "phrase": "CA-00270 / 송도11-1공구 기반시설 건설공사(1-2구역) 낙하물 재해",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "낙",
+    "unicode": "U+B099",
+    "phrase": "CA-00270 / 송도11-1공구 기반시설 건설공사(1-2구역) 낙하물 재해",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "크",
+    "unicode": "U+D06C",
+    "phrase": "CA-00286 / 크레인 인양작업간 붐대가 부러지며 크레인 후크에 맞음",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "레",
+    "unicode": "U+B808",
+    "phrase": "CA-00286 / 크레인 인양작업간 붐대가 부러지며 크레인 후크에 맞음",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "양",
+    "unicode": "U+C591",
+    "phrase": "CA-00286 / 크레인 인양작업간 붐대가 부러지며 크레인 후크에 맞음",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "간",
+    "unicode": "U+AC04",
+    "phrase": "CA-00286 / 크레인 인양작업간 붐대가 부러지며 크레인 후크에 맞음",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "붐",
+    "unicode": "U+BD90",
+    "phrase": "CA-00286 / 크레인 인양작업간 붐대가 부러지며 크레인 후크에 맞음",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "가",
+    "unicode": "U+AC00",
+    "phrase": "CA-00286 / 크레인 인양작업간 붐대가 부러지며 크레인 후크에 맞음",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "부",
+    "unicode": "U+BD80",
+    "phrase": "CA-00286 / 크레인 인양작업간 붐대가 부러지며 크레인 후크에 맞음",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "러",
+    "unicode": "U+B7EC",
+    "phrase": "CA-00286 / 크레인 인양작업간 붐대가 부러지며 크레인 후크에 맞음",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "며",
+    "unicode": "U+BA70",
+    "phrase": "CA-00286 / 크레인 인양작업간 붐대가 부러지며 크레인 후크에 맞음",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "크",
+    "unicode": "U+D06C",
+    "phrase": "CA-00286 / 크레인 인양작업간 붐대가 부러지며 크레인 후크에 맞음",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "레",
+    "unicode": "U+B808",
+    "phrase": "CA-00286 / 크레인 인양작업간 붐대가 부러지며 크레인 후크에 맞음",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "후",
+    "unicode": "U+D6C4",
+    "phrase": "CA-00286 / 크레인 인양작업간 붐대가 부러지며 크레인 후크에 맞음",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "크",
+    "unicode": "U+D06C",
+    "phrase": "CA-00286 / 크레인 인양작업간 붐대가 부러지며 크레인 후크에 맞음",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "에",
+    "unicode": "U+C5D0",
+    "phrase": "CA-00286 / 크레인 인양작업간 붐대가 부러지며 크레인 후크에 맞음",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "맞",
+    "unicode": "U+B9DE",
+    "phrase": "CA-00286 / 크레인 인양작업간 붐대가 부러지며 크레인 후크에 맞음",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "중",
+    "unicode": "U+C911",
+    "phrase": "CA-00289 / 23-M-중앙수사대 시설공사(3045)",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "앙",
+    "unicode": "U+C559",
+    "phrase": "CA-00289 / 23-M-중앙수사대 시설공사(3045)",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "사",
+    "unicode": "U+C0AC",
+    "phrase": "CA-00289 / 23-M-중앙수사대 시설공사(3045)",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "시",
+    "unicode": "U+C2DC",
+    "phrase": "CA-00289 / 23-M-중앙수사대 시설공사(3045)",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "설",
+    "unicode": "U+C124",
+    "phrase": "CA-00289 / 23-M-중앙수사대 시설공사(3045)",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "공",
+    "unicode": "U+ACF5",
+    "phrase": "CA-00289 / 23-M-중앙수사대 시설공사(3045)",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "사",
+    "unicode": "U+C0AC",
+    "phrase": "CA-00289 / 23-M-중앙수사대 시설공사(3045)",
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01"
+  },
+  {
+    "character": "줄",
+    "unicode": "U+C904",
+    "phrase": "줄걸이(리깅) 작업자",
+    "screen": "WorkerCard/WKR_RIG_01/KO"
+  },
+  {
+    "character": "걸",
+    "unicode": "U+AC78",
+    "phrase": "줄걸이(리깅) 작업자",
+    "screen": "WorkerCard/WKR_RIG_01/KO"
+  },
+  {
+    "character": "깅",
+    "unicode": "U+AE45",
+    "phrase": "줄걸이(리깅) 작업자",
+    "screen": "WorkerCard/WKR_RIG_01/KO"
+  },
+  {
+    "character": "주",
+    "unicode": "U+C8FC",
+    "phrase": "주요 작업: 줄걸이·하중 결속·착지 보조\n주요 위험: 하중, 끼임, 추락\n주요 작업구역: 결속·착지 지점 주변\nPPE: 하네스, 태그라인, 장갑\nDEMO 선호: 결속 지점 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_RIG_01/KO"
+  },
+  {
+    "character": "요",
+    "unicode": "U+C694",
+    "phrase": "주요 작업: 줄걸이·하중 결속·착지 보조\n주요 위험: 하중, 끼임, 추락\n주요 작업구역: 결속·착지 지점 주변\nPPE: 하네스, 태그라인, 장갑\nDEMO 선호: 결속 지점 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_RIG_01/KO"
+  },
+  {
+    "character": "줄",
+    "unicode": "U+C904",
+    "phrase": "주요 작업: 줄걸이·하중 결속·착지 보조\n주요 위험: 하중, 끼임, 추락\n주요 작업구역: 결속·착지 지점 주변\nPPE: 하네스, 태그라인, 장갑\nDEMO 선호: 결속 지점 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_RIG_01/KO"
+  },
+  {
+    "character": "걸",
+    "unicode": "U+AC78",
+    "phrase": "주요 작업: 줄걸이·하중 결속·착지 보조\n주요 위험: 하중, 끼임, 추락\n주요 작업구역: 결속·착지 지점 주변\nPPE: 하네스, 태그라인, 장갑\nDEMO 선호: 결속 지점 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_RIG_01/KO"
+  },
+  {
+    "character": "중",
+    "unicode": "U+C911",
+    "phrase": "주요 작업: 줄걸이·하중 결속·착지 보조\n주요 위험: 하중, 끼임, 추락\n주요 작업구역: 결속·착지 지점 주변\nPPE: 하네스, 태그라인, 장갑\nDEMO 선호: 결속 지점 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_RIG_01/KO"
+  },
+  {
+    "character": "결",
+    "unicode": "U+ACB0",
+    "phrase": "주요 작업: 줄걸이·하중 결속·착지 보조\n주요 위험: 하중, 끼임, 추락\n주요 작업구역: 결속·착지 지점 주변\nPPE: 하네스, 태그라인, 장갑\nDEMO 선호: 결속 지점 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_RIG_01/KO"
+  },
+  {
+    "character": "속",
+    "unicode": "U+C18D",
+    "phrase": "주요 작업: 줄걸이·하중 결속·착지 보조\n주요 위험: 하중, 끼임, 추락\n주요 작업구역: 결속·착지 지점 주변\nPPE: 하네스, 태그라인, 장갑\nDEMO 선호: 결속 지점 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_RIG_01/KO"
+  },
+  {
+    "character": "착",
+    "unicode": "U+CC29",
+    "phrase": "주요 작업: 줄걸이·하중 결속·착지 보조\n주요 위험: 하중, 끼임, 추락\n주요 작업구역: 결속·착지 지점 주변\nPPE: 하네스, 태그라인, 장갑\nDEMO 선호: 결속 지점 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_RIG_01/KO"
+  },
+  {
+    "character": "보",
+    "unicode": "U+BCF4",
+    "phrase": "주요 작업: 줄걸이·하중 결속·착지 보조\n주요 위험: 하중, 끼임, 추락\n주요 작업구역: 결속·착지 지점 주변\nPPE: 하네스, 태그라인, 장갑\nDEMO 선호: 결속 지점 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_RIG_01/KO"
+  },
+  {
+    "character": "조",
+    "unicode": "U+C870",
+    "phrase": "주요 작업: 줄걸이·하중 결속·착지 보조\n주요 위험: 하중, 끼임, 추락\n주요 작업구역: 결속·착지 지점 주변\nPPE: 하네스, 태그라인, 장갑\nDEMO 선호: 결속 지점 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_RIG_01/KO"
+  },
+  {
+    "character": "주",
+    "unicode": "U+C8FC",
+    "phrase": "주요 작업: 줄걸이·하중 결속·착지 보조\n주요 위험: 하중, 끼임, 추락\n주요 작업구역: 결속·착지 지점 주변\nPPE: 하네스, 태그라인, 장갑\nDEMO 선호: 결속 지점 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_RIG_01/KO"
+  },
+  {
+    "character": "요",
+    "unicode": "U+C694",
+    "phrase": "주요 작업: 줄걸이·하중 결속·착지 보조\n주요 위험: 하중, 끼임, 추락\n주요 작업구역: 결속·착지 지점 주변\nPPE: 하네스, 태그라인, 장갑\nDEMO 선호: 결속 지점 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_RIG_01/KO"
+  },
+  {
+    "character": "중",
+    "unicode": "U+C911",
+    "phrase": "주요 작업: 줄걸이·하중 결속·착지 보조\n주요 위험: 하중, 끼임, 추락\n주요 작업구역: 결속·착지 지점 주변\nPPE: 하네스, 태그라인, 장갑\nDEMO 선호: 결속 지점 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_RIG_01/KO"
+  },
+  {
+    "character": "끼",
+    "unicode": "U+B07C",
+    "phrase": "주요 작업: 줄걸이·하중 결속·착지 보조\n주요 위험: 하중, 끼임, 추락\n주요 작업구역: 결속·착지 지점 주변\nPPE: 하네스, 태그라인, 장갑\nDEMO 선호: 결속 지점 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_RIG_01/KO"
+  },
+  {
+    "character": "임",
+    "unicode": "U+C784",
+    "phrase": "주요 작업: 줄걸이·하중 결속·착지 보조\n주요 위험: 하중, 끼임, 추락\n주요 작업구역: 결속·착지 지점 주변\nPPE: 하네스, 태그라인, 장갑\nDEMO 선호: 결속 지점 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_RIG_01/KO"
+  },
+  {
+    "character": "추",
+    "unicode": "U+CD94",
+    "phrase": "주요 작업: 줄걸이·하중 결속·착지 보조\n주요 위험: 하중, 끼임, 추락\n주요 작업구역: 결속·착지 지점 주변\nPPE: 하네스, 태그라인, 장갑\nDEMO 선호: 결속 지점 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_RIG_01/KO"
+  },
+  {
+    "character": "락",
+    "unicode": "U+B77D",
+    "phrase": "주요 작업: 줄걸이·하중 결속·착지 보조\n주요 위험: 하중, 끼임, 추락\n주요 작업구역: 결속·착지 지점 주변\nPPE: 하네스, 태그라인, 장갑\nDEMO 선호: 결속 지점 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_RIG_01/KO"
+  },
+  {
+    "character": "주",
+    "unicode": "U+C8FC",
+    "phrase": "주요 작업: 줄걸이·하중 결속·착지 보조\n주요 위험: 하중, 끼임, 추락\n주요 작업구역: 결속·착지 지점 주변\nPPE: 하네스, 태그라인, 장갑\nDEMO 선호: 결속 지점 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_RIG_01/KO"
+  },
+  {
+    "character": "요",
+    "unicode": "U+C694",
+    "phrase": "주요 작업: 줄걸이·하중 결속·착지 보조\n주요 위험: 하중, 끼임, 추락\n주요 작업구역: 결속·착지 지점 주변\nPPE: 하네스, 태그라인, 장갑\nDEMO 선호: 결속 지점 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_RIG_01/KO"
+  },
+  {
+    "character": "구",
+    "unicode": "U+AD6C",
+    "phrase": "주요 작업: 줄걸이·하중 결속·착지 보조\n주요 위험: 하중, 끼임, 추락\n주요 작업구역: 결속·착지 지점 주변\nPPE: 하네스, 태그라인, 장갑\nDEMO 선호: 결속 지점 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_RIG_01/KO"
+  },
+  {
+    "character": "역",
+    "unicode": "U+C5ED",
+    "phrase": "주요 작업: 줄걸이·하중 결속·착지 보조\n주요 위험: 하중, 끼임, 추락\n주요 작업구역: 결속·착지 지점 주변\nPPE: 하네스, 태그라인, 장갑\nDEMO 선호: 결속 지점 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_RIG_01/KO"
+  },
+  {
+    "character": "결",
+    "unicode": "U+ACB0",
+    "phrase": "주요 작업: 줄걸이·하중 결속·착지 보조\n주요 위험: 하중, 끼임, 추락\n주요 작업구역: 결속·착지 지점 주변\nPPE: 하네스, 태그라인, 장갑\nDEMO 선호: 결속 지점 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_RIG_01/KO"
+  },
+  {
+    "character": "속",
+    "unicode": "U+C18D",
+    "phrase": "주요 작업: 줄걸이·하중 결속·착지 보조\n주요 위험: 하중, 끼임, 추락\n주요 작업구역: 결속·착지 지점 주변\nPPE: 하네스, 태그라인, 장갑\nDEMO 선호: 결속 지점 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_RIG_01/KO"
+  },
+  {
+    "character": "착",
+    "unicode": "U+CC29",
+    "phrase": "주요 작업: 줄걸이·하중 결속·착지 보조\n주요 위험: 하중, 끼임, 추락\n주요 작업구역: 결속·착지 지점 주변\nPPE: 하네스, 태그라인, 장갑\nDEMO 선호: 결속 지점 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_RIG_01/KO"
+  },
+  {
+    "character": "점",
+    "unicode": "U+C810",
+    "phrase": "주요 작업: 줄걸이·하중 결속·착지 보조\n주요 위험: 하중, 끼임, 추락\n주요 작업구역: 결속·착지 지점 주변\nPPE: 하네스, 태그라인, 장갑\nDEMO 선호: 결속 지점 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_RIG_01/KO"
+  },
+  {
+    "character": "주",
+    "unicode": "U+C8FC",
+    "phrase": "주요 작업: 줄걸이·하중 결속·착지 보조\n주요 위험: 하중, 끼임, 추락\n주요 작업구역: 결속·착지 지점 주변\nPPE: 하네스, 태그라인, 장갑\nDEMO 선호: 결속 지점 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_RIG_01/KO"
+  },
+  {
+    "character": "변",
+    "unicode": "U+BCC0",
+    "phrase": "주요 작업: 줄걸이·하중 결속·착지 보조\n주요 위험: 하중, 끼임, 추락\n주요 작업구역: 결속·착지 지점 주변\nPPE: 하네스, 태그라인, 장갑\nDEMO 선호: 결속 지점 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_RIG_01/KO"
+  },
+  {
+    "character": "네",
+    "unicode": "U+B124",
+    "phrase": "주요 작업: 줄걸이·하중 결속·착지 보조\n주요 위험: 하중, 끼임, 추락\n주요 작업구역: 결속·착지 지점 주변\nPPE: 하네스, 태그라인, 장갑\nDEMO 선호: 결속 지점 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_RIG_01/KO"
+  },
+  {
+    "character": "스",
+    "unicode": "U+C2A4",
+    "phrase": "주요 작업: 줄걸이·하중 결속·착지 보조\n주요 위험: 하중, 끼임, 추락\n주요 작업구역: 결속·착지 지점 주변\nPPE: 하네스, 태그라인, 장갑\nDEMO 선호: 결속 지점 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_RIG_01/KO"
+  },
+  {
+    "character": "그",
+    "unicode": "U+ADF8",
+    "phrase": "주요 작업: 줄걸이·하중 결속·착지 보조\n주요 위험: 하중, 끼임, 추락\n주요 작업구역: 결속·착지 지점 주변\nPPE: 하네스, 태그라인, 장갑\nDEMO 선호: 결속 지점 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_RIG_01/KO"
+  },
+  {
+    "character": "라",
+    "unicode": "U+B77C",
+    "phrase": "주요 작업: 줄걸이·하중 결속·착지 보조\n주요 위험: 하중, 끼임, 추락\n주요 작업구역: 결속·착지 지점 주변\nPPE: 하네스, 태그라인, 장갑\nDEMO 선호: 결속 지점 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_RIG_01/KO"
+  },
+  {
+    "character": "장",
+    "unicode": "U+C7A5",
+    "phrase": "주요 작업: 줄걸이·하중 결속·착지 보조\n주요 위험: 하중, 끼임, 추락\n주요 작업구역: 결속·착지 지점 주변\nPPE: 하네스, 태그라인, 장갑\nDEMO 선호: 결속 지점 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_RIG_01/KO"
+  },
+  {
+    "character": "갑",
+    "unicode": "U+AC11",
+    "phrase": "주요 작업: 줄걸이·하중 결속·착지 보조\n주요 위험: 하중, 끼임, 추락\n주요 작업구역: 결속·착지 지점 주변\nPPE: 하네스, 태그라인, 장갑\nDEMO 선호: 결속 지점 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_RIG_01/KO"
+  },
+  {
+    "character": "호",
+    "unicode": "U+D638",
+    "phrase": "주요 작업: 줄걸이·하중 결속·착지 보조\n주요 위험: 하중, 끼임, 추락\n주요 작업구역: 결속·착지 지점 주변\nPPE: 하네스, 태그라인, 장갑\nDEMO 선호: 결속 지점 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_RIG_01/KO"
+  },
+  {
+    "character": "결",
+    "unicode": "U+ACB0",
+    "phrase": "주요 작업: 줄걸이·하중 결속·착지 보조\n주요 위험: 하중, 끼임, 추락\n주요 작업구역: 결속·착지 지점 주변\nPPE: 하네스, 태그라인, 장갑\nDEMO 선호: 결속 지점 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_RIG_01/KO"
+  },
+  {
+    "character": "속",
+    "unicode": "U+C18D",
+    "phrase": "주요 작업: 줄걸이·하중 결속·착지 보조\n주요 위험: 하중, 끼임, 추락\n주요 작업구역: 결속·착지 지점 주변\nPPE: 하네스, 태그라인, 장갑\nDEMO 선호: 결속 지점 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_RIG_01/KO"
+  },
+  {
+    "character": "점",
+    "unicode": "U+C810",
+    "phrase": "주요 작업: 줄걸이·하중 결속·착지 보조\n주요 위험: 하중, 끼임, 추락\n주요 작업구역: 결속·착지 지점 주변\nPPE: 하네스, 태그라인, 장갑\nDEMO 선호: 결속 지점 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_RIG_01/KO"
+  },
+  {
+    "character": "중",
+    "unicode": "U+C911",
+    "phrase": "주요 작업: 줄걸이·하중 결속·착지 보조\n주요 위험: 하중, 끼임, 추락\n주요 작업구역: 결속·착지 지점 주변\nPPE: 하네스, 태그라인, 장갑\nDEMO 선호: 결속 지점 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_RIG_01/KO"
+  },
+  {
+    "character": "피",
+    "unicode": "U+D53C",
+    "phrase": "주요 작업: 줄걸이·하중 결속·착지 보조\n주요 위험: 하중, 끼임, 추락\n주요 작업구역: 결속·착지 지점 주변\nPPE: 하네스, 태그라인, 장갑\nDEMO 선호: 결속 지점 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_RIG_01/KO"
+  },
+  {
+    "character": "ợ",
+    "unicode": "U+1EE3",
+    "phrase": "Thợ móc cáp",
+    "screen": "WorkerCard/WKR_RIG_01/VI"
+  },
+  {
+    "character": "ộ",
+    "unicode": "U+1ED9",
+    "phrase": "CÔNG VIỆC: móc cáp, buộc tải, hỗ trợ hạ tải\nNGUY CƠ: tải, kẹp, ngã\nKHU VỰC: điểm móc và hạ tải\nPPE: dây đai, dây giữ tải, găng tay\nƯU TIÊN DEMO: điểm móc; tránh đường tải",
+    "screen": "WorkerDescription/WKR_RIG_01/VI"
+  },
+  {
+    "character": "ả",
+    "unicode": "U+1EA3",
+    "phrase": "CÔNG VIỆC: móc cáp, buộc tải, hỗ trợ hạ tải\nNGUY CƠ: tải, kẹp, ngã\nKHU VỰC: điểm móc và hạ tải\nPPE: dây đai, dây giữ tải, găng tay\nƯU TIÊN DEMO: điểm móc; tránh đường tải",
+    "screen": "WorkerDescription/WKR_RIG_01/VI"
+  },
+  {
+    "character": "ỗ",
+    "unicode": "U+1ED7",
+    "phrase": "CÔNG VIỆC: móc cáp, buộc tải, hỗ trợ hạ tải\nNGUY CƠ: tải, kẹp, ngã\nKHU VỰC: điểm móc và hạ tải\nPPE: dây đai, dây giữ tải, găng tay\nƯU TIÊN DEMO: điểm móc; tránh đường tải",
+    "screen": "WorkerDescription/WKR_RIG_01/VI"
+  },
+  {
+    "character": "ợ",
+    "unicode": "U+1EE3",
+    "phrase": "CÔNG VIỆC: móc cáp, buộc tải, hỗ trợ hạ tải\nNGUY CƠ: tải, kẹp, ngã\nKHU VỰC: điểm móc và hạ tải\nPPE: dây đai, dây giữ tải, găng tay\nƯU TIÊN DEMO: điểm móc; tránh đường tải",
+    "screen": "WorkerDescription/WKR_RIG_01/VI"
+  },
+  {
+    "character": "ạ",
+    "unicode": "U+1EA1",
+    "phrase": "CÔNG VIỆC: móc cáp, buộc tải, hỗ trợ hạ tải\nNGUY CƠ: tải, kẹp, ngã\nKHU VỰC: điểm móc và hạ tải\nPPE: dây đai, dây giữ tải, găng tay\nƯU TIÊN DEMO: điểm móc; tránh đường tải",
+    "screen": "WorkerDescription/WKR_RIG_01/VI"
+  },
+  {
+    "character": "ả",
+    "unicode": "U+1EA3",
+    "phrase": "CÔNG VIỆC: móc cáp, buộc tải, hỗ trợ hạ tải\nNGUY CƠ: tải, kẹp, ngã\nKHU VỰC: điểm móc và hạ tải\nPPE: dây đai, dây giữ tải, găng tay\nƯU TIÊN DEMO: điểm móc; tránh đường tải",
+    "screen": "WorkerDescription/WKR_RIG_01/VI"
+  },
+  {
+    "character": "Ơ",
+    "unicode": "U+01A0",
+    "phrase": "CÔNG VIỆC: móc cáp, buộc tải, hỗ trợ hạ tải\nNGUY CƠ: tải, kẹp, ngã\nKHU VỰC: điểm móc và hạ tải\nPPE: dây đai, dây giữ tải, găng tay\nƯU TIÊN DEMO: điểm móc; tránh đường tải",
+    "screen": "WorkerDescription/WKR_RIG_01/VI"
+  },
+  {
+    "character": "ả",
+    "unicode": "U+1EA3",
+    "phrase": "CÔNG VIỆC: móc cáp, buộc tải, hỗ trợ hạ tải\nNGUY CƠ: tải, kẹp, ngã\nKHU VỰC: điểm móc và hạ tải\nPPE: dây đai, dây giữ tải, găng tay\nƯU TIÊN DEMO: điểm móc; tránh đường tải",
+    "screen": "WorkerDescription/WKR_RIG_01/VI"
+  },
+  {
+    "character": "ẹ",
+    "unicode": "U+1EB9",
+    "phrase": "CÔNG VIỆC: móc cáp, buộc tải, hỗ trợ hạ tải\nNGUY CƠ: tải, kẹp, ngã\nKHU VỰC: điểm móc và hạ tải\nPPE: dây đai, dây giữ tải, găng tay\nƯU TIÊN DEMO: điểm móc; tránh đường tải",
+    "screen": "WorkerDescription/WKR_RIG_01/VI"
+  },
+  {
+    "character": "đ",
+    "unicode": "U+0111",
+    "phrase": "CÔNG VIỆC: móc cáp, buộc tải, hỗ trợ hạ tải\nNGUY CƠ: tải, kẹp, ngã\nKHU VỰC: điểm móc và hạ tải\nPPE: dây đai, dây giữ tải, găng tay\nƯU TIÊN DEMO: điểm móc; tránh đường tải",
+    "screen": "WorkerDescription/WKR_RIG_01/VI"
+  },
+  {
+    "character": "ể",
+    "unicode": "U+1EC3",
+    "phrase": "CÔNG VIỆC: móc cáp, buộc tải, hỗ trợ hạ tải\nNGUY CƠ: tải, kẹp, ngã\nKHU VỰC: điểm móc và hạ tải\nPPE: dây đai, dây giữ tải, găng tay\nƯU TIÊN DEMO: điểm móc; tránh đường tải",
+    "screen": "WorkerDescription/WKR_RIG_01/VI"
+  },
+  {
+    "character": "ạ",
+    "unicode": "U+1EA1",
+    "phrase": "CÔNG VIỆC: móc cáp, buộc tải, hỗ trợ hạ tải\nNGUY CƠ: tải, kẹp, ngã\nKHU VỰC: điểm móc và hạ tải\nPPE: dây đai, dây giữ tải, găng tay\nƯU TIÊN DEMO: điểm móc; tránh đường tải",
+    "screen": "WorkerDescription/WKR_RIG_01/VI"
+  },
+  {
+    "character": "ả",
+    "unicode": "U+1EA3",
+    "phrase": "CÔNG VIỆC: móc cáp, buộc tải, hỗ trợ hạ tải\nNGUY CƠ: tải, kẹp, ngã\nKHU VỰC: điểm móc và hạ tải\nPPE: dây đai, dây giữ tải, găng tay\nƯU TIÊN DEMO: điểm móc; tránh đường tải",
+    "screen": "WorkerDescription/WKR_RIG_01/VI"
+  },
+  {
+    "character": "đ",
+    "unicode": "U+0111",
+    "phrase": "CÔNG VIỆC: móc cáp, buộc tải, hỗ trợ hạ tải\nNGUY CƠ: tải, kẹp, ngã\nKHU VỰC: điểm móc và hạ tải\nPPE: dây đai, dây giữ tải, găng tay\nƯU TIÊN DEMO: điểm móc; tránh đường tải",
+    "screen": "WorkerDescription/WKR_RIG_01/VI"
+  },
+  {
+    "character": "ữ",
+    "unicode": "U+1EEF",
+    "phrase": "CÔNG VIỆC: móc cáp, buộc tải, hỗ trợ hạ tải\nNGUY CƠ: tải, kẹp, ngã\nKHU VỰC: điểm móc và hạ tải\nPPE: dây đai, dây giữ tải, găng tay\nƯU TIÊN DEMO: điểm móc; tránh đường tải",
+    "screen": "WorkerDescription/WKR_RIG_01/VI"
+  },
+  {
+    "character": "ả",
+    "unicode": "U+1EA3",
+    "phrase": "CÔNG VIỆC: móc cáp, buộc tải, hỗ trợ hạ tải\nNGUY CƠ: tải, kẹp, ngã\nKHU VỰC: điểm móc và hạ tải\nPPE: dây đai, dây giữ tải, găng tay\nƯU TIÊN DEMO: điểm móc; tránh đường tải",
+    "screen": "WorkerDescription/WKR_RIG_01/VI"
+  },
+  {
+    "character": "ă",
+    "unicode": "U+0103",
+    "phrase": "CÔNG VIỆC: móc cáp, buộc tải, hỗ trợ hạ tải\nNGUY CƠ: tải, kẹp, ngã\nKHU VỰC: điểm móc và hạ tải\nPPE: dây đai, dây giữ tải, găng tay\nƯU TIÊN DEMO: điểm móc; tránh đường tải",
+    "screen": "WorkerDescription/WKR_RIG_01/VI"
+  },
+  {
+    "character": "đ",
+    "unicode": "U+0111",
+    "phrase": "CÔNG VIỆC: móc cáp, buộc tải, hỗ trợ hạ tải\nNGUY CƠ: tải, kẹp, ngã\nKHU VỰC: điểm móc và hạ tải\nPPE: dây đai, dây giữ tải, găng tay\nƯU TIÊN DEMO: điểm móc; tránh đường tải",
+    "screen": "WorkerDescription/WKR_RIG_01/VI"
+  },
+  {
+    "character": "ể",
+    "unicode": "U+1EC3",
+    "phrase": "CÔNG VIỆC: móc cáp, buộc tải, hỗ trợ hạ tải\nNGUY CƠ: tải, kẹp, ngã\nKHU VỰC: điểm móc và hạ tải\nPPE: dây đai, dây giữ tải, găng tay\nƯU TIÊN DEMO: điểm móc; tránh đường tải",
+    "screen": "WorkerDescription/WKR_RIG_01/VI"
+  },
+  {
+    "character": "đ",
+    "unicode": "U+0111",
+    "phrase": "CÔNG VIỆC: móc cáp, buộc tải, hỗ trợ hạ tải\nNGUY CƠ: tải, kẹp, ngã\nKHU VỰC: điểm móc và hạ tải\nPPE: dây đai, dây giữ tải, găng tay\nƯU TIÊN DEMO: điểm móc; tránh đường tải",
+    "screen": "WorkerDescription/WKR_RIG_01/VI"
+  },
+  {
+    "character": "ư",
+    "unicode": "U+01B0",
+    "phrase": "CÔNG VIỆC: móc cáp, buộc tải, hỗ trợ hạ tải\nNGUY CƠ: tải, kẹp, ngã\nKHU VỰC: điểm móc và hạ tải\nPPE: dây đai, dây giữ tải, găng tay\nƯU TIÊN DEMO: điểm móc; tránh đường tải",
+    "screen": "WorkerDescription/WKR_RIG_01/VI"
+  },
+  {
+    "character": "ờ",
+    "unicode": "U+1EDD",
+    "phrase": "CÔNG VIỆC: móc cáp, buộc tải, hỗ trợ hạ tải\nNGUY CƠ: tải, kẹp, ngã\nKHU VỰC: điểm móc và hạ tải\nPPE: dây đai, dây giữ tải, găng tay\nƯU TIÊN DEMO: điểm móc; tránh đường tải",
+    "screen": "WorkerDescription/WKR_RIG_01/VI"
+  },
+  {
+    "character": "ả",
+    "unicode": "U+1EA3",
+    "phrase": "CÔNG VIỆC: móc cáp, buộc tải, hỗ trợ hạ tải\nNGUY CƠ: tải, kẹp, ngã\nKHU VỰC: điểm móc và hạ tải\nPPE: dây đai, dây giữ tải, găng tay\nƯU TIÊN DEMO: điểm móc; tránh đường tải",
+    "screen": "WorkerDescription/WKR_RIG_01/VI"
+  },
+  {
+    "character": "조",
+    "unicode": "U+C870",
+    "phrase": "CA-00153 / [조선19-5호]줄걸이 작업 중 파이프에 맞음",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "호",
+    "unicode": "U+D638",
+    "phrase": "CA-00153 / [조선19-5호]줄걸이 작업 중 파이프에 맞음",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "줄",
+    "unicode": "U+C904",
+    "phrase": "CA-00153 / [조선19-5호]줄걸이 작업 중 파이프에 맞음",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "걸",
+    "unicode": "U+AC78",
+    "phrase": "CA-00153 / [조선19-5호]줄걸이 작업 중 파이프에 맞음",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "중",
+    "unicode": "U+C911",
+    "phrase": "CA-00153 / [조선19-5호]줄걸이 작업 중 파이프에 맞음",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "파",
+    "unicode": "U+D30C",
+    "phrase": "CA-00153 / [조선19-5호]줄걸이 작업 중 파이프에 맞음",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "프",
+    "unicode": "U+D504",
+    "phrase": "CA-00153 / [조선19-5호]줄걸이 작업 중 파이프에 맞음",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "에",
+    "unicode": "U+C5D0",
+    "phrase": "CA-00153 / [조선19-5호]줄걸이 작업 중 파이프에 맞음",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "맞",
+    "unicode": "U+B9DE",
+    "phrase": "CA-00153 / [조선19-5호]줄걸이 작업 중 파이프에 맞음",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "조",
+    "unicode": "U+C870",
+    "phrase": "CA-00162 / [조선23호] 데크크레인 실린더 조립중 낙하로 협착",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "호",
+    "unicode": "U+D638",
+    "phrase": "CA-00162 / [조선23호] 데크크레인 실린더 조립중 낙하로 협착",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "데",
+    "unicode": "U+B370",
+    "phrase": "CA-00162 / [조선23호] 데크크레인 실린더 조립중 낙하로 협착",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "크",
+    "unicode": "U+D06C",
+    "phrase": "CA-00162 / [조선23호] 데크크레인 실린더 조립중 낙하로 협착",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "크",
+    "unicode": "U+D06C",
+    "phrase": "CA-00162 / [조선23호] 데크크레인 실린더 조립중 낙하로 협착",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "레",
+    "unicode": "U+B808",
+    "phrase": "CA-00162 / [조선23호] 데크크레인 실린더 조립중 낙하로 협착",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "실",
+    "unicode": "U+C2E4",
+    "phrase": "CA-00162 / [조선23호] 데크크레인 실린더 조립중 낙하로 협착",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "린",
+    "unicode": "U+B9B0",
+    "phrase": "CA-00162 / [조선23호] 데크크레인 실린더 조립중 낙하로 협착",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "더",
+    "unicode": "U+B354",
+    "phrase": "CA-00162 / [조선23호] 데크크레인 실린더 조립중 낙하로 협착",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "조",
+    "unicode": "U+C870",
+    "phrase": "CA-00162 / [조선23호] 데크크레인 실린더 조립중 낙하로 협착",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "립",
+    "unicode": "U+B9BD",
+    "phrase": "CA-00162 / [조선23호] 데크크레인 실린더 조립중 낙하로 협착",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "중",
+    "unicode": "U+C911",
+    "phrase": "CA-00162 / [조선23호] 데크크레인 실린더 조립중 낙하로 협착",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "낙",
+    "unicode": "U+B099",
+    "phrase": "CA-00162 / [조선23호] 데크크레인 실린더 조립중 낙하로 협착",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "협",
+    "unicode": "U+D611",
+    "phrase": "CA-00162 / [조선23호] 데크크레인 실린더 조립중 낙하로 협착",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "착",
+    "unicode": "U+CC29",
+    "phrase": "CA-00162 / [조선23호] 데크크레인 실린더 조립중 낙하로 협착",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "항",
+    "unicode": "U+D56D",
+    "phrase": "CA-00165 / [항만4호]각재묶음 양하중 홀드(Hold)로 낙하비래",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "만",
+    "unicode": "U+B9CC",
+    "phrase": "CA-00165 / [항만4호]각재묶음 양하중 홀드(Hold)로 낙하비래",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "호",
+    "unicode": "U+D638",
+    "phrase": "CA-00165 / [항만4호]각재묶음 양하중 홀드(Hold)로 낙하비래",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "각",
+    "unicode": "U+AC01",
+    "phrase": "CA-00165 / [항만4호]각재묶음 양하중 홀드(Hold)로 낙하비래",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "묶",
+    "unicode": "U+BB36",
+    "phrase": "CA-00165 / [항만4호]각재묶음 양하중 홀드(Hold)로 낙하비래",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "양",
+    "unicode": "U+C591",
+    "phrase": "CA-00165 / [항만4호]각재묶음 양하중 홀드(Hold)로 낙하비래",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "중",
+    "unicode": "U+C911",
+    "phrase": "CA-00165 / [항만4호]각재묶음 양하중 홀드(Hold)로 낙하비래",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "홀",
+    "unicode": "U+D640",
+    "phrase": "CA-00165 / [항만4호]각재묶음 양하중 홀드(Hold)로 낙하비래",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "드",
+    "unicode": "U+B4DC",
+    "phrase": "CA-00165 / [항만4호]각재묶음 양하중 홀드(Hold)로 낙하비래",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "낙",
+    "unicode": "U+B099",
+    "phrase": "CA-00165 / [항만4호]각재묶음 양하중 홀드(Hold)로 낙하비래",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "비",
+    "unicode": "U+BE44",
+    "phrase": "CA-00165 / [항만4호]각재묶음 양하중 홀드(Hold)로 낙하비래",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "래",
+    "unicode": "U+B798",
+    "phrase": "CA-00165 / [항만4호]각재묶음 양하중 홀드(Hold)로 낙하비래",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "밸",
+    "unicode": "U+BC38",
+    "phrase": "CA-00169 / 밸트슬링이 절단되어 화물낙하(해외재해사례4)",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "슬",
+    "unicode": "U+C2AC",
+    "phrase": "CA-00169 / 밸트슬링이 절단되어 화물낙하(해외재해사례4)",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "링",
+    "unicode": "U+B9C1",
+    "phrase": "CA-00169 / 밸트슬링이 절단되어 화물낙하(해외재해사례4)",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "절",
+    "unicode": "U+C808",
+    "phrase": "CA-00169 / 밸트슬링이 절단되어 화물낙하(해외재해사례4)",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "단",
+    "unicode": "U+B2E8",
+    "phrase": "CA-00169 / 밸트슬링이 절단되어 화물낙하(해외재해사례4)",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "되",
+    "unicode": "U+B418",
+    "phrase": "CA-00169 / 밸트슬링이 절단되어 화물낙하(해외재해사례4)",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "낙",
+    "unicode": "U+B099",
+    "phrase": "CA-00169 / 밸트슬링이 절단되어 화물낙하(해외재해사례4)",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "외",
+    "unicode": "U+C678",
+    "phrase": "CA-00169 / 밸트슬링이 절단되어 화물낙하(해외재해사례4)",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "사",
+    "unicode": "U+C0AC",
+    "phrase": "CA-00169 / 밸트슬링이 절단되어 화물낙하(해외재해사례4)",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "례",
+    "unicode": "U+B840",
+    "phrase": "CA-00169 / 밸트슬링이 절단되어 화물낙하(해외재해사례4)",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "타",
+    "unicode": "U+D0C0",
+    "phrase": "CA-00189 / 타워해체작업중 낙하물(레버블록)에 맞음",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "워",
+    "unicode": "U+C6CC",
+    "phrase": "CA-00189 / 타워해체작업중 낙하물(레버블록)에 맞음",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "체",
+    "unicode": "U+CCB4",
+    "phrase": "CA-00189 / 타워해체작업중 낙하물(레버블록)에 맞음",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "중",
+    "unicode": "U+C911",
+    "phrase": "CA-00189 / 타워해체작업중 낙하물(레버블록)에 맞음",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "낙",
+    "unicode": "U+B099",
+    "phrase": "CA-00189 / 타워해체작업중 낙하물(레버블록)에 맞음",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "레",
+    "unicode": "U+B808",
+    "phrase": "CA-00189 / 타워해체작업중 낙하물(레버블록)에 맞음",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "버",
+    "unicode": "U+BC84",
+    "phrase": "CA-00189 / 타워해체작업중 낙하물(레버블록)에 맞음",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "블",
+    "unicode": "U+BE14",
+    "phrase": "CA-00189 / 타워해체작업중 낙하물(레버블록)에 맞음",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "록",
+    "unicode": "U+B85D",
+    "phrase": "CA-00189 / 타워해체작업중 낙하물(레버블록)에 맞음",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "에",
+    "unicode": "U+C5D0",
+    "phrase": "CA-00189 / 타워해체작업중 낙하물(레버블록)에 맞음",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "맞",
+    "unicode": "U+B9DE",
+    "phrase": "CA-00189 / 타워해체작업중 낙하물(레버블록)에 맞음",
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01"
+  },
+  {
+    "character": "용",
+    "unicode": "U+C6A9",
+    "phrase": "용접·취부공",
+    "screen": "WorkerCard/WKR_WELD_01/KO"
+  },
+  {
+    "character": "접",
+    "unicode": "U+C811",
+    "phrase": "용접·취부공",
+    "screen": "WorkerCard/WKR_WELD_01/KO"
+  },
+  {
+    "character": "취",
+    "unicode": "U+CDE8",
+    "phrase": "용접·취부공",
+    "screen": "WorkerCard/WKR_WELD_01/KO"
+  },
+  {
+    "character": "부",
+    "unicode": "U+BD80",
+    "phrase": "용접·취부공",
+    "screen": "WorkerCard/WKR_WELD_01/KO"
+  },
+  {
+    "character": "공",
+    "unicode": "U+ACF5",
+    "phrase": "용접·취부공",
+    "screen": "WorkerCard/WKR_WELD_01/KO"
+  },
+  {
+    "character": "주",
+    "unicode": "U+C8FC",
+    "phrase": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_WELD_01/KO"
+  },
+  {
+    "character": "요",
+    "unicode": "U+C694",
+    "phrase": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_WELD_01/KO"
+  },
+  {
+    "character": "블",
+    "unicode": "U+BE14",
+    "phrase": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_WELD_01/KO"
+  },
+  {
+    "character": "록",
+    "unicode": "U+B85D",
+    "phrase": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_WELD_01/KO"
+  },
+  {
+    "character": "용",
+    "unicode": "U+C6A9",
+    "phrase": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_WELD_01/KO"
+  },
+  {
+    "character": "접",
+    "unicode": "U+C811",
+    "phrase": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_WELD_01/KO"
+  },
+  {
+    "character": "취",
+    "unicode": "U+CDE8",
+    "phrase": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_WELD_01/KO"
+  },
+  {
+    "character": "부",
+    "unicode": "U+BD80",
+    "phrase": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_WELD_01/KO"
+  },
+  {
+    "character": "조",
+    "unicode": "U+C870",
+    "phrase": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_WELD_01/KO"
+  },
+  {
+    "character": "립",
+    "unicode": "U+B9BD",
+    "phrase": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_WELD_01/KO"
+  },
+  {
+    "character": "주",
+    "unicode": "U+C8FC",
+    "phrase": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_WELD_01/KO"
+  },
+  {
+    "character": "요",
+    "unicode": "U+C694",
+    "phrase": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_WELD_01/KO"
+  },
+  {
+    "character": "흄",
+    "unicode": "U+D744",
+    "phrase": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_WELD_01/KO"
+  },
+  {
+    "character": "중",
+    "unicode": "U+C911",
+    "phrase": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_WELD_01/KO"
+  },
+  {
+    "character": "주",
+    "unicode": "U+C8FC",
+    "phrase": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_WELD_01/KO"
+  },
+  {
+    "character": "요",
+    "unicode": "U+C694",
+    "phrase": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_WELD_01/KO"
+  },
+  {
+    "character": "구",
+    "unicode": "U+AD6C",
+    "phrase": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_WELD_01/KO"
+  },
+  {
+    "character": "역",
+    "unicode": "U+C5ED",
+    "phrase": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_WELD_01/KO"
+  },
+  {
+    "character": "용",
+    "unicode": "U+C6A9",
+    "phrase": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_WELD_01/KO"
+  },
+  {
+    "character": "접",
+    "unicode": "U+C811",
+    "phrase": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_WELD_01/KO"
+  },
+  {
+    "character": "면",
+    "unicode": "U+BA74",
+    "phrase": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_WELD_01/KO"
+  },
+  {
+    "character": "가",
+    "unicode": "U+AC00",
+    "phrase": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_WELD_01/KO"
+  },
+  {
+    "character": "죽",
+    "unicode": "U+C8FD",
+    "phrase": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_WELD_01/KO"
+  },
+  {
+    "character": "장",
+    "unicode": "U+C7A5",
+    "phrase": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_WELD_01/KO"
+  },
+  {
+    "character": "갑",
+    "unicode": "U+AC11",
+    "phrase": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_WELD_01/KO"
+  },
+  {
+    "character": "팔",
+    "unicode": "U+D314",
+    "phrase": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_WELD_01/KO"
+  },
+  {
+    "character": "토",
+    "unicode": "U+D1A0",
+    "phrase": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_WELD_01/KO"
+  },
+  {
+    "character": "시",
+    "unicode": "U+C2DC",
+    "phrase": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_WELD_01/KO"
+  },
+  {
+    "character": "앞",
+    "unicode": "U+C55E",
+    "phrase": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_WELD_01/KO"
+  },
+  {
+    "character": "치",
+    "unicode": "U+CE58",
+    "phrase": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_WELD_01/KO"
+  },
+  {
+    "character": "마",
+    "unicode": "U+B9C8",
+    "phrase": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_WELD_01/KO"
+  },
+  {
+    "character": "흄",
+    "unicode": "U+D744",
+    "phrase": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_WELD_01/KO"
+  },
+  {
+    "character": "마",
+    "unicode": "U+B9C8",
+    "phrase": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_WELD_01/KO"
+  },
+  {
+    "character": "스",
+    "unicode": "U+C2A4",
+    "phrase": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_WELD_01/KO"
+  },
+  {
+    "character": "크",
+    "unicode": "U+D06C",
+    "phrase": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_WELD_01/KO"
+  },
+  {
+    "character": "호",
+    "unicode": "U+D638",
+    "phrase": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_WELD_01/KO"
+  },
+  {
+    "character": "블",
+    "unicode": "U+BE14",
+    "phrase": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_WELD_01/KO"
+  },
+  {
+    "character": "록",
+    "unicode": "U+B85D",
+    "phrase": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_WELD_01/KO"
+  },
+  {
+    "character": "조",
+    "unicode": "U+C870",
+    "phrase": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_WELD_01/KO"
+  },
+  {
+    "character": "립",
+    "unicode": "U+B9BD",
+    "phrase": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_WELD_01/KO"
+  },
+  {
+    "character": "장",
+    "unicode": "U+C7A5",
+    "phrase": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_WELD_01/KO"
+  },
+  {
+    "character": "중",
+    "unicode": "U+C911",
+    "phrase": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_WELD_01/KO"
+  },
+  {
+    "character": "피",
+    "unicode": "U+D53C",
+    "phrase": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_WELD_01/KO"
+  },
+  {
+    "character": "ợ",
+    "unicode": "U+1EE3",
+    "phrase": "Thợ hàn / lắp ráp",
+    "screen": "WorkerCard/WKR_WELD_01/VI"
+  },
+  {
+    "character": "ắ",
+    "unicode": "U+1EAF",
+    "phrase": "Thợ hàn / lắp ráp",
+    "screen": "WorkerCard/WKR_WELD_01/VI"
+  },
+  {
+    "character": "ắ",
+    "unicode": "U+1EAF",
+    "phrase": "CÔNG VIỆC: hàn và lắp ráp khối\nNGUY CƠ: công việc nóng, khói, bỏng, tải\nKHU VỰC: F10 / F11 / F12\nPPE: mặt nạ hàn, găng da, tay áo, tạp dề, mặt nạ\nƯU TIÊN DEMO: lắp khối; tránh sơn và đường tải",
+    "screen": "WorkerDescription/WKR_WELD_01/VI"
+  },
+  {
+    "character": "ố",
+    "unicode": "U+1ED1",
+    "phrase": "CÔNG VIỆC: hàn và lắp ráp khối\nNGUY CƠ: công việc nóng, khói, bỏng, tải\nKHU VỰC: F10 / F11 / F12\nPPE: mặt nạ hàn, găng da, tay áo, tạp dề, mặt nạ\nƯU TIÊN DEMO: lắp khối; tránh sơn và đường tải",
+    "screen": "WorkerDescription/WKR_WELD_01/VI"
+  },
+  {
+    "character": "Ơ",
+    "unicode": "U+01A0",
+    "phrase": "CÔNG VIỆC: hàn và lắp ráp khối\nNGUY CƠ: công việc nóng, khói, bỏng, tải\nKHU VỰC: F10 / F11 / F12\nPPE: mặt nạ hàn, găng da, tay áo, tạp dề, mặt nạ\nƯU TIÊN DEMO: lắp khối; tránh sơn và đường tải",
+    "screen": "WorkerDescription/WKR_WELD_01/VI"
+  },
+  {
+    "character": "ệ",
+    "unicode": "U+1EC7",
+    "phrase": "CÔNG VIỆC: hàn và lắp ráp khối\nNGUY CƠ: công việc nóng, khói, bỏng, tải\nKHU VỰC: F10 / F11 / F12\nPPE: mặt nạ hàn, găng da, tay áo, tạp dề, mặt nạ\nƯU TIÊN DEMO: lắp khối; tránh sơn và đường tải",
+    "screen": "WorkerDescription/WKR_WELD_01/VI"
+  },
+  {
+    "character": "ỏ",
+    "unicode": "U+1ECF",
+    "phrase": "CÔNG VIỆC: hàn và lắp ráp khối\nNGUY CƠ: công việc nóng, khói, bỏng, tải\nKHU VỰC: F10 / F11 / F12\nPPE: mặt nạ hàn, găng da, tay áo, tạp dề, mặt nạ\nƯU TIÊN DEMO: lắp khối; tránh sơn và đường tải",
+    "screen": "WorkerDescription/WKR_WELD_01/VI"
+  },
+  {
+    "character": "ả",
+    "unicode": "U+1EA3",
+    "phrase": "CÔNG VIỆC: hàn và lắp ráp khối\nNGUY CƠ: công việc nóng, khói, bỏng, tải\nKHU VỰC: F10 / F11 / F12\nPPE: mặt nạ hàn, găng da, tay áo, tạp dề, mặt nạ\nƯU TIÊN DEMO: lắp khối; tránh sơn và đường tải",
+    "screen": "WorkerDescription/WKR_WELD_01/VI"
+  },
+  {
+    "character": "ặ",
+    "unicode": "U+1EB7",
+    "phrase": "CÔNG VIỆC: hàn và lắp ráp khối\nNGUY CƠ: công việc nóng, khói, bỏng, tải\nKHU VỰC: F10 / F11 / F12\nPPE: mặt nạ hàn, găng da, tay áo, tạp dề, mặt nạ\nƯU TIÊN DEMO: lắp khối; tránh sơn và đường tải",
+    "screen": "WorkerDescription/WKR_WELD_01/VI"
+  },
+  {
+    "character": "ạ",
+    "unicode": "U+1EA1",
+    "phrase": "CÔNG VIỆC: hàn và lắp ráp khối\nNGUY CƠ: công việc nóng, khói, bỏng, tải\nKHU VỰC: F10 / F11 / F12\nPPE: mặt nạ hàn, găng da, tay áo, tạp dề, mặt nạ\nƯU TIÊN DEMO: lắp khối; tránh sơn và đường tải",
+    "screen": "WorkerDescription/WKR_WELD_01/VI"
+  },
+  {
+    "character": "ă",
+    "unicode": "U+0103",
+    "phrase": "CÔNG VIỆC: hàn và lắp ráp khối\nNGUY CƠ: công việc nóng, khói, bỏng, tải\nKHU VỰC: F10 / F11 / F12\nPPE: mặt nạ hàn, găng da, tay áo, tạp dề, mặt nạ\nƯU TIÊN DEMO: lắp khối; tránh sơn và đường tải",
+    "screen": "WorkerDescription/WKR_WELD_01/VI"
+  },
+  {
+    "character": "ạ",
+    "unicode": "U+1EA1",
+    "phrase": "CÔNG VIỆC: hàn và lắp ráp khối\nNGUY CƠ: công việc nóng, khói, bỏng, tải\nKHU VỰC: F10 / F11 / F12\nPPE: mặt nạ hàn, găng da, tay áo, tạp dề, mặt nạ\nƯU TIÊN DEMO: lắp khối; tránh sơn và đường tải",
+    "screen": "WorkerDescription/WKR_WELD_01/VI"
+  },
+  {
+    "character": "ề",
+    "unicode": "U+1EC1",
+    "phrase": "CÔNG VIỆC: hàn và lắp ráp khối\nNGUY CƠ: công việc nóng, khói, bỏng, tải\nKHU VỰC: F10 / F11 / F12\nPPE: mặt nạ hàn, găng da, tay áo, tạp dề, mặt nạ\nƯU TIÊN DEMO: lắp khối; tránh sơn và đường tải",
+    "screen": "WorkerDescription/WKR_WELD_01/VI"
+  },
+  {
+    "character": "ặ",
+    "unicode": "U+1EB7",
+    "phrase": "CÔNG VIỆC: hàn và lắp ráp khối\nNGUY CƠ: công việc nóng, khói, bỏng, tải\nKHU VỰC: F10 / F11 / F12\nPPE: mặt nạ hàn, găng da, tay áo, tạp dề, mặt nạ\nƯU TIÊN DEMO: lắp khối; tránh sơn và đường tải",
+    "screen": "WorkerDescription/WKR_WELD_01/VI"
+  },
+  {
+    "character": "ạ",
+    "unicode": "U+1EA1",
+    "phrase": "CÔNG VIỆC: hàn và lắp ráp khối\nNGUY CƠ: công việc nóng, khói, bỏng, tải\nKHU VỰC: F10 / F11 / F12\nPPE: mặt nạ hàn, găng da, tay áo, tạp dề, mặt nạ\nƯU TIÊN DEMO: lắp khối; tránh sơn và đường tải",
+    "screen": "WorkerDescription/WKR_WELD_01/VI"
+  },
+  {
+    "character": "ắ",
+    "unicode": "U+1EAF",
+    "phrase": "CÔNG VIỆC: hàn và lắp ráp khối\nNGUY CƠ: công việc nóng, khói, bỏng, tải\nKHU VỰC: F10 / F11 / F12\nPPE: mặt nạ hàn, găng da, tay áo, tạp dề, mặt nạ\nƯU TIÊN DEMO: lắp khối; tránh sơn và đường tải",
+    "screen": "WorkerDescription/WKR_WELD_01/VI"
+  },
+  {
+    "character": "ố",
+    "unicode": "U+1ED1",
+    "phrase": "CÔNG VIỆC: hàn và lắp ráp khối\nNGUY CƠ: công việc nóng, khói, bỏng, tải\nKHU VỰC: F10 / F11 / F12\nPPE: mặt nạ hàn, găng da, tay áo, tạp dề, mặt nạ\nƯU TIÊN DEMO: lắp khối; tránh sơn và đường tải",
+    "screen": "WorkerDescription/WKR_WELD_01/VI"
+  },
+  {
+    "character": "ơ",
+    "unicode": "U+01A1",
+    "phrase": "CÔNG VIỆC: hàn và lắp ráp khối\nNGUY CƠ: công việc nóng, khói, bỏng, tải\nKHU VỰC: F10 / F11 / F12\nPPE: mặt nạ hàn, găng da, tay áo, tạp dề, mặt nạ\nƯU TIÊN DEMO: lắp khối; tránh sơn và đường tải",
+    "screen": "WorkerDescription/WKR_WELD_01/VI"
+  },
+  {
+    "character": "đ",
+    "unicode": "U+0111",
+    "phrase": "CÔNG VIỆC: hàn và lắp ráp khối\nNGUY CƠ: công việc nóng, khói, bỏng, tải\nKHU VỰC: F10 / F11 / F12\nPPE: mặt nạ hàn, găng da, tay áo, tạp dề, mặt nạ\nƯU TIÊN DEMO: lắp khối; tránh sơn và đường tải",
+    "screen": "WorkerDescription/WKR_WELD_01/VI"
+  },
+  {
+    "character": "ư",
+    "unicode": "U+01B0",
+    "phrase": "CÔNG VIỆC: hàn và lắp ráp khối\nNGUY CƠ: công việc nóng, khói, bỏng, tải\nKHU VỰC: F10 / F11 / F12\nPPE: mặt nạ hàn, găng da, tay áo, tạp dề, mặt nạ\nƯU TIÊN DEMO: lắp khối; tránh sơn và đường tải",
+    "screen": "WorkerDescription/WKR_WELD_01/VI"
+  },
+  {
+    "character": "ờ",
+    "unicode": "U+1EDD",
+    "phrase": "CÔNG VIỆC: hàn và lắp ráp khối\nNGUY CƠ: công việc nóng, khói, bỏng, tải\nKHU VỰC: F10 / F11 / F12\nPPE: mặt nạ hàn, găng da, tay áo, tạp dề, mặt nạ\nƯU TIÊN DEMO: lắp khối; tránh sơn và đường tải",
+    "screen": "WorkerDescription/WKR_WELD_01/VI"
+  },
+  {
+    "character": "ả",
+    "unicode": "U+1EA3",
+    "phrase": "CÔNG VIỆC: hàn và lắp ráp khối\nNGUY CƠ: công việc nóng, khói, bỏng, tải\nKHU VỰC: F10 / F11 / F12\nPPE: mặt nạ hàn, găng da, tay áo, tạp dề, mặt nạ\nƯU TIÊN DEMO: lắp khối; tránh sơn và đường tải",
+    "screen": "WorkerDescription/WKR_WELD_01/VI"
+  },
+  {
+    "character": "의",
+    "unicode": "U+C758",
+    "phrase": "의장(배관) 작업자",
+    "screen": "WorkerCard/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "장",
+    "unicode": "U+C7A5",
+    "phrase": "의장(배관) 작업자",
+    "screen": "WorkerCard/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "배",
+    "unicode": "U+BC30",
+    "phrase": "의장(배관) 작업자",
+    "screen": "WorkerCard/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "관",
+    "unicode": "U+AD00",
+    "phrase": "의장(배관) 작업자",
+    "screen": "WorkerCard/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "주",
+    "unicode": "U+C8FC",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "요",
+    "unicode": "U+C694",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "배",
+    "unicode": "U+BC30",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "관",
+    "unicode": "U+AD00",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "의",
+    "unicode": "U+C758",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "장",
+    "unicode": "U+C7A5",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "장",
+    "unicode": "U+C7A5",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "비",
+    "unicode": "U+BE44",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "설",
+    "unicode": "U+C124",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "치",
+    "unicode": "U+CE58",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "주",
+    "unicode": "U+C8FC",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "요",
+    "unicode": "U+C694",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "끼",
+    "unicode": "U+B07C",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "임",
+    "unicode": "U+C784",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "반",
+    "unicode": "U+BC18",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "중",
+    "unicode": "U+C911",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "주",
+    "unicode": "U+C8FC",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "요",
+    "unicode": "U+C694",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "구",
+    "unicode": "U+AD6C",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "역",
+    "unicode": "U+C5ED",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "의",
+    "unicode": "U+C758",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "장",
+    "unicode": "U+C7A5",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "배",
+    "unicode": "U+BC30",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "관",
+    "unicode": "U+AD00",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "적",
+    "unicode": "U+C801",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "치",
+    "unicode": "U+CE58",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "블",
+    "unicode": "U+BE14",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "록",
+    "unicode": "U+B85D",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "구",
+    "unicode": "U+AD6C",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "역",
+    "unicode": "U+C5ED",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "공",
+    "unicode": "U+ACF5",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "구",
+    "unicode": "U+AD6C",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "벨",
+    "unicode": "U+BCA8",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "렌",
+    "unicode": "U+B80C",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "치",
+    "unicode": "U+CE58",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "배",
+    "unicode": "U+BC30",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "관",
+    "unicode": "U+AD00",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "구",
+    "unicode": "U+AD6C",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "장",
+    "unicode": "U+C7A5",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "갑",
+    "unicode": "U+AC11",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "호",
+    "unicode": "U+D638",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "의",
+    "unicode": "U+C758",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "장",
+    "unicode": "U+C7A5",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "구",
+    "unicode": "U+AD6C",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "역",
+    "unicode": "U+C5ED",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "중",
+    "unicode": "U+C911",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "피",
+    "unicode": "U+D53C",
+    "phrase": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO"
+  },
+  {
+    "character": "ợ",
+    "unicode": "U+1EE3",
+    "phrase": "Thợ lắp đặt / đường ống",
+    "screen": "WorkerCard/WKR_OUTFIT_01/VI"
+  },
+  {
+    "character": "ắ",
+    "unicode": "U+1EAF",
+    "phrase": "Thợ lắp đặt / đường ống",
+    "screen": "WorkerCard/WKR_OUTFIT_01/VI"
+  },
+  {
+    "character": "đ",
+    "unicode": "U+0111",
+    "phrase": "Thợ lắp đặt / đường ống",
+    "screen": "WorkerCard/WKR_OUTFIT_01/VI"
+  },
+  {
+    "character": "ặ",
+    "unicode": "U+1EB7",
+    "phrase": "Thợ lắp đặt / đường ống",
+    "screen": "WorkerCard/WKR_OUTFIT_01/VI"
+  },
+  {
+    "character": "đ",
+    "unicode": "U+0111",
+    "phrase": "Thợ lắp đặt / đường ống",
+    "screen": "WorkerCard/WKR_OUTFIT_01/VI"
+  },
+  {
+    "character": "ư",
+    "unicode": "U+01B0",
+    "phrase": "Thợ lắp đặt / đường ống",
+    "screen": "WorkerCard/WKR_OUTFIT_01/VI"
+  },
+  {
+    "character": "ờ",
+    "unicode": "U+1EDD",
+    "phrase": "Thợ lắp đặt / đường ống",
+    "screen": "WorkerCard/WKR_OUTFIT_01/VI"
+  },
+  {
+    "character": "ố",
+    "unicode": "U+1ED1",
+    "phrase": "Thợ lắp đặt / đường ống",
+    "screen": "WorkerCard/WKR_OUTFIT_01/VI"
+  },
+  {
+    "character": "ắ",
+    "unicode": "U+1EAF",
+    "phrase": "CÔNG VIỆC: lắp ống và thiết bị\nNGUY CƠ: kẹp, tải, điện\nKHU VỰC: lắp đặt, tập kết ống, khối\nPPE: đai dụng cụ, cờ lê, dụng cụ ống, găng tay\nƯU TIÊN DEMO: lắp đặt; tránh đường tải",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/VI"
+  },
+  {
+    "character": "ố",
+    "unicode": "U+1ED1",
+    "phrase": "CÔNG VIỆC: lắp ống và thiết bị\nNGUY CƠ: kẹp, tải, điện\nKHU VỰC: lắp đặt, tập kết ống, khối\nPPE: đai dụng cụ, cờ lê, dụng cụ ống, găng tay\nƯU TIÊN DEMO: lắp đặt; tránh đường tải",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/VI"
+  },
+  {
+    "character": "ế",
+    "unicode": "U+1EBF",
+    "phrase": "CÔNG VIỆC: lắp ống và thiết bị\nNGUY CƠ: kẹp, tải, điện\nKHU VỰC: lắp đặt, tập kết ống, khối\nPPE: đai dụng cụ, cờ lê, dụng cụ ống, găng tay\nƯU TIÊN DEMO: lắp đặt; tránh đường tải",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/VI"
+  },
+  {
+    "character": "ị",
+    "unicode": "U+1ECB",
+    "phrase": "CÔNG VIỆC: lắp ống và thiết bị\nNGUY CƠ: kẹp, tải, điện\nKHU VỰC: lắp đặt, tập kết ống, khối\nPPE: đai dụng cụ, cờ lê, dụng cụ ống, găng tay\nƯU TIÊN DEMO: lắp đặt; tránh đường tải",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/VI"
+  },
+  {
+    "character": "Ơ",
+    "unicode": "U+01A0",
+    "phrase": "CÔNG VIỆC: lắp ống và thiết bị\nNGUY CƠ: kẹp, tải, điện\nKHU VỰC: lắp đặt, tập kết ống, khối\nPPE: đai dụng cụ, cờ lê, dụng cụ ống, găng tay\nƯU TIÊN DEMO: lắp đặt; tránh đường tải",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/VI"
+  },
+  {
+    "character": "ẹ",
+    "unicode": "U+1EB9",
+    "phrase": "CÔNG VIỆC: lắp ống và thiết bị\nNGUY CƠ: kẹp, tải, điện\nKHU VỰC: lắp đặt, tập kết ống, khối\nPPE: đai dụng cụ, cờ lê, dụng cụ ống, găng tay\nƯU TIÊN DEMO: lắp đặt; tránh đường tải",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/VI"
+  },
+  {
+    "character": "ả",
+    "unicode": "U+1EA3",
+    "phrase": "CÔNG VIỆC: lắp ống và thiết bị\nNGUY CƠ: kẹp, tải, điện\nKHU VỰC: lắp đặt, tập kết ống, khối\nPPE: đai dụng cụ, cờ lê, dụng cụ ống, găng tay\nƯU TIÊN DEMO: lắp đặt; tránh đường tải",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/VI"
+  },
+  {
+    "character": "đ",
+    "unicode": "U+0111",
+    "phrase": "CÔNG VIỆC: lắp ống và thiết bị\nNGUY CƠ: kẹp, tải, điện\nKHU VỰC: lắp đặt, tập kết ống, khối\nPPE: đai dụng cụ, cờ lê, dụng cụ ống, găng tay\nƯU TIÊN DEMO: lắp đặt; tránh đường tải",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/VI"
+  },
+  {
+    "character": "ệ",
+    "unicode": "U+1EC7",
+    "phrase": "CÔNG VIỆC: lắp ống và thiết bị\nNGUY CƠ: kẹp, tải, điện\nKHU VỰC: lắp đặt, tập kết ống, khối\nPPE: đai dụng cụ, cờ lê, dụng cụ ống, găng tay\nƯU TIÊN DEMO: lắp đặt; tránh đường tải",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/VI"
+  },
+  {
+    "character": "ắ",
+    "unicode": "U+1EAF",
+    "phrase": "CÔNG VIỆC: lắp ống và thiết bị\nNGUY CƠ: kẹp, tải, điện\nKHU VỰC: lắp đặt, tập kết ống, khối\nPPE: đai dụng cụ, cờ lê, dụng cụ ống, găng tay\nƯU TIÊN DEMO: lắp đặt; tránh đường tải",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/VI"
+  },
+  {
+    "character": "đ",
+    "unicode": "U+0111",
+    "phrase": "CÔNG VIỆC: lắp ống và thiết bị\nNGUY CƠ: kẹp, tải, điện\nKHU VỰC: lắp đặt, tập kết ống, khối\nPPE: đai dụng cụ, cờ lê, dụng cụ ống, găng tay\nƯU TIÊN DEMO: lắp đặt; tránh đường tải",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/VI"
+  },
+  {
+    "character": "ặ",
+    "unicode": "U+1EB7",
+    "phrase": "CÔNG VIỆC: lắp ống và thiết bị\nNGUY CƠ: kẹp, tải, điện\nKHU VỰC: lắp đặt, tập kết ống, khối\nPPE: đai dụng cụ, cờ lê, dụng cụ ống, găng tay\nƯU TIÊN DEMO: lắp đặt; tránh đường tải",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/VI"
+  },
+  {
+    "character": "ậ",
+    "unicode": "U+1EAD",
+    "phrase": "CÔNG VIỆC: lắp ống và thiết bị\nNGUY CƠ: kẹp, tải, điện\nKHU VỰC: lắp đặt, tập kết ống, khối\nPPE: đai dụng cụ, cờ lê, dụng cụ ống, găng tay\nƯU TIÊN DEMO: lắp đặt; tránh đường tải",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/VI"
+  },
+  {
+    "character": "ế",
+    "unicode": "U+1EBF",
+    "phrase": "CÔNG VIỆC: lắp ống và thiết bị\nNGUY CƠ: kẹp, tải, điện\nKHU VỰC: lắp đặt, tập kết ống, khối\nPPE: đai dụng cụ, cờ lê, dụng cụ ống, găng tay\nƯU TIÊN DEMO: lắp đặt; tránh đường tải",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/VI"
+  },
+  {
+    "character": "ố",
+    "unicode": "U+1ED1",
+    "phrase": "CÔNG VIỆC: lắp ống và thiết bị\nNGUY CƠ: kẹp, tải, điện\nKHU VỰC: lắp đặt, tập kết ống, khối\nPPE: đai dụng cụ, cờ lê, dụng cụ ống, găng tay\nƯU TIÊN DEMO: lắp đặt; tránh đường tải",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/VI"
+  },
+  {
+    "character": "ố",
+    "unicode": "U+1ED1",
+    "phrase": "CÔNG VIỆC: lắp ống và thiết bị\nNGUY CƠ: kẹp, tải, điện\nKHU VỰC: lắp đặt, tập kết ống, khối\nPPE: đai dụng cụ, cờ lê, dụng cụ ống, găng tay\nƯU TIÊN DEMO: lắp đặt; tránh đường tải",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/VI"
+  },
+  {
+    "character": "đ",
+    "unicode": "U+0111",
+    "phrase": "CÔNG VIỆC: lắp ống và thiết bị\nNGUY CƠ: kẹp, tải, điện\nKHU VỰC: lắp đặt, tập kết ống, khối\nPPE: đai dụng cụ, cờ lê, dụng cụ ống, găng tay\nƯU TIÊN DEMO: lắp đặt; tránh đường tải",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/VI"
+  },
+  {
+    "character": "ụ",
+    "unicode": "U+1EE5",
+    "phrase": "CÔNG VIỆC: lắp ống và thiết bị\nNGUY CƠ: kẹp, tải, điện\nKHU VỰC: lắp đặt, tập kết ống, khối\nPPE: đai dụng cụ, cờ lê, dụng cụ ống, găng tay\nƯU TIÊN DEMO: lắp đặt; tránh đường tải",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/VI"
+  },
+  {
+    "character": "ụ",
+    "unicode": "U+1EE5",
+    "phrase": "CÔNG VIỆC: lắp ống và thiết bị\nNGUY CƠ: kẹp, tải, điện\nKHU VỰC: lắp đặt, tập kết ống, khối\nPPE: đai dụng cụ, cờ lê, dụng cụ ống, găng tay\nƯU TIÊN DEMO: lắp đặt; tránh đường tải",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/VI"
+  },
+  {
+    "character": "ờ",
+    "unicode": "U+1EDD",
+    "phrase": "CÔNG VIỆC: lắp ống và thiết bị\nNGUY CƠ: kẹp, tải, điện\nKHU VỰC: lắp đặt, tập kết ống, khối\nPPE: đai dụng cụ, cờ lê, dụng cụ ống, găng tay\nƯU TIÊN DEMO: lắp đặt; tránh đường tải",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/VI"
+  },
+  {
+    "character": "ụ",
+    "unicode": "U+1EE5",
+    "phrase": "CÔNG VIỆC: lắp ống và thiết bị\nNGUY CƠ: kẹp, tải, điện\nKHU VỰC: lắp đặt, tập kết ống, khối\nPPE: đai dụng cụ, cờ lê, dụng cụ ống, găng tay\nƯU TIÊN DEMO: lắp đặt; tránh đường tải",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/VI"
+  },
+  {
+    "character": "ụ",
+    "unicode": "U+1EE5",
+    "phrase": "CÔNG VIỆC: lắp ống và thiết bị\nNGUY CƠ: kẹp, tải, điện\nKHU VỰC: lắp đặt, tập kết ống, khối\nPPE: đai dụng cụ, cờ lê, dụng cụ ống, găng tay\nƯU TIÊN DEMO: lắp đặt; tránh đường tải",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/VI"
+  },
+  {
+    "character": "ố",
+    "unicode": "U+1ED1",
+    "phrase": "CÔNG VIỆC: lắp ống và thiết bị\nNGUY CƠ: kẹp, tải, điện\nKHU VỰC: lắp đặt, tập kết ống, khối\nPPE: đai dụng cụ, cờ lê, dụng cụ ống, găng tay\nƯU TIÊN DEMO: lắp đặt; tránh đường tải",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/VI"
+  },
+  {
+    "character": "ă",
+    "unicode": "U+0103",
+    "phrase": "CÔNG VIỆC: lắp ống và thiết bị\nNGUY CƠ: kẹp, tải, điện\nKHU VỰC: lắp đặt, tập kết ống, khối\nPPE: đai dụng cụ, cờ lê, dụng cụ ống, găng tay\nƯU TIÊN DEMO: lắp đặt; tránh đường tải",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/VI"
+  },
+  {
+    "character": "ắ",
+    "unicode": "U+1EAF",
+    "phrase": "CÔNG VIỆC: lắp ống và thiết bị\nNGUY CƠ: kẹp, tải, điện\nKHU VỰC: lắp đặt, tập kết ống, khối\nPPE: đai dụng cụ, cờ lê, dụng cụ ống, găng tay\nƯU TIÊN DEMO: lắp đặt; tránh đường tải",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/VI"
+  },
+  {
+    "character": "đ",
+    "unicode": "U+0111",
+    "phrase": "CÔNG VIỆC: lắp ống và thiết bị\nNGUY CƠ: kẹp, tải, điện\nKHU VỰC: lắp đặt, tập kết ống, khối\nPPE: đai dụng cụ, cờ lê, dụng cụ ống, găng tay\nƯU TIÊN DEMO: lắp đặt; tránh đường tải",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/VI"
+  },
+  {
+    "character": "ặ",
+    "unicode": "U+1EB7",
+    "phrase": "CÔNG VIỆC: lắp ống và thiết bị\nNGUY CƠ: kẹp, tải, điện\nKHU VỰC: lắp đặt, tập kết ống, khối\nPPE: đai dụng cụ, cờ lê, dụng cụ ống, găng tay\nƯU TIÊN DEMO: lắp đặt; tránh đường tải",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/VI"
+  },
+  {
+    "character": "đ",
+    "unicode": "U+0111",
+    "phrase": "CÔNG VIỆC: lắp ống và thiết bị\nNGUY CƠ: kẹp, tải, điện\nKHU VỰC: lắp đặt, tập kết ống, khối\nPPE: đai dụng cụ, cờ lê, dụng cụ ống, găng tay\nƯU TIÊN DEMO: lắp đặt; tránh đường tải",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/VI"
+  },
+  {
+    "character": "ư",
+    "unicode": "U+01B0",
+    "phrase": "CÔNG VIỆC: lắp ống và thiết bị\nNGUY CƠ: kẹp, tải, điện\nKHU VỰC: lắp đặt, tập kết ống, khối\nPPE: đai dụng cụ, cờ lê, dụng cụ ống, găng tay\nƯU TIÊN DEMO: lắp đặt; tránh đường tải",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/VI"
+  },
+  {
+    "character": "ờ",
+    "unicode": "U+1EDD",
+    "phrase": "CÔNG VIỆC: lắp ống và thiết bị\nNGUY CƠ: kẹp, tải, điện\nKHU VỰC: lắp đặt, tập kết ống, khối\nPPE: đai dụng cụ, cờ lê, dụng cụ ống, găng tay\nƯU TIÊN DEMO: lắp đặt; tránh đường tải",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/VI"
+  },
+  {
+    "character": "ả",
+    "unicode": "U+1EA3",
+    "phrase": "CÔNG VIỆC: lắp ống và thiết bị\nNGUY CƠ: kẹp, tải, điện\nKHU VỰC: lắp đặt, tập kết ống, khối\nPPE: đai dụng cụ, cờ lê, dụng cụ ống, găng tay\nƯU TIÊN DEMO: lắp đặt; tránh đường tải",
+    "screen": "WorkerDescription/WKR_OUTFIT_01/VI"
+  }
+]

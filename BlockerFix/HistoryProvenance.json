@@ -1,0 +1,32 @@
+[
+  {
+    "path": "C:\\Users\\chlgu\\Documents\\Codex\\2026-10-19\\unity-mcp-main-scene-hierarchy-towercraneroot\\outputs\\TowerRelocation.json",
+    "sha256": "3b5ba07cb6fb74a36d6a286a4bf337dc52572515e4dfafed6eec734027ad94e4",
+    "modifiedLocal": "2026-10-19T20:48:04.873218",
+    "note": "Filesystem timestamp, not an authenticated Git event timestamp"
+  },
+  {
+    "path": "C:\\Users\\chlgu\\Documents\\Codex\\2026-10-19\\unity-mcp-main-scene-hierarchy-towercraneroot\\outputs\\LiveLoad_tests.json",
+    "sha256": "67db86ee739399eba0e1ef6e4b416641074d64726d5715238617a7251f3f0884",
+    "modifiedLocal": "2026-10-19T13:28:22.366917",
+    "note": "Filesystem timestamp, not an authenticated Git event timestamp"
+  },
+  {
+    "path": "C:\\Users\\chlgu\\Documents\\Codex\\2026-10-19\\unity-mcp-main-scene-hierarchy-towercraneroot\\work\\Main.before-tower-relocation.unity",
+    "sha256": "ed6b7bad7b70e84ea25a7aed2218414d123eb11c328f715c1bb4e51f98d03e5d",
+    "modifiedLocal": "2026-10-19T20:09:53.416477",
+    "note": "Filesystem timestamp, not an authenticated Git event timestamp"
+  },
+  {
+    "path": "C:\\Users\\chlgu\\Documents\\Codex\\2026-10-19\\unity-mcp-main-scene-hierarchy-towercraneroot\\work\\live-load\\Main.before.unity",
+    "sha256": "74c87003ab55d3c211083544827b80d9412edb36d5468c2961a7ce5ff8d395bc",
+    "modifiedLocal": "2026-10-19T12:46:52.439173",
+    "note": "Filesystem timestamp, not an authenticated Git event timestamp"
+  },
+  {
+    "path": "C:\\Users\\chlgu\\Documents\\Codex\\2026-10-19\\unity-mcp-main-scene-hierarchy-towercraneroot\\work\\live-load\\LiveLoadPathPlayModeChecks.cs",
+    "sha256": "1f24eec45461e98178ee61c7eaf4a090d2df3577afcda9bdb7fe343757ca8283",
+    "modifiedLocal": "2026-10-19T13:25:19.048383",
+    "note": "Filesystem timestamp, not an authenticated Git event timestamp"
+  }
+]

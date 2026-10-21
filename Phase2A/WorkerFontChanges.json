@@ -1,0 +1,730 @@
+[
+  {
+    "path": "Assets/UI/Fonts/OperatorCommand Korean SDF.asset",
+    "beforeSha256": "80cdc5863dbfc01e632f9096af7cf72b720d1def247ce778c59d13aa5eeab4b4",
+    "afterSha256": "3bb7c2969bd97cc8e6f484f62369dba37bd0bdf7069bb78a37dccc0ce426e44b",
+    "added": [
+      {
+        "character": "분",
+        "unicode": "U+BD84"
+      },
+      {
+        "character": "석",
+        "unicode": "U+C11D"
+      },
+      {
+        "character": "택",
+        "unicode": "U+D0DD"
+      },
+      {
+        "character": "변",
+        "unicode": "U+BCC0"
+      },
+      {
+        "character": "구",
+        "unicode": "U+AD6C"
+      },
+      {
+        "character": "역",
+        "unicode": "U+C5ED"
+      },
+      {
+        "character": "록",
+        "unicode": "U+B85D"
+      },
+      {
+        "character": "세",
+        "unicode": "U+C138"
+      },
+      {
+        "character": "션",
+        "unicode": "U+C158"
+      },
+      {
+        "character": "평",
+        "unicode": "U+D3C9"
+      },
+      {
+        "character": "가",
+        "unicode": "U+AC00"
+      },
+      {
+        "character": "체",
+        "unicode": "U+CCB4"
+      },
+      {
+        "character": "보",
+        "unicode": "U+BCF4"
+      },
+      {
+        "character": "시",
+        "unicode": "U+C2DC"
+      },
+      {
+        "character": "점",
+        "unicode": "U+C810"
+      },
+      {
+        "character": "다",
+        "unicode": "U+B2E4"
+      },
+      {
+        "character": "른",
+        "unicode": "U+B978"
+      },
+      {
+        "character": "를",
+        "unicode": "U+B97C"
+      },
+      {
+        "character": "겹",
+        "unicode": "U+ACB9"
+      },
+      {
+        "character": "쳐",
+        "unicode": "U+CCD0"
+      },
+      {
+        "character": "할",
+        "unicode": "U+D560"
+      },
+      {
+        "character": "별",
+        "unicode": "U+BCC4"
+      },
+      {
+        "character": "호",
+        "unicode": "U+D638"
+      },
+      {
+        "character": "실",
+        "unicode": "U+C2E4"
+      },
+      {
+        "character": "제",
+        "unicode": "U+C81C"
+      },
+      {
+        "character": "허",
+        "unicode": "U+D5C8"
+      },
+      {
+        "character": "판",
+        "unicode": "U+D310"
+      },
+      {
+        "character": "닫",
+        "unicode": "U+B2EB"
+      },
+      {
+        "character": "반",
+        "unicode": "U+BC18"
+      },
+      {
+        "character": "사",
+        "unicode": "U+C0AC"
+      },
+      {
+        "character": "고",
+        "unicode": "U+ACE0"
+      },
+      {
+        "character": "근",
+        "unicode": "U+ADFC"
+      },
+      {
+        "character": "거",
+        "unicode": "U+AC70"
+      },
+      {
+        "character": "필",
+        "unicode": "U+D544"
+      },
+      {
+        "character": "터",
+        "unicode": "U+D130"
+      },
+      {
+        "character": "데",
+        "unicode": "U+B370"
+      },
+      {
+        "character": "당",
+        "unicode": "U+B2F9"
+      },
+      {
+        "character": "베",
+        "unicode": "U+BCA0"
+      },
+      {
+        "character": "번",
+        "unicode": "U+BC88"
+      },
+      {
+        "character": "검",
+        "unicode": "U+AC80"
+      },
+      {
+        "character": "요",
+        "unicode": "U+C694"
+      },
+      {
+        "character": "저",
+        "unicode": "U+C800"
+      },
+      {
+        "character": "장",
+        "unicode": "U+C7A5"
+      },
+      {
+        "character": "존",
+        "unicode": "U+C874"
+      },
+      {
+        "character": "공",
+        "unicode": "U+ACF5"
+      },
+      {
+        "character": "간",
+        "unicode": "U+AC04"
+      },
+      {
+        "character": "규",
+        "unicode": "U+ADDC"
+      },
+      {
+        "character": "칙",
+        "unicode": "U+CE59"
+      },
+      {
+        "character": "크",
+        "unicode": "U+D06C"
+      },
+      {
+        "character": "레",
+        "unicode": "U+B808"
+      },
+      {
+        "character": "주",
+        "unicode": "U+C8FC"
+      },
+      {
+        "character": "양",
+        "unicode": "U+C591"
+      },
+      {
+        "character": "협",
+        "unicode": "U+D611"
+      },
+      {
+        "character": "의",
+        "unicode": "U+C758"
+      },
+      {
+        "character": "중",
+        "unicode": "U+C911"
+      },
+      {
+        "character": "끼",
+        "unicode": "U+B07C"
+      },
+      {
+        "character": "임",
+        "unicode": "U+C784"
+      },
+      {
+        "character": "차",
+        "unicode": "U+CC28"
+      },
+      {
+        "character": "형",
+        "unicode": "U+D615"
+      },
+      {
+        "character": "광",
+        "unicode": "U+AD11"
+      },
+      {
+        "character": "조",
+        "unicode": "U+C870"
+      },
+      {
+        "character": "무",
+        "unicode": "U+BB34"
+      },
+      {
+        "character": "갑",
+        "unicode": "U+AC11"
+      },
+      {
+        "character": "루",
+        "unicode": "U+B8E8"
+      },
+      {
+        "character": "라",
+        "unicode": "U+B77C"
+      },
+      {
+        "character": "피",
+        "unicode": "U+D53C"
+      },
+      {
+        "character": "으",
+        "unicode": "U+C73C"
+      },
+      {
+        "character": "밸",
+        "unicode": "U+BC38"
+      },
+      {
+        "character": "브",
+        "unicode": "U+BE0C"
+      },
+      {
+        "character": "낙",
+        "unicode": "U+B099"
+      },
+      {
+        "character": "토",
+        "unicode": "U+D1A0"
+      },
+      {
+        "character": "건",
+        "unicode": "U+AC74"
+      },
+      {
+        "character": "축",
+        "unicode": "U+CD95"
+      },
+      {
+        "character": "에",
+        "unicode": "U+C5D0"
+      },
+      {
+        "character": "서",
+        "unicode": "U+C11C"
+      },
+      {
+        "character": "던",
+        "unicode": "U+B358"
+      },
+      {
+        "character": "탈",
+        "unicode": "U+D0C8"
+      },
+      {
+        "character": "래",
+        "unicode": "U+B798"
+      },
+      {
+        "character": "부",
+        "unicode": "U+BD80"
+      },
+      {
+        "character": "딪",
+        "unicode": "U+B52A"
+      },
+      {
+        "character": "힘",
+        "unicode": "U+D798"
+      },
+      {
+        "character": "송",
+        "unicode": "U+C1A1"
+      },
+      {
+        "character": "설",
+        "unicode": "U+C124"
+      },
+      {
+        "character": "붐",
+        "unicode": "U+BD90"
+      },
+      {
+        "character": "러",
+        "unicode": "U+B7EC"
+      },
+      {
+        "character": "며",
+        "unicode": "U+BA70"
+      },
+      {
+        "character": "후",
+        "unicode": "U+D6C4"
+      },
+      {
+        "character": "맞",
+        "unicode": "U+B9DE"
+      },
+      {
+        "character": "앙",
+        "unicode": "U+C559"
+      },
+      {
+        "character": "줄",
+        "unicode": "U+C904"
+      },
+      {
+        "character": "걸",
+        "unicode": "U+AC78"
+      },
+      {
+        "character": "깅",
+        "unicode": "U+AE45"
+      },
+      {
+        "character": "결",
+        "unicode": "U+ACB0"
+      },
+      {
+        "character": "속",
+        "unicode": "U+C18D"
+      },
+      {
+        "character": "착",
+        "unicode": "U+CC29"
+      },
+      {
+        "character": "추",
+        "unicode": "U+CD94"
+      },
+      {
+        "character": "락",
+        "unicode": "U+B77D"
+      },
+      {
+        "character": "네",
+        "unicode": "U+B124"
+      },
+      {
+        "character": "스",
+        "unicode": "U+C2A4"
+      },
+      {
+        "character": "그",
+        "unicode": "U+ADF8"
+      },
+      {
+        "character": "파",
+        "unicode": "U+D30C"
+      },
+      {
+        "character": "프",
+        "unicode": "U+D504"
+      },
+      {
+        "character": "린",
+        "unicode": "U+B9B0"
+      },
+      {
+        "character": "더",
+        "unicode": "U+B354"
+      },
+      {
+        "character": "립",
+        "unicode": "U+B9BD"
+      },
+      {
+        "character": "항",
+        "unicode": "U+D56D"
+      },
+      {
+        "character": "만",
+        "unicode": "U+B9CC"
+      },
+      {
+        "character": "각",
+        "unicode": "U+AC01"
+      },
+      {
+        "character": "묶",
+        "unicode": "U+BB36"
+      },
+      {
+        "character": "홀",
+        "unicode": "U+D640"
+      },
+      {
+        "character": "드",
+        "unicode": "U+B4DC"
+      },
+      {
+        "character": "비",
+        "unicode": "U+BE44"
+      },
+      {
+        "character": "슬",
+        "unicode": "U+C2AC"
+      },
+      {
+        "character": "링",
+        "unicode": "U+B9C1"
+      },
+      {
+        "character": "절",
+        "unicode": "U+C808"
+      },
+      {
+        "character": "단",
+        "unicode": "U+B2E8"
+      },
+      {
+        "character": "되",
+        "unicode": "U+B418"
+      },
+      {
+        "character": "외",
+        "unicode": "U+C678"
+      },
+      {
+        "character": "례",
+        "unicode": "U+B840"
+      },
+      {
+        "character": "타",
+        "unicode": "U+D0C0"
+      },
+      {
+        "character": "워",
+        "unicode": "U+C6CC"
+      },
+      {
+        "character": "버",
+        "unicode": "U+BC84"
+      },
+      {
+        "character": "블",
+        "unicode": "U+BE14"
+      },
+      {
+        "character": "용",
+        "unicode": "U+C6A9"
+      },
+      {
+        "character": "접",
+        "unicode": "U+C811"
+      },
+      {
+        "character": "취",
+        "unicode": "U+CDE8"
+      },
+      {
+        "character": "흄",
+        "unicode": "U+D744"
+      },
+      {
+        "character": "면",
+        "unicode": "U+BA74"
+      },
+      {
+        "character": "죽",
+        "unicode": "U+C8FD"
+      },
+      {
+        "character": "팔",
+        "unicode": "U+D314"
+      },
+      {
+        "character": "앞",
+        "unicode": "U+C55E"
+      },
+      {
+        "character": "치",
+        "unicode": "U+CE58"
+      },
+      {
+        "character": "마",
+        "unicode": "U+B9C8"
+      },
+      {
+        "character": "배",
+        "unicode": "U+BC30"
+      },
+      {
+        "character": "관",
+        "unicode": "U+AD00"
+      },
+      {
+        "character": "적",
+        "unicode": "U+C801"
+      },
+      {
+        "character": "벨",
+        "unicode": "U+BCA8"
+      },
+      {
+        "character": "렌",
+        "unicode": "U+B80C"
+      }
+    ],
+    "sourceFont": "Assets/UI/Fonts/MalgunGothic.ttf"
+  },
+  {
+    "path": "Assets/UI/Fonts/OperatorCommand SDF.asset",
+    "beforeSha256": "a590f57ab9a76abc200d572d3f772e0f16d487d35a7dbba344686d07787f4429",
+    "afterSha256": "2a64331499f437b5fcc4e323e9c5747703811a06fce0ead327a48e31247dc38c",
+    "added": [
+      {
+        "character": "Ọ",
+        "unicode": "U+1ECC"
+      },
+      {
+        "character": "Ổ",
+        "unicode": "U+1ED4"
+      },
+      {
+        "character": "ự",
+        "unicode": "U+1EF1"
+      },
+      {
+        "character": "ộ",
+        "unicode": "U+1ED9"
+      },
+      {
+        "character": "ủ",
+        "unicode": "U+1EE7"
+      },
+      {
+        "character": "Ấ",
+        "unicode": "U+1EA4"
+      },
+      {
+        "character": "ồ",
+        "unicode": "U+1ED3"
+      },
+      {
+        "character": "ở",
+        "unicode": "U+1EDF"
+      },
+      {
+        "character": "ờ",
+        "unicode": "U+1EDD"
+      },
+      {
+        "character": "đ",
+        "unicode": "U+0111"
+      },
+      {
+        "character": "ể",
+        "unicode": "U+1EC3"
+      },
+      {
+        "character": "ả",
+        "unicode": "U+1EA3"
+      },
+      {
+        "character": "ế",
+        "unicode": "U+1EBF"
+      },
+      {
+        "character": "ư",
+        "unicode": "U+01B0"
+      },
+      {
+        "character": "ợ",
+        "unicode": "U+1EE3"
+      },
+      {
+        "character": "ấ",
+        "unicode": "U+1EA5"
+      },
+      {
+        "character": "ứ",
+        "unicode": "U+1EE9"
+      },
+      {
+        "character": "ậ",
+        "unicode": "U+1EAD"
+      },
+      {
+        "character": "Ớ",
+        "unicode": "U+1EDA"
+      },
+      {
+        "character": "Ữ",
+        "unicode": "U+1EEE"
+      },
+      {
+        "character": "ữ",
+        "unicode": "U+1EEF"
+      },
+      {
+        "character": "ệ",
+        "unicode": "U+1EC7"
+      },
+      {
+        "character": "ọ",
+        "unicode": "U+1ECD"
+      },
+      {
+        "character": "ạ",
+        "unicode": "U+1EA1"
+      },
+      {
+        "character": "ị",
+        "unicode": "U+1ECB"
+      },
+      {
+        "character": "ầ",
+        "unicode": "U+1EA7"
+      },
+      {
+        "character": "ẫ",
+        "unicode": "U+1EAB"
+      },
+      {
+        "character": "Ố",
+        "unicode": "U+1ED0"
+      },
+      {
+        "character": "Ơ",
+        "unicode": "U+01A0"
+      },
+      {
+        "character": "ắ",
+        "unicode": "U+1EAF"
+      },
+      {
+        "character": "ẩ",
+        "unicode": "U+1EA9"
+      },
+      {
+        "character": "ố",
+        "unicode": "U+1ED1"
+      },
+      {
+        "character": "ẹ",
+        "unicode": "U+1EB9"
+      },
+      {
+        "character": "ă",
+        "unicode": "U+0103"
+      },
+      {
+        "character": "ỗ",
+        "unicode": "U+1ED7"
+      },
+      {
+        "character": "ỏ",
+        "unicode": "U+1ECF"
+      },
+      {
+        "character": "ặ",
+        "unicode": "U+1EB7"
+      },
+      {
+        "character": "ề",
+        "unicode": "U+1EC1"
+      },
+      {
+        "character": "ơ",
+        "unicode": "U+01A1"
+      },
+      {
+        "character": "ụ",
+        "unicode": "U+1EE5"
+      }
+    ],
+    "sourceFont": "Assets/TextMesh Pro/Fonts/LiberationSans.ttf"
+  }
+]

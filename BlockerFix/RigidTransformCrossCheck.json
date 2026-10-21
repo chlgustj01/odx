@@ -1,0 +1,19 @@
+{
+  "oldRelative": [
+    1.02606034,
+    -6.05,
+    -0.180922031
+  ],
+  "newRelative": [
+    1.026062,
+    -6.05,
+    -0.180923462
+  ],
+  "oldRelativeBearingDeg": 99.99999508381737,
+  "newRelativeBearingDeg": 100.00005673020111,
+  "angleErrorDeg": 6.164638375594222e-05,
+  "angleToleranceDeg": 0.1,
+  "positionErrorUU": 2.19811068e-06,
+  "positionToleranceUU": 0.01,
+  "passed": true
+}

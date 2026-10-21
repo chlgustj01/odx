@@ -1,0 +1,119 @@
+{
+  "snapshot": "AfterReproductionConsole.json",
+  "totalErrors": 3,
+  "totalWarnings": 11,
+  "rows": [
+    {
+      "index": 0,
+      "severity": "Warning",
+      "origin": "MCP package / SignalR dependency",
+      "hasProjectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [11:15:16:1848] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 1,
+      "severity": "Warning",
+      "origin": "MCP package / SignalR dependency",
+      "hasProjectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [11:15:21:4487] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[12691e8b-e169-4f8b-b574-7a2bb1cf0d3a] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 2,
+      "severity": "Warning",
+      "origin": "MCP package / SignalR dependency",
+      "hasProjectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [11:15:21:4682] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[12691e8b-e169-4f8b-b574-7a2bb1cf0d3a] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 3,
+      "severity": "Warning",
+      "origin": "MCP package / SignalR dependency",
+      "hasProjectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [11:15:21:5496] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[12691e8b-e169-4f8b-b574-7a2bb1cf0d3a] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 4,
+      "severity": "Log",
+      "origin": "Project",
+      "hasProjectSourceFrame": true,
+      "message": "TCP command server listening on 127.0.0.1:5000."
+    },
+    {
+      "index": 5,
+      "severity": "Warning",
+      "origin": "MCP package / SignalR dependency",
+      "hasProjectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [11:16:11:7972] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 6,
+      "severity": "Warning",
+      "origin": "Unity native audio",
+      "hasProjectSourceFrame": false,
+      "message": "Default audio device was changed, but the audio system failed to initialize it. Attempting to reset sound system."
+    },
+    {
+      "index": 7,
+      "severity": "Error",
+      "origin": "MCP package / SignalR dependency",
+      "hasProjectSourceFrame": false,
+      "message": "TimeoutException: Server timeout (300000.00ms) elapsed without receiving a message from the server."
+    },
+    {
+      "index": 8,
+      "severity": "Error",
+      "origin": "MCP package / SignalR dependency",
+      "hasProjectSourceFrame": false,
+      "message": "<color=#ff6b6b>fail:</color> [16:57:29:2601] <color=#B4FF32>[AI]</color> <color=#58D68D><b>HubConnection</b></color> HubConnection reconnecting due to an error."
+    },
+    {
+      "index": 9,
+      "severity": "Error",
+      "origin": "MCP package / SignalR dependency",
+      "hasProjectSourceFrame": false,
+      "message": "<color=#ff6b6b>fail:</color> [16:57:29:3671] <color=#B4FF32>[AI]</color> <color=#58D68D><b>HubConnection</b></color> To stop seeing the error, please <b>Stop</b> the connection to MCP server in <b>AI Game Developer</b> window."
+    },
+    {
+      "index": 10,
+      "severity": "Warning",
+      "origin": "MCP package / SignalR dependency",
+      "hasProjectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [18:10:45:8754] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 11,
+      "severity": "Warning",
+      "origin": "MCP package / SignalR dependency",
+      "hasProjectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [18:10:55:3714] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[2562fd3b-bdb4-44fc-9372-4124c846f767] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 12,
+      "severity": "Warning",
+      "origin": "MCP package / SignalR dependency",
+      "hasProjectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [18:10:55:4014] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[2562fd3b-bdb4-44fc-9372-4124c846f767] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 13,
+      "severity": "Warning",
+      "origin": "MCP package / SignalR dependency",
+      "hasProjectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [18:10:55:5182] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[2562fd3b-bdb4-44fc-9372-4124c846f767] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 14,
+      "severity": "Log",
+      "origin": "Project",
+      "hasProjectSourceFrame": true,
+      "message": "TCP command server listening on 127.0.0.1:5000."
+    },
+    {
+      "index": 15,
+      "severity": "Warning",
+      "origin": "MCP package / SignalR dependency",
+      "hasProjectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [18:11:38:0557] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    }
+  ]
+}

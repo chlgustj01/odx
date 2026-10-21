@@ -1,0 +1,2655 @@
+{
+  "totalErrors": 14,
+  "totalWarnings": 159,
+  "counts": {
+    "MCP package": {
+      "Error": 13,
+      "Warning": 159,
+      "Log": 0
+    },
+    "project Runtime": {
+      "Error": 0,
+      "Warning": 0,
+      "Log": 193
+    },
+    "project Editor": {
+      "Error": 1,
+      "Warning": 0,
+      "Log": 10
+    }
+  },
+  "rows": [
+    {
+      "index": 0,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:45:43:4407] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 1,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:45:51:2362] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[9a8a47a9-69bd-4892-a33f-60f85edc5e8c] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 2,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:45:51:2631] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[9a8a47a9-69bd-4892-a33f-60f85edc5e8c] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 3,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:45:51:3770] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[9a8a47a9-69bd-4892-a33f-60f85edc5e8c] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 4,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:46:06:2851] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 5,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:46:13:5950] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[a39d2f41-7270-4a80-80fc-e18ce1c4d2bb] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 6,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:46:13:6217] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[a39d2f41-7270-4a80-80fc-e18ce1c4d2bb] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 7,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:46:13:7286] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[a39d2f41-7270-4a80-80fc-e18ce1c4d2bb] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 8,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command server listening on 127.0.0.1:5000."
+    },
+    {
+      "index": 9,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 10,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 11,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 12,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 13,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:46:28:4303] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 14,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:46:31:1672] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 15,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:46:33:4219] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[a39d2f41-7270-4a80-80fc-e18ce1c4d2bb] DisconnectImmediate Could not acquire gate within timeout. Proceeding without gate protection."
+    },
+    {
+      "index": 16,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:46:38:4332] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[a39d2f41-7270-4a80-80fc-e18ce1c4d2bb] Dispose Could not acquire gate within timeout during Dispose. Proceeding with cleanup anyway."
+    },
+    {
+      "index": 17,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:46:44:0924] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[762afcc2-eee5-4052-aa7f-89e5cc164675] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 18,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:46:44:1151] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[762afcc2-eee5-4052-aa7f-89e5cc164675] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 19,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:46:44:2175] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[762afcc2-eee5-4052-aa7f-89e5cc164675] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 20,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command server listening on 127.0.0.1:5000."
+    },
+    {
+      "index": 21,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 22,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 23,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 24,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 25,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:46:58:9740] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 26,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:47:01:6845] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 27,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:47:03:8214] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[762afcc2-eee5-4052-aa7f-89e5cc164675] DisconnectImmediate Could not acquire gate within timeout. Proceeding without gate protection."
+    },
+    {
+      "index": 28,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:47:08:8397] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[762afcc2-eee5-4052-aa7f-89e5cc164675] Dispose Could not acquire gate within timeout during Dispose. Proceeding with cleanup anyway."
+    },
+    {
+      "index": 29,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:47:14:3203] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[9a1880c0-8cf8-4d3e-b100-68b88e26abcf] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 30,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:47:14:3437] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[9a1880c0-8cf8-4d3e-b100-68b88e26abcf] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 31,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:47:14:4486] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[9a1880c0-8cf8-4d3e-b100-68b88e26abcf] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 32,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command server listening on 127.0.0.1:5000."
+    },
+    {
+      "index": 33,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 34,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "[D3 Timeline]"
+    },
+    {
+      "index": 35,
+      "severity": "Log",
+      "origin": "project Editor",
+      "projectSourceFrame": true,
+      "message": "[Command Understanding] SHIP-3 confirmed in 2.193 sec"
+    },
+    {
+      "index": 36,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 37,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:47:56:6629] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 38,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:47:58:9792] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 39,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:48:00:9071] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[9a1880c0-8cf8-4d3e-b100-68b88e26abcf] DisconnectImmediate Could not acquire gate within timeout. Proceeding without gate protection."
+    },
+    {
+      "index": 40,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:48:05:9211] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[9a1880c0-8cf8-4d3e-b100-68b88e26abcf] Dispose Could not acquire gate within timeout during Dispose. Proceeding with cleanup anyway."
+    },
+    {
+      "index": 41,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:48:11:4923] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[f86dedae-b999-49a0-8233-ce2d7868703d] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 42,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:48:11:5207] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[f86dedae-b999-49a0-8233-ce2d7868703d] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 43,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:48:11:6208] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[f86dedae-b999-49a0-8233-ce2d7868703d] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 44,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command server listening on 127.0.0.1:5000."
+    },
+    {
+      "index": 45,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:48:23:1046] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 46,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:48:25:7522] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 47,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:48:27:9736] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[f86dedae-b999-49a0-8233-ce2d7868703d] DisconnectImmediate Could not acquire gate within timeout. Proceeding without gate protection."
+    },
+    {
+      "index": 48,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:48:33:0013] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[f86dedae-b999-49a0-8233-ce2d7868703d] Dispose Could not acquire gate within timeout during Dispose. Proceeding with cleanup anyway."
+    },
+    {
+      "index": 49,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:48:38:6111] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[2c341aaa-21a9-4cf6-afa8-e9dbf08003c1] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 50,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:48:38:6433] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[2c341aaa-21a9-4cf6-afa8-e9dbf08003c1] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 51,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:48:38:7570] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[2c341aaa-21a9-4cf6-afa8-e9dbf08003c1] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 52,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command server listening on 127.0.0.1:5000."
+    },
+    {
+      "index": 53,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 54,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 55,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 56,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 57,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 58,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 59,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 60,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 61,
+      "severity": "Log",
+      "origin": "project Editor",
+      "projectSourceFrame": true,
+      "message": "[Command Understanding] D4-3 confirmed in 1.429 sec"
+    },
+    {
+      "index": 62,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 63,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 64,
+      "severity": "Log",
+      "origin": "project Editor",
+      "projectSourceFrame": true,
+      "message": "[Command Understanding] D4-7 confirmed in 0.438 sec"
+    },
+    {
+      "index": 65,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 66,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 67,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 68,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 69,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 70,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 71,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 72,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 73,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 74,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 75,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 76,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 77,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:48:59:9458] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 78,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:49:02:6618] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 79,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:49:04:8139] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[2c341aaa-21a9-4cf6-afa8-e9dbf08003c1] DisconnectImmediate Could not acquire gate within timeout. Proceeding without gate protection."
+    },
+    {
+      "index": 80,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:49:09:8358] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[2c341aaa-21a9-4cf6-afa8-e9dbf08003c1] Dispose Could not acquire gate within timeout during Dispose. Proceeding with cleanup anyway."
+    },
+    {
+      "index": 81,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:49:15:1041] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[c9e32092-739e-4549-9155-4629453789e4] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 82,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:49:15:1280] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[c9e32092-739e-4549-9155-4629453789e4] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 83,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:49:15:2378] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[c9e32092-739e-4549-9155-4629453789e4] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 84,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command server listening on 127.0.0.1:5000."
+    },
+    {
+      "index": 85,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 86,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 87,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 88,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 89,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 90,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 91,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 92,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 93,
+      "severity": "Log",
+      "origin": "project Editor",
+      "projectSourceFrame": true,
+      "message": "[Command Understanding] D4-3 confirmed in 1.371 sec"
+    },
+    {
+      "index": 94,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 95,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 96,
+      "severity": "Log",
+      "origin": "project Editor",
+      "projectSourceFrame": true,
+      "message": "[Command Understanding] D4-7 confirmed in 0.432 sec"
+    },
+    {
+      "index": 97,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 98,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 99,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 100,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 101,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 102,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 103,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 104,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 105,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 106,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 107,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 108,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 109,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:49:37:3035] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 110,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:50:30:6384] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 111,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:50:38:7289] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[1e27cd7c-a72c-41b0-84d6-8b3ad9ed574f] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 112,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:50:38:7576] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[1e27cd7c-a72c-41b0-84d6-8b3ad9ed574f] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 113,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:50:38:8761] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[1e27cd7c-a72c-41b0-84d6-8b3ad9ed574f] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 114,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:51:52:5122] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 115,
+      "severity": "Error",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "ThreadAbortException: Thread was being aborted."
+    },
+    {
+      "index": 116,
+      "severity": "Error",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ff6b6b>fail:</color> [21:51:53:2894] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>ToolRunnerCollection</b></color> Tool execution failed for 'Script / Execute': Thread was being aborted."
+    },
+    {
+      "index": 117,
+      "severity": "Error",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ff6b6b>fail:</color> [21:51:53:2968] <color=#B4FF32>[AI]</color> <color=#5DADE2><b>McpToolManager</b></color> Error Response to AI:"
+    },
+    {
+      "index": 118,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "System.ObjectDisposedException: Cannot access a disposed object.\r"
+    },
+    {
+      "index": 119,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:51:53:3176] <color=#B4FF32>[AI]</color> <color=#58D68D><b>HubConnection</b></color> Error returning result for invocation 's137' for method 'RunCallTool' because the underlying connection is closed."
+    },
+    {
+      "index": 120,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:51:58:0608] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[11e10894-de4b-4ecd-aca9-2b999e991d12] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 121,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:51:58:0833] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[11e10894-de4b-4ecd-aca9-2b999e991d12] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 122,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:51:58:1647] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[11e10894-de4b-4ecd-aca9-2b999e991d12] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 123,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:52:03:0607] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 124,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:52:05:1219] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[11e10894-de4b-4ecd-aca9-2b999e991d12] DisconnectImmediate Could not acquire gate within timeout. Proceeding without gate protection."
+    },
+    {
+      "index": 125,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:52:10:1294] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[11e10894-de4b-4ecd-aca9-2b999e991d12] Dispose Could not acquire gate within timeout during Dispose. Proceeding with cleanup anyway."
+    },
+    {
+      "index": 126,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:52:13:8170] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[65eae5ff-4c50-4a14-8dff-5a038d332067] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 127,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:52:13:8396] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[65eae5ff-4c50-4a14-8dff-5a038d332067] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 128,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:52:13:9098] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[65eae5ff-4c50-4a14-8dff-5a038d332067] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 129,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command server listening on 127.0.0.1:5000."
+    },
+    {
+      "index": 130,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 131,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 132,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 133,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 134,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 135,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 136,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 137,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 138,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 139,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 140,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 141,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 142,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:52:44:8201] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 143,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:52:47:5557] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 144,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:52:49:5342] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[65eae5ff-4c50-4a14-8dff-5a038d332067] DisconnectImmediate Could not acquire gate within timeout. Proceeding without gate protection."
+    },
+    {
+      "index": 145,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:52:54:5423] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[65eae5ff-4c50-4a14-8dff-5a038d332067] Dispose Could not acquire gate within timeout during Dispose. Proceeding with cleanup anyway."
+    },
+    {
+      "index": 146,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:52:58:5154] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[02e50d73-1071-46f5-bcd9-f51d1fab2ddf] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 147,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:52:58:5367] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[02e50d73-1071-46f5-bcd9-f51d1fab2ddf] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 148,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:52:58:6127] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[02e50d73-1071-46f5-bcd9-f51d1fab2ddf] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 149,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command server listening on 127.0.0.1:5000."
+    },
+    {
+      "index": 150,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 151,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 152,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 153,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 154,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 155,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 156,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 157,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 158,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 159,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 160,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 161,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 162,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:53:27:1077] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 163,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:54:16:3683] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 164,
+      "severity": "Error",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "ThreadAbortException: Thread was being aborted."
+    },
+    {
+      "index": 165,
+      "severity": "Error",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ff6b6b>fail:</color> [21:54:16:7717] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>ToolRunnerCollection</b></color> Tool execution failed for 'Script / Execute': Thread was being aborted."
+    },
+    {
+      "index": 166,
+      "severity": "Error",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "ThreadAbortException: Thread was being aborted."
+    },
+    {
+      "index": 167,
+      "severity": "Error",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ff6b6b>fail:</color> [21:54:16:7891] <color=#B4FF32>[AI]</color> <color=#5DADE2><b>McpToolManager</b></color> [RunCallTool[script-execute]] Error: Failed to run tool 'script-execute'. Exception: Thread was being aborted."
+    },
+    {
+      "index": 168,
+      "severity": "Error",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "ThreadAbortException: Thread was being aborted."
+    },
+    {
+      "index": 169,
+      "severity": "Error",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ff6b6b>fail:</color> [21:54:16:8147] <color=#B4FF32>[AI]</color> <color=#58D68D><b>HubConnection</b></color> Invoking client side method 'RunCallTool' failed."
+    },
+    {
+      "index": 170,
+      "severity": "Error",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ff6b6b>fail:</color> [21:54:16:8172] <color=#B4FF32>[AI]</color> <color=#58D68D><b>HubConnection</b></color> To stop seeing the error, please <b>Stop</b> the connection to MCP server in <b>AI Game Developer</b> window."
+    },
+    {
+      "index": 171,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:54:21:1418] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[bd6f56e6-ae85-404d-a89b-9e8065fbf35b] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 172,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:54:21:1593] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[bd6f56e6-ae85-404d-a89b-9e8065fbf35b] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 173,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:54:21:2319] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[bd6f56e6-ae85-404d-a89b-9e8065fbf35b] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 174,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command server listening on 127.0.0.1:5000."
+    },
+    {
+      "index": 175,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 176,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 177,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "[D3 Timeline]"
+    },
+    {
+      "index": 178,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 179,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 180,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:54:32:9251] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 181,
+      "severity": "Error",
+      "origin": "project Editor",
+      "projectSourceFrame": true,
+      "message": "IOException: Sharing violation on path D:\\UnityProject\\CraneSignalAI\\BlockerFix\\RunnerRequest.json"
+    },
+    {
+      "index": 182,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:55:04:8554] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 183,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:55:09:6142] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[7d43bb3b-38f7-4ef9-8665-7a89402a046c] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 184,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:55:09:6319] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[7d43bb3b-38f7-4ef9-8665-7a89402a046c] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 185,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command server listening on 127.0.0.1:5000."
+    },
+    {
+      "index": 186,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 187,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "[D3 Timeline]"
+    },
+    {
+      "index": 188,
+      "severity": "Log",
+      "origin": "project Editor",
+      "projectSourceFrame": true,
+      "message": "[Command Understanding] SHIP-3 confirmed in 2.203 sec"
+    },
+    {
+      "index": 189,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 190,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:55:48:9429] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 191,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:55:52:5982] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 192,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:55:57:8003] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[d74171ff-35c5-4062-850c-8638aa837143] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 193,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:55:57:8210] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[d74171ff-35c5-4062-850c-8638aa837143] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 194,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:55:57:9033] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[d74171ff-35c5-4062-850c-8638aa837143] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 195,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command server listening on 127.0.0.1:5000."
+    },
+    {
+      "index": 196,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:56:21:8166] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 197,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:56:25:2357] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 198,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:56:30:5254] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[0e9c17d8-5af3-40a0-a06a-9efeff612b10] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 199,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:56:30:5441] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[0e9c17d8-5af3-40a0-a06a-9efeff612b10] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 200,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:56:30:6222] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[0e9c17d8-5af3-40a0-a06a-9efeff612b10] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 201,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command server listening on 127.0.0.1:5000."
+    },
+    {
+      "index": 202,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:56:48:4697] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 203,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:56:52:0085] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 204,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:56:58:2343] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[5dc54228-2743-4bf1-a3a3-2158971b377e] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 205,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:56:58:2520] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[5dc54228-2743-4bf1-a3a3-2158971b377e] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 206,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:56:58:3307] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[5dc54228-2743-4bf1-a3a3-2158971b377e] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 207,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command server listening on 127.0.0.1:5000."
+    },
+    {
+      "index": 208,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:57:20:2945] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 209,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:57:24:3254] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 210,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:57:29:9386] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[15940be9-7623-40a5-8295-a233e209d044] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 211,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:57:29:9577] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[15940be9-7623-40a5-8295-a233e209d044] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 212,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:57:30:0345] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[15940be9-7623-40a5-8295-a233e209d044] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 213,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command server listening on 127.0.0.1:5000."
+    },
+    {
+      "index": 214,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:57:50:7617] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 215,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:57:54:9439] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 216,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:58:00:4260] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[a4ddd9d1-381b-4fee-9c2d-27d0e81b6230] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 217,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:58:00:4444] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[a4ddd9d1-381b-4fee-9c2d-27d0e81b6230] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 218,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:58:00:5263] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[a4ddd9d1-381b-4fee-9c2d-27d0e81b6230] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 219,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command server listening on 127.0.0.1:5000."
+    },
+    {
+      "index": 220,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:58:56:6080] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 221,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:58:59:2591] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 222,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:59:01:1828] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[a4ddd9d1-381b-4fee-9c2d-27d0e81b6230] DisconnectImmediate Could not acquire gate within timeout. Proceeding without gate protection."
+    },
+    {
+      "index": 223,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:59:06:1970] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[a4ddd9d1-381b-4fee-9c2d-27d0e81b6230] Dispose Could not acquire gate within timeout during Dispose. Proceeding with cleanup anyway."
+    },
+    {
+      "index": 224,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:59:10:5402] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[0f537117-caad-4151-aaca-f856dcae2b19] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 225,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:59:10:5597] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[0f537117-caad-4151-aaca-f856dcae2b19] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 226,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:59:10:6362] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[0f537117-caad-4151-aaca-f856dcae2b19] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 227,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command server listening on 127.0.0.1:5000."
+    },
+    {
+      "index": 228,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 229,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 230,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 231,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 232,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 233,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 234,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 235,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 236,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 237,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 238,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 239,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 240,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:59:36:8948] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 241,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:59:39:4569] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 242,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:59:41:3710] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[0f537117-caad-4151-aaca-f856dcae2b19] DisconnectImmediate Could not acquire gate within timeout. Proceeding without gate protection."
+    },
+    {
+      "index": 243,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:59:46:3864] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[0f537117-caad-4151-aaca-f856dcae2b19] Dispose Could not acquire gate within timeout during Dispose. Proceeding with cleanup anyway."
+    },
+    {
+      "index": 244,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:59:51:0309] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[193b1f03-5843-4989-ab87-816e06f4cdae] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 245,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:59:51:0520] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[193b1f03-5843-4989-ab87-816e06f4cdae] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 246,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [21:59:51:1378] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[193b1f03-5843-4989-ab87-816e06f4cdae] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 247,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command server listening on 127.0.0.1:5000."
+    },
+    {
+      "index": 248,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 249,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 250,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "[D3 Timeline]"
+    },
+    {
+      "index": 251,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 252,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 253,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [22:00:03:2084] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 254,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [22:00:05:6419] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 255,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [22:00:07:5648] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[193b1f03-5843-4989-ab87-816e06f4cdae] DisconnectImmediate Could not acquire gate within timeout. Proceeding without gate protection."
+    },
+    {
+      "index": 256,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [22:00:12:5816] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[193b1f03-5843-4989-ab87-816e06f4cdae] Dispose Could not acquire gate within timeout during Dispose. Proceeding with cleanup anyway."
+    },
+    {
+      "index": 257,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [22:00:17:1978] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[b391c034-0afc-4483-94a5-521fed4b5b4b] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 258,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [22:00:17:2187] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[b391c034-0afc-4483-94a5-521fed4b5b4b] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 259,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [22:00:17:3199] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[b391c034-0afc-4483-94a5-521fed4b5b4b] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 260,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command server listening on 127.0.0.1:5000."
+    },
+    {
+      "index": 261,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 262,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 263,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "[D3 Timeline]"
+    },
+    {
+      "index": 264,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 265,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 266,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "[D3 Timeline]"
+    },
+    {
+      "index": 267,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 268,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 269,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "[D3 Timeline]"
+    },
+    {
+      "index": 270,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 271,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 272,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 273,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 274,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "[D3 Timeline]"
+    },
+    {
+      "index": 275,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 276,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 277,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "[D3 Timeline]"
+    },
+    {
+      "index": 278,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 279,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 280,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "[D3 Timeline]"
+    },
+    {
+      "index": 281,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 282,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 283,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 284,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 285,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 286,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 287,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 288,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 289,
+      "severity": "Log",
+      "origin": "project Editor",
+      "projectSourceFrame": true,
+      "message": "[D3 Timeline Tests] PASSED"
+    },
+    {
+      "index": 290,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [22:00:36:1890] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 291,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [22:00:38:6954] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 292,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [22:00:40:5815] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[b391c034-0afc-4483-94a5-521fed4b5b4b] DisconnectImmediate Could not acquire gate within timeout. Proceeding without gate protection."
+    },
+    {
+      "index": 293,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [22:00:45:5969] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[b391c034-0afc-4483-94a5-521fed4b5b4b] Dispose Could not acquire gate within timeout during Dispose. Proceeding with cleanup anyway."
+    },
+    {
+      "index": 294,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [22:00:49:9647] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[db9e2bb2-a2a8-4ef7-b2a2-aa37ada6ce68] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 295,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [22:00:49:9849] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[db9e2bb2-a2a8-4ef7-b2a2-aa37ada6ce68] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 296,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [22:00:50:0604] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[db9e2bb2-a2a8-4ef7-b2a2-aa37ada6ce68] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 297,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command server listening on 127.0.0.1:5000."
+    },
+    {
+      "index": 298,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 299,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 300,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 301,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 302,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 303,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 304,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 305,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 306,
+      "severity": "Log",
+      "origin": "project Editor",
+      "projectSourceFrame": true,
+      "message": "[Command Understanding] D4-3 confirmed in 1.326 sec"
+    },
+    {
+      "index": 307,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 308,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 309,
+      "severity": "Log",
+      "origin": "project Editor",
+      "projectSourceFrame": true,
+      "message": "[Command Understanding] D4-7 confirmed in 0.400 sec"
+    },
+    {
+      "index": 310,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 311,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 312,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 313,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 314,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 315,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 316,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 317,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 318,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 319,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 320,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 321,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 322,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [22:01:10:6056] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 323,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [22:01:13:0410] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 324,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [22:01:14:9685] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[db9e2bb2-a2a8-4ef7-b2a2-aa37ada6ce68] DisconnectImmediate Could not acquire gate within timeout. Proceeding without gate protection."
+    },
+    {
+      "index": 325,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [22:01:19:9860] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[db9e2bb2-a2a8-4ef7-b2a2-aa37ada6ce68] Dispose Could not acquire gate within timeout during Dispose. Proceeding with cleanup anyway."
+    },
+    {
+      "index": 326,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [22:01:24:7085] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[ad9eb3b4-ec84-457b-8be1-1fa5c94694ea] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 327,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [22:01:24:7264] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[ad9eb3b4-ec84-457b-8be1-1fa5c94694ea] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 328,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [22:01:24:7986] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[ad9eb3b4-ec84-457b-8be1-1fa5c94694ea] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 329,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command server listening on 127.0.0.1:5000."
+    },
+    {
+      "index": 330,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 331,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "[D3 Timeline]"
+    },
+    {
+      "index": 332,
+      "severity": "Log",
+      "origin": "project Editor",
+      "projectSourceFrame": true,
+      "message": "[Command Understanding] HMI-0 confirmed in 3.543 sec"
+    },
+    {
+      "index": 333,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 334,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [22:01:43:7621] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 335,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [22:02:08:4860] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 336,
+      "severity": "Error",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "ThreadAbortException: Thread was being aborted."
+    },
+    {
+      "index": 337,
+      "severity": "Error",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ff6b6b>fail:</color> [22:02:08:9554] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>ToolRunnerCollection</b></color> Tool execution failed for 'Script / Execute': Thread was being aborted."
+    },
+    {
+      "index": 338,
+      "severity": "Error",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ff6b6b>fail:</color> [22:02:08:9662] <color=#B4FF32>[AI]</color> <color=#5DADE2><b>McpToolManager</b></color> Error Response to AI:"
+    },
+    {
+      "index": 339,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "System.ObjectDisposedException: Cannot access a disposed object.\r"
+    },
+    {
+      "index": 340,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [22:02:09:0383] <color=#B4FF32>[AI]</color> <color=#58D68D><b>HubConnection</b></color> Error returning result for invocation 's139' for method 'RunCallTool' because the underlying connection is closed."
+    },
+    {
+      "index": 341,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [22:02:14:7783] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[91a476be-2031-4f94-a74e-64926c2fd585] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 342,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [22:02:14:7970] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[91a476be-2031-4f94-a74e-64926c2fd585] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 343,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [22:02:14:8714] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[91a476be-2031-4f94-a74e-64926c2fd585] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 344,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command server listening on 127.0.0.1:5000."
+    },
+    {
+      "index": 345,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 346,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 347,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 348,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 349,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [22:02:27:2316] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 350,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [22:04:42:6656] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 351,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [22:04:48:4445] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[ecdd72e4-81f7-449c-8f3a-3d091f74567a] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 352,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [22:04:48:4617] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[ecdd72e4-81f7-449c-8f3a-3d091f74567a] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 353,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [22:05:38:4167] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 354,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [22:05:44:1282] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[190ade2e-15af-4298-90fe-a7f81d65d70f] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 355,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [22:05:44:1452] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[190ade2e-15af-4298-90fe-a7f81d65d70f] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 356,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [22:05:44:2189] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[190ade2e-15af-4298-90fe-a7f81d65d70f] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 357,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command server listening on 127.0.0.1:5000."
+    },
+    {
+      "index": 358,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 359,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 360,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 361,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 362,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [22:05:56:4408] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 363,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [22:05:58:8608] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    },
+    {
+      "index": 364,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [22:06:00:7003] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[190ade2e-15af-4298-90fe-a7f81d65d70f] DisconnectImmediate Could not acquire gate within timeout. Proceeding without gate protection."
+    },
+    {
+      "index": 365,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [22:06:05:7127] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[190ade2e-15af-4298-90fe-a7f81d65d70f] Dispose Could not acquire gate within timeout during Dispose. Proceeding with cleanup anyway."
+    },
+    {
+      "index": 366,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [22:06:09:9739] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[115ba957-e3e3-430e-ba19-882b91b84334] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 367,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [22:06:09:9910] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[115ba957-e3e3-430e-ba19-882b91b84334] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 368,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [22:06:10:0646] <color=#B4FF32>[AI]</color> <color=#48C9B0><b>McpManagerClientHub</b></color> ConnectionManager[115ba957-e3e3-430e-ba19-882b91b84334] EnsureConnection Connection not available and auto-reconnect disabled for endpoint: /hub/mcp-server"
+    },
+    {
+      "index": 369,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command server listening on 127.0.0.1:5000."
+    },
+    {
+      "index": 370,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 371,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 372,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "[D3 Timeline]"
+    },
+    {
+      "index": 373,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client connected."
+    },
+    {
+      "index": 374,
+      "severity": "Log",
+      "origin": "project Runtime",
+      "projectSourceFrame": true,
+      "message": "TCP command client disconnected."
+    },
+    {
+      "index": 375,
+      "severity": "Warning",
+      "origin": "MCP package",
+      "projectSourceFrame": false,
+      "message": "<color=#ffaa00>warn:</color> [22:06:22:1184] <color=#B4FF32>[AI]</color> <color=#85C1E2><b>BufferedFileLogStorage</b></color> Flush called but already disposed, ignored."
+    }
+  ]
+}

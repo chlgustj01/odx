@@ -1,0 +1,293 @@
+{
+  "metadata": {
+    "data_status": "DEMO / SIMULATION",
+    "generated_timestamp": "2026-10-21T15:03:44.4887096Z",
+    "operational_meters_per_UU": 1,
+    "workerId": "WKR_SIGNAL_01",
+    "roleCode": "SIGNALER",
+    "sessionId": "WKR_SIGNAL_01-9c9582624d294014946cd9d8465498c0",
+    "phase": "2A",
+    "craneStagePolicy": "NOT_EVALUATED",
+    "loadIdPolicy": "NOT_AVAILABLE (no existing stable load ID)",
+    "exposureAndSessionRiskPolicy": "NOT_EVALUATED_IN_2A"
+  },
+  "session": {
+    "workerId": "WKR_SIGNAL_01",
+    "sessionId": "WKR_SIGNAL_01-9c9582624d294014946cd9d8465498c0",
+    "startTime": "2026-10-21T15:03:31.6172317Z",
+    "endTime": null,
+    "distanceM": 1.10711479,
+    "exposureTime": null,
+    "highestRisk": "NOT_EVALUATED",
+    "visitedFacilities": [
+      "OUTSIDE"
+    ],
+    "visitedRiskZones": [],
+    "totalSamples": 20,
+    "decimationPasses": 0,
+    "nearMissEvents": [],
+    "authorizedProximityEvents": [],
+    "sampledPositions": [
+      {
+        "position": {
+          "x": -51.0,
+          "y": -5.58793545E-08,
+          "z": -35.0
+        },
+        "timestampUtc": "2026-10-21T15:03:31.6254991Z",
+        "elapsedSeconds": 10.59997999999905,
+        "facilityId": "OUTSIDE",
+        "loadId": "NOT_AVAILABLE",
+        "craneStage": "NOT_EVALUATED",
+        "breakBefore": true
+      },
+      {
+        "position": {
+          "x": -51.0,
+          "y": -5.58793545E-08,
+          "z": -35.0
+        },
+        "timestampUtc": "2026-10-21T15:03:32.1855291Z",
+        "elapsedSeconds": 11.162578800001938,
+        "facilityId": "OUTSIDE",
+        "loadId": "NOT_AVAILABLE",
+        "craneStage": "NOT_EVALUATED",
+        "breakBefore": false
+      },
+      {
+        "position": {
+          "x": -51.0,
+          "y": -5.58793545E-08,
+          "z": -35.0
+        },
+        "timestampUtc": "2026-10-21T15:03:32.7056426Z",
+        "elapsedSeconds": 11.682051999996474,
+        "facilityId": "OUTSIDE",
+        "loadId": "NOT_AVAILABLE",
+        "craneStage": "NOT_EVALUATED",
+        "breakBefore": false
+      },
+      {
+        "position": {
+          "x": -51.0,
+          "y": -5.58793545E-08,
+          "z": -35.0
+        },
+        "timestampUtc": "2026-10-21T15:03:33.2423231Z",
+        "elapsedSeconds": 12.218781099996704,
+        "facilityId": "OUTSIDE",
+        "loadId": "NOT_AVAILABLE",
+        "craneStage": "NOT_EVALUATED",
+        "breakBefore": false
+      },
+      {
+        "position": {
+          "x": -51.0,
+          "y": -5.58793545E-08,
+          "z": -35.0
+        },
+        "timestampUtc": "2026-10-21T15:03:33.8149825Z",
+        "elapsedSeconds": 12.792277299995476,
+        "facilityId": "OUTSIDE",
+        "loadId": "NOT_AVAILABLE",
+        "craneStage": "NOT_EVALUATED",
+        "breakBefore": false
+      },
+      {
+        "position": {
+          "x": -51.0,
+          "y": -5.58793545E-08,
+          "z": -35.0
+        },
+        "timestampUtc": "2026-10-21T15:03:34.3306494Z",
+        "elapsedSeconds": 13.307071999995969,
+        "facilityId": "OUTSIDE",
+        "loadId": "NOT_AVAILABLE",
+        "craneStage": "NOT_EVALUATED",
+        "breakBefore": false
+      },
+      {
+        "position": {
+          "x": -51.0,
+          "y": -5.58793545E-08,
+          "z": -35.0
+        },
+        "timestampUtc": "2026-10-21T15:03:34.8582987Z",
+        "elapsedSeconds": 13.837443399999756,
+        "facilityId": "OUTSIDE",
+        "loadId": "NOT_AVAILABLE",
+        "craneStage": "NOT_EVALUATED",
+        "breakBefore": false
+      },
+      {
+        "position": {
+          "x": -51.0,
+          "y": 0.004999999,
+          "z": -35.0
+        },
+        "timestampUtc": "2026-10-21T15:03:34.9378813Z",
+        "elapsedSeconds": 13.914712300000247,
+        "facilityId": "OUTSIDE",
+        "loadId": "NOT_AVAILABLE",
+        "craneStage": "NOT_EVALUATED",
+        "breakBefore": true
+      },
+      {
+        "position": {
+          "x": -51.0,
+          "y": -1.15484E-07,
+          "z": -35.0
+        },
+        "timestampUtc": "2026-10-21T15:03:35.5965704Z",
+        "elapsedSeconds": 14.573042199997872,
+        "facilityId": "OUTSIDE",
+        "loadId": "NOT_AVAILABLE",
+        "craneStage": "NOT_EVALUATED",
+        "breakBefore": false
+      },
+      {
+        "position": {
+          "x": -51.0,
+          "y": 0.004999999,
+          "z": -35.0
+        },
+        "timestampUtc": "2026-10-21T15:03:37.7683922Z",
+        "elapsedSeconds": 16.747003500000574,
+        "facilityId": "OUTSIDE",
+        "loadId": "NOT_AVAILABLE",
+        "craneStage": "NOT_EVALUATED",
+        "breakBefore": true
+      },
+      {
+        "position": {
+          "x": -51.0,
+          "y": -5.58793545E-08,
+          "z": -36.0771141
+        },
+        "timestampUtc": "2026-10-21T15:03:38.2858087Z",
+        "elapsedSeconds": 17.262219399999594,
+        "facilityId": "OUTSIDE",
+        "loadId": "NOT_AVAILABLE",
+        "craneStage": "NOT_EVALUATED",
+        "breakBefore": false
+      },
+      {
+        "position": {
+          "x": -51.0,
+          "y": 0.004999999,
+          "z": -36.0771141
+        },
+        "timestampUtc": "2026-10-21T15:03:39.2003994Z",
+        "elapsedSeconds": 18.177698999999848,
+        "facilityId": "OUTSIDE",
+        "loadId": "NOT_AVAILABLE",
+        "craneStage": "NOT_EVALUATED",
+        "breakBefore": true
+      },
+      {
+        "position": {
+          "x": -51.0,
+          "y": -1.15484E-07,
+          "z": -36.0771141
+        },
+        "timestampUtc": "2026-10-21T15:03:39.7434175Z",
+        "elapsedSeconds": 18.720494699999108,
+        "facilityId": "OUTSIDE",
+        "loadId": "NOT_AVAILABLE",
+        "craneStage": "NOT_EVALUATED",
+        "breakBefore": false
+      },
+      {
+        "position": {
+          "x": -51.0,
+          "y": 0.004999999,
+          "z": -36.0771141
+        },
+        "timestampUtc": "2026-10-21T15:03:40.5079093Z",
+        "elapsedSeconds": 19.485726899998554,
+        "facilityId": "OUTSIDE",
+        "loadId": "NOT_AVAILABLE",
+        "craneStage": "NOT_EVALUATED",
+        "breakBefore": true
+      },
+      {
+        "position": {
+          "x": -51.0,
+          "y": 0.004999999,
+          "z": -36.0771141
+        },
+        "timestampUtc": "2026-10-21T15:03:41.3559522Z",
+        "elapsedSeconds": 20.332943199995498,
+        "facilityId": "OUTSIDE",
+        "loadId": "NOT_AVAILABLE",
+        "craneStage": "NOT_EVALUATED",
+        "breakBefore": true
+      },
+      {
+        "position": {
+          "x": -51.0,
+          "y": 0.004999999,
+          "z": -36.0771141
+        },
+        "timestampUtc": "2026-10-21T15:03:42.2272066Z",
+        "elapsedSeconds": 21.205285700001696,
+        "facilityId": "OUTSIDE",
+        "loadId": "NOT_AVAILABLE",
+        "craneStage": "NOT_EVALUATED",
+        "breakBefore": true
+      },
+      {
+        "position": {
+          "x": -51.0,
+          "y": -1.15484E-07,
+          "z": -36.0771141
+        },
+        "timestampUtc": "2026-10-21T15:03:42.7319130Z",
+        "elapsedSeconds": 21.708628499996848,
+        "facilityId": "OUTSIDE",
+        "loadId": "NOT_AVAILABLE",
+        "craneStage": "NOT_EVALUATED",
+        "breakBefore": false
+      },
+      {
+        "position": {
+          "x": -51.0,
+          "y": -1.15484E-07,
+          "z": -36.0771141
+        },
+        "timestampUtc": "2026-10-21T15:03:43.2840821Z",
+        "elapsedSeconds": 22.261760100001993,
+        "facilityId": "OUTSIDE",
+        "loadId": "NOT_AVAILABLE",
+        "craneStage": "NOT_EVALUATED",
+        "breakBefore": false
+      },
+      {
+        "position": {
+          "x": -51.0,
+          "y": -1.15484E-07,
+          "z": -36.0771141
+        },
+        "timestampUtc": "2026-10-21T15:03:43.8165021Z",
+        "elapsedSeconds": 22.794384900000296,
+        "facilityId": "OUTSIDE",
+        "loadId": "NOT_AVAILABLE",
+        "craneStage": "NOT_EVALUATED",
+        "breakBefore": false
+      },
+      {
+        "position": {
+          "x": -51.0,
+          "y": -1.15484E-07,
+          "z": -36.0771141
+        },
+        "timestampUtc": "2026-10-21T15:03:44.3461105Z",
+        "elapsedSeconds": 23.322506199998315,
+        "facilityId": "OUTSIDE",
+        "loadId": "NOT_AVAILABLE",
+        "craneStage": "NOT_EVALUATED",
+        "breakBefore": false
+      }
+    ]
+  }
+}

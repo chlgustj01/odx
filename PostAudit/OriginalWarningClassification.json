@@ -1,0 +1,19 @@
+{
+  "messages": [
+    {
+      "timeLocal": "2026-10-21 10:57:13.1841 KST",
+      "stage": "DisconnectImmediate",
+      "hasProjectScriptStack": false
+    },
+    {
+      "timeLocal": "2026-10-21 10:57:18.2024 KST",
+      "stage": "Dispose",
+      "hasProjectScriptStack": false
+    }
+  ],
+  "contextStartLine": 29710,
+  "contextEndLine": 29901,
+  "classification": "B: com.ivanmurzak.unity.mcp / McpPlugin lifecycle connection teardown",
+  "reason": "Both finalizer call chains end in McpPlugin.Dispose / Finalize during Begin MonoManager ReloadAssembly. No Assets/Scripts or Assets/Editor frames.",
+  "transitionCorrelation": "Phase1 Stage1Runner file HMI ready UTC 01:57:35; legacy OperatorUI->HMI fresh Play transition. Stack proves reload/finalization; exact Enter/Exit event was not separately timestamped at original occurrence."
+}

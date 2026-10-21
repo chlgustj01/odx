@@ -1,0 +1,160 @@
+{
+  "phrases": [
+    {
+      "key": "active",
+      "ko": "현재 분석 대상 작업자",
+      "en": "ACTIVE WORKER",
+      "vi": "NGƯỜI ĐANG PHÂN TÍCH"
+    },
+    {
+      "key": "choose",
+      "ko": "현재 분석 대상 작업자 선택",
+      "en": "CHOOSE CURRENT ACTIVE WORKER",
+      "vi": "CHỌN NGƯỜI ĐANG PHÂN TÍCH"
+    },
+    {
+      "key": "change",
+      "ko": "작업자 변경",
+      "en": "CHANGE WORKER",
+      "vi": "ĐỔI NGƯỜI"
+    },
+    {
+      "key": "facility",
+      "ko": "작업구역",
+      "en": "Facility",
+      "vi": "Khu vực"
+    },
+    {
+      "key": "route",
+      "ko": "이동 기록",
+      "en": "Route",
+      "vi": "Lộ trình"
+    },
+    {
+      "key": "sessionRisk",
+      "ko": "세션 위험",
+      "en": "Session Risk",
+      "vi": "Rủi ro phiên"
+    },
+    {
+      "key": "riskNotEvaluated",
+      "ko": "2A 미평가",
+      "en": "NOT EVALUATED IN 2A",
+      "vi": "CHƯA ĐÁNH GIÁ 2A"
+    },
+    {
+      "key": "current",
+      "ko": "현재 작업자 경로",
+      "en": "CURRENT WORKER",
+      "vi": "NGƯỜI HIỆN TẠI"
+    },
+    {
+      "key": "all",
+      "ko": "전체 작업자 경로",
+      "en": "ALL WORKERS",
+      "vi": "TẤT CẢ NGƯỜI"
+    },
+    {
+      "key": "clear",
+      "ko": "현재 세션 지우기",
+      "en": "CLEAR SESSION",
+      "vi": "XÓA PHIÊN"
+    },
+    {
+      "key": "export",
+      "ko": "내보내기",
+      "en": "EXPORT",
+      "vi": "XUẤT"
+    },
+    {
+      "key": "allDisclosure",
+      "ko": "기록 시점이 다른 경로를 겹쳐 표시 (DEMO)",
+      "en": "Routes recorded at different times overlap (DEMO)",
+      "vi": "Chồng lộ trình ghi ở thời điểm khác nhau (DEMO)"
+    },
+    {
+      "key": "routePreferenceDisclosure",
+      "ko": "역할별 DEMO 선호 / 실제 허가 경로 아님",
+      "en": "ROLE-BASED DEMO ROUTE / not a permitted route",
+      "vi": "ƯU TIÊN DEMO / không phải tuyến được cấp phép"
+    },
+    {
+      "key": "disclosure",
+      "ko": "DEMO / SIMULATION · 실제 작업허가·안전 판정 아님",
+      "en": "DEMO / SIMULATION · not work permission or safety certification",
+      "vi": "DEMO / SIMULATION · không phải giấy phép hay chứng nhận an toàn"
+    },
+    {
+      "key": "close",
+      "ko": "닫기",
+      "en": "CLOSE",
+      "vi": "ĐÓNG"
+    },
+    {
+      "key": "previous",
+      "ko": "이전 작업자",
+      "en": "PREVIOUS",
+      "vi": "TRƯỚC"
+    },
+    {
+      "key": "next",
+      "ko": "다음 작업자",
+      "en": "NEXT",
+      "vi": "TIẾP"
+    },
+    {
+      "key": "select",
+      "ko": "현재 분석 대상 작업자로 선택",
+      "en": "SELECT ACTIVE WORKER",
+      "vi": "CHỌN NGƯỜI HIỆN TẠI"
+    },
+    {
+      "key": "accidentEvidence",
+      "ko": "역할 기반 사고 근거 보기",
+      "en": "VIEW ROLE ACCIDENT EVIDENCE",
+      "vi": "XEM DỮ LIỆU TAI NẠN THEO VAI TRÒ"
+    },
+    {
+      "key": "noRoleData",
+      "ko": "역할 기반 사고 필터 데이터 없음",
+      "en": "No role-based accident filter data",
+      "vi": "Không có dữ liệu lọc tai nạn theo vai trò"
+    },
+    {
+      "key": "matchingCases",
+      "ko": "해당 역할 기록",
+      "en": "Matching role records",
+      "vi": "Bản ghi cùng vai trò"
+    },
+    {
+      "key": "translationNotice",
+      "ko": "베트남어 번역 검수 필요",
+      "en": "Vietnamese translation needs review",
+      "vi": "Bản dịch tiếng Việt cần kiểm tra"
+    },
+    {
+      "key": "exported",
+      "ko": "저장 경로",
+      "en": "Export path",
+      "vi": "Đường dẫn xuất"
+    },
+    {
+      "key": "analysisContext",
+      "ko": "분석 대상",
+      "en": "ACTIVE ANALYSIS",
+      "vi": "ĐỐI TƯỢNG PHÂN TÍCH"
+    },
+    {
+      "key": "existingHazard",
+      "ko": "기존 공간 위험",
+      "en": "EXISTING GEOMETRY",
+      "vi": "NGUY CƠ HÌNH HỌC"
+    },
+    {
+      "key": "rulesDeferred",
+      "ko": "역할별 위험 규칙: 2A 미평가",
+      "en": "Role hazard rules: NOT EVALUATED IN 2A",
+      "vi": "Quy tắc theo vai trò: CHƯA ĐÁNH GIÁ 2A"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "existing": [
+    {
+      "path": "Assets/Editor/AccidentEvidence/AccidentEvidenceChecks.cs",
+      "before": "2adcab8ebfa67791db6cd8f3d9f4fa41511d44951c045f97bc9af21d3e585192",
+      "after": "2adcab8ebfa67791db6cd8f3d9f4fa41511d44951c045f97bc9af21d3e585192",
+      "changed": false
+    },
+    {
+      "path": "Assets/Editor/Prediction/LiveLoadPathPlayModeChecks.cs",
+      "before": "1f24eec45461e98178ee61c7eaf4a090d2df3577afcda9bdb7fe343757ca8283",
+      "after": "1f24eec45461e98178ee61c7eaf4a090d2df3577afcda9bdb7fe343757ca8283",
+      "changed": false
+    },
+    {
+      "path": "Assets/Editor/ShipyardDB/ConfidenceRegressionRunner.cs",
+      "before": "8d1a17ddd7446ff85c0f8780bf2a75880bb60137a7259c3b7864f3059a226f02",
+      "after": "8d1a17ddd7446ff85c0f8780bf2a75880bb60137a7259c3b7864f3059a226f02",
+      "changed": false
+    },
+    {
+      "path": "Assets/Editor/ShipyardDB/FacilityValueEvidenceChecks.cs",
+      "before": "6b5c951ea94ac3d80059fbdc7228b8b11bac162e772469374483aead602eea89",
+      "after": "6b5c951ea94ac3d80059fbdc7228b8b11bac162e772469374483aead602eea89",
+      "changed": false
+    },
+    {
+      "path": "Assets/Editor/ShipyardDB/ShipyardConfidenceChecks.cs",
+      "before": "4d241581c4eeb6f8c07cd32d4e3dc731f11982fffc0d7dd16b2cd2bc0e9b5322",
+      "after": "4d241581c4eeb6f8c07cd32d4e3dc731f11982fffc0d7dd16b2cd2bc0e9b5322",
+      "changed": false
+    },
+    {
+      "path": "Assets/Editor/ShipyardDB/ShipyardPublicDataChecks.cs",
+      "before": "d4c28c3cb0f9c5ff6ffc93bec3474fda6e1ffa58cee77b6c296f0d2580f82d72",
+      "after": "d4c28c3cb0f9c5ff6ffc93bec3474fda6e1ffa58cee77b6c296f0d2580f82d72",
+      "changed": false
+    },
+    {
+      "path": "Assets/Editor/Timing/CommandTimelinePlayModeChecks.cs",
+      "before": "19219866f6936180663a521e149a3be21d87349364437bec9c0ada63790b2f62",
+      "after": "19219866f6936180663a521e149a3be21d87349364437bec9c0ada63790b2f62",
+      "changed": false
+    },
+    {
+      "path": "Assets/Editor/UI/OperatorCommandUIPlayModeChecks.cs",
+      "before": "5743d1958e52b434baa9e72a0a2cfd0108e51677966f5b5b93c454ad882d2fee",
+      "after": "5743d1958e52b434baa9e72a0a2cfd0108e51677966f5b5b93c454ad882d2fee",
+      "changed": false
+    },
+    {
+      "path": "Assets/Editor/UI/ShipyardExploreChecks.cs",
+      "before": "fdef9fd7d7b1dadc4437dbd6a297054bb88aa3fd0cfdb194e903faed3ebb696a",
+      "after": "fdef9fd7d7b1dadc4437dbd6a297054bb88aa3fd0cfdb194e903faed3ebb696a",
+      "changed": false
+    },
+    {
+      "path": "Assets/Editor/UI/ShipyardPlayChecks.cs",
+      "before": "170adfde3ff5b2f6e598e629cdc947da8453901d1b4798f832de0213cb0b30f4",
+      "after": "170adfde3ff5b2f6e598e629cdc947da8453901d1b4798f832de0213cb0b30f4",
+      "changed": false
+    },
+    {
+      "path": "Assets/Editor/UI/TaskHmiPlayChecks.cs",
+      "before": "00481633ffd1ecd2f7fc222063610a669f60cfe1c5ea5761bb932fdb012ba613",
+      "after": "00481633ffd1ecd2f7fc222063610a669f60cfe1c5ea5761bb932fdb012ba613",
+      "changed": false
+    },
+    {
+      "path": "Assets/Editor/UI/WorkerRouteRiskChecks.cs",
+      "before": "b3e4ac9d33a4eacf1d0e81a8be046151736442832dd341213e8c3ac90d88b643",
+      "after": "b3e4ac9d33a4eacf1d0e81a8be046151736442832dd341213e8c3ac90d88b643",
+      "changed": false
+    }
+  ],
+  "new": [
+    {
+      "path": "Assets/Editor/UI/FacilityEntranceChecks.cs",
+      "before": null,
+      "after": "f5a724648eb13609a93e88e652cfcfad357d29324bf4314ecec62212b90babc8"
+    },
+    {
+      "path": "Assets/Editor/UI/FacilityEntranceRegressionRunner.cs",
+      "before": null,
+      "after": "c4b227a331b45b794417ec77bfd1027d3c520c054d025591c02134710716a631"
+    }
+  ]
+}

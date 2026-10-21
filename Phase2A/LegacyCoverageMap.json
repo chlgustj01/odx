@@ -1,0 +1,100 @@
+[
+  {
+    "legacy": "A-SLEW-MidMotion",
+    "meaning": "Voice stationary; immutable full/target; actual decimation; remaining endpoints/current footprint/rotation",
+    "reachability": "raw PASS; 60Hz PASS",
+    "gate": "SceneRelative 8 partial; detailed sampling/endpoints gap",
+    "status": "ADD G-SamplingEndpoints"
+  },
+  {
+    "legacy": "A-SLEW-Completed",
+    "meaning": "Remaining empty/zero; Full immutable",
+    "reachability": "raw PASS; 60Hz PASS",
+    "gate": "SceneRelative completion + Operator A-completed",
+    "status": "COVERED"
+  },
+  {
+    "legacy": "B-TROLLEY-MidMotion",
+    "meaning": "Radial current/remaining shape + actual decimation",
+    "reachability": "raw FAIL before completion; later cases not reached",
+    "gate": "Operator B-moving reads values only; geometry gap",
+    "status": "ADD G-TrolleyGeometry"
+  },
+  {
+    "legacy": "B-TROLLEY-Completed",
+    "meaning": "Numeric remaining zero; full snapshot unchanged",
+    "reachability": "raw NOT RUN; 60Hz PASS",
+    "gate": "Operator B-completed + HMI actual/remaining partial",
+    "status": "ADD G-TrolleyGeometry completion"
+  },
+  {
+    "legacy": "C-HOIST-MidMotion",
+    "meaning": "Vertical path; unchanged XZ footprint; current outline",
+    "reachability": "raw NOT RUN; 60Hz PASS",
+    "gate": "Operator C moving value equality; XZ geometry gap",
+    "status": "ADD G-HoistGeometry"
+  },
+  {
+    "legacy": "C-HOIST-Completed",
+    "meaning": "Remaining zero/empty + full preserved",
+    "reachability": "raw NOT RUN; 60Hz PASS",
+    "gate": "Operator C completed",
+    "status": "COVERED + appended completion"
+  },
+  {
+    "legacy": "D-SmallLoad",
+    "meaning": "Footprint area=2 and visual follows",
+    "reachability": "raw NOT RUN; 60Hz PASS",
+    "gate": "SceneRelative fixed 1x2 corner check partial",
+    "status": "ADD G-LoadDimensionScaling"
+  },
+  {
+    "legacy": "D-LargeLoad",
+    "meaning": "4x2 area=8; 4x area; bounds growth >1.5; visual scale",
+    "reachability": "raw NOT RUN; 60Hz PASS",
+    "gate": "No current Gate validates dimension-change response",
+    "status": "ADD G-LoadDimensionScaling"
+  },
+  {
+    "legacy": "E-Worker-MidMotion",
+    "meaning": "Full DANGER and WorkerInRemainingArea simultaneously",
+    "reachability": "raw NOT RUN; 60Hz FAIL (obsolete fixture)",
+    "gate": "SceneRelative positive + mid-motion and negative control",
+    "status": "COVERED"
+  },
+  {
+    "legacy": "E-Worker-Completed",
+    "meaning": "Full DANGER remains after remaining empty + worker false",
+    "reachability": "raw NOT RUN; 60Hz NOT RUN after E failure",
+    "gate": "SceneRelative completed + STOP",
+    "status": "COVERED"
+  },
+  {
+    "legacy": "Wrap-MidMotion",
+    "meaning": "350→380 unwrapped target + remaining endpoints/orientation",
+    "reachability": "raw NOT RUN; 60Hz NOT RUN",
+    "gate": "No Gate specifically crosses 360",
+    "status": "ADD G-Wrap360"
+  },
+  {
+    "legacy": "Wrap-Completed",
+    "meaning": "Unwrapped target reach + full preserved",
+    "reachability": "raw NOT RUN; 60Hz NOT RUN",
+    "gate": "No Gate specifically crosses 360",
+    "status": "ADD G-Wrap360 completion"
+  },
+  {
+    "legacy": "WrongDirection",
+    "meaning": "Opposite operator increases remaining; original target fixed",
+    "reachability": "raw NOT RUN; 60Hz NOT RUN",
+    "gate": "Timeline C tests mismatch, not increasing remaining",
+    "status": "ADD G-WrongDirectionRemaining"
+  },
+  {
+    "legacy": "STOP-History",
+    "meaning": "Voice STOP clears full/remaining but retains footprint/history; operator Space STOP verified",
+    "reachability": "raw NOT RUN; 60Hz NOT RUN",
+    "gate": "Timeline H/Operator J/HMI Extra-Stop cover STOP; history retention gap",
+    "status": "ADD G-StopHistory"
+  }
+]

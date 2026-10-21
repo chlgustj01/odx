@@ -1,0 +1,188 @@
+[
+  {
+    "suite": "00_Original103",
+    "files": [
+      {
+        "path": "Phase2A/PostGate/00_Original103/AccidentEvidence/Core_tests.json",
+        "passed": true,
+        "count": 12,
+        "error": null
+      },
+      {
+        "path": "Phase2A/PostGate/00_Original103/AccidentEvidence/Play_tests.json",
+        "passed": true,
+        "count": 13,
+        "error": null
+      },
+      {
+        "path": "Phase2A/PostGate/00_Original103/DB/DB_Play_tests.json",
+        "passed": true,
+        "count": 16,
+        "error": null
+      },
+      {
+        "path": "Phase2A/PostGate/00_Original103/Edit/Structure_tests.json",
+        "passed": true,
+        "count": 15,
+        "error": null
+      },
+      {
+        "path": "Phase2A/PostGate/00_Original103/Explore/Explore_tests.json",
+        "passed": true,
+        "count": 17,
+        "error": null
+      },
+      {
+        "path": "Phase2A/PostGate/00_Original103/Regression/Shipyard_tests.json",
+        "passed": true,
+        "count": 19,
+        "error": null
+      },
+      {
+        "path": "Phase2A/PostGate/00_Original103/WorkerRoute/WorkerRoute_tests.json",
+        "passed": true,
+        "count": 11,
+        "error": null
+      }
+    ],
+    "harnessErrors": []
+  },
+  {
+    "suite": "01_Confidence17",
+    "files": [
+      {
+        "path": "Phase2A/PostGate/01_Confidence17/Confidence_tests.json",
+        "passed": true,
+        "count": 17,
+        "error": null
+      }
+    ],
+    "harnessErrors": []
+  },
+  {
+    "suite": "02_Entrance44",
+    "files": [
+      {
+        "path": "Phase2A/PostGate/02_Entrance44/Entrance_tests.json",
+        "passed": true,
+        "count": 44,
+        "error": null
+      }
+    ],
+    "harnessErrors": []
+  },
+  {
+    "suite": "03_SceneRelative8",
+    "files": [
+      {
+        "path": "Phase2A/PostGate/03_SceneRelative8/SceneRelative_tests.json",
+        "passed": true,
+        "count": 8,
+        "error": null
+      }
+    ],
+    "harnessErrors": []
+  },
+  {
+    "suite": "04_CoverageGaps",
+    "files": [
+      {
+        "path": "Phase2A/PostGate/04_CoverageGaps/SceneRelativeCoverage_tests.json",
+        "passed": true,
+        "count": 8,
+        "error": null
+      }
+    ],
+    "harnessErrors": []
+  },
+  {
+    "suite": "05_Timeline11",
+    "files": [
+      {
+        "path": "Phase2A/PostGate/05_Timeline11/D3_Phase3_tests.json",
+        "passed": true,
+        "count": 11,
+        "error": null
+      }
+    ],
+    "harnessErrors": []
+  },
+  {
+    "suite": "06_Operator18",
+    "files": [
+      {
+        "path": "Phase2A/HmiRepairGate/01_Operator18/D4_tests.json",
+        "passed": true,
+        "count": 18,
+        "error": null
+      }
+    ],
+    "harnessErrors": [],
+    "previousAttemptFiles": [
+      {
+        "path": "Phase2A/PostGate/06_Operator18/D4_tests.json",
+        "passed": true,
+        "count": 18,
+        "error": null
+      }
+    ],
+    "repairReason": "RemainingText existing English TARGET REACHED truncation; only Scene TMP auto-size minimum adjusted; no test/expected/font asset settings changed"
+  },
+  {
+    "suite": "07_HMI13",
+    "files": [
+      {
+        "path": "Phase2A/HmiRepairGate/00_HMI13/HMI_tests.json",
+        "passed": true,
+        "count": 13,
+        "error": null
+      }
+    ],
+    "harnessErrors": [],
+    "previousAttemptFiles": [
+      {
+        "path": "Phase2A/PostGate/07_HMI13/HMI_tests.json",
+        "passed": false,
+        "count": 7,
+        "error": "System.Exception: Stage 9: Truncated text RemainingText in COMMAND: TARGET REACHED\r\n  at TaskHmiPlayChecks.Require (System.Boolean condition, System.String message) [0x00023] in D:\\UnityProject\\CraneSignalAI\\Assets\\Editor\\UI\\TaskHmiPlayChecks.cs:55 \r\n  at TaskHmiPlayChecks.LayoutCheck () [0x0004f] in D:\\UnityProject\\CraneSignalAI\\Assets\\Editor\\UI\\TaskHmiPlayChecks.cs:82 \r\n  at TaskHmiPlayChecks.Tick () [0x0067c] in D:\\UnityProject\\CraneSignalAI\\Assets\\Editor\\UI\\TaskHmiPlayChecks.cs:142 "
+      }
+    ],
+    "repairReason": "RemainingText existing English TARGET REACHED truncation; only Scene TMP auto-size minimum adjusted; no test/expected/font asset settings changed"
+  },
+  {
+    "suite": "08_LegacyInfo",
+    "files": [
+      {
+        "path": "Phase2A/PostGate/08_LegacyInfo/LiveLoad_tests.json",
+        "passed": false,
+        "count": 2,
+        "error": "System.Exception: B-TROLLEY: Committed a pose every frame\r\n  at LiveLoadPathPlayModeChecks.Check (System.Boolean ok, System.String message) [0x0002d] in D:\\UnityProject\\CraneSignalAI\\Assets\\Editor\\Prediction\\LiveLoadPathPlayModeChecks.cs:69 \r\n  at LiveLoadPathPlayModeChecks.Tick () [0x005f5] in D:\\UnityProject\\CraneSignalAI\\Assets\\Editor\\Prediction\\LiveLoadPathPlayModeChecks.cs:118 "
+      }
+    ],
+    "harnessErrors": []
+  },
+  {
+    "suite": "09_Workers",
+    "files": [
+      {
+        "path": "Phase2A/PostGate/09_Workers/Phase2A_tests.json",
+        "passed": true,
+        "count": 27,
+        "error": null
+      }
+    ],
+    "harnessErrors": []
+  },
+  {
+    "suite": "10_WorkerWalking44",
+    "files": [
+      {
+        "path": "Phase2A/PostGate/10_WorkerWalking44/Entrance_tests.json",
+        "passed": true,
+        "count": 44,
+        "error": null
+      }
+    ],
+    "harnessErrors": []
+  }
+]

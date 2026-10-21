@@ -1,0 +1,64 @@
+[
+  {
+    "path": "C:\\Users\\chlgu\\Documents\\Codex\\2026-10-19\\unity-mcp-main-scene-hierarchy-towercraneroot\\work\\live-load\\Main.before.unity",
+    "sha256": "74c87003ab55d3c211083544827b80d9412edb36d5468c2961a7ce5ff8d395bc",
+    "modifiedLocal": 1792381612.4391727,
+    "transforms": [
+      {
+        "name": "TowerCraneRoot",
+        "transformBlock": "--- !u!4 &95066709\nTransform:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 95066708}\n  serializedVersion: 2\n  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}\n  m_LocalPosition: {x: 0, y: 0, z: 0}\n  m_LocalScale: {x: 1, y: 1, z: 1}\n  m_ConstrainProportionsScale: 0\n  m_Children:\n  - {fileID: 1167872030}\n  - {fileID: 2043457370}\n  - {fileID: 2136981007}\n  - {fileID: 900034567}\n  - {fileID: 1053133429}\n  m_Father: {fileID: 0}\n  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}\n"
+      },
+      {
+        "name": "LoadRoot",
+        "transformBlock": "--- !u!4 &539133895\nTransform:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 539133894}\n  serializedVersion: 2\n  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}\n  m_LocalPosition: {x: 0, y: -0.75, z: 0}\n  m_LocalScale: {x: 1, y: 1, z: 1}\n  m_ConstrainProportionsScale: 0\n  m_Children:\n  - {fileID: 1357149610}\n  m_Father: {fileID: 2006846413}\n  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}\n"
+      },
+      {
+        "name": "Worker_01",
+        "transformBlock": "--- !u!4 &1004401975\nTransform:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 1004401973}\n  serializedVersion: 2\n  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}\n  m_LocalPosition: {x: 4, y: 0, z: 3}\n  m_LocalScale: {x: 1, y: 1, z: 1}\n  m_ConstrainProportionsScale: 0\n  m_Children:\n  - {fileID: 2007753640}\n  - {fileID: 404986569}\n  m_Father: {fileID: 0}\n  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}\n"
+      },
+      {
+        "name": "TrolleyCarriage",
+        "transformBlock": "--- !u!4 &1689182219\nTransform:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 1689182218}\n  serializedVersion: 2\n  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}\n  m_LocalPosition: {x: 0, y: -0.5, z: 3}\n  m_LocalScale: {x: 1, y: 1, z: 1}\n  m_ConstrainProportionsScale: 0\n  m_Children:\n  - {fileID: 889693381}\n  - {fileID: 2006846413}\n  - {fileID: 179666051}\n  - {fileID: 2003350366}\n  m_Father: {fileID: 1682638066}\n  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}\n"
+      },
+      {
+        "name": "HookBlock",
+        "transformBlock": "--- !u!4 &2006846413\nTransform:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 2006846412}\n  serializedVersion: 2\n  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}\n  m_LocalPosition: {x: 0, y: -3, z: 0}\n  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}\n  m_ConstrainProportionsScale: 0\n  m_Children:\n  - {fileID: 639931044}\n  - {fileID: 539133895}\n  m_Father: {fileID: 1689182219}\n  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}\n"
+      },
+      {
+        "name": "SlewPivot",
+        "transformBlock": "--- !u!4 &2136981007\nTransform:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 2136981006}\n  serializedVersion: 2\n  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}\n  m_LocalPosition: {x: 0, y: 10, z: 0}\n  m_LocalScale: {x: 1, y: 1, z: 1}\n  m_ConstrainProportionsScale: 0\n  m_Children:\n  - {fileID: 1818406201}\n  - {fileID: 1682638066}\n  - {fileID: 955771459}\n  - {fileID: 1020573215}\n  - {fileID: 1503973153}\n  - {fileID: 1554961368}\n  - {fileID: 1392040923}\n  m_Father: {fileID: 95066709}\n  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}\n"
+      }
+    ]
+  },
+  {
+    "path": "C:\\Users\\chlgu\\Documents\\Codex\\2026-10-19\\unity-mcp-main-scene-hierarchy-towercraneroot\\work\\Main.before-tower-relocation.unity",
+    "sha256": "ed6b7bad7b70e84ea25a7aed2218414d123eb11c328f715c1bb4e51f98d03e5d",
+    "modifiedLocal": 1792408193.4164774,
+    "transforms": [
+      {
+        "name": "TowerCraneRoot",
+        "transformBlock": "--- !u!4 &95066709\nTransform:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 95066708}\n  serializedVersion: 2\n  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}\n  m_LocalPosition: {x: 0, y: 0, z: 0}\n  m_LocalScale: {x: 1, y: 1, z: 1}\n  m_ConstrainProportionsScale: 0\n  m_Children:\n  - {fileID: 1167872030}\n  - {fileID: 2043457370}\n  - {fileID: 2136981007}\n  - {fileID: 900034567}\n  - {fileID: 1053133429}\n  - {fileID: 89227382}\n  - {fileID: 1420880716}\n  - {fileID: 1725603134}\n  m_Father: {fileID: 0}\n  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}\n"
+      },
+      {
+        "name": "LoadRoot",
+        "transformBlock": "--- !u!4 &539133895\nTransform:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 539133894}\n  serializedVersion: 2\n  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}\n  m_LocalPosition: {x: 0, y: -0.75, z: 0}\n  m_LocalScale: {x: 1, y: 1, z: 1}\n  m_ConstrainProportionsScale: 0\n  m_Children:\n  - {fileID: 1357149610}\n  m_Father: {fileID: 2006846413}\n  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}\n"
+      },
+      {
+        "name": "Worker_01",
+        "transformBlock": "--- !u!4 &1004401975\nTransform:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 1004401973}\n  serializedVersion: 2\n  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}\n  m_LocalPosition: {x: 4, y: 0, z: 3}\n  m_LocalScale: {x: 1, y: 1, z: 1}\n  m_ConstrainProportionsScale: 0\n  m_Children:\n  - {fileID: 2007753640}\n  - {fileID: 404986569}\n  - {fileID: 1218941391}\n  - {fileID: 1607040972}\n  - {fileID: 1899366484}\n  m_Father: {fileID: 0}\n  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}\n"
+      },
+      {
+        "name": "TrolleyCarriage",
+        "transformBlock": "--- !u!4 &1689182219\nTransform:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 1689182218}\n  serializedVersion: 2\n  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}\n  m_LocalPosition: {x: 0, y: -0.5, z: 3}\n  m_LocalScale: {x: 1, y: 1, z: 1}\n  m_ConstrainProportionsScale: 0\n  m_Children:\n  - {fileID: 889693381}\n  - {fileID: 2006846413}\n  - {fileID: 179666051}\n  - {fileID: 2003350366}\n  m_Father: {fileID: 1682638066}\n  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}\n"
+      },
+      {
+        "name": "HookBlock",
+        "transformBlock": "--- !u!4 &2006846413\nTransform:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 2006846412}\n  serializedVersion: 2\n  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}\n  m_LocalPosition: {x: 0, y: -3, z: 0}\n  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}\n  m_ConstrainProportionsScale: 0\n  m_Children:\n  - {fileID: 639931044}\n  - {fileID: 539133895}\n  m_Father: {fileID: 1689182219}\n  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}\n"
+      },
+      {
+        "name": "SlewPivot",
+        "transformBlock": "--- !u!4 &2136981007\nTransform:\n  m_ObjectHideFlags: 0\n  m_CorrespondingSourceObject: {fileID: 0}\n  m_PrefabInstance: {fileID: 0}\n  m_PrefabAsset: {fileID: 0}\n  m_GameObject: {fileID: 2136981006}\n  serializedVersion: 2\n  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}\n  m_LocalPosition: {x: 0, y: 10, z: 0}\n  m_LocalScale: {x: 1, y: 1, z: 1}\n  m_ConstrainProportionsScale: 0\n  m_Children:\n  - {fileID: 1818406201}\n  - {fileID: 1682638066}\n  - {fileID: 955771459}\n  - {fileID: 1020573215}\n  - {fileID: 1503973153}\n  - {fileID: 1554961368}\n  - {fileID: 1392040923}\n  m_Father: {fileID: 95066709}\n  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}\n"
+      }
+    ]
+  }
+]

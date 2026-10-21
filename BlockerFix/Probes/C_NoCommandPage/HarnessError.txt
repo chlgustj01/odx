@@ -1,0 +1,4 @@
+System.NullReferenceException: Object reference not set to an instance of an object
+  at OperatorCommandUIPlayModeChecks.Run (System.String directory) [0x00039] in D:\UnityProject\CraneSignalAI\Assets\Editor\UI\OperatorCommandUIPlayModeChecks.cs:39 
+  at FacilityEntranceRegressionRunner.BeginSuite () [0x0013a] in D:\UnityProject\CraneSignalAI\Assets\Editor\UI\FacilityEntranceRegressionRunner.cs:65 
+  at FacilityEntranceRegressionRunner.Tick () [0x00191] in D:\UnityProject\CraneSignalAI\Assets\Editor\UI\FacilityEntranceRegressionRunner.cs:78 

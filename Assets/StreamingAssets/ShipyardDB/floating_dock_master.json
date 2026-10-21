@@ -1,0 +1,46 @@
+{
+  "sourceWorkbook": "한화오션_거제사업장_시설DB (1).xlsx",
+  "sourceSha256": "60bf40ec0719fccb58e583831d6a21deb538c6d63615f36c07e65d3461adbd3b",
+  "sheet": "플로팅도크",
+  "records": [
+    {
+      "name": "Royal No.1",
+      "lengthM": 298,
+      "widthM": 62.5,
+      "depthM": 20.5,
+      "capacityText": "120,000 DWT",
+      "source": "Lloyd's Register New Construction Guide - Hanwha Ocean Co Ltd (2026-06-08 갱신)",
+      "confidence": "B",
+      "sourceRow": 2,
+      "value_status": "SECONDARY",
+      "value_status_note": "2차 자료 기반 제원 / 공식 시설 페이지에서 치수 직접 확인되지 않음",
+      "official_dimension_confirmed": false
+    },
+    {
+      "name": "Royal No.2",
+      "lengthM": 250,
+      "widthM": 38.9,
+      "depthM": 26.8,
+      "capacityText": "100,000",
+      "source": "Lloyd's Register New Construction Guide - Hanwha Ocean Co Ltd (2026-06-08 갱신)",
+      "confidence": "B",
+      "sourceRow": 3,
+      "value_status": "SECONDARY",
+      "value_status_note": "2차 자료 기반 제원 / 공식 시설 페이지에서 치수 직접 확인되지 않음",
+      "official_dimension_confirmed": false
+    },
+    {
+      "name": "Royal No.3",
+      "lengthM": 141,
+      "widthM": 25,
+      "depthM": 17,
+      "capacityText": "15,000 DWT",
+      "source": "Lloyd's Register New Construction Guide - Hanwha Ocean Co Ltd (2026-06-08 갱신)",
+      "confidence": "B",
+      "sourceRow": 4,
+      "value_status": "SECONDARY",
+      "value_status_note": "2차 자료 기반 제원 / 공식 시설 페이지에서 치수 직접 확인되지 않음",
+      "official_dimension_confirmed": false
+    }
+  ]
+}

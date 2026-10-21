@@ -1,0 +1,529 @@
+{
+  "passed": true,
+  "error": null,
+  "count": 44,
+  "rigPreserved": true,
+  "method": "Normal Explore spawn, collider-based A* approaches + CharacterController.Move at <=0.07UU increments, virtual W/E/F; no test teleport or player Transform writes",
+  "rows": [
+    {
+      "test": "K: simultaneous E+F executes entrance only; one prompt",
+      "passed": true,
+      "data": "[F] OPEN DOOR / WALK ENTER OR EXIT"
+    },
+    {
+      "test": "L: E opens original POI details; F only toggles personnel leaf",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "F10 entry 1",
+      "passed": true,
+      "data": {
+        "position": [
+          -54.64,
+          0.06999993,
+          -28.0
+        ],
+        "EntryCount": 1,
+        "ExitCount": 0,
+        "mode": "FIRST_PERSON",
+        "sideOffset": 0.0
+      }
+    },
+    {
+      "test": "F10 WASD inside",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "F10 exit 1",
+      "passed": true,
+      "data": {
+        "position": [
+          -54.64,
+          0.06999993,
+          -33.97
+        ],
+        "EntryCount": 1,
+        "ExitCount": 1,
+        "mode": "FIRST_PERSON",
+        "sideOffset": 0.0
+      }
+    },
+    {
+      "test": "F10 WASD outside",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "F10 entry 2",
+      "passed": true,
+      "data": {
+        "position": [
+          -54.4201241,
+          0.06999999,
+          -28.0037136
+        ],
+        "EntryCount": 2,
+        "ExitCount": 1,
+        "mode": "FIRST_PERSON",
+        "sideOffset": 0.22
+      }
+    },
+    {
+      "test": "F10 exit 2",
+      "passed": true,
+      "data": {
+        "position": [
+          -54.42,
+          0.06999993,
+          -33.9537125
+        ],
+        "EntryCount": 2,
+        "ExitCount": 2,
+        "mode": "FIRST_PERSON",
+        "sideOffset": 0.22
+      }
+    },
+    {
+      "test": "F10 entry 3",
+      "passed": true,
+      "data": {
+        "position": [
+          -54.858532,
+          0.06999999,
+          -28.0198956
+        ],
+        "EntryCount": 3,
+        "ExitCount": 2,
+        "mode": "FIRST_PERSON",
+        "sideOffset": -0.22
+      }
+    },
+    {
+      "test": "F10 exit 3",
+      "passed": true,
+      "data": {
+        "position": [
+          -54.859993,
+          0.06999993,
+          -33.9698944
+        ],
+        "EntryCount": 3,
+        "ExitCount": 3,
+        "mode": "FIRST_PERSON",
+        "sideOffset": -0.22
+      }
+    },
+    {
+      "test": "F11 entry 1",
+      "passed": true,
+      "data": {
+        "position": [
+          111.5,
+          0.06999995,
+          -35.25
+        ],
+        "EntryCount": 1,
+        "ExitCount": 0,
+        "mode": "THIRD_PERSON",
+        "sideOffset": 0.0
+      }
+    },
+    {
+      "test": "F11 WASD inside",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "F11 exit 1",
+      "passed": true,
+      "data": {
+        "position": [
+          111.5,
+          0.06999995,
+          -41.1900024
+        ],
+        "EntryCount": 1,
+        "ExitCount": 1,
+        "mode": "THIRD_PERSON",
+        "sideOffset": 0.0
+      }
+    },
+    {
+      "test": "F11 WASD outside",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "F11 entry 2",
+      "passed": true,
+      "data": {
+        "position": [
+          111.719208,
+          0.06999995,
+          -35.2236938
+        ],
+        "EntryCount": 2,
+        "ExitCount": 1,
+        "mode": "THIRD_PERSON",
+        "sideOffset": 0.22
+      }
+    },
+    {
+      "test": "F11 exit 2",
+      "passed": true,
+      "data": {
+        "position": [
+          111.72,
+          0.06999989,
+          -41.17369
+        ],
+        "EntryCount": 2,
+        "ExitCount": 2,
+        "mode": "THIRD_PERSON",
+        "sideOffset": 0.22
+      }
+    },
+    {
+      "test": "F11 entry 3",
+      "passed": true,
+      "data": {
+        "position": [
+          111.282921,
+          0.06999995,
+          -35.23977
+        ],
+        "EntryCount": 3,
+        "ExitCount": 2,
+        "mode": "THIRD_PERSON",
+        "sideOffset": -0.22
+      }
+    },
+    {
+      "test": "F11 exit 3",
+      "passed": true,
+      "data": {
+        "position": [
+          111.280006,
+          0.06999989,
+          -41.1897659
+        ],
+        "EntryCount": 3,
+        "ExitCount": 3,
+        "mode": "THIRD_PERSON",
+        "sideOffset": -0.22
+      }
+    },
+    {
+      "test": "F11 third person F closes/reopens from 3UU actor approach",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "F12 entry 1",
+      "passed": true,
+      "data": {
+        "position": [
+          46.44,
+          0.06999989,
+          -4.65000057
+        ],
+        "EntryCount": 1,
+        "ExitCount": 0,
+        "mode": "FIRST_PERSON",
+        "sideOffset": 0.0
+      }
+    },
+    {
+      "test": "F12 WASD inside",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "F12 exit 1",
+      "passed": true,
+      "data": {
+        "position": [
+          46.44,
+          0.06999995,
+          -10.55
+        ],
+        "EntryCount": 1,
+        "ExitCount": 1,
+        "mode": "FIRST_PERSON",
+        "sideOffset": 0.0
+      }
+    },
+    {
+      "test": "F12 WASD outside",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "F12 entry 2",
+      "passed": true,
+      "data": {
+        "position": [
+          46.65952,
+          0.06999995,
+          -4.613826
+        ],
+        "EntryCount": 2,
+        "ExitCount": 1,
+        "mode": "FIRST_PERSON",
+        "sideOffset": 0.22
+      }
+    },
+    {
+      "test": "F12 exit 2",
+      "passed": true,
+      "data": {
+        "position": [
+          46.659996,
+          0.06999995,
+          -10.5638256
+        ],
+        "EntryCount": 2,
+        "ExitCount": 2,
+        "mode": "FIRST_PERSON",
+        "sideOffset": 0.22
+      }
+    },
+    {
+      "test": "F12 entry 3",
+      "passed": true,
+      "data": {
+        "position": [
+          46.22221,
+          0.06999995,
+          -4.629954
+        ],
+        "EntryCount": 3,
+        "ExitCount": 2,
+        "mode": "FIRST_PERSON",
+        "sideOffset": -0.22
+      }
+    },
+    {
+      "test": "F12 exit 3",
+      "passed": true,
+      "data": {
+        "position": [
+          46.220005,
+          0.06999995,
+          -10.5799532
+        ],
+        "EntryCount": 3,
+        "ExitCount": 3,
+        "mode": "FIRST_PERSON",
+        "sideOffset": -0.22
+      }
+    },
+    {
+      "test": "F19 entry 1",
+      "passed": true,
+      "data": {
+        "position": [
+          229.75,
+          0.06999995,
+          10.0
+        ],
+        "EntryCount": 1,
+        "ExitCount": 0,
+        "mode": "THIRD_PERSON",
+        "sideOffset": 0.0
+      }
+    },
+    {
+      "test": "F19 WASD inside",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "F19 exit 1",
+      "passed": true,
+      "data": {
+        "position": [
+          235.69,
+          0.06999995,
+          10.0
+        ],
+        "EntryCount": 1,
+        "ExitCount": 1,
+        "mode": "THIRD_PERSON",
+        "sideOffset": 0.0
+      }
+    },
+    {
+      "test": "F19 WASD outside",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "F19 entry 2",
+      "passed": true,
+      "data": {
+        "position": [
+          229.7,
+          0.06999989,
+          10.22
+        ],
+        "EntryCount": 2,
+        "ExitCount": 1,
+        "mode": "THIRD_PERSON",
+        "sideOffset": 0.22
+      }
+    },
+    {
+      "test": "F19 exit 2",
+      "passed": true,
+      "data": {
+        "position": [
+          235.65,
+          0.06999989,
+          10.22
+        ],
+        "EntryCount": 2,
+        "ExitCount": 2,
+        "mode": "THIRD_PERSON",
+        "sideOffset": 0.22
+      }
+    },
+    {
+      "test": "F19 entry 3",
+      "passed": true,
+      "data": {
+        "position": [
+          229.7162,
+          0.06999995,
+          9.781198
+        ],
+        "EntryCount": 3,
+        "ExitCount": 2,
+        "mode": "THIRD_PERSON",
+        "sideOffset": -0.22
+      }
+    },
+    {
+      "test": "F19 exit 3",
+      "passed": true,
+      "data": {
+        "position": [
+          235.6662,
+          0.06999989,
+          9.780006
+        ],
+        "EntryCount": 3,
+        "ExitCount": 3,
+        "mode": "THIRD_PERSON",
+        "sideOffset": -0.22
+      }
+    },
+    {
+      "test": "F19 third person F closes/reopens from 3UU actor approach",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "F01 entry 1",
+      "passed": true,
+      "data": {
+        "position": [
+          8.0,
+          0.209999919,
+          -15.5
+        ],
+        "EntryCount": 1,
+        "ExitCount": 0,
+        "mode": "FIRST_PERSON",
+        "sideOffset": 0.0
+      }
+    },
+    {
+      "test": "F01 WASD inside",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "F01 exit 1",
+      "passed": true,
+      "data": {
+        "position": [
+          8.0,
+          -1.1920929E-07,
+          -21.47
+        ],
+        "EntryCount": 1,
+        "ExitCount": 1,
+        "mode": "FIRST_PERSON",
+        "sideOffset": 0.0
+      }
+    },
+    {
+      "test": "F01 WASD outside",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "F01 entry 2",
+      "passed": true,
+      "data": {
+        "position": [
+          8.218567,
+          0.209999919,
+          -15.5435925
+        ],
+        "EntryCount": 2,
+        "ExitCount": 1,
+        "mode": "FIRST_PERSON",
+        "sideOffset": 0.22
+      }
+    },
+    {
+      "test": "F01 exit 2",
+      "passed": true,
+      "data": {
+        "position": [
+          8.219998,
+          -5.96046448E-08,
+          -21.4935932
+        ],
+        "EntryCount": 2,
+        "ExitCount": 2,
+        "mode": "FIRST_PERSON",
+        "sideOffset": 0.22
+      }
+    },
+    {
+      "test": "F01 entry 3",
+      "passed": true,
+      "data": {
+        "position": [
+          7.78,
+          0.209999919,
+          -15.5
+        ],
+        "EntryCount": 3,
+        "ExitCount": 2,
+        "mode": "FIRST_PERSON",
+        "sideOffset": -0.22
+      }
+    },
+    {
+      "test": "F01 exit 3",
+      "passed": true,
+      "data": {
+        "position": [
+          7.78,
+          -1.1920929E-07,
+          -21.45
+        ],
+        "EntryCount": 3,
+        "ExitCount": 3,
+        "mode": "FIRST_PERSON",
+        "sideOffset": -0.22
+      }
+    }
+  ]
+}

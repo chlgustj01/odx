@@ -1,0 +1,108 @@
+{
+  "passed": true,
+  "error": null,
+  "cleanupVerified": true,
+  "method": "1920x1080 Game View; actual TCP; Input System keyboard through existing controller; GraphicRaycaster/Button pointer handlers; TMP layout/glyph checks",
+  "rows": [
+    {
+      "test": "A-HomeIdle",
+      "passed": true,
+      "view": "HOME",
+      "details": {
+        "hazard": "● INACTIVE",
+        "note": "No prediction: honest INACTIVE rather than uncomputed SAFE"
+      }
+    },
+    {
+      "test": "B-SlewVoice",
+      "passed": true,
+      "view": "HOME",
+      "details": {
+        "CurrentValue": 0.0,
+        "CommandTargetValue": 30.0,
+        "RemainingValue": 30.0,
+        "voiceOnlyUnchanged": true
+      }
+    },
+    {
+      "test": "D-Hazard",
+      "passed": true,
+      "view": "HAZARD",
+      "details": null
+    },
+    {
+      "test": "C-LiveMotion",
+      "passed": true,
+      "view": "HOME",
+      "details": {
+        "CurrentValue": 12.1739922,
+        "RemainingValue": 17.8260078,
+        "remainingSegments": 9,
+        "initialSegments": 15
+      }
+    },
+    {
+      "test": "E-Motion",
+      "passed": true,
+      "view": "MOTION",
+      "details": null
+    },
+    {
+      "test": "F-CommandKorean",
+      "passed": true,
+      "view": "COMMAND",
+      "details": null
+    },
+    {
+      "test": "F-CommandVietnamese",
+      "passed": true,
+      "view": "COMMAND",
+      "details": null
+    },
+    {
+      "test": "F-CommandEnglish",
+      "passed": true,
+      "view": "COMMAND",
+      "details": {
+        "ConfirmationLatencySec": 3.54329038,
+        "confirmDidNotMoveCrane": true
+      }
+    },
+    {
+      "test": "G-System",
+      "passed": true,
+      "view": "SYSTEM",
+      "details": null
+    },
+    {
+      "test": "H-Log",
+      "passed": true,
+      "view": "LOG",
+      "details": null
+    },
+    {
+      "test": "I-Layout",
+      "passed": true,
+      "view": "HOME",
+      "details": {
+        "resolution": "1920x1080",
+        "viewsChecked": 10,
+        "textOverlap": false,
+        "truncatedText": false,
+        "missingGlyphs": 0
+      }
+    },
+    {
+      "test": "Extra-Stop",
+      "passed": true,
+      "view": "HOME",
+      "details": null
+    },
+    {
+      "test": "Extra-Invalid",
+      "passed": true,
+      "view": "HOME",
+      "details": null
+    }
+  ]
+}

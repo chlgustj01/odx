@@ -1,0 +1,35 @@
+ M Assets/Plugins/NuGet/.nuget-installed.json
+ M Assets/Plugins/NuGet/McpPlugin.Common.dll
+ M Assets/Plugins/NuGet/McpPlugin.dll
+ M Assets/Scenes/Main.unity
+ M Assets/Scripts/Shipyard/Explorer/ShipyardExploreCameraController.cs
+ M Assets/Scripts/Shipyard/Explorer/ShipyardExploreHUD.cs
+ M Assets/Scripts/Shipyard/Explorer/ShipyardInteractable.cs
+ M "Assets/ShipyardDemo/ShipyardUI SDF.asset"
+ M "Assets/UI/Fonts/CraneDashboard SDF.asset"
+ M "Assets/UI/Fonts/OperatorCommand Korean SDF.asset"
+ M "Assets/UI/Fonts/OperatorCommand SDF.asset"
+ M Packages/manifest.json
+ M Packages/packages-lock.json
+ M ProjectSettings/ProjectSettings.asset
+ M README.md
+?? Assets/Editor/ShipyardDB.meta
+?? Assets/Editor/ShipyardDB/
+?? Assets/Editor/UI/FacilityEntranceChecks.cs
+?? Assets/Editor/UI/FacilityEntranceChecks.cs.meta
+?? Assets/Editor/UI/FacilityEntranceRegressionRunner.cs
+?? Assets/Editor/UI/FacilityEntranceRegressionRunner.cs.meta
+?? Assets/Editor/UI/FacilityEntranceSetup.cs
+?? Assets/Editor/UI/FacilityEntranceSetup.cs.meta
+?? Assets/Scripts/Shipyard/Explorer/FacilityEntrance.cs
+?? Assets/Scripts/Shipyard/Explorer/FacilityEntrance.cs.meta
+?? Assets/Scripts/Shipyard/PublicData.meta
+?? Assets/Scripts/Shipyard/PublicData/
+?? Assets/ShipyardExplorer/Entrances.meta
+?? Assets/ShipyardExplorer/Entrances/
+?? Assets/ShipyardPublicData.meta
+?? Assets/ShipyardPublicData/
+?? Assets/StreamingAssets/ShipyardDB.meta
+?? Assets/StreamingAssets/ShipyardDB/
+?? Docs/
+?? PostAudit/

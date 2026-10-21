@@ -1,0 +1,9 @@
+{
+  "domainReloadCount": 1,
+  "enteredPlay": true,
+  "exitPlaying": false,
+  "gateTimeoutOccurrenceCount": 0,
+  "sceneSaved": false,
+  "source": "ReproductionEditor.log",
+  "result": "TRANSIENT / not reproduced in one connected Play enter-exit cycle"
+}

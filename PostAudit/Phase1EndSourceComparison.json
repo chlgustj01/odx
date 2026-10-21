@@ -1,0 +1,648 @@
+{
+  "files": [
+    {
+      "path": "Assets/Scripts/AccidentEvidence/AccidentContextMapper.cs",
+      "phase1Compiled": "ad2ff744b3d027dcabfed1327aa566821264658b921bacfe56ef0e837c237128",
+      "current": "ad2ff744b3d027dcabfed1327aa566821264658b921bacfe56ef0e837c237128",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/AccidentEvidence/AccidentDBCodebook.cs",
+      "phase1Compiled": "76911c30b43912862f8da4e037f4ee9c99ef7cd148d73b4b1b44e1168840f1bb",
+      "current": "76911c30b43912862f8da4e037f4ee9c99ef7cd148d73b4b1b44e1168840f1bb",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/AccidentEvidence/AccidentEvidencePanel.cs",
+      "phase1Compiled": "eb386537d68348066b3ec6f3f261d40f76aa33945df61b0b9c1be8c074378f53",
+      "current": "eb386537d68348066b3ec6f3f261d40f76aa33945df61b0b9c1be8c074378f53",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/AccidentEvidence/AccidentEvidenceRepository.cs",
+      "phase1Compiled": "299a2d47b3cc03713d93d56e43babeb47263d450d7c9b57c5a3cd3627ee78729",
+      "current": "299a2d47b3cc03713d93d56e43babeb47263d450d7c9b57c5a3cd3627ee78729",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/AccidentEvidence/AccidentRecord.cs",
+      "phase1Compiled": "76a64a085f1314e84f36ff2f6e5bd5fdbca9ffe9a83f195529e90c1bc1e2ef27",
+      "current": "76a64a085f1314e84f36ff2f6e5bd5fdbca9ffe9a83f195529e90c1bc1e2ef27",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/AccidentEvidence/AccidentReviewSuggestionRules.cs",
+      "phase1Compiled": "39a0e7e3d4b2922a070ad0399392bbff2f837c9ff0ed867ecdef43f5ea65e499",
+      "current": "39a0e7e3d4b2922a070ad0399392bbff2f837c9ff0ed867ecdef43f5ea65e499",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/AccidentEvidence/AccidentSimilarityService.cs",
+      "phase1Compiled": "c26cddd0ac98057f9afdd1e32a5649512b90c38503e47c4e98ebf911d053d62d",
+      "current": "c26cddd0ac98057f9afdd1e32a5649512b90c38503e47c4e98ebf911d053d62d",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/AccidentEvidence/CurrentWorkContext.cs",
+      "phase1Compiled": "e65bece502edf9a90db55455f020d5847c240a0a52139628a6fdea2a5bc5f448",
+      "current": "e65bece502edf9a90db55455f020d5847c240a0a52139628a6fdea2a5bc5f448",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/CommandReceiver.cs",
+      "phase1Compiled": "4f3fb0c225ad2802822e25e97724bfce0d614d917e141bf4b8dbd8e7598a1e08",
+      "current": "4f3fb0c225ad2802822e25e97724bfce0d614d917e141bf4b8dbd8e7598a1e08",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/CraneDebugHUD.cs",
+      "phase1Compiled": "c4b7396d21a5e64e9f9982c7d78f5aa9063448f4c4c615c93aaf6a6b783f72d2",
+      "current": "c4b7396d21a5e64e9f9982c7d78f5aa9063448f4c4c615c93aaf6a6b783f72d2",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/CraneFaultInjector.cs",
+      "phase1Compiled": "510334fb26fd5b6fc39f85715f91d5afee49686588ddb3b723c1a337a87a4e1b",
+      "current": "510334fb26fd5b6fc39f85715f91d5afee49686588ddb3b723c1a337a87a4e1b",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/CraneStateSampler.cs",
+      "phase1Compiled": "b7f778e86c846528adc873a947ee9b610bd14591649355f8b6e611fda280aa38",
+      "current": "b7f778e86c846528adc873a947ee9b610bd14591649355f8b6e611fda280aa38",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/CraneWireRopeVisual.cs",
+      "phase1Compiled": "81d4ffcca1b80718f610d2680bd41c34fc6a80beb931e35125f53f44fe2b3abc",
+      "current": "81d4ffcca1b80718f610d2680bd41c34fc6a80beb931e35125f53f44fe2b3abc",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/Hazard/HazardAlertPresenter.cs",
+      "phase1Compiled": "d4fb869070fe37f98b3966042f148407b5551e62906ca05d26f9b35aea3e1f73",
+      "current": "d4fb869070fe37f98b3966042f148407b5551e62906ca05d26f9b35aea3e1f73",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/Hazard/HazardZoneEvaluator.cs",
+      "phase1Compiled": "daa195f666bd394fed99e99e7e024449d50d6229d878d55fb35aa5dcb85eae9a",
+      "current": "daa195f666bd394fed99e99e7e024449d50d6229d878d55fb35aa5dcb85eae9a",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/Hazard/WorkerHazardTarget.cs",
+      "phase1Compiled": "bf3e9ff010bcf696458141b51bf3750448d3c30c912c180dbadd05034d703c75",
+      "current": "bf3e9ff010bcf696458141b51bf3750448d3c30c912c180dbadd05034d703c75",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/OperatorInputSampler.cs",
+      "phase1Compiled": "e241fb7d38baa3a2531ea3255813bdabf066fb5766a4cdbefc3228bbec65c3ea",
+      "current": "e241fb7d38baa3a2531ea3255813bdabf066fb5766a4cdbefc3228bbec65c3ea",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/Prediction/LiveLoadPathTracker.cs",
+      "phase1Compiled": "b5ce45b17c0250f7d5851d3073afbc4a40aed1777723618599c0dd3016aba13e",
+      "current": "b5ce45b17c0250f7d5851d3073afbc4a40aed1777723618599c0dd3016aba13e",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/Prediction/LiveLoadPathVisualizer.cs",
+      "phase1Compiled": "87cadb3ec5b7724a3a5ab5789762c031b0eb291bb319821d4f3c7395e1049ad6",
+      "current": "87cadb3ec5b7724a3a5ab5789762c031b0eb291bb319821d4f3c7395e1049ad6",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/Prediction/LoadProfile.cs",
+      "phase1Compiled": "6c53532b585e3dd81b231ee93cd942da0ed83468ccfdb1d3e241262a8aecc44f",
+      "current": "6c53532b585e3dd81b231ee93cd942da0ed83468ccfdb1d3e241262a8aecc44f",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/Prediction/PredictedPathEngine.cs",
+      "phase1Compiled": "81d199ef03e9c2ddd550db51d6ee73b40467ed4453ca3f632e7fc020a66209eb",
+      "current": "81d199ef03e9c2ddd550db51d6ee73b40467ed4453ca3f632e7fc020a66209eb",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/Prediction/PredictedPathVisualizer.cs",
+      "phase1Compiled": "d68773aea6e1d57e593dc5eb362051073f07e7603e1e9036ab7686be8db417a6",
+      "current": "d68773aea6e1d57e593dc5eb362051073f07e7603e1e9036ab7686be8db417a6",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/Prediction/SweptSegment.cs",
+      "phase1Compiled": "889848c4237d39115a3a83a69cbe275149752590a1c3e912c7474aa722407acf",
+      "current": "889848c4237d39115a3a83a69cbe275149752590a1c3e912c7474aa722407acf",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/Shipyard/Explorer/ExplorerHazardEvaluator.cs",
+      "phase1Compiled": "6f7a056e6fdd06e76230f0ef682b02b046f37e98e7ac35ee96d1a8e194a9677a",
+      "current": "6f7a056e6fdd06e76230f0ef682b02b046f37e98e7ac35ee96d1a8e194a9677a",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/Shipyard/Explorer/FacilityEntrance.cs",
+      "phase1Compiled": "af4ed6b2e019e6b2cdcbfb6dda4470f83dd314e38131ec8170c4e09a8109eda9",
+      "current": "af4ed6b2e019e6b2cdcbfb6dda4470f83dd314e38131ec8170c4e09a8109eda9",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/Shipyard/Explorer/ShipyardExploreCameraController.cs",
+      "phase1Compiled": "1a7dc0be386a0239d4aefc505483f900b445fedf9cf57aafca07a80361b0b3e3",
+      "current": "1a7dc0be386a0239d4aefc505483f900b445fedf9cf57aafca07a80361b0b3e3",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/Shipyard/Explorer/ShipyardExploreHUD.cs",
+      "phase1Compiled": "7221cccf43d762f465c3a065860bca6891b80dc75e3d95d5899a1c87c592b65a",
+      "current": "7221cccf43d762f465c3a065860bca6891b80dc75e3d95d5899a1c87c592b65a",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/Shipyard/Explorer/ShipyardExploreInputGuard.cs",
+      "phase1Compiled": "95b0967156537bd955fbc866eb62105de97c1514eca26279e9b42be6f958e085",
+      "current": "95b0967156537bd955fbc866eb62105de97c1514eca26279e9b42be6f958e085",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/Shipyard/Explorer/ShipyardFirstPersonController.cs",
+      "phase1Compiled": "0e9c413347df4f8d9f62ca43abe06f981679f741fce5ccac851c9e2e8aa87212",
+      "current": "0e9c413347df4f8d9f62ca43abe06f981679f741fce5ccac851c9e2e8aa87212",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/Shipyard/Explorer/ShipyardInteractable.cs",
+      "phase1Compiled": "f0fefa21659b6cd0e7ff4ed3fc1212735e6ddff8aea0b7a0a845bf9048115de1",
+      "current": "f0fefa21659b6cd0e7ff4ed3fc1212735e6ddff8aea0b7a0a845bf9048115de1",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/Shipyard/Explorer/ShipyardThirdPersonController.cs",
+      "phase1Compiled": "838beed4495c4a7354331fa4c7f74969e08e1d28e179c6c9b08c21a51b44205c",
+      "current": "838beed4495c4a7354331fa4c7f74969e08e1d28e179c6c9b08c21a51b44205c",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/Shipyard/FacilityCatalog.cs",
+      "phase1Compiled": "82146c58b99a82bac38d70d19e8b8d7007a3905896925b06e8620d0f9c5f1036",
+      "current": "82146c58b99a82bac38d70d19e8b8d7007a3905896925b06e8620d0f9c5f1036",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/Shipyard/FacilityInfo.cs",
+      "phase1Compiled": "5bc67acdc3e0a1dfca0e2cdbe3c2dfd45e8e5a7542881c3cffb4e112df3ebaf9",
+      "current": "5bc67acdc3e0a1dfca0e2cdbe3c2dfd45e8e5a7542881c3cffb4e112df3ebaf9",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/Shipyard/FacilityReferencePanel.cs",
+      "phase1Compiled": "7621ef7f4001d0d6ece1634d273e5645f2456a083d3780cae53a68039376bef5",
+      "current": "7621ef7f4001d0d6ece1634d273e5645f2456a083d3780cae53a68039376bef5",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/Shipyard/PublicData/CraneAssetMetadata.cs",
+      "phase1Compiled": "4b7d164bb17184ef2aa045c735c7c2bf79e21c3ca8bb2d233122739e08586e2d",
+      "current": "4b7d164bb17184ef2aa045c735c7c2bf79e21c3ca8bb2d233122739e08586e2d",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/Shipyard/PublicData/PublicAssetMetadata.cs",
+      "phase1Compiled": "54edce225a84ad84f5b1029345e167a29a74341cc5028402e1e0469df846f5ee",
+      "current": "54edce225a84ad84f5b1029345e167a29a74341cc5028402e1e0469df846f5ee",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/Shipyard/PublicData/ShipyardCoordinateConfig.cs",
+      "phase1Compiled": "333341476ec72464c1ce36e79a85bc5760cad7e0bdd901d17ef1499ec4d77f08",
+      "current": "333341476ec72464c1ce36e79a85bc5760cad7e0bdd901d17ef1499ec4d77f08",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/Shipyard/PublicData/ShipyardDatabaseLoader.cs",
+      "phase1Compiled": "f97da4e33d21f1e37b8dd61a301ce87cfee934c0225242445af2cbc91fa93ba7",
+      "current": "f97da4e33d21f1e37b8dd61a301ce87cfee934c0225242445af2cbc91fa93ba7",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/Shipyard/PublicData/ShipyardDatabasePanel.cs",
+      "phase1Compiled": "cecd7a2988a66a384bf091a51898f8566c9db9dc873aedba3d6ac201dc0af245",
+      "current": "cecd7a2988a66a384bf091a51898f8566c9db9dc873aedba3d6ac201dc0af245",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/Shipyard/PublicData/ShipyardEvidenceLabels.cs",
+      "phase1Compiled": "5a827619104a54326da728ab6f37c0d4c1e7084b80b6a31c83a804c9b1ca501c",
+      "current": "5a827619104a54326da728ab6f37c0d4c1e7084b80b6a31c83a804c9b1ca501c",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/Shipyard/PublicData/ShipyardFacilityAdapter.cs",
+      "phase1Compiled": "833e6046d83f8cc4f297717c0c49d756feb39afef484e388d1373d6acc4016a2",
+      "current": "833e6046d83f8cc4f297717c0c49d756feb39afef484e388d1373d6acc4016a2",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/Shipyard/PublicData/ShipyardPublicDatabase.cs",
+      "phase1Compiled": "1a1b3b7fc8f2ab02895c31c8b1a2756844c0c37eae79a28fb7610e72d7bca28e",
+      "current": "1a1b3b7fc8f2ab02895c31c8b1a2756844c0c37eae79a28fb7610e72d7bca28e",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/Shipyard/ShipyardAssetInfo.cs",
+      "phase1Compiled": "a6ef3a06c9a158b7d171dd021fc6d0763145cc330cdfa2c641c45d5154d5319b",
+      "current": "a6ef3a06c9a158b7d171dd021fc6d0763145cc330cdfa2c641c45d5154d5319b",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/Shipyard/ShipyardCameraController.cs",
+      "phase1Compiled": "399731569050fbee77d289b5d98cdc7e6798086f2f088f4ded3236e5fb166595",
+      "current": "399731569050fbee77d289b5d98cdc7e6798086f2f088f4ded3236e5fb166595",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/Shipyard/ShipyardGlyph.cs",
+      "phase1Compiled": "151de8394f3a7d1cc91b777fa898013d103a898debc156ba807df88503cdb2e5",
+      "current": "151de8394f3a7d1cc91b777fa898013d103a898debc156ba807df88503cdb2e5",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/Shipyard/ShipyardObjectPicker.cs",
+      "phase1Compiled": "127cf041c0be8285b76656836efdacaa4718dfc184714b4c91675fef162b0ff8",
+      "current": "127cf041c0be8285b76656836efdacaa4718dfc184714b4c91675fef162b0ff8",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/Shipyard/ShipyardOverviewController.cs",
+      "phase1Compiled": "8ca5bbf40410f8424aceb5d4ceb34e28ef91c55ae71a859e3c7c6e4d952c8b65",
+      "current": "8ca5bbf40410f8424aceb5d4ceb34e28ef91c55ae71a859e3c7c6e4d952c8b65",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/Shipyard/ShipyardSelectionManager.cs",
+      "phase1Compiled": "220345a4b7572fbe193637eae3043c03e5915dbd94388c670e911a42c723ce2b",
+      "current": "220345a4b7572fbe193637eae3043c03e5915dbd94388c670e911a42c723ce2b",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/Shipyard/ShipyardTextInputGuard.cs",
+      "phase1Compiled": "3c36c445f45ebb1604f2a57916c24f4cdf5bdd5ac0c206b8221327179df43bc6",
+      "current": "3c36c445f45ebb1604f2a57916c24f4cdf5bdd5ac0c206b8221327179df43bc6",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/Shipyard/ShipyardUIBinder.cs",
+      "phase1Compiled": "9f7215ef01cacadf406c5ac8281d67f0ffc4ef9d433e86b1c14e0c323bdcea12",
+      "current": "9f7215ef01cacadf406c5ac8281d67f0ffc4ef9d433e86b1c14e0c323bdcea12",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/Timing/CommandTimelineDashboard.cs",
+      "phase1Compiled": "42a17c511635a02db61b7a7f681f25f4052e9d214b6aeb846308a0e8f204ab76",
+      "current": "42a17c511635a02db61b7a7f681f25f4052e9d214b6aeb846308a0e8f204ab76",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/Timing/CommandTimelineTracker.cs",
+      "phase1Compiled": "fe07f60d11f353419f4035d37378f8346386c7c5e646f174a3aa484ca9ccfd52",
+      "current": "fe07f60d11f353419f4035d37378f8346386c7c5e646f174a3aa484ca9ccfd52",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/TowerCraneController.cs",
+      "phase1Compiled": "02a3300c5f2801da503d833f0bf208f0ab308c1b0c33f4cc85e76a4905419978",
+      "current": "02a3300c5f2801da503d833f0bf208f0ab308c1b0c33f4cc85e76a4905419978",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/UI/CommandConfirmationTracker.cs",
+      "phase1Compiled": "7930ce4501287785cec06fad730b5e654437a66b6d9a8415ee0da4101eaf8ce0",
+      "current": "7930ce4501287785cec06fad730b5e654437a66b6d9a8415ee0da4101eaf8ce0",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/UI/HmiDirectionGraphic.cs",
+      "phase1Compiled": "38d5a60b9ca42e093c10b48ce0836df94e8736fe24f748f7f6992cc962e405a0",
+      "current": "38d5a60b9ca42e093c10b48ce0836df94e8736fe24f748f7f6992cc962e405a0",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/UI/OperatorCommandDisplay.cs",
+      "phase1Compiled": "43bea8cfd331335f63d6d09f607bbad8cd368b9cd1b0264ac6a58189bd24be46",
+      "current": "43bea8cfd331335f63d6d09f607bbad8cd368b9cd1b0264ac6a58189bd24be46",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/UI/OperatorCommandLocalization.cs",
+      "phase1Compiled": "0247c68cea3d3b66d4b11380fbd8649f8394c40f197bb78d696159c36acac580",
+      "current": "0247c68cea3d3b66d4b11380fbd8649f8394c40f197bb78d696159c36acac580",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/UI/OperatorDirectionGraphic.cs",
+      "phase1Compiled": "c934ba71447de6116f599793b5dcbdfcac7781bd410d74e9cc585f5c86b732a3",
+      "current": "c934ba71447de6116f599793b5dcbdfcac7781bd410d74e9cc585f5c86b732a3",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/UI/TaskHmiDashboard.cs",
+      "phase1Compiled": "a3f6c6b0b8c6b67f557fbe6601ee1f7a70fba2ff617978fa036fb62db7ce07a9",
+      "current": "a3f6c6b0b8c6b67f557fbe6601ee1f7a70fba2ff617978fa036fb62db7ce07a9",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/VerificationEngine.cs",
+      "phase1Compiled": "9bcb28c4aea6ed459ad3f5f05fbfc39e6e26f8ec81652c4faefc41e35627b37e",
+      "current": "9bcb28c4aea6ed459ad3f5f05fbfc39e6e26f8ec81652c4faefc41e35627b37e",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/VoiceCommandMessage.cs",
+      "phase1Compiled": "58d2556aa95e6df752f8bd5645118143b0239cb47cb4380d15e28415baf9711c",
+      "current": "58d2556aa95e6df752f8bd5645118143b0239cb47cb4380d15e28415baf9711c",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/WorkerRoute/WorkerRouteRiskDashboard.cs",
+      "phase1Compiled": "d2bc9a571e2476833868ea910ce2599ec27671dce183da134cc7b6aa68b44074",
+      "current": "d2bc9a571e2476833868ea910ce2599ec27671dce183da134cc7b6aa68b44074",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Scripts/WorkerRoute/WorkerRouteRiskEngine.cs",
+      "phase1Compiled": "b989a57dde0bf0db766ba3342d71c76fc86dda654d95ae30b36baad192590dbd",
+      "current": "b989a57dde0bf0db766ba3342d71c76fc86dda654d95ae30b36baad192590dbd",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/TutorialInfo/Scripts/Readme.cs",
+      "phase1Compiled": "c09c93844f93eb252a6fb39c222d169c63a63e96008fd040b9e7628c3e7ccc2e",
+      "current": "c09c93844f93eb252a6fb39c222d169c63a63e96008fd040b9e7628c3e7ccc2e",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Editor/AccidentEvidence/AccidentEvidenceChecks.cs",
+      "phase1Compiled": "2adcab8ebfa67791db6cd8f3d9f4fa41511d44951c045f97bc9af21d3e585192",
+      "current": "2adcab8ebfa67791db6cd8f3d9f4fa41511d44951c045f97bc9af21d3e585192",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Editor/AccidentEvidence/AccidentEvidenceSetup.cs",
+      "phase1Compiled": "9aa6b628b2cb5b1ef25b9599064a4c4ec1fe902c05776173001a266f5e8430fb",
+      "current": "9aa6b628b2cb5b1ef25b9599064a4c4ec1fe902c05776173001a266f5e8430fb",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Editor/Prediction/LiveLoadPathPlayModeChecks.cs",
+      "phase1Compiled": "1f24eec45461e98178ee61c7eaf4a090d2df3577afcda9bdb7fe343757ca8283",
+      "current": "1f24eec45461e98178ee61c7eaf4a090d2df3577afcda9bdb7fe343757ca8283",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Editor/ShipyardDB/ConfidenceRegressionRunner.cs",
+      "phase1Compiled": "8d1a17ddd7446ff85c0f8780bf2a75880bb60137a7259c3b7864f3059a226f02",
+      "current": "8d1a17ddd7446ff85c0f8780bf2a75880bb60137a7259c3b7864f3059a226f02",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Editor/ShipyardDB/FacilityValueEvidenceChecks.cs",
+      "phase1Compiled": "6b5c951ea94ac3d80059fbdc7228b8b11bac162e772469374483aead602eea89",
+      "current": "6b5c951ea94ac3d80059fbdc7228b8b11bac162e772469374483aead602eea89",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Editor/ShipyardDB/FacilityValueEvidenceUpgrade.cs",
+      "phase1Compiled": "fc5ce514518ec31f5d19a3346e9f2ffbcc3c7909cf271e5d958157cc9651b656",
+      "current": "fc5ce514518ec31f5d19a3346e9f2ffbcc3c7909cf271e5d958157cc9651b656",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Editor/ShipyardDB/ShipyardConfidenceChecks.cs",
+      "phase1Compiled": "4d241581c4eeb6f8c07cd32d4e3dc731f11982fffc0d7dd16b2cd2bc0e9b5322",
+      "current": "4d241581c4eeb6f8c07cd32d4e3dc731f11982fffc0d7dd16b2cd2bc0e9b5322",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Editor/ShipyardDB/ShipyardConfidenceLabelUpgrade.cs",
+      "phase1Compiled": "73de1b90c767cceba19027cdea95597cd8579e6080043531314003a3fd1b0f4d",
+      "current": "73de1b90c767cceba19027cdea95597cd8579e6080043531314003a3fd1b0f4d",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Editor/ShipyardDB/ShipyardPublicDataChecks.cs",
+      "phase1Compiled": "d4c28c3cb0f9c5ff6ffc93bec3474fda6e1ffa58cee77b6c296f0d2580f82d72",
+      "current": "d4c28c3cb0f9c5ff6ffc93bec3474fda6e1ffa58cee77b6c296f0d2580f82d72",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Editor/ShipyardDB/ShipyardPublicVisualSetup.cs",
+      "phase1Compiled": "e8701b3ec2ee66c3d52d4317d8e6d06b3e3b386a2c025662b3874fee392761e0",
+      "current": "e8701b3ec2ee66c3d52d4317d8e6d06b3e3b386a2c025662b3874fee392761e0",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Editor/Timing/CommandTimelinePlayModeChecks.cs",
+      "phase1Compiled": "19219866f6936180663a521e149a3be21d87349364437bec9c0ada63790b2f62",
+      "current": "19219866f6936180663a521e149a3be21d87349364437bec9c0ada63790b2f62",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Editor/UI/FacilityEntranceChecks.cs",
+      "phase1Compiled": "f5a724648eb13609a93e88e652cfcfad357d29324bf4314ecec62212b90babc8",
+      "current": "f5a724648eb13609a93e88e652cfcfad357d29324bf4314ecec62212b90babc8",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Editor/UI/FacilityEntranceRegressionRunner.cs",
+      "phase1Compiled": "c4b227a331b45b794417ec77bfd1027d3c520c054d025591c02134710716a631",
+      "current": "c4b227a331b45b794417ec77bfd1027d3c520c054d025591c02134710716a631",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Editor/UI/FacilityEntranceSetup.cs",
+      "phase1Compiled": "e2a7ddd347a8299029db126c67b20f58f08799e0e752ad50cce4069bf7712795",
+      "current": "e2a7ddd347a8299029db126c67b20f58f08799e0e752ad50cce4069bf7712795",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Editor/UI/OperatorCommandUIPlayModeChecks.cs",
+      "phase1Compiled": "5743d1958e52b434baa9e72a0a2cfd0108e51677966f5b5b93c454ad882d2fee",
+      "current": "5743d1958e52b434baa9e72a0a2cfd0108e51677966f5b5b93c454ad882d2fee",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Editor/UI/OperatorCommandUISetup.cs",
+      "phase1Compiled": "6d59e2c82d4defd042b9c56b470483386ded417629507f4337774ba9928df79f",
+      "current": "6d59e2c82d4defd042b9c56b470483386ded417629507f4337774ba9928df79f",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Editor/UI/ShipyardExploreChecks.cs",
+      "phase1Compiled": "fdef9fd7d7b1dadc4437dbd6a297054bb88aa3fd0cfdb194e903faed3ebb696a",
+      "current": "fdef9fd7d7b1dadc4437dbd6a297054bb88aa3fd0cfdb194e903faed3ebb696a",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Editor/UI/ShipyardExploreSetup.cs",
+      "phase1Compiled": "1c8834126a106e4fbe65d99dbb791f71909b54da1e7fd011b8610c3ef2a2063a",
+      "current": "1c8834126a106e4fbe65d99dbb791f71909b54da1e7fd011b8610c3ef2a2063a",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Editor/UI/ShipyardPlayChecks.cs",
+      "phase1Compiled": "170adfde3ff5b2f6e598e629cdc947da8453901d1b4798f832de0213cb0b30f4",
+      "current": "170adfde3ff5b2f6e598e629cdc947da8453901d1b4798f832de0213cb0b30f4",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Editor/UI/ShipyardRealismUpgrade.cs",
+      "phase1Compiled": "2abe2194628937b8181a1b21817185c5c8afc23ec97dc3f299e8ae5c5490c6f1",
+      "current": "2abe2194628937b8181a1b21817185c5c8afc23ec97dc3f299e8ae5c5490c6f1",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Editor/UI/ShipyardSceneSetup.cs",
+      "phase1Compiled": "9dde20692ba5768121b9256859deac228b70e920752514629dd67228febc5284",
+      "current": "9dde20692ba5768121b9256859deac228b70e920752514629dd67228febc5284",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Editor/UI/TaskHmiPlayChecks.cs",
+      "phase1Compiled": "00481633ffd1ecd2f7fc222063610a669f60cfe1c5ea5761bb932fdb012ba613",
+      "current": "00481633ffd1ecd2f7fc222063610a669f60cfe1c5ea5761bb932fdb012ba613",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Editor/UI/TaskHmiSetup.cs",
+      "phase1Compiled": "170f9365690f03caad8f0fcaf397e1130f2675ab67a24517f3ed05be014f0e5b",
+      "current": "170f9365690f03caad8f0fcaf397e1130f2675ab67a24517f3ed05be014f0e5b",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Editor/UI/WorkerRouteRiskChecks.cs",
+      "phase1Compiled": "b3e4ac9d33a4eacf1d0e81a8be046151736442832dd341213e8c3ac90d88b643",
+      "current": "b3e4ac9d33a4eacf1d0e81a8be046151736442832dd341213e8c3ac90d88b643",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/Editor/UI/WorkerRouteRiskSetup.cs",
+      "phase1Compiled": "38d3b11c7f767641f8daf9222222e2c9a5c4cbe51162d145aa4ed9632d866009",
+      "current": "38d3b11c7f767641f8daf9222222e2c9a5c4cbe51162d145aa4ed9632d866009",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    },
+    {
+      "path": "Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs",
+      "phase1Compiled": "d2023934bc2be23af69cd930ade85eff41c5db0a6f6666b05324b975befdb5b5",
+      "current": "d2023934bc2be23af69cd930ade85eff41c5db0a6f6666b05324b975befdb5b5",
+      "match": true,
+      "algorithm": "8829d00f-11b8-4213-878b-770e8597ac16"
+    }
+  ],
+  "generatedDocumentsNotOnDisk": [
+    {
+      "assembly": "Assembly-CSharp.pdb",
+      "source": "D:\\UnityProject\\CraneSignalAI\\Unity.SourceGenerators\\Unity.MonoScriptGenerator.MonoScriptInfoGenerator\\AssemblyMonoScriptTypes.generated.cs",
+      "algorithm": "ff1816ec-aa5e-4d10-87f7-6f4963833460",
+      "checksum": "dea85e8548607306e1799f9a4942915fe3f8cf53"
+    },
+    {
+      "assembly": "Assembly-CSharp-Editor.pdb",
+      "source": "D:\\UnityProject\\CraneSignalAI\\Unity.SourceGenerators\\Unity.MonoScriptGenerator.MonoScriptInfoGenerator\\AssemblyMonoScriptTypes.generated.cs",
+      "algorithm": "ff1816ec-aa5e-4d10-87f7-6f4963833460",
+      "checksum": "f83e27e5d6dd0477e35909d4b468954b53e8e84a"
+    }
+  ]
+}

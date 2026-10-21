@@ -1,0 +1,32 @@
+{
+  "utc": "2026-10-21T09:13:22.7145465Z",
+  "scene": "Assets/Scenes/Main.unity",
+  "dirty": false,
+  "playing": false,
+  "compiling": false,
+  "missingScripts": 0,
+  "sceneSavedDuringAudit": false,
+  "position": [
+    -46.0,
+    0.0,
+    32.0
+  ],
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "parent": null,
+  "controllerEnabled": true,
+  "receiverEnabled": true,
+  "faultComponentEnabled": false,
+  "faultEnabled": false,
+  "faultMode": "NONE",
+  "consoleFlagsRestored": true
+}

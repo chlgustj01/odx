@@ -1,0 +1,98 @@
+{
+  "sourceWorkbook": "한화오션_거제사업장_시설DB (1).xlsx",
+  "sourceSha256": "60bf40ec0719fccb58e583831d6a21deb538c6d63615f36c07e65d3461adbd3b",
+  "sheet": "출처",
+  "records": [
+    {
+      "key": "HO_FAC",
+      "name": "한화오션 공식 홈페이지 > 거제사업장 소개 > Facilities",
+      "confidence": "A",
+      "url": "https://www.hanwhaocean.com/whoweare/ig/facilities/",
+      "sourceRow": 2
+    },
+    {
+      "key": "HO_FAC_EN",
+      "name": "Hanwha Ocean official site > Geoje shipyard > Facilities (English)",
+      "confidence": "A",
+      "url": "https://www.hanwhaocean.com/en/whoweare/ig/facilities/",
+      "sourceRow": 3
+    },
+    {
+      "key": "HO_SHIP",
+      "name": "한화오션 공식 홈페이지 > 거제사업장 소개 > Build a Ship",
+      "confidence": "A",
+      "url": "https://www.hanwhaocean.com/whoweare/ig/ship/",
+      "sourceRow": 4
+    },
+    {
+      "key": "HO_PLANT",
+      "name": "한화오션 공식 홈페이지 > 거제사업장 소개 > Build a Plant",
+      "confidence": "A",
+      "url": "https://www.hanwhaocean.com/whoweare/ig/plant/",
+      "sourceRow": 5
+    },
+    {
+      "key": "HO_RD",
+      "name": "한화오션 공식 홈페이지 > R&D 설비",
+      "confidence": "A",
+      "url": "https://www.hanwhaocean.com/whatweinnovate/rd/",
+      "sourceRow": 6
+    },
+    {
+      "key": "HO_AU",
+      "name": "한화오션 공식 홈페이지 > 기업안내",
+      "confidence": "A",
+      "url": "https://www.hanwhaocean.com/whoweare/au/",
+      "sourceRow": 7
+    },
+    {
+      "key": "LR",
+      "name": "Lloyd's Register New Construction Guide - Hanwha Ocean Co Ltd (2026-06-08 갱신)",
+      "confidence": "B",
+      "url": "https://www.lr.org/en/shipyards/korea/hanwha-ocean-co-ltd/",
+      "sourceRow": 8
+    },
+    {
+      "key": "NW_2009",
+      "name": "뉴스와이어 - 대우조선해양 900톤 골리앗 크레인 원타임 세팅 (2009.03)",
+      "confidence": "C",
+      "url": "https://www.newswire.co.kr/newsRead.php?no=390150",
+      "sourceRow": 9
+    },
+    {
+      "key": "HERALD_2026",
+      "name": "헤럴드경제 르포 - 한화오션 거제 사업장 (2026.03)",
+      "confidence": "C",
+      "url": "https://www.heraldk.com/article/2026030200565926684",
+      "sourceRow": 10
+    },
+    {
+      "key": "FN_2023",
+      "name": "파이낸셜뉴스 - 거제 사업장 골리앗 크레인 CI 교체 (2023.08.27)",
+      "confidence": "C",
+      "url": "https://www.fnnews.com/news/202308271425279612",
+      "sourceRow": 11
+    },
+    {
+      "key": "EDAILY_2022",
+      "name": "이데일리 르포 - 대우조선해양 옥포조선소 (2022)",
+      "confidence": "C",
+      "url": "https://m.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01607206632555240",
+      "sourceRow": 12
+    },
+    {
+      "key": "IDOMIN_2026",
+      "name": "경남도민일보 - 한화오션 옥포항 부유식 독 증설 (2026.10.19)",
+      "confidence": "C",
+      "url": "https://www.idomin.com/news/articleView.html?idxno=2017325",
+      "sourceRow": 13
+    },
+    {
+      "key": "KHAN_2024",
+      "name": "경향신문 - 한화오션 하청노동자 추락사 (2024.09.10)",
+      "confidence": "C",
+      "url": "https://www.khan.co.kr/article/202409101439001",
+      "sourceRow": 14
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "field": {
+    "column": "CM-H04",
+    "displayName": "재해자 역할",
+    "options": [
+      {
+        "code": "1",
+        "label": "크레인 운전원",
+        "unknown": false
+      },
+      {
+        "code": "2",
+        "label": "신호수",
+        "unknown": false
+      },
+      {
+        "code": "3",
+        "label": "줄걸이·도비공",
+        "unknown": false
+      },
+      {
+        "code": "4",
+        "label": "유도원",
+        "unknown": false
+      },
+      {
+        "code": "5",
+        "label": "통행·무관 작업자",
+        "unknown": false
+      },
+      {
+        "code": "9",
+        "label": "미상",
+        "unknown": true
+      }
+    ]
+  },
+  "normalizedField": "workerRoleCode",
+  "rows": [
+    {
+      "code": null,
+      "label": null,
+      "count": 661
+    },
+    {
+      "code": "3",
+      "label": "줄걸이·도비공",
+      "count": 65
+    },
+    {
+      "code": "2",
+      "label": "신호수",
+      "count": 35
+    },
+    {
+      "code": "4",
+      "label": "유도원",
+      "count": 7
+    },
+    {
+      "code": "1",
+      "label": "크레인 운전원",
+      "count": 23
+    },
+    {
+      "code": "5",
+      "label": "통행·무관 작업자",
+      "count": 11
+    }
+  ],
+  "mapSignaler": "2",
+  "mapRigger": "3",
+  "welder": "NOT_MAPPED",
+  "outfit": "NOT_MAPPED"
+}

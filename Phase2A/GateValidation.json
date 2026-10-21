@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "suite": "00_Original103",
+      "expected": 103,
+      "actual": 103,
+      "passed": true
+    },
+    {
+      "suite": "01_Confidence17",
+      "expected": 17,
+      "actual": 17,
+      "passed": true
+    },
+    {
+      "suite": "02_Entrance44",
+      "expected": 44,
+      "actual": 44,
+      "passed": true
+    },
+    {
+      "suite": "03_SceneRelative8",
+      "expected": 8,
+      "actual": 8,
+      "passed": true
+    },
+    {
+      "suite": "04_CoverageGaps",
+      "expected": 8,
+      "actual": 8,
+      "passed": true
+    },
+    {
+      "suite": "05_Timeline11",
+      "expected": 11,
+      "actual": 11,
+      "passed": true
+    },
+    {
+      "suite": "06_Operator18",
+      "expected": 18,
+      "actual": 18,
+      "passed": true
+    },
+    {
+      "suite": "07_HMI13",
+      "expected": 13,
+      "actual": 13,
+      "passed": true
+    },
+    {
+      "suite": "09_Workers",
+      "expected": 27,
+      "actual": 27,
+      "passed": true
+    },
+    {
+      "suite": "10_WorkerWalking44",
+      "expected": 44,
+      "actual": 44,
+      "passed": true
+    }
+  ]
+}

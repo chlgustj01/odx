@@ -1,0 +1,53 @@
+--- baseline
++++ Phase2A
+@@ -32,7 +32,10 @@
+     Vector3 fromPosition;Quaternion fromRotation;
+     bool navEnabled,pickerEnabled,cameraEnabled,listenerEnabled;CursorLockMode oldCursor;bool oldCursorVisible;
+     AudioListener mainListener;bool collisionConfigured;bool[] oldCollision=new bool[32];
+-    public bool UiFocused=>DetailsOpen||EventSystem.current!=null&&EventSystem.current.currentSelectedGameObject!=null&&EventSystem.current.currentSelectedGameObject.activeInHierarchy;
++    public bool WorkerModalOpen{get;private set;}
++    int workerModalCloseFrame=-1;
++    bool WorkerModalBlocked=>WorkerModalOpen||Time.frameCount<=workerModalCloseFrame;
++    public bool UiFocused=>WorkerModalBlocked||DetailsOpen||EventSystem.current!=null&&EventSystem.current.currentSelectedGameObject!=null&&EventSystem.current.currentSelectedGameObject.activeInHierarchy;
+     public bool CanMove=>IsExploring&&!Blending&&!UiFocused&&Cursor.lockState==CursorLockMode.Locked;
+     void Awake(){Instance=this;player.gameObject.SetActive(false);exploreCamera.enabled=false;exploreListener.enabled=false;mainListener=shipyard.navigation.viewCamera.GetComponent<AudioListener>();}
+     public void ShowChoice(){if(shipyard.overview.Level!=ShipyardZoomLevel.FACILITY||IsExploring)return;inputGuard.Acquire();ChoiceOpen=true;hud.SetChoice(true);}
+@@ -59,7 +62,7 @@
+     }
+     public void Exit()
+     {
+-        if(!IsExploring){CancelChoice();return;}IsExploring=false;DetailsOpen=false;suppressBackFrame=Time.frameCount+1;hud.SetExploring(false);player.gameObject.SetActive(false);exploreCamera.enabled=false;exploreListener.enabled=false;
++        if(!IsExploring){CancelChoice();return;}WorkerModalOpen=false;IsExploring=false;DetailsOpen=false;suppressBackFrame=Time.frameCount+1;hud.SetExploring(false);player.gameObject.SetActive(false);exploreCamera.enabled=false;exploreListener.enabled=false;
+         ConfigureCollision(false);shipyard.navigation.viewCamera.enabled=cameraEnabled;if(mainListener!=null)mainListener.enabled=listenerEnabled;shipyard.navigation.enabled=navEnabled;shipyard.overview.GetComponent<ShipyardObjectPicker>().enabled=pickerEnabled;
+         shipyard.selection.SelectFacility(Facility);shipyard.overview.EnterFacility();inputGuard.Release();Cursor.lockState=CursorLockMode.None;Cursor.visible=true;ClearUiFocus();
+     }
+@@ -70,6 +73,10 @@
+     public void CloseDetails(){DetailsOpen=false;hud.ShowDetails(false,"");CaptureCursor();}
+     public void OpenDetails()
+     {if(Target==null)return;DetailsOpen=true;hud.ShowDetails(true,Target.Details());UnlockCursor();}
++    // Phase2A adapter hooks only: reuse the existing modal/CC/Camera owner.
++    public void SetWorkerModal(bool value){WorkerModalOpen=value;if(!value)workerModalCloseFrame=Time.frameCount;}
++    public void RestoreWorkerPose(Vector3 position,Quaternion rotation,FacilityInfo facility)
++    {Teleport(position);if(facility!=null)Facility=facility;LastValidPosition=position;verticalSpeed=0;Yaw=rotation.eulerAngles.y;Pitch=0;body.rotation=rotation;UpdateCamera();}
+     public void Teleport(Vector3 point){bool enabled=character.enabled;character.enabled=false;player.position=point;character.enabled=enabled;Physics.SyncTransforms();}
+     public bool ValidGround(Vector3 position,out Vector3 grounded)
+     {
+@@ -104,6 +111,7 @@
+         var k=Keyboard.current;
+         if(ChoiceOpen){if(k!=null&&k.escapeKey.wasPressedThisFrame)CancelChoice();return;}
+         if(!IsExploring)return;
++        if(WorkerModalBlocked)return;
+         if(k!=null&&k.escapeKey.wasPressedThisFrame){if(DetailsOpen)CloseDetails();else Exit();return;}
+         if(k!=null&&k.vKey.wasPressedThisFrame&&!UiFocused)SwitchView();
+         if(k!=null&&k.tabKey.wasPressedThisFrame){if(Cursor.lockState==CursorLockMode.Locked)UnlockCursor();else if(!DetailsOpen)CaptureCursor();}
+@@ -138,5 +146,9 @@
+         foreach(var r in shipyard.overview.workerRenderers)if(r!=null)r.forceRenderingOff=false;
+     }
+     void OnApplicationFocus(bool focus){if(!focus&&IsExploring)UnlockCursor();}
+-    void OnDisable(){if(IsExploring)Exit();if(Instance==this)Instance=null;Cursor.lockState=oldCursor==CursorLockMode.Locked?CursorLockMode.None:oldCursor;Cursor.visible=oldCursorVisible||!IsExploring;}
++    // Play/scene teardown may destroy the player before this owner is disabled.
++    // Ordinary Explore exits still restore the existing input/camera owner.
++    bool shuttingDown;
++    void OnApplicationQuit(){shuttingDown=true;}
++    void OnDisable(){if(IsExploring&&!shuttingDown&&player!=null)Exit();IsExploring=false;if(Instance==this)Instance=null;Cursor.lockState=oldCursor==CursorLockMode.Locked?CursorLockMode.None:oldCursor;Cursor.visible=oldCursorVisible||!IsExploring;}
+ }

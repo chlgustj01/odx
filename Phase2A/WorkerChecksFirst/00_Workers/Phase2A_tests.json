@@ -1,0 +1,43 @@
+{
+  "passed": false,
+  "error": "System.Exception: Stage 2: Pointer blocked: WorkerCard_WKR_RIG_01 hits=\r\n  at Phase2APlayModeChecks.Require (System.Boolean condition, System.String message) [0x00023] in D:\\UnityProject\\CraneSignalAI\\Assets\\Editor\\Workers\\Phase2APlayModeChecks.cs:16 \r\n  at Phase2APlayModeChecks.Click (System.String name) [0x0005d] in D:\\UnityProject\\CraneSignalAI\\Assets\\Editor\\Workers\\Phase2APlayModeChecks.cs:27 \r\n  at Phase2APlayModeChecks.Choose (System.Int32 index) [0x00016] in D:\\UnityProject\\CraneSignalAI\\Assets\\Editor\\Workers\\Phase2APlayModeChecks.cs:30 \r\n  at Phase2APlayModeChecks.Tick () [0x00259] in D:\\UnityProject\\CraneSignalAI\\Assets\\Editor\\Workers\\Phase2APlayModeChecks.cs:61 ",
+  "cleanupVerified": true,
+  "rootUnchanged": true,
+  "rows": [
+    {
+      "test": "A1",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "A2",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "A3",
+      "passed": true,
+      "data": {
+        "languages": 3,
+        "profiles": 4,
+        "localizedPages": 12
+      }
+    },
+    {
+      "test": "A28",
+      "passed": true,
+      "data": {
+        "coverage": "visible Worker UI, all four profiles x KO/EN/VI, no auto-add"
+      }
+    },
+    {
+      "test": "A4",
+      "passed": true,
+      "data": {
+        "workerId": "WKR_SIGNAL_01",
+        "roleCode": "SIGNALER",
+        "activeVisual": "ActiveWorkerVisual"
+      }
+    }
+  ]
+}

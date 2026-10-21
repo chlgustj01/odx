@@ -1,0 +1,1052 @@
+[
+  {
+    "path": "Assets/Scenes/Main.unity",
+    "before": "6462cb7d8199402ff495a4fefbbcdca8968452408a12f2362bcc9fcd2a80e929",
+    "after": "6462cb7d8199402ff495a4fefbbcdca8968452408a12f2362bcc9fcd2a80e929",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/AccidentEvidence.meta",
+    "before": "975d5c365bfaf6d80744aaa75bdae1930a0e01762b1ea125022334992b6c97e1",
+    "after": "975d5c365bfaf6d80744aaa75bdae1930a0e01762b1ea125022334992b6c97e1",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/AccidentEvidence/AccidentContextMapper.cs",
+    "before": "ad2ff744b3d027dcabfed1327aa566821264658b921bacfe56ef0e837c237128",
+    "after": "ad2ff744b3d027dcabfed1327aa566821264658b921bacfe56ef0e837c237128",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/AccidentEvidence/AccidentContextMapper.cs.meta",
+    "before": "b5b146b003aeb688526760f4334fe5162f73ec0cb7344384fd10b0ba98802faa",
+    "after": "b5b146b003aeb688526760f4334fe5162f73ec0cb7344384fd10b0ba98802faa",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/AccidentEvidence/AccidentDBCodebook.cs",
+    "before": "76911c30b43912862f8da4e037f4ee9c99ef7cd148d73b4b1b44e1168840f1bb",
+    "after": "76911c30b43912862f8da4e037f4ee9c99ef7cd148d73b4b1b44e1168840f1bb",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/AccidentEvidence/AccidentDBCodebook.cs.meta",
+    "before": "cae282ee205a05f3e5cd7904a02b7440b11725906d3aea92dabb2081f59caa4c",
+    "after": "cae282ee205a05f3e5cd7904a02b7440b11725906d3aea92dabb2081f59caa4c",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/AccidentEvidence/AccidentEvidencePanel.cs",
+    "before": "eb386537d68348066b3ec6f3f261d40f76aa33945df61b0b9c1be8c074378f53",
+    "after": "eb386537d68348066b3ec6f3f261d40f76aa33945df61b0b9c1be8c074378f53",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/AccidentEvidence/AccidentEvidencePanel.cs.meta",
+    "before": "a12110ea251f4f2448604398d428038f3b7c71c5c59cbab1b264e1c44eabac3a",
+    "after": "a12110ea251f4f2448604398d428038f3b7c71c5c59cbab1b264e1c44eabac3a",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/AccidentEvidence/AccidentEvidenceRepository.cs",
+    "before": "299a2d47b3cc03713d93d56e43babeb47263d450d7c9b57c5a3cd3627ee78729",
+    "after": "299a2d47b3cc03713d93d56e43babeb47263d450d7c9b57c5a3cd3627ee78729",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/AccidentEvidence/AccidentEvidenceRepository.cs.meta",
+    "before": "968a5e55689d5f6236b959a6a1b3c9157f1594c09f523abd7ce4c101f8bfd335",
+    "after": "968a5e55689d5f6236b959a6a1b3c9157f1594c09f523abd7ce4c101f8bfd335",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/AccidentEvidence/AccidentRecord.cs",
+    "before": "76a64a085f1314e84f36ff2f6e5bd5fdbca9ffe9a83f195529e90c1bc1e2ef27",
+    "after": "76a64a085f1314e84f36ff2f6e5bd5fdbca9ffe9a83f195529e90c1bc1e2ef27",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/AccidentEvidence/AccidentRecord.cs.meta",
+    "before": "b481acc3432ad810cb99f0ad0cb05721b7a922551be92e9d4b6f539737075489",
+    "after": "b481acc3432ad810cb99f0ad0cb05721b7a922551be92e9d4b6f539737075489",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/AccidentEvidence/AccidentReviewSuggestionRules.cs",
+    "before": "39a0e7e3d4b2922a070ad0399392bbff2f837c9ff0ed867ecdef43f5ea65e499",
+    "after": "39a0e7e3d4b2922a070ad0399392bbff2f837c9ff0ed867ecdef43f5ea65e499",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/AccidentEvidence/AccidentReviewSuggestionRules.cs.meta",
+    "before": "23347881064d0c88b4c097c942b3d6ae6172a6205dce53b13027fca604ee1043",
+    "after": "23347881064d0c88b4c097c942b3d6ae6172a6205dce53b13027fca604ee1043",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/AccidentEvidence/AccidentSimilarityService.cs",
+    "before": "c26cddd0ac98057f9afdd1e32a5649512b90c38503e47c4e98ebf911d053d62d",
+    "after": "c26cddd0ac98057f9afdd1e32a5649512b90c38503e47c4e98ebf911d053d62d",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/AccidentEvidence/AccidentSimilarityService.cs.meta",
+    "before": "f2cdfcc1c9f53a29e489b82b17dc88e45b66a40f1695a0446ce3d44dde88de7a",
+    "after": "f2cdfcc1c9f53a29e489b82b17dc88e45b66a40f1695a0446ce3d44dde88de7a",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/AccidentEvidence/CurrentWorkContext.cs",
+    "before": "e65bece502edf9a90db55455f020d5847c240a0a52139628a6fdea2a5bc5f448",
+    "after": "e65bece502edf9a90db55455f020d5847c240a0a52139628a6fdea2a5bc5f448",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/AccidentEvidence/CurrentWorkContext.cs.meta",
+    "before": "84e5755d7d120102b979e68d682a10aebfb18456d960d1eef152db05fd38a774",
+    "after": "84e5755d7d120102b979e68d682a10aebfb18456d960d1eef152db05fd38a774",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/CommandReceiver.cs",
+    "before": "4f3fb0c225ad2802822e25e97724bfce0d614d917e141bf4b8dbd8e7598a1e08",
+    "after": "4f3fb0c225ad2802822e25e97724bfce0d614d917e141bf4b8dbd8e7598a1e08",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/CommandReceiver.cs.meta",
+    "before": "592a08d731b51eb3863509b7786b392ca5c81573e187fa4bcbb838b28b3c493b",
+    "after": "592a08d731b51eb3863509b7786b392ca5c81573e187fa4bcbb838b28b3c493b",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/CraneDebugHUD.cs",
+    "before": "c4b7396d21a5e64e9f9982c7d78f5aa9063448f4c4c615c93aaf6a6b783f72d2",
+    "after": "c4b7396d21a5e64e9f9982c7d78f5aa9063448f4c4c615c93aaf6a6b783f72d2",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/CraneDebugHUD.cs.meta",
+    "before": "b01dee71e2760e58deba2c0883920885c749f5285d3f53457f4a6281c53fc8df",
+    "after": "b01dee71e2760e58deba2c0883920885c749f5285d3f53457f4a6281c53fc8df",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/CraneFaultInjector.cs",
+    "before": "510334fb26fd5b6fc39f85715f91d5afee49686588ddb3b723c1a337a87a4e1b",
+    "after": "510334fb26fd5b6fc39f85715f91d5afee49686588ddb3b723c1a337a87a4e1b",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/CraneFaultInjector.cs.meta",
+    "before": "eb585afe33b25ba1be48f323de91465651ed6559948b9c93b98d2be0db9ec4e5",
+    "after": "eb585afe33b25ba1be48f323de91465651ed6559948b9c93b98d2be0db9ec4e5",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/CraneStateSampler.cs",
+    "before": "b7f778e86c846528adc873a947ee9b610bd14591649355f8b6e611fda280aa38",
+    "after": "b7f778e86c846528adc873a947ee9b610bd14591649355f8b6e611fda280aa38",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/CraneStateSampler.cs.meta",
+    "before": "598edc8a31bd61a22f4022905efce3a5cc08485043f8ecd420b4c04cd247109a",
+    "after": "598edc8a31bd61a22f4022905efce3a5cc08485043f8ecd420b4c04cd247109a",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/CraneWireRopeVisual.cs",
+    "before": "81d4ffcca1b80718f610d2680bd41c34fc6a80beb931e35125f53f44fe2b3abc",
+    "after": "81d4ffcca1b80718f610d2680bd41c34fc6a80beb931e35125f53f44fe2b3abc",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/CraneWireRopeVisual.cs.meta",
+    "before": "bd63d30b3b001c1040ed705a96a2dd5e997778d7323a99b819dd19952adecd54",
+    "after": "bd63d30b3b001c1040ed705a96a2dd5e997778d7323a99b819dd19952adecd54",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Hazard.meta",
+    "before": "e44ea2c6c12ab4cfff8ea667055e3448d8eb32665527648ed08b5b4833daa453",
+    "after": "e44ea2c6c12ab4cfff8ea667055e3448d8eb32665527648ed08b5b4833daa453",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Hazard/HazardAlertPresenter.cs",
+    "before": "d4fb869070fe37f98b3966042f148407b5551e62906ca05d26f9b35aea3e1f73",
+    "after": "d4fb869070fe37f98b3966042f148407b5551e62906ca05d26f9b35aea3e1f73",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Hazard/HazardAlertPresenter.cs.meta",
+    "before": "2a8d63bb15d0c17f59b58acb3b5cccd09b304b28d1a545f4166d799712bd12ea",
+    "after": "2a8d63bb15d0c17f59b58acb3b5cccd09b304b28d1a545f4166d799712bd12ea",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Hazard/HazardZoneEvaluator.cs",
+    "before": "daa195f666bd394fed99e99e7e024449d50d6229d878d55fb35aa5dcb85eae9a",
+    "after": "daa195f666bd394fed99e99e7e024449d50d6229d878d55fb35aa5dcb85eae9a",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Hazard/HazardZoneEvaluator.cs.meta",
+    "before": "edf34441c98625024acc8f63ca9fadf42737466bec07df4f0ac9bb507fe5d1b3",
+    "after": "edf34441c98625024acc8f63ca9fadf42737466bec07df4f0ac9bb507fe5d1b3",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Hazard/WorkerHazardTarget.cs",
+    "before": "bf3e9ff010bcf696458141b51bf3750448d3c30c912c180dbadd05034d703c75",
+    "after": "bf3e9ff010bcf696458141b51bf3750448d3c30c912c180dbadd05034d703c75",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Hazard/WorkerHazardTarget.cs.meta",
+    "before": "bc5e9ae228d70ed9861e98b7b7ad093d9e96be4c140eb3c43efdb1ea13b6267d",
+    "after": "bc5e9ae228d70ed9861e98b7b7ad093d9e96be4c140eb3c43efdb1ea13b6267d",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/OperatorInputSampler.cs",
+    "before": "e241fb7d38baa3a2531ea3255813bdabf066fb5766a4cdbefc3228bbec65c3ea",
+    "after": "e241fb7d38baa3a2531ea3255813bdabf066fb5766a4cdbefc3228bbec65c3ea",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/OperatorInputSampler.cs.meta",
+    "before": "13828387d5c9efd539b385f642d6d0a60dd46f4dae637130d3c86b7ecf967d02",
+    "after": "13828387d5c9efd539b385f642d6d0a60dd46f4dae637130d3c86b7ecf967d02",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Prediction.meta",
+    "before": "f79ae5b2ba29e56359b5ae00f96f5a0649d038912a6a525ee2ff6314c4f5ab14",
+    "after": "f79ae5b2ba29e56359b5ae00f96f5a0649d038912a6a525ee2ff6314c4f5ab14",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Prediction/LiveLoadOverlay.shader",
+    "before": "2d867671a4d3b2b060be7d39c4fdab8e04a13da83e80a2d79c3837b2b1ff31f2",
+    "after": "2d867671a4d3b2b060be7d39c4fdab8e04a13da83e80a2d79c3837b2b1ff31f2",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Prediction/LiveLoadOverlay.shader.meta",
+    "before": "d8104533c2eef7448bb0f7669d77a6a556cb64f1cf55f70c186ae164feb875df",
+    "after": "d8104533c2eef7448bb0f7669d77a6a556cb64f1cf55f70c186ae164feb875df",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Prediction/LiveLoadPathTracker.cs",
+    "before": "b5ce45b17c0250f7d5851d3073afbc4a40aed1777723618599c0dd3016aba13e",
+    "after": "b5ce45b17c0250f7d5851d3073afbc4a40aed1777723618599c0dd3016aba13e",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Prediction/LiveLoadPathTracker.cs.meta",
+    "before": "fff3a6056d90357a03861fd9c2c89888ef1e9638d1083c06b1be09bd16fd1131",
+    "after": "fff3a6056d90357a03861fd9c2c89888ef1e9638d1083c06b1be09bd16fd1131",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Prediction/LiveLoadPathVisualizer.cs",
+    "before": "87cadb3ec5b7724a3a5ab5789762c031b0eb291bb319821d4f3c7395e1049ad6",
+    "after": "87cadb3ec5b7724a3a5ab5789762c031b0eb291bb319821d4f3c7395e1049ad6",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Prediction/LiveLoadPathVisualizer.cs.meta",
+    "before": "e1ee6079cf46ef05993b20865a6734147304113bccc36d19df80d06105196f70",
+    "after": "e1ee6079cf46ef05993b20865a6734147304113bccc36d19df80d06105196f70",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Prediction/LoadProfile.cs",
+    "before": "6c53532b585e3dd81b231ee93cd942da0ed83468ccfdb1d3e241262a8aecc44f",
+    "after": "6c53532b585e3dd81b231ee93cd942da0ed83468ccfdb1d3e241262a8aecc44f",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Prediction/LoadProfile.cs.meta",
+    "before": "dde2f15998403a8e6668b1ac54ca871f7acf262bf69e8e6d113d2212e3bc815e",
+    "after": "dde2f15998403a8e6668b1ac54ca871f7acf262bf69e8e6d113d2212e3bc815e",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Prediction/PredictedPathEngine.cs",
+    "before": "81d199ef03e9c2ddd550db51d6ee73b40467ed4453ca3f632e7fc020a66209eb",
+    "after": "81d199ef03e9c2ddd550db51d6ee73b40467ed4453ca3f632e7fc020a66209eb",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Prediction/PredictedPathEngine.cs.meta",
+    "before": "241adbc7ecad98cf883c9cf166e285b06513193cfe20540fbd411235d7cc434e",
+    "after": "241adbc7ecad98cf883c9cf166e285b06513193cfe20540fbd411235d7cc434e",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Prediction/PredictedPathVisualizer.cs",
+    "before": "d68773aea6e1d57e593dc5eb362051073f07e7603e1e9036ab7686be8db417a6",
+    "after": "d68773aea6e1d57e593dc5eb362051073f07e7603e1e9036ab7686be8db417a6",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Prediction/PredictedPathVisualizer.cs.meta",
+    "before": "2915516a4a020665de15b876d9d99d333e6fd2f834d1d19abc9b6218cc234875",
+    "after": "2915516a4a020665de15b876d9d99d333e6fd2f834d1d19abc9b6218cc234875",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Prediction/PredictionOverlay.shader",
+    "before": "89ddf51c38c0085b59d61ee6ba9c29b3d247ac87474d05e9fecb278e5ba3b89f",
+    "after": "89ddf51c38c0085b59d61ee6ba9c29b3d247ac87474d05e9fecb278e5ba3b89f",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Prediction/PredictionOverlay.shader.meta",
+    "before": "282b83371d9fa25e4a4fe131b9c343eb60032f257a9ef76325ad931c9c9a1145",
+    "after": "282b83371d9fa25e4a4fe131b9c343eb60032f257a9ef76325ad931c9c9a1145",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Prediction/SweptSegment.cs",
+    "before": "889848c4237d39115a3a83a69cbe275149752590a1c3e912c7474aa722407acf",
+    "after": "889848c4237d39115a3a83a69cbe275149752590a1c3e912c7474aa722407acf",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Prediction/SweptSegment.cs.meta",
+    "before": "ed02715f85b47a157ef35aa8e9b743ead25eccea2a1dbc5810eb20514d57a21c",
+    "after": "ed02715f85b47a157ef35aa8e9b743ead25eccea2a1dbc5810eb20514d57a21c",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard.meta",
+    "before": "5d25cee77eb8a8516cef41a92342d4376bc70b81ff0e66ec38b94e76bf9897c5",
+    "after": "5d25cee77eb8a8516cef41a92342d4376bc70b81ff0e66ec38b94e76bf9897c5",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/Explorer.meta",
+    "before": "89f19f151cc4bda293d998eb8122eafb07b3362a64819f2d1cc319e6e6cf2392",
+    "after": "89f19f151cc4bda293d998eb8122eafb07b3362a64819f2d1cc319e6e6cf2392",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/Explorer/ExplorerHazardEvaluator.cs",
+    "before": "6f7a056e6fdd06e76230f0ef682b02b046f37e98e7ac35ee96d1a8e194a9677a",
+    "after": "6f7a056e6fdd06e76230f0ef682b02b046f37e98e7ac35ee96d1a8e194a9677a",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/Explorer/ExplorerHazardEvaluator.cs.meta",
+    "before": "cca06b8575dc2168f34594ae58d6746e81c283440c1dda79274e91ace6adc208",
+    "after": "cca06b8575dc2168f34594ae58d6746e81c283440c1dda79274e91ace6adc208",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/Explorer/FacilityEntrance.cs",
+    "before": "af4ed6b2e019e6b2cdcbfb6dda4470f83dd314e38131ec8170c4e09a8109eda9",
+    "after": "af4ed6b2e019e6b2cdcbfb6dda4470f83dd314e38131ec8170c4e09a8109eda9",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/Explorer/FacilityEntrance.cs.meta",
+    "before": "0c333f9cc0de079e06a041bba34b95bebaaba754108480e4808f9785bd0082b7",
+    "after": "0c333f9cc0de079e06a041bba34b95bebaaba754108480e4808f9785bd0082b7",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/Explorer/ShipyardExploreCameraController.cs",
+    "before": "1a7dc0be386a0239d4aefc505483f900b445fedf9cf57aafca07a80361b0b3e3",
+    "after": "1a7dc0be386a0239d4aefc505483f900b445fedf9cf57aafca07a80361b0b3e3",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/Explorer/ShipyardExploreCameraController.cs.meta",
+    "before": "3f7b078c2742f37680daf3aeb730f8e586b8817ffaf15c0f91e00d9215fe7d15",
+    "after": "3f7b078c2742f37680daf3aeb730f8e586b8817ffaf15c0f91e00d9215fe7d15",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/Explorer/ShipyardExploreHUD.cs",
+    "before": "7221cccf43d762f465c3a065860bca6891b80dc75e3d95d5899a1c87c592b65a",
+    "after": "7221cccf43d762f465c3a065860bca6891b80dc75e3d95d5899a1c87c592b65a",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/Explorer/ShipyardExploreHUD.cs.meta",
+    "before": "6e15518ddd1a67ccd5ace5dc0568cc0e087f24bf7d22b88d6f18c4fc0b76510f",
+    "after": "6e15518ddd1a67ccd5ace5dc0568cc0e087f24bf7d22b88d6f18c4fc0b76510f",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/Explorer/ShipyardExploreInputGuard.cs",
+    "before": "95b0967156537bd955fbc866eb62105de97c1514eca26279e9b42be6f958e085",
+    "after": "95b0967156537bd955fbc866eb62105de97c1514eca26279e9b42be6f958e085",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/Explorer/ShipyardExploreInputGuard.cs.meta",
+    "before": "d5fe30847ba9b0bdbb9253298df9919784a66069099648eb0b7b484aecfa34c1",
+    "after": "d5fe30847ba9b0bdbb9253298df9919784a66069099648eb0b7b484aecfa34c1",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/Explorer/ShipyardFirstPersonController.cs",
+    "before": "0e9c413347df4f8d9f62ca43abe06f981679f741fce5ccac851c9e2e8aa87212",
+    "after": "0e9c413347df4f8d9f62ca43abe06f981679f741fce5ccac851c9e2e8aa87212",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/Explorer/ShipyardFirstPersonController.cs.meta",
+    "before": "bcbfa367e8c5199a2f619ce73b90654d51455dbffe8ae13abcc0204f3851dda2",
+    "after": "bcbfa367e8c5199a2f619ce73b90654d51455dbffe8ae13abcc0204f3851dda2",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/Explorer/ShipyardInteractable.cs",
+    "before": "f0fefa21659b6cd0e7ff4ed3fc1212735e6ddff8aea0b7a0a845bf9048115de1",
+    "after": "f0fefa21659b6cd0e7ff4ed3fc1212735e6ddff8aea0b7a0a845bf9048115de1",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/Explorer/ShipyardInteractable.cs.meta",
+    "before": "46c64d14a73d896aa17e5f521e78425c8694202941a1d40d7e52cf5026bc6664",
+    "after": "46c64d14a73d896aa17e5f521e78425c8694202941a1d40d7e52cf5026bc6664",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/Explorer/ShipyardThirdPersonController.cs",
+    "before": "838beed4495c4a7354331fa4c7f74969e08e1d28e179c6c9b08c21a51b44205c",
+    "after": "838beed4495c4a7354331fa4c7f74969e08e1d28e179c6c9b08c21a51b44205c",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/Explorer/ShipyardThirdPersonController.cs.meta",
+    "before": "754be8d524e218c6c990a20cd4f2d8660e2a291c8cb98ace080aa7bc17a29c95",
+    "after": "754be8d524e218c6c990a20cd4f2d8660e2a291c8cb98ace080aa7bc17a29c95",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/FacilityCatalog.cs",
+    "before": "82146c58b99a82bac38d70d19e8b8d7007a3905896925b06e8620d0f9c5f1036",
+    "after": "82146c58b99a82bac38d70d19e8b8d7007a3905896925b06e8620d0f9c5f1036",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/FacilityCatalog.cs.meta",
+    "before": "08683a51788116596a52ffad894cd63466a64164096d2af648afab38722bbce3",
+    "after": "08683a51788116596a52ffad894cd63466a64164096d2af648afab38722bbce3",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/FacilityInfo.cs",
+    "before": "5bc67acdc3e0a1dfca0e2cdbe3c2dfd45e8e5a7542881c3cffb4e112df3ebaf9",
+    "after": "5bc67acdc3e0a1dfca0e2cdbe3c2dfd45e8e5a7542881c3cffb4e112df3ebaf9",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/FacilityInfo.cs.meta",
+    "before": "4d90392d1deb869676b8b2580a82e5cdf5922eac3cda3c91199c957d7b3cd05a",
+    "after": "4d90392d1deb869676b8b2580a82e5cdf5922eac3cda3c91199c957d7b3cd05a",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/FacilityReferencePanel.cs",
+    "before": "7621ef7f4001d0d6ece1634d273e5645f2456a083d3780cae53a68039376bef5",
+    "after": "7621ef7f4001d0d6ece1634d273e5645f2456a083d3780cae53a68039376bef5",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/FacilityReferencePanel.cs.meta",
+    "before": "717f2db05b18d494ba9cc57dad556a8e0f2425a5fb2f85b7d74cba0870b5c374",
+    "after": "717f2db05b18d494ba9cc57dad556a8e0f2425a5fb2f85b7d74cba0870b5c374",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/PublicData.meta",
+    "before": "25a68ddad7ad8472cf1d29033afd6ecb4b05294eb2c4f919520d17d866f9b535",
+    "after": "25a68ddad7ad8472cf1d29033afd6ecb4b05294eb2c4f919520d17d866f9b535",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/PublicData/CraneAssetMetadata.cs",
+    "before": "4b7d164bb17184ef2aa045c735c7c2bf79e21c3ca8bb2d233122739e08586e2d",
+    "after": "4b7d164bb17184ef2aa045c735c7c2bf79e21c3ca8bb2d233122739e08586e2d",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/PublicData/CraneAssetMetadata.cs.meta",
+    "before": "46023f82b55f6ca22c9979dffabc5dc403782d701dd3fa4a88c3349a285ea929",
+    "after": "46023f82b55f6ca22c9979dffabc5dc403782d701dd3fa4a88c3349a285ea929",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/PublicData/PublicAssetMetadata.cs",
+    "before": "54edce225a84ad84f5b1029345e167a29a74341cc5028402e1e0469df846f5ee",
+    "after": "54edce225a84ad84f5b1029345e167a29a74341cc5028402e1e0469df846f5ee",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/PublicData/PublicAssetMetadata.cs.meta",
+    "before": "795ca93cc9176a741921e6c23cfce8e6888064121e8426523a73f1df847e77c3",
+    "after": "795ca93cc9176a741921e6c23cfce8e6888064121e8426523a73f1df847e77c3",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/PublicData/ShipyardCoordinateConfig.cs",
+    "before": "333341476ec72464c1ce36e79a85bc5760cad7e0bdd901d17ef1499ec4d77f08",
+    "after": "333341476ec72464c1ce36e79a85bc5760cad7e0bdd901d17ef1499ec4d77f08",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/PublicData/ShipyardCoordinateConfig.cs.meta",
+    "before": "1403efb91f8a65c81973b22f64447a9e29469ac942b9069029d74dce9f82a50b",
+    "after": "1403efb91f8a65c81973b22f64447a9e29469ac942b9069029d74dce9f82a50b",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/PublicData/ShipyardDatabaseLoader.cs",
+    "before": "f97da4e33d21f1e37b8dd61a301ce87cfee934c0225242445af2cbc91fa93ba7",
+    "after": "f97da4e33d21f1e37b8dd61a301ce87cfee934c0225242445af2cbc91fa93ba7",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/PublicData/ShipyardDatabaseLoader.cs.meta",
+    "before": "3aa0ec2039369569cb6c38adabd6134148ba24ae4870e63c9f2228e83c9febf4",
+    "after": "3aa0ec2039369569cb6c38adabd6134148ba24ae4870e63c9f2228e83c9febf4",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/PublicData/ShipyardDatabasePanel.cs",
+    "before": "cecd7a2988a66a384bf091a51898f8566c9db9dc873aedba3d6ac201dc0af245",
+    "after": "cecd7a2988a66a384bf091a51898f8566c9db9dc873aedba3d6ac201dc0af245",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/PublicData/ShipyardDatabasePanel.cs.meta",
+    "before": "e838355d7195faa1ebd07287d5bce113631980465495bdfc7f78e1f7ce2bc50e",
+    "after": "e838355d7195faa1ebd07287d5bce113631980465495bdfc7f78e1f7ce2bc50e",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/PublicData/ShipyardEvidenceLabels.cs",
+    "before": "5a827619104a54326da728ab6f37c0d4c1e7084b80b6a31c83a804c9b1ca501c",
+    "after": "5a827619104a54326da728ab6f37c0d4c1e7084b80b6a31c83a804c9b1ca501c",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/PublicData/ShipyardEvidenceLabels.cs.meta",
+    "before": "d2750560af079d9ca3af733f65d0ff722dbf03ac565b83ec9777d5445455feaa",
+    "after": "d2750560af079d9ca3af733f65d0ff722dbf03ac565b83ec9777d5445455feaa",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/PublicData/ShipyardFacilityAdapter.cs",
+    "before": "833e6046d83f8cc4f297717c0c49d756feb39afef484e388d1373d6acc4016a2",
+    "after": "833e6046d83f8cc4f297717c0c49d756feb39afef484e388d1373d6acc4016a2",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/PublicData/ShipyardFacilityAdapter.cs.meta",
+    "before": "edb5a5bbd5c351f3fbaad868da5733b384d1c35298f7d6229f3247862f6d89ca",
+    "after": "edb5a5bbd5c351f3fbaad868da5733b384d1c35298f7d6229f3247862f6d89ca",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/PublicData/ShipyardPublicDatabase.cs",
+    "before": "1a1b3b7fc8f2ab02895c31c8b1a2756844c0c37eae79a28fb7610e72d7bca28e",
+    "after": "1a1b3b7fc8f2ab02895c31c8b1a2756844c0c37eae79a28fb7610e72d7bca28e",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/PublicData/ShipyardPublicDatabase.cs.meta",
+    "before": "61616467fe65ae3de798f14e8926ec6722e12d98887aaab56037f3b1cedc7fa5",
+    "after": "61616467fe65ae3de798f14e8926ec6722e12d98887aaab56037f3b1cedc7fa5",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/ShipyardAssetInfo.cs",
+    "before": "a6ef3a06c9a158b7d171dd021fc6d0763145cc330cdfa2c641c45d5154d5319b",
+    "after": "a6ef3a06c9a158b7d171dd021fc6d0763145cc330cdfa2c641c45d5154d5319b",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/ShipyardAssetInfo.cs.meta",
+    "before": "ff2beddd865f028223ea45730cfae5d90e2894a077fa7a638b9e5f397a97f4c9",
+    "after": "ff2beddd865f028223ea45730cfae5d90e2894a077fa7a638b9e5f397a97f4c9",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/ShipyardCameraController.cs",
+    "before": "399731569050fbee77d289b5d98cdc7e6798086f2f088f4ded3236e5fb166595",
+    "after": "399731569050fbee77d289b5d98cdc7e6798086f2f088f4ded3236e5fb166595",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/ShipyardCameraController.cs.meta",
+    "before": "8068416591b9cdccfebd1e91f86a59c3fb1184e7e05ad4218057f56f10b79234",
+    "after": "8068416591b9cdccfebd1e91f86a59c3fb1184e7e05ad4218057f56f10b79234",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/ShipyardGlyph.cs",
+    "before": "151de8394f3a7d1cc91b777fa898013d103a898debc156ba807df88503cdb2e5",
+    "after": "151de8394f3a7d1cc91b777fa898013d103a898debc156ba807df88503cdb2e5",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/ShipyardGlyph.cs.meta",
+    "before": "78a916037ca02dbaf8b1873bff909f7e7610c06aebacac52a757573db801b48c",
+    "after": "78a916037ca02dbaf8b1873bff909f7e7610c06aebacac52a757573db801b48c",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/ShipyardObjectPicker.cs",
+    "before": "127cf041c0be8285b76656836efdacaa4718dfc184714b4c91675fef162b0ff8",
+    "after": "127cf041c0be8285b76656836efdacaa4718dfc184714b4c91675fef162b0ff8",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/ShipyardObjectPicker.cs.meta",
+    "before": "613300befd8a11f4d858579f9f13e74d260c65300759c05c521e9c4b85026a36",
+    "after": "613300befd8a11f4d858579f9f13e74d260c65300759c05c521e9c4b85026a36",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/ShipyardOverviewController.cs",
+    "before": "8ca5bbf40410f8424aceb5d4ceb34e28ef91c55ae71a859e3c7c6e4d952c8b65",
+    "after": "8ca5bbf40410f8424aceb5d4ceb34e28ef91c55ae71a859e3c7c6e4d952c8b65",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/ShipyardOverviewController.cs.meta",
+    "before": "b9e404227072be5155ee5d34b332eaf4d5a9b015eb482c79336357ff9e24af0e",
+    "after": "b9e404227072be5155ee5d34b332eaf4d5a9b015eb482c79336357ff9e24af0e",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/ShipyardSelectionManager.cs",
+    "before": "220345a4b7572fbe193637eae3043c03e5915dbd94388c670e911a42c723ce2b",
+    "after": "220345a4b7572fbe193637eae3043c03e5915dbd94388c670e911a42c723ce2b",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/ShipyardSelectionManager.cs.meta",
+    "before": "f5d5065680065b937c3cfb2a416cd21b5d611b3c3b0e762303246fd3b110bbf6",
+    "after": "f5d5065680065b937c3cfb2a416cd21b5d611b3c3b0e762303246fd3b110bbf6",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/ShipyardTextInputGuard.cs",
+    "before": "3c36c445f45ebb1604f2a57916c24f4cdf5bdd5ac0c206b8221327179df43bc6",
+    "after": "3c36c445f45ebb1604f2a57916c24f4cdf5bdd5ac0c206b8221327179df43bc6",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/ShipyardTextInputGuard.cs.meta",
+    "before": "adc0cf7143270a00d3704a778db6acb9dbc44a9c17b90eac8cba7b5f1b4a4ea9",
+    "after": "adc0cf7143270a00d3704a778db6acb9dbc44a9c17b90eac8cba7b5f1b4a4ea9",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/ShipyardUIBinder.cs",
+    "before": "9f7215ef01cacadf406c5ac8281d67f0ffc4ef9d433e86b1c14e0c323bdcea12",
+    "after": "9f7215ef01cacadf406c5ac8281d67f0ffc4ef9d433e86b1c14e0c323bdcea12",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Shipyard/ShipyardUIBinder.cs.meta",
+    "before": "5a81a2edd6fb506b2748907c604368229035ed232c0d794e54f451e3b8fe058b",
+    "after": "5a81a2edd6fb506b2748907c604368229035ed232c0d794e54f451e3b8fe058b",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Timing.meta",
+    "before": "752f711cffd14ef939cbd01946ea268a7e92807c7766f33ddcc97cc4243f274e",
+    "after": "752f711cffd14ef939cbd01946ea268a7e92807c7766f33ddcc97cc4243f274e",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Timing/CommandTimelineDashboard.cs",
+    "before": "42a17c511635a02db61b7a7f681f25f4052e9d214b6aeb846308a0e8f204ab76",
+    "after": "42a17c511635a02db61b7a7f681f25f4052e9d214b6aeb846308a0e8f204ab76",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Timing/CommandTimelineDashboard.cs.meta",
+    "before": "13f7330da150ebe763aa20b711efb928760b4dd26c792f21a964473ef96e05cd",
+    "after": "13f7330da150ebe763aa20b711efb928760b4dd26c792f21a964473ef96e05cd",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Timing/CommandTimelineTracker.cs",
+    "before": "fe07f60d11f353419f4035d37378f8346386c7c5e646f174a3aa484ca9ccfd52",
+    "after": "fe07f60d11f353419f4035d37378f8346386c7c5e646f174a3aa484ca9ccfd52",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/Timing/CommandTimelineTracker.cs.meta",
+    "before": "537a7ebc95d282d31ccd1c4ae6739beab91d9a5c14043a8b189cd9d07f2247ab",
+    "after": "537a7ebc95d282d31ccd1c4ae6739beab91d9a5c14043a8b189cd9d07f2247ab",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/TowerCraneController.cs",
+    "before": "02a3300c5f2801da503d833f0bf208f0ab308c1b0c33f4cc85e76a4905419978",
+    "after": "02a3300c5f2801da503d833f0bf208f0ab308c1b0c33f4cc85e76a4905419978",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/TowerCraneController.cs.meta",
+    "before": "ab2f40ff8cc9980509fc42ee1459ab5acf170ff28e85125d45bb11bedca0bb2a",
+    "after": "ab2f40ff8cc9980509fc42ee1459ab5acf170ff28e85125d45bb11bedca0bb2a",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/UI.meta",
+    "before": "c8186b885b714fd408fafa36404a3d998a21f67c537889fe87c3fdbddd42ea9a",
+    "after": "c8186b885b714fd408fafa36404a3d998a21f67c537889fe87c3fdbddd42ea9a",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/UI/CommandConfirmationTracker.cs",
+    "before": "7930ce4501287785cec06fad730b5e654437a66b6d9a8415ee0da4101eaf8ce0",
+    "after": "7930ce4501287785cec06fad730b5e654437a66b6d9a8415ee0da4101eaf8ce0",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/UI/CommandConfirmationTracker.cs.meta",
+    "before": "0dee26dce7c474b85e12d3767f666a0e575dfb9fb475bc8db4d46d7bcf1b11c0",
+    "after": "0dee26dce7c474b85e12d3767f666a0e575dfb9fb475bc8db4d46d7bcf1b11c0",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/UI/HmiDirectionGraphic.cs",
+    "before": "38d5a60b9ca42e093c10b48ce0836df94e8736fe24f748f7f6992cc962e405a0",
+    "after": "38d5a60b9ca42e093c10b48ce0836df94e8736fe24f748f7f6992cc962e405a0",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/UI/HmiDirectionGraphic.cs.meta",
+    "before": "edba9f01a78fd9f760fd14cfe9321eb6546a1b71be50554393a12e254fe0c732",
+    "after": "edba9f01a78fd9f760fd14cfe9321eb6546a1b71be50554393a12e254fe0c732",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/UI/OperatorCommandDisplay.cs",
+    "before": "43bea8cfd331335f63d6d09f607bbad8cd368b9cd1b0264ac6a58189bd24be46",
+    "after": "43bea8cfd331335f63d6d09f607bbad8cd368b9cd1b0264ac6a58189bd24be46",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/UI/OperatorCommandDisplay.cs.meta",
+    "before": "6aa3e965a537ef25613953d54f8fba28c9fc3c6514be282a187b5456004fdd06",
+    "after": "6aa3e965a537ef25613953d54f8fba28c9fc3c6514be282a187b5456004fdd06",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/UI/OperatorCommandLocalization.cs",
+    "before": "0247c68cea3d3b66d4b11380fbd8649f8394c40f197bb78d696159c36acac580",
+    "after": "0247c68cea3d3b66d4b11380fbd8649f8394c40f197bb78d696159c36acac580",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/UI/OperatorCommandLocalization.cs.meta",
+    "before": "b438f806929779fa55552817a41441330bf1ef06573a7db524cdd4bff25a97cf",
+    "after": "b438f806929779fa55552817a41441330bf1ef06573a7db524cdd4bff25a97cf",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/UI/OperatorDirectionGraphic.cs",
+    "before": "c934ba71447de6116f599793b5dcbdfcac7781bd410d74e9cc585f5c86b732a3",
+    "after": "c934ba71447de6116f599793b5dcbdfcac7781bd410d74e9cc585f5c86b732a3",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/UI/OperatorDirectionGraphic.cs.meta",
+    "before": "42c78b83cebde4bf0c70334d6c26cbbad11f8c5dcf6bc0ba29224efb98403530",
+    "after": "42c78b83cebde4bf0c70334d6c26cbbad11f8c5dcf6bc0ba29224efb98403530",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/UI/TaskHmiDashboard.cs",
+    "before": "a3f6c6b0b8c6b67f557fbe6601ee1f7a70fba2ff617978fa036fb62db7ce07a9",
+    "after": "a3f6c6b0b8c6b67f557fbe6601ee1f7a70fba2ff617978fa036fb62db7ce07a9",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/UI/TaskHmiDashboard.cs.meta",
+    "before": "404b6fffc6ac46683af3bdcf96b1d87f1ec19d9e43ff5fbea095fd4bf42437fe",
+    "after": "404b6fffc6ac46683af3bdcf96b1d87f1ec19d9e43ff5fbea095fd4bf42437fe",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/VerificationEngine.cs",
+    "before": "9bcb28c4aea6ed459ad3f5f05fbfc39e6e26f8ec81652c4faefc41e35627b37e",
+    "after": "9bcb28c4aea6ed459ad3f5f05fbfc39e6e26f8ec81652c4faefc41e35627b37e",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/VerificationEngine.cs.meta",
+    "before": "2ae2571a672057729278d949b4bdd9d8680f65cc83c89840ecaf322161f0ecfc",
+    "after": "2ae2571a672057729278d949b4bdd9d8680f65cc83c89840ecaf322161f0ecfc",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/VoiceCommandMessage.cs",
+    "before": "58d2556aa95e6df752f8bd5645118143b0239cb47cb4380d15e28415baf9711c",
+    "after": "58d2556aa95e6df752f8bd5645118143b0239cb47cb4380d15e28415baf9711c",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/VoiceCommandMessage.cs.meta",
+    "before": "7425bca7d7f54218d5c2940053acc7a276b12ddf449f3249796838692c60e906",
+    "after": "7425bca7d7f54218d5c2940053acc7a276b12ddf449f3249796838692c60e906",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/WorkerRoute.meta",
+    "before": "aa15ede053a51ff1b89281ee3bc255dad18386dc40af13e1882e46e3c3d50e0b",
+    "after": "aa15ede053a51ff1b89281ee3bc255dad18386dc40af13e1882e46e3c3d50e0b",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/WorkerRoute/WorkerRouteRiskDashboard.cs",
+    "before": "d2bc9a571e2476833868ea910ce2599ec27671dce183da134cc7b6aa68b44074",
+    "after": "d2bc9a571e2476833868ea910ce2599ec27671dce183da134cc7b6aa68b44074",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/WorkerRoute/WorkerRouteRiskDashboard.cs.meta",
+    "before": "7443d11465e22864b7dd4e845b5a4fda52461f0fa2b435dd7d15ed0a3167338d",
+    "after": "7443d11465e22864b7dd4e845b5a4fda52461f0fa2b435dd7d15ed0a3167338d",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/WorkerRoute/WorkerRouteRiskEngine.cs",
+    "before": "b989a57dde0bf0db766ba3342d71c76fc86dda654d95ae30b36baad192590dbd",
+    "after": "b989a57dde0bf0db766ba3342d71c76fc86dda654d95ae30b36baad192590dbd",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/Scripts/WorkerRoute/WorkerRouteRiskEngine.cs.meta",
+    "before": "9f25b226472b31951cdae101977def7bfeaa8582481043baf4d1ac3faa2e9102",
+    "after": "9f25b226472b31951cdae101977def7bfeaa8582481043baf4d1ac3faa2e9102",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/ShipyardExplorer/Entrances/EntranceFloor.mat",
+    "before": "26933e076b4e372323c608196e066cc1d9f8bf9fdf2852791227b56ae75cbc9d",
+    "after": "26933e076b4e372323c608196e066cc1d9f8bf9fdf2852791227b56ae75cbc9d",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/ShipyardExplorer/Entrances/EntranceFloor.mat.meta",
+    "before": "e58c6c28026ea678b0ffb0236ec4f074cf4a52c625ced9e900ba863199a45c7a",
+    "after": "e58c6c28026ea678b0ffb0236ec4f074cf4a52c625ced9e900ba863199a45c7a",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/ShipyardExplorer/Entrances/EntranceMarking.mat",
+    "before": "0f0fdeb1c936e03898e1ba1c2a3e68c52d125465fac087e54c8e46dc05b73cbd",
+    "after": "0f0fdeb1c936e03898e1ba1c2a3e68c52d125465fac087e54c8e46dc05b73cbd",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/ShipyardExplorer/Entrances/EntranceMarking.mat.meta",
+    "before": "75dd5a7d4e5918e625291af581f1305a7e4ff8736391b0f47fc5bb3ec21f4363",
+    "after": "75dd5a7d4e5918e625291af581f1305a7e4ff8736391b0f47fc5bb3ec21f4363",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/ShipyardExplorer/Entrances/EntranceWall.mat",
+    "before": "91ecf36af1d6ec4afa2cd0bdf7fb9fb42a379de8ad8595ca16306d50d2c20a47",
+    "after": "91ecf36af1d6ec4afa2cd0bdf7fb9fb42a379de8ad8595ca16306d50d2c20a47",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/ShipyardExplorer/Entrances/EntranceWall.mat.meta",
+    "before": "5c63bd440a55aac315eb6030de3134af624c85b7fd3e9fb504d9e75197a1946c",
+    "after": "5c63bd440a55aac315eb6030de3134af624c85b7fd3e9fb504d9e75197a1946c",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/ShipyardExplorer/Entrances/F10_Batched_Door.asset",
+    "before": "4dfe6308b9c4b29cb5deb971ebb9134f72f6084752df95f21e4035fa67719919",
+    "after": "4dfe6308b9c4b29cb5deb971ebb9134f72f6084752df95f21e4035fa67719919",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/ShipyardExplorer/Entrances/F10_Batched_Door.asset.meta",
+    "before": "adb1db727447c3fd79a71f626aa4c0c2468ad0b14c25db3eeb0517332dba5e76",
+    "after": "adb1db727447c3fd79a71f626aa4c0c2468ad0b14c25db3eeb0517332dba5e76",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/ShipyardExplorer/Entrances/F10_Batched_Seam.asset",
+    "before": "9e882ef4556cea7cc9529ffe17e3d1d770c9b493c8ab879b50df9cc1ba6ec9f3",
+    "after": "9e882ef4556cea7cc9529ffe17e3d1d770c9b493c8ab879b50df9cc1ba6ec9f3",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/ShipyardExplorer/Entrances/F10_Batched_Seam.asset.meta",
+    "before": "f3bd6adb9ec0a54aa138f9cd91e49a2b227517aa64ff1e59252c61249e0b2775",
+    "after": "f3bd6adb9ec0a54aa138f9cd91e49a2b227517aa64ff1e59252c61249e0b2775",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/ShipyardExplorer/Entrances/F10_HollowBay.asset",
+    "before": "2fd4f5e7150e5c35a6e7a7e13bfe99ecc7d30d5ab9c0f2e117144f37723116d4",
+    "after": "2fd4f5e7150e5c35a6e7a7e13bfe99ecc7d30d5ab9c0f2e117144f37723116d4",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/ShipyardExplorer/Entrances/F10_HollowBay.asset.meta",
+    "before": "06547466f590dde2cbfeccdad53997c1d1ef3e1f0ad4387c6bb66effa62d8082",
+    "after": "06547466f590dde2cbfeccdad53997c1d1ef3e1f0ad4387c6bb66effa62d8082",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/ShipyardExplorer/Entrances/F11_Batched_Door.asset",
+    "before": "5a0fa2738586edb66cf9257c2a2e65e115429e5d49643ebd0b4aaab7c8dc38b3",
+    "after": "5a0fa2738586edb66cf9257c2a2e65e115429e5d49643ebd0b4aaab7c8dc38b3",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/ShipyardExplorer/Entrances/F11_Batched_Door.asset.meta",
+    "before": "c94c9717d0e76c3d0dc1182987730fc44c4d71b3f143c36df7f6b1a6e5f20bb0",
+    "after": "c94c9717d0e76c3d0dc1182987730fc44c4d71b3f143c36df7f6b1a6e5f20bb0",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/ShipyardExplorer/Entrances/F11_Batched_Seam.asset",
+    "before": "a8456aaa1d3ee7b43356bbf17aec83b77d52dce7339f76de8df0595cdd9b701b",
+    "after": "a8456aaa1d3ee7b43356bbf17aec83b77d52dce7339f76de8df0595cdd9b701b",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/ShipyardExplorer/Entrances/F11_Batched_Seam.asset.meta",
+    "before": "5d3ea1d82c0a944da773d9d98b25c8bf2c4fcd255040b1f834ebde6d0d789970",
+    "after": "5d3ea1d82c0a944da773d9d98b25c8bf2c4fcd255040b1f834ebde6d0d789970",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/ShipyardExplorer/Entrances/F11_HollowBay.asset",
+    "before": "6991aa9c1eea7dd55efee4c7f654d46146707d18e8d13119f4e2f98c09a70d56",
+    "after": "6991aa9c1eea7dd55efee4c7f654d46146707d18e8d13119f4e2f98c09a70d56",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/ShipyardExplorer/Entrances/F11_HollowBay.asset.meta",
+    "before": "a323130a78269c60e0e6226bb3e4cbd0281d6f974a871f031582f5c410d58176",
+    "after": "a323130a78269c60e0e6226bb3e4cbd0281d6f974a871f031582f5c410d58176",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/ShipyardExplorer/Entrances/F12_Batched_Door.asset",
+    "before": "6d5d73b3f36bda46c9773636de16620330c529ff650e850ca5b88b4b001ef76f",
+    "after": "6d5d73b3f36bda46c9773636de16620330c529ff650e850ca5b88b4b001ef76f",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/ShipyardExplorer/Entrances/F12_Batched_Door.asset.meta",
+    "before": "5c8f5c2078cb4a623b1fb4e250ba828ec336113f7244ed98e1816163f213fbae",
+    "after": "5c8f5c2078cb4a623b1fb4e250ba828ec336113f7244ed98e1816163f213fbae",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/ShipyardExplorer/Entrances/F12_Batched_Seam.asset",
+    "before": "bda9da74ac94ab4a141420256d2fe3cc6514f142acc4ed5fdbaf366e9ce23ba1",
+    "after": "bda9da74ac94ab4a141420256d2fe3cc6514f142acc4ed5fdbaf366e9ce23ba1",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/ShipyardExplorer/Entrances/F12_Batched_Seam.asset.meta",
+    "before": "2ba16cfee402e7d262a7e9f3766e7af89875b01fe24d768002abaace70126ca6",
+    "after": "2ba16cfee402e7d262a7e9f3766e7af89875b01fe24d768002abaace70126ca6",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/ShipyardExplorer/Entrances/F12_HollowBay.asset",
+    "before": "a3294a951937ae24ff4c8260a711b5902e5935b83e82dd5488b3faa9084da888",
+    "after": "a3294a951937ae24ff4c8260a711b5902e5935b83e82dd5488b3faa9084da888",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/ShipyardExplorer/Entrances/F12_HollowBay.asset.meta",
+    "before": "c80691ccacc4b0474a48d8cdd7978665623e8a892be840d42dac260bb0f4b60f",
+    "after": "c80691ccacc4b0474a48d8cdd7978665623e8a892be840d42dac260bb0f4b60f",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/ShipyardExplorer/Entrances/F19_HollowBay.asset",
+    "before": "d50f80b2fc4aa9a0e71571ece7ee044c58e2664da5184c60a6cd1243d5286f91",
+    "after": "d50f80b2fc4aa9a0e71571ece7ee044c58e2664da5184c60a6cd1243d5286f91",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/ShipyardExplorer/Entrances/F19_HollowBay.asset.meta",
+    "before": "d1be90f658f09ae2802f19651128e7fc8c5be8522bcdf71df63989b9e57640c6",
+    "after": "d1be90f658f09ae2802f19651128e7fc8c5be8522bcdf71df63989b9e57640c6",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/ShipyardExplorer/Entrances/F19_ShutterOpening.asset",
+    "before": "4379d16557bf9d54736e61171e8385d5fbbbbffb8a4a63a4587e83ce7f5580a1",
+    "after": "4379d16557bf9d54736e61171e8385d5fbbbbffb8a4a63a4587e83ce7f5580a1",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/ShipyardExplorer/Entrances/F19_ShutterOpening.asset.meta",
+    "before": "6c731cdaadac036603a5560326e56c8be8e3bf91e04f69467cd1c56de5fb9445",
+    "after": "6c731cdaadac036603a5560326e56c8be8e3bf91e04f69467cd1c56de5fb9445",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/ShipyardExplorer/Entrances/PersonnelDoor.mat",
+    "before": "9f08a04086e61ee8c222f86716fbe1023b6b6d05940ec5dce431c05eeb1ecb20",
+    "after": "9f08a04086e61ee8c222f86716fbe1023b6b6d05940ec5dce431c05eeb1ecb20",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/ShipyardExplorer/Entrances/PersonnelDoor.mat.meta",
+    "before": "9e2928d3e72deba4a3f8c0df81326ae0890b2531431a00eaf7d1bb3516a9fde2",
+    "after": "9e2928d3e72deba4a3f8c0df81326ae0890b2531431a00eaf7d1bb3516a9fde2",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/UI/Fonts/CraneDashboard SDF.asset",
+    "before": "fe2fb3e62fa3bee4f0abbd1cbcb21f3ce3cd5336000586fd1a696fdb974f74c3",
+    "after": "fe2fb3e62fa3bee4f0abbd1cbcb21f3ce3cd5336000586fd1a696fdb974f74c3",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/UI/Fonts/OperatorCommand Korean SDF.asset",
+    "before": "80cdc5863dbfc01e632f9096af7cf72b720d1def247ce778c59d13aa5eeab4b4",
+    "after": "80cdc5863dbfc01e632f9096af7cf72b720d1def247ce778c59d13aa5eeab4b4",
+    "unchanged": true
+  },
+  {
+    "path": "Assets/UI/Fonts/OperatorCommand SDF.asset",
+    "before": "a590f57ab9a76abc200d572d3f772e0f16d487d35a7dbba344686d07787f4429",
+    "after": "a590f57ab9a76abc200d572d3f772e0f16d487d35a7dbba344686d07787f4429",
+    "unchanged": true
+  },
+  {
+    "path": "Packages/manifest.json",
+    "before": "5832d01dd22ad146ab876db529931b7c8c230c89e11169e45cc0cec9ad223658",
+    "after": "5832d01dd22ad146ab876db529931b7c8c230c89e11169e45cc0cec9ad223658",
+    "unchanged": true
+  },
+  {
+    "path": "Packages/packages-lock.json",
+    "before": "11c616db1c13b9fb6d845c63cab608a3b14d7e8647bd7d508230f85bd749a04c",
+    "after": "11c616db1c13b9fb6d845c63cab608a3b14d7e8647bd7d508230f85bd749a04c",
+    "unchanged": true
+  }
+]

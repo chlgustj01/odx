@@ -1,0 +1,78 @@
+{
+  "changedExisting": [
+    {
+      "id": "681919530",
+      "type": "114",
+      "diff": "--- before\n+++ after\n@@ -49,7 +49,7 @@\n   m_fontSizeBase: 28\n   m_fontWeight: 400\n   m_enableAutoSizing: 1\n-  m_fontSizeMin: 27.2\n+  m_fontSizeMin: 20\n   m_fontSizeMax: 34\n   m_fontStyle: 0\n   m_HorizontalAlignment: 1\n"
+    },
+    {
+      "id": "203955145",
+      "type": "1",
+      "diff": "--- before\n+++ after\n@@ -10,6 +10,7 @@\n   - component: {fileID: 203955148}\n   - component: {fileID: 203955147}\n   - component: {fileID: 203955146}\n+  - component: {fileID: 203955150}\n   m_Layer: 12\n   m_Name: ShipyardExplorer\n   m_TagString: Untagged\n"
+    },
+    {
+      "id": "203955149",
+      "type": "4",
+      "diff": "--- before\n+++ after\n@@ -16,5 +16,6 @@\n   - {fileID: 1538118821}\n   - {fileID: 492195159}\n   - {fileID: 1306844319}\n+  - {fileID: 163698551}\n   m_Father: {fileID: 0}\n   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}\n"
+    },
+    {
+      "id": "42807359",
+      "type": "23",
+      "diff": "--- before\n+++ after\n@@ -5,7 +5,7 @@\n   m_PrefabInstance: {fileID: 0}\n   m_PrefabAsset: {fileID: 0}\n   m_GameObject: {fileID: 42807357}\n-  m_Enabled: 1\n+  m_Enabled: 0\n   m_CastShadows: 1\n   m_ReceiveShadows: 1\n   m_DynamicOccludee: 1\n"
+    },
+    {
+      "id": "9223372036854775807",
+      "type": "1660057539",
+      "diff": "--- before\n+++ after\n@@ -18,3 +18,4 @@\n   - {fileID: 203955149}\n   - {fileID: 1970621029}\n   - {fileID: 1057573346}\n+  - {fileID: 1189659130}\n"
+    },
+    {
+      "id": "734907405",
+      "type": "23",
+      "diff": "--- before\n+++ after\n@@ -5,7 +5,7 @@\n   m_PrefabInstance: {fileID: 0}\n   m_PrefabAsset: {fileID: 0}\n   m_GameObject: {fileID: 734907403}\n-  m_Enabled: 1\n+  m_Enabled: 0\n   m_CastShadows: 1\n   m_ReceiveShadows: 1\n   m_DynamicOccludee: 1\n"
+    },
+    {
+      "id": "1816299734",
+      "type": "23",
+      "diff": "--- before\n+++ after\n@@ -5,7 +5,7 @@\n   m_PrefabInstance: {fileID: 0}\n   m_PrefabAsset: {fileID: 0}\n   m_GameObject: {fileID: 1816299732}\n-  m_Enabled: 1\n+  m_Enabled: 0\n   m_CastShadows: 1\n   m_ReceiveShadows: 1\n   m_DynamicOccludee: 1\n"
+    }
+  ],
+  "added": [
+    {
+      "id": "163698550",
+      "type": "1"
+    },
+    {
+      "id": "163698551",
+      "type": "4"
+    },
+    {
+      "id": "203955150",
+      "type": "114"
+    },
+    {
+      "id": "1189659127",
+      "type": "1"
+    },
+    {
+      "id": "1189659128",
+      "type": "114"
+    },
+    {
+      "id": "1189659129",
+      "type": "114"
+    },
+    {
+      "id": "1189659130",
+      "type": "4"
+    },
+    {
+      "id": "1946552005",
+      "type": "1001"
+    },
+    {
+      "id": "1946552006",
+      "type": "4"
+    }
+  ],
+  "removed": []
+}

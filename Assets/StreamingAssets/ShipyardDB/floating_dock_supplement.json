@@ -1,0 +1,139 @@
+{
+  "sourceWorkbook": "한화오션_거제사업장_시설DB (1).xlsx",
+  "sourceSha256": "60bf40ec0719fccb58e583831d6a21deb538c6d63615f36c07e65d3461adbd3b",
+  "sheet": "플로팅도크",
+  "records": [
+    {
+      "sourceRow": 7,
+      "cells": [
+        "증설 공사",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "sourceRow": 8,
+      "cells": [
+        "내용",
+        "옥포항 플로팅 독 증설(접안시설 공사)",
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "sourceRow": 9,
+      "cells": [
+        "착공",
+        "2026-09",
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "sourceRow": 10,
+      "cells": [
+        "준공 목표",
+        "2027-01",
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "sourceRow": 11,
+      "cells": [
+        "독 길이(m)",
+        "약 480",
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "sourceRow": 12,
+      "cells": [
+        "플로팅 독 면적(㎡)",
+        54936,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "sourceRow": 13,
+      "cells": [
+        "안벽(㎡)",
+        3775,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "sourceRow": 14,
+      "cells": [
+        "준설(㎥)",
+        197958,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "sourceRow": 15,
+      "cells": [
+        "비고",
+        "어민 반발로 해상시위(2026-10-19) 보도",
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "sourceRow": 16,
+      "cells": [
+        "출처",
+        "경남도민일보 - 한화오션 옥포항 부유식 독 증설 (2026.10.19)",
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "sourceRow": 18,
+      "cells": [
+        "관련 사고",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "sourceRow": 19,
+      "cells": [
+        "2024-09-09",
+        "플로팅 독 탑재작업 중 하청노동자 약 32m 높이에서 추락 사망 (경향신문 - 한화오션 하청노동자 추락사 (2024.09.10))",
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}

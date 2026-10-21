@@ -1,0 +1,95 @@
+{
+  "passed": false,
+  "error": "System.Exception: E-Worker: Worker/full hazard/remaining debug disagree\r\n  at LiveLoadPathPlayModeChecks.Check (System.Boolean ok, System.String message) [0x0002d] in D:\\UnityProject\\CraneSignalAI\\Assets\\Editor\\Prediction\\LiveLoadPathPlayModeChecks.cs:69 \r\n  at LiveLoadPathPlayModeChecks.Tick () [0x0085f] in D:\\UnityProject\\CraneSignalAI\\Assets\\Editor\\Prediction\\LiveLoadPathPlayModeChecks.cs:126 ",
+  "cleanupVerified": true,
+  "rows": [
+    {
+      "test": "A-SLEW-MidMotion",
+      "passed": true,
+      "initialRemaining": 30.0,
+      "currentRemaining": 17.9166641,
+      "target": 30.0,
+      "actualSamples": 8,
+      "remainingSamples": 10,
+      "elapsedFrames": 29,
+      "fullUnchanged": true,
+      "load": "(-45.3720, 6.0500, 34.9335)",
+      "workerInRemaining": false,
+      "hazard": "SAFE"
+    },
+    {
+      "test": "A-SLEW-Completed",
+      "passed": true,
+      "current": 29.5833282,
+      "target": 30.0,
+      "actualSamples": 18,
+      "remainingEmpty": true,
+      "fullUnchanged": true,
+      "voiceOnlyUnchanged": true
+    },
+    {
+      "test": "B-TROLLEY-MidMotion",
+      "passed": true,
+      "initialRemaining": 1.0,
+      "currentRemaining": 0.5666671,
+      "target": 4.0,
+      "actualSamples": 5,
+      "remainingSamples": 7,
+      "elapsedFrames": 13,
+      "fullUnchanged": true,
+      "load": "(-46.0000, 6.0500, 35.4333)",
+      "workerInRemaining": false,
+      "hazard": "SAFE"
+    },
+    {
+      "test": "B-TROLLEY-Completed",
+      "passed": true,
+      "current": 3.999999,
+      "target": 4.0,
+      "actualSamples": 11,
+      "remainingEmpty": true,
+      "fullUnchanged": true,
+      "voiceOnlyUnchanged": true
+    },
+    {
+      "test": "C-HOIST-MidMotion",
+      "passed": true,
+      "initialRemaining": 1.0,
+      "currentRemaining": 0.5666671,
+      "target": 5.5,
+      "actualSamples": 5,
+      "remainingSamples": 7,
+      "elapsedFrames": 13,
+      "fullUnchanged": true,
+      "load": "(-46.0000, 5.6167, 35.0000)",
+      "workerInRemaining": false,
+      "hazard": "SAFE"
+    },
+    {
+      "test": "C-HOIST-Completed",
+      "passed": true,
+      "current": 5.500001,
+      "target": 5.5,
+      "actualSamples": 11,
+      "remainingEmpty": true,
+      "fullUnchanged": true,
+      "voiceOnlyUnchanged": true
+    },
+    {
+      "test": "D-SmallLoad",
+      "passed": true,
+      "footprintArea": 2.0,
+      "fullBoundsArea": 7.48664665,
+      "visualSize": "(1.0000, 0.1000, 2.0000)",
+      "voiceOnlyUnchanged": true
+    },
+    {
+      "test": "D-LargeLoad",
+      "passed": true,
+      "footprintArea": 8.0,
+      "fullBoundsArea": 20.6849861,
+      "visualSize": "(2.0000, 0.1000, 4.0000)",
+      "voiceOnlyUnchanged": true
+    }
+  ]
+}

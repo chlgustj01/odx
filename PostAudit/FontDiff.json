@@ -1,0 +1,289 @@
+{
+  "path": "Assets/UI/Fonts/OperatorCommand Korean SDF.asset",
+  "beforeSha256": "a20a9c424262c22a519805d4fccb631e8fd64b1b5348cfcfd680327be212f0a4",
+  "afterSha256": "80cdc5863dbfc01e632f9096af7cf72b720d1def247ce778c59d13aa5eeab4b4",
+  "beforeCharacters": 3,
+  "afterCharacters": 71,
+  "addedCharacters": [
+    {
+      "character": "감",
+      "unicode": "U+AC10"
+    },
+    {
+      "character": "값",
+      "unicode": "U+AC12"
+    },
+    {
+      "character": "강",
+      "unicode": "U+AC15"
+    },
+    {
+      "character": "경",
+      "unicode": "U+ACBD"
+    },
+    {
+      "character": "권",
+      "unicode": "U+AD8C"
+    },
+    {
+      "character": "기",
+      "unicode": "U+AE30"
+    },
+    {
+      "character": "깥",
+      "unicode": "U+AE65"
+    },
+    {
+      "character": "남",
+      "unicode": "U+B0A8"
+    },
+    {
+      "character": "내",
+      "unicode": "U+B0B4"
+    },
+    {
+      "character": "님",
+      "unicode": "U+B2D8"
+    },
+    {
+      "character": "달",
+      "unicode": "U+B2EC"
+    },
+    {
+      "character": "대",
+      "unicode": "U+B300"
+    },
+    {
+      "character": "도",
+      "unicode": "U+B3C4"
+    },
+    {
+      "character": "동",
+      "unicode": "U+B3D9"
+    },
+    {
+      "character": "든",
+      "unicode": "U+B4E0"
+    },
+    {
+      "character": "량",
+      "unicode": "U+B7C9"
+    },
+    {
+      "character": "령",
+      "unicode": "U+B839"
+    },
+    {
+      "character": "로",
+      "unicode": "U+B85C"
+    },
+    {
+      "character": "롤",
+      "unicode": "U+B864"
+    },
+    {
+      "character": "료",
+      "unicode": "U+B8CC"
+    },
+    {
+      "character": "리",
+      "unicode": "U+B9AC"
+    },
+    {
+      "character": "명",
+      "unicode": "U+BA85"
+    },
+    {
+      "character": "모",
+      "unicode": "U+BAA8"
+    },
+    {
+      "character": "목",
+      "unicode": "U+BAA9"
+    },
+    {
+      "character": "물",
+      "unicode": "U+BB3C"
+    },
+    {
+      "character": "미",
+      "unicode": "U+BBF8"
+    },
+    {
+      "character": "바",
+      "unicode": "U+BC14"
+    },
+    {
+      "character": "상",
+      "unicode": "U+C0C1"
+    },
+    {
+      "character": "선",
+      "unicode": "U+C120"
+    },
+    {
+      "character": "수",
+      "unicode": "U+C218"
+    },
+    {
+      "character": "승",
+      "unicode": "U+C2B9"
+    },
+    {
+      "character": "신",
+      "unicode": "U+C2E0"
+    },
+    {
+      "character": "아",
+      "unicode": "U+C544"
+    },
+    {
+      "character": "안",
+      "unicode": "U+C548"
+    },
+    {
+      "character": "않",
+      "unicode": "U+C54A"
+    },
+    {
+      "character": "업",
+      "unicode": "U+C5C5"
+    },
+    {
+      "character": "없",
+      "unicode": "U+C5C6"
+    },
+    {
+      "character": "예",
+      "unicode": "U+C608"
+    },
+    {
+      "character": "완",
+      "unicode": "U+C644"
+    },
+    {
+      "character": "우",
+      "unicode": "U+C6B0"
+    },
+    {
+      "character": "운",
+      "unicode": "U+C6B4"
+    },
+    {
+      "character": "위",
+      "unicode": "U+C704"
+    },
+    {
+      "character": "유",
+      "unicode": "U+C720"
+    },
+    {
+      "character": "은",
+      "unicode": "U+C740"
+    },
+    {
+      "character": "음",
+      "unicode": "U+C74C"
+    },
+    {
+      "character": "이",
+      "unicode": "U+C774"
+    },
+    {
+      "character": "인",
+      "unicode": "U+C778"
+    },
+    {
+      "character": "자",
+      "unicode": "U+C790"
+    },
+    {
+      "character": "작",
+      "unicode": "U+C791"
+    },
+    {
+      "character": "재",
+      "unicode": "U+C7AC"
+    },
+    {
+      "character": "전",
+      "unicode": "U+C804"
+    },
+    {
+      "character": "정",
+      "unicode": "U+C815"
+    },
+    {
+      "character": "좌",
+      "unicode": "U+C88C"
+    },
+    {
+      "character": "준",
+      "unicode": "U+C900"
+    },
+    {
+      "character": "지",
+      "unicode": "U+C9C0"
+    },
+    {
+      "character": "쪽",
+      "unicode": "U+CABD"
+    },
+    {
+      "character": "측",
+      "unicode": "U+CE21"
+    },
+    {
+      "character": "태",
+      "unicode": "U+D0DC"
+    },
+    {
+      "character": "트",
+      "unicode": "U+D2B8"
+    },
+    {
+      "character": "표",
+      "unicode": "U+D45C"
+    },
+    {
+      "character": "하",
+      "unicode": "U+D558"
+    },
+    {
+      "character": "해",
+      "unicode": "U+D574"
+    },
+    {
+      "character": "험",
+      "unicode": "U+D5D8"
+    },
+    {
+      "character": "현",
+      "unicode": "U+D604"
+    },
+    {
+      "character": "화",
+      "unicode": "U+D654"
+    },
+    {
+      "character": "확",
+      "unicode": "U+D655"
+    },
+    {
+      "character": "회",
+      "unicode": "U+D68C"
+    },
+    {
+      "character": "효",
+      "unicode": "U+D6A8"
+    }
+  ],
+  "removedCharacters": [],
+  "beforeGlyphs": 3,
+  "afterGlyphs": 71,
+  "addedGlyphCount": 68,
+  "removedGlyphCount": 0,
+  "sourceFont": "Assets/UI/Fonts/MalgunGothic.ttf",
+  "sourceFontSha256": "7a183cf1c6c56b9609fcc16eda8b5229fbc11758a21e669ec00343239b02192f",
+  "backup": "C:\\Users\\chlgu\\Documents\\Codex\\2026-10-19\\unity-mcp-main-scene-hierarchy-towercraneroot\\outputs\\FacilityEntrances\\Backup\\working-tree-overlay.zip!/Assets/UI/Fonts/OperatorCommand Korean SDF.asset"
+}

@@ -1,0 +1,25 @@
+{
+  "protectedRuntimeCount": 60,
+  "protectedRuntimeUnchanged": true,
+  "existingTestsCount": 12,
+  "existingTestsUnchanged": true,
+  "originalMeshCount": 93,
+  "originalMeshesUnchanged": true,
+  "allOriginalTransformPosesAndParentsUnchanged": true,
+  "originalTransformsWithOnlyChildListAdditions": 8,
+  "removedSceneDocuments": 0,
+  "addedSceneDocuments": 426,
+  "changedSceneTypes": [
+    "114",
+    "33",
+    "4",
+    "64",
+    "65"
+  ],
+  "databaseUnchanged": true,
+  "changedBaselineFiles": [
+    "Assets/Scripts/Shipyard/Explorer/ShipyardExploreCameraController.cs",
+    "Assets/Scripts/Shipyard/Explorer/ShipyardExploreHUD.cs",
+    "Assets/Scenes/Main.unity"
+  ]
+}

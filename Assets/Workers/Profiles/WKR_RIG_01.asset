@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40a87333e09b1d54ea8863b3fe03734c, type: 3}
+  m_Name: WKR_RIG_01
+  m_EditorClassIdentifier: Assembly-CSharp::WorkerProfile
+  workerId: WKR_RIG_01
+  roleCode: RIGGER
+  accidentRoleCode: 3
+  displayNameKo: "\uC904\uAC78\uC774(\uB9AC\uAE45) \uC791\uC5C5\uC790"
+  displayNameEn: RIGGER
+  displayNameVi: "Th\u1EE3 m\xF3c c\xE1p"
+  descriptionKo: "\uC8FC\uC694 \uC791\uC5C5: \uC904\uAC78\uC774\xB7\uD558\uC911 \uACB0\uC18D\xB7\uCC29\uC9C0
+    \uBCF4\uC870\n\uC8FC\uC694 \uC704\uD5D8: \uD558\uC911, \uB07C\uC784, \uCD94\uB77D\n\uC8FC\uC694
+    \uC791\uC5C5\uAD6C\uC5ED: \uACB0\uC18D\xB7\uCC29\uC9C0 \uC9C0\uC810 \uC8FC\uBCC0\nPPE:
+    \uD558\uB124\uC2A4, \uD0DC\uADF8\uB77C\uC778, \uC7A5\uAC11\nDEMO \uC120\uD638:
+    \uACB0\uC18D \uC9C0\uC810 / \uC608\uC0C1 \uD558\uC911 \uACBD\uB85C \uD68C\uD53C"
+  descriptionEn: 'WORK: rigging, securing loads, landing support
+
+    HAZARDS: load,
+    pinch points, falls
+
+    AREAS: rigging and landing points
+
+    PPE: harness,
+    tag line, gloves
+
+    DEMO PREFERENCE: rigging points; avoid swept load path'
+  descriptionVi: "C\xD4NG VI\u1EC6C: m\xF3c c\xE1p, bu\u1ED9c t\u1EA3i, h\u1ED7 tr\u1EE3
+    h\u1EA1 t\u1EA3i\nNGUY C\u01A0: t\u1EA3i, k\u1EB9p, ng\xE3\nKHU V\u1EF0C: \u0111i\u1EC3m
+    m\xF3c v\xE0 h\u1EA1 t\u1EA3i\nPPE: d\xE2y \u0111ai, d\xE2y gi\u1EEF t\u1EA3i,
+    g\u0103ng tay\n\u01AFU TI\xCAN DEMO: \u0111i\u1EC3m m\xF3c; tr\xE1nh \u0111\u01B0\u1EDDng
+    t\u1EA3i"
+  avatarVisualPrefab: {fileID: 4470402654049987503, guid: b74984970af8d27469cf46204f99be79, type: 3}
+  mainWorkTypes:
+  - RIGGING
+  mainHazards:
+  - LOAD
+  - PINCH
+  - FALL
+  workLocations:
+  - RIGGING_POINT
+  - LANDING_POINT
+  preferredFacilities:
+  - F01
+  - F02
+  workFacilities:
+  - F01
+  - F02
+  allowedZones: []
+  preferredZones:
+  - Lifting
+  avoidZones:
+  - PAINT
+  - LIVE-SWEPT
+  ppeDescription: 'PPE: harness, tag line, gloves'
+  routeLineStyle: 1
+  icon: R
+  routeColor: {r: 0.7, g: 0.57, b: 0.91, a: 1}
+  preferredCostBias: -0.16
+  avoidCostBias: 2
+  dataStatus: DEMO ROLE PROFILE

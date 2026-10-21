@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "error": null,
+  "testClockHz": 60,
+  "legacySourceUnchanged": true,
+  "workerGeometryWritten": false,
+  "rows": [
+    {
+      "test": "G-SamplingEndpoints",
+      "passed": true,
+      "target": 30.0,
+      "current": 29.5833282,
+      "actualSamples": 18,
+      "remainingEmpty": true,
+      "fullUnchanged": true,
+      "voiceOnlyUnchanged": true
+    },
+    {
+      "test": "G-TrolleyGeometry",
+      "passed": true,
+      "target": 4.0,
+      "current": 3.999999,
+      "actualSamples": 11,
+      "remainingEmpty": true,
+      "fullUnchanged": true,
+      "voiceOnlyUnchanged": true
+    },
+    {
+      "test": "G-HoistGeometry",
+      "passed": true,
+      "target": 5.5,
+      "current": 5.500001,
+      "actualSamples": 11,
+      "remainingEmpty": true,
+      "fullUnchanged": true,
+      "voiceOnlyUnchanged": true
+    },
+    {
+      "test": "G-SmallLoadArea",
+      "passed": true,
+      "footprintArea": 2.0,
+      "boundsArea": 7.48664665,
+      "visualSize": "(1.0000, 0.1000, 2.0000)"
+    },
+    {
+      "test": "G-LoadDimensionScaling",
+      "passed": true,
+      "footprintArea": 8.0,
+      "boundsArea": 20.6849861,
+      "visualSize": "(2.0000, 0.1000, 4.0000)"
+    },
+    {
+      "test": "G-Wrap360",
+      "passed": true,
+      "target": 379.999969,
+      "current": 379.58255,
+      "actualSamples": 18,
+      "remainingEmpty": true,
+      "fullUnchanged": true,
+      "voiceOnlyUnchanged": true
+    },
+    {
+      "test": "G-WrongDirectionRemaining",
+      "passed": true,
+      "initialRemaining": 30.0,
+      "currentRemaining": 38.33313,
+      "target": 30.0
+    },
+    {
+      "test": "G-StopHistory",
+      "passed": true,
+      "historySamples": 6,
+      "currentFootprint": true,
+      "remainingEmpty": true,
+      "stopVerification": "STOP_VERIFIED"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "passed": true,
+  "checks": 17,
+  "rows": [
+    {
+      "test": "Codebook separates SECONDARY and OFFICIAL",
+      "passed": true
+    },
+    {
+      "test": "JSON -> deserialization -> 3 Runtime records SECONDARY",
+      "passed": true
+    },
+    {
+      "test": "Legacy grade retained; official dimension unconfirmed",
+      "passed": true
+    },
+    {
+      "test": "One facility has separate function and dimension provenance",
+      "passed": true
+    },
+    {
+      "test": "Only two user-confirmed official capabilities",
+      "passed": true
+    },
+    {
+      "test": "Official capability sources kept separate from dimension source",
+      "passed": true
+    },
+    {
+      "test": "Facility Adapter / DB DETAILS formatting retains distinct labels",
+      "passed": true
+    },
+    {
+      "test": "Facility card does not downgrade entire F14",
+      "passed": true
+    },
+    {
+      "test": "Royal No.1 metadata dynamically reads normalized status",
+      "passed": true
+    },
+    {
+      "test": "Royal No.1 Explorer E detail source/status",
+      "passed": true
+    },
+    {
+      "test": "Royal No.2 metadata dynamically reads normalized status",
+      "passed": true
+    },
+    {
+      "test": "Royal No.2 Explorer E detail source/status",
+      "passed": true
+    },
+    {
+      "test": "Royal No.3 metadata dynamically reads normalized status",
+      "passed": true
+    },
+    {
+      "test": "Royal No.3 Explorer E detail source/status",
+      "passed": true
+    },
+    {
+      "test": "Unrecognized future strings preserved, no semantic fallback",
+      "passed": true
+    },
+    {
+      "test": "GIS converter not implemented",
+      "passed": true
+    },
+    {
+      "test": "LIVE root unchanged",
+      "passed": true
+    }
+  ]
+}

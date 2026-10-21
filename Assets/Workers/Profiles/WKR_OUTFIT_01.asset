@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40a87333e09b1d54ea8863b3fe03734c, type: 3}
+  m_Name: WKR_OUTFIT_01
+  m_EditorClassIdentifier: Assembly-CSharp::WorkerProfile
+  workerId: WKR_OUTFIT_01
+  roleCode: OUTFITTING_PIPE
+  accidentRoleCode: NOT_MAPPED
+  displayNameKo: "\uC758\uC7A5(\uBC30\uAD00) \uC791\uC5C5\uC790"
+  displayNameEn: OUTFITTING / PIPE WORKER
+  displayNameVi: "Th\u1EE3 l\u1EAFp \u0111\u1EB7t / \u0111\u01B0\u1EDDng \u1ED1ng"
+  descriptionKo: "\uC8FC\uC694 \uC791\uC5C5: \uBC30\uAD00 \uC758\uC7A5\xB7\uC7A5\uBE44
+    \uC124\uCE58\n\uC8FC\uC694 \uC704\uD5D8: \uB07C\uC784, \uC6B4\uBC18 \uD558\uC911,
+    \uC804\uAE30\n\uC8FC\uC694 \uC791\uC5C5\uAD6C\uC5ED: \uC758\uC7A5\xB7\uBC30\uAD00
+    \uC801\uCE58\xB7\uBE14\uB85D \uAD6C\uC5ED\nPPE: \uACF5\uAD6C\uBCA8\uD2B8, \uB80C\uCE58,
+    \uBC30\uAD00 \uB3C4\uAD6C, \uC7A5\uAC11\nDEMO \uC120\uD638: \uC758\uC7A5 \uAD6C\uC5ED
+    / \uC608\uC0C1 \uD558\uC911 \uACBD\uB85C \uD68C\uD53C"
+  descriptionEn: 'WORK: pipe outfitting and equipment installation
+
+    HAZARDS:
+    pinch points, loads, electricity
+
+    AREAS: outfitting, pipe staging and blocks
+
+    PPE:
+    tool belt, wrench, pipe tools, gloves
+
+    DEMO PREFERENCE: outfitting; avoid
+    swept load path'
+  descriptionVi: "C\xD4NG VI\u1EC6C: l\u1EAFp \u1ED1ng v\xE0 thi\u1EBFt b\u1ECB\nNGUY
+    C\u01A0: k\u1EB9p, t\u1EA3i, \u0111i\u1EC7n\nKHU V\u1EF0C: l\u1EAFp \u0111\u1EB7t,
+    t\u1EADp k\u1EBFt \u1ED1ng, kh\u1ED1i\nPPE: \u0111ai d\u1EE5ng c\u1EE5, c\u1EDD
+    l\xEA, d\u1EE5ng c\u1EE5 \u1ED1ng, g\u0103ng tay\n\u01AFU TI\xCAN DEMO: l\u1EAFp
+    \u0111\u1EB7t; tr\xE1nh \u0111\u01B0\u1EDDng t\u1EA3i"
+  avatarVisualPrefab: {fileID: 8261571956624564434, guid: 12b3e9f7dcfa0294eaef1b65b6a547b1, type: 3}
+  mainWorkTypes:
+  - OUTFITTING
+  - PIPE_INSTALL
+  mainHazards:
+  - PINCH
+  - HANDLED_LOAD
+  - ELECTRICAL
+  workLocations:
+  - OUTFITTING
+  - PIPE_STAGING
+  - BLOCK_AREA
+  preferredFacilities:
+  - F05
+  - F11
+  - F15
+  workFacilities:
+  - F05
+  - F11
+  - F15
+  allowedZones: []
+  preferredZones:
+  - Electrical
+  avoidZones:
+  - PAINT
+  - LIVE-SWEPT
+  ppeDescription: 'PPE: tool belt, wrench, pipe tools, gloves'
+  routeLineStyle: 3
+  icon: P
+  routeColor: {r: 0.43, g: 0.58, b: 0.98, a: 1}
+  preferredCostBias: -0.22
+  avoidCostBias: 2
+  dataStatus: DEMO ROLE PROFILE

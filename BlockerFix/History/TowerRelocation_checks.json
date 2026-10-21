@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "voiceDoesNotMoveCrane": true,
+  "stopCleared": true,
+  "rows": [
+    {
+      "action": "SLEW",
+      "start": "(-46.00, 6.05, 35.00)",
+      "samples": 16,
+      "meshWorld": "(-46.50, 0.04, 34.00)"
+    },
+    {
+      "action": "TROLLEY",
+      "start": "(-46.00, 6.05, 35.00)",
+      "samples": 11,
+      "meshWorld": "(-46.50, 0.04, 34.00)"
+    },
+    {
+      "action": "HOIST",
+      "start": "(-46.00, 6.05, 35.00)",
+      "samples": 11,
+      "meshWorld": "(-46.50, 0.04, 34.00)"
+    }
+  ]
+}

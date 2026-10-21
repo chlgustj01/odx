@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40a87333e09b1d54ea8863b3fe03734c, type: 3}
+  m_Name: WKR_WELD_01
+  m_EditorClassIdentifier: Assembly-CSharp::WorkerProfile
+  workerId: WKR_WELD_01
+  roleCode: WELDER_FITTER
+  accidentRoleCode: NOT_MAPPED
+  displayNameKo: "\uC6A9\uC811\xB7\uCDE8\uBD80\uACF5"
+  displayNameEn: WELDER / FITTER
+  displayNameVi: "Th\u1EE3 h\xE0n / l\u1EAFp r\xE1p"
+  descriptionKo: "\uC8FC\uC694 \uC791\uC5C5: \uBE14\uB85D \uC6A9\uC811\xB7\uCDE8\uBD80\xB7\uC870\uB9BD\n\uC8FC\uC694
+    \uC704\uD5D8: \uD654\uAE30, \uD744, \uD654\uC0C1, \uD558\uC911\n\uC8FC\uC694
+    \uC791\uC5C5\uAD6C\uC5ED: F10 / F11 / F12\nPPE: \uC6A9\uC811\uBA74, \uAC00\uC8FD\uC7A5\uAC11,
+    \uD314\uD1A0\uC2DC, \uC55E\uCE58\uB9C8, \uD744 \uB9C8\uC2A4\uD06C\nDEMO \uC120\uD638:
+    \uBE14\uB85D \uC870\uB9BD / \uB3C4\uC7A5\xB7\uC608\uC0C1 \uD558\uC911 \uACBD\uB85C
+    \uD68C\uD53C"
+  descriptionEn: 'WORK: block welding, fitting and assembly
+
+    HAZARDS: hot work,
+    fumes, burns, loads
+
+    AREAS: F10 / F11 / F12
+
+    PPE: welding shield, leather
+    gloves, sleeves, apron, mask
+
+    DEMO PREFERENCE: block assembly; avoid paint/swept
+    path'
+  descriptionVi: "C\xD4NG VI\u1EC6C: h\xE0n v\xE0 l\u1EAFp r\xE1p kh\u1ED1i\nNGUY
+    C\u01A0: c\xF4ng vi\u1EC7c n\xF3ng, kh\xF3i, b\u1ECFng, t\u1EA3i\nKHU V\u1EF0C:
+    F10 / F11 / F12\nPPE: m\u1EB7t n\u1EA1 h\xE0n, g\u0103ng da, tay \xE1o, t\u1EA1p
+    d\u1EC1, m\u1EB7t n\u1EA1\n\u01AFU TI\xCAN DEMO: l\u1EAFp kh\u1ED1i; tr\xE1nh
+    s\u01A1n v\xE0 \u0111\u01B0\u1EDDng t\u1EA3i"
+  avatarVisualPrefab: {fileID: 1155269990737091422, guid: 887f01a1371a61f45aeb17a2de0c78c3, type: 3}
+  mainWorkTypes:
+  - WELDING
+  - FITTING
+  mainHazards:
+  - HOT_WORK
+  - FUMES
+  - BURN
+  - LOAD
+  workLocations:
+  - BLOCK_ASSEMBLY
+  - F10
+  - F11
+  - F12
+  preferredFacilities:
+  - F10
+  - F11
+  - F12
+  workFacilities:
+  - F10
+  - F11
+  - F12
+  allowedZones: []
+  preferredZones:
+  - HotWork
+  avoidZones:
+  - PAINT
+  - LIVE-SWEPT
+  ppeDescription: 'PPE: welding shield, leather gloves, sleeves, apron, mask'
+  routeLineStyle: 2
+  icon: W
+  routeColor: {r: 0.83, g: 0.88, b: 0.94, a: 1}
+  preferredCostBias: -0.3
+  avoidCostBias: 2
+  dataStatus: DEMO ROLE PROFILE

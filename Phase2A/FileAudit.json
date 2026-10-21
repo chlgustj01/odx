@@ -1,0 +1,622 @@
+{
+  "changedExisting": [
+    {
+      "path": "Assets/Editor/Prediction/LiveLoadSceneRelativeChecks.cs",
+      "before": "d28023582f00fe4da3de0485f6ee710b0f53beab67bfeb77a567b8c7bcd9a348",
+      "after": "5f84a49a48ac6c864d1981b1ca91a7ef25f1aa2c48d42e1055dd97e0706c0a03"
+    },
+    {
+      "path": "Assets/Scenes/Main.unity",
+      "before": "6462cb7d8199402ff495a4fefbbcdca8968452408a12f2362bcc9fcd2a80e929",
+      "after": "9b9637efef2f140789abaecb795b778c72ec9b84d9136d06f9ea0937735e9cc4"
+    },
+    {
+      "path": "Assets/Scripts/Shipyard/Explorer/ShipyardExploreCameraController.cs",
+      "before": "1a7dc0be386a0239d4aefc505483f900b445fedf9cf57aafca07a80361b0b3e3",
+      "after": "d51fb2f5fe6bc6b15e4d0246414fc934455db8a550b826d689496240a30d384a"
+    },
+    {
+      "path": "Assets/UI/Fonts/OperatorCommand Korean SDF.asset",
+      "before": "80cdc5863dbfc01e632f9096af7cf72b720d1def247ce778c59d13aa5eeab4b4",
+      "after": "3bb7c2969bd97cc8e6f484f62369dba37bd0bdf7069bb78a37dccc0ce426e44b"
+    },
+    {
+      "path": "Assets/UI/Fonts/OperatorCommand SDF.asset",
+      "before": "a590f57ab9a76abc200d572d3f772e0f16d487d35a7dbba344686d07787f4429",
+      "after": "2a64331499f437b5fcc4e323e9c5747703811a06fce0ead327a48e31247dc38c"
+    }
+  ],
+  "newFiles": [
+    {
+      "path": "Assets/Workers.meta",
+      "after": "28f49d29b14cf8e394129a90cbf1221d3290ec973595669e3119113841cb349f"
+    },
+    {
+      "path": "Assets/Editor/Workers.meta",
+      "after": "0c049497f104ae700151257b62c452d23bbd7f6c8f38b60cc74f913fe5f944d6"
+    },
+    {
+      "path": "Assets/Scripts/Workers.meta",
+      "after": "a6344a5a738eb83cb3a9beaf385d281f9492b19d94a2993cf6dbf6726fb0f7e5"
+    },
+    {
+      "path": "Assets/Workers/Avatars.meta",
+      "after": "b9c888cef4fa425a96d6a7176b59b3d13a649529afbfb55b5ff78a2896657d07"
+    },
+    {
+      "path": "Assets/Workers/Data.meta",
+      "after": "0ff29eb76de51547849ab3fbe9ae52221fca7373da466ae4c434b3b3c593b125"
+    },
+    {
+      "path": "Assets/Workers/Materials.meta",
+      "after": "a5fc8464ce8166913f8fe0b0aec35a930dd5700ca6d08aa2b9dbad7a54258d8b"
+    },
+    {
+      "path": "Assets/Workers/Meshes.meta",
+      "after": "b2b0eec0e785a3616e06fbdef07b2f80e4b3f26df08c5e74a38ea3863a4302a6"
+    },
+    {
+      "path": "Assets/Workers/Profiles.meta",
+      "after": "150c358f569575ae6f2d366566eb0cc01d5a55f3f2c8df4f96778bd9930fdc61"
+    },
+    {
+      "path": "Assets/Editor/Workers/Phase2APlayModeChecks.cs",
+      "after": "da2149e1c6db10af5a91b0823e816a81d68a3d4a9bc50bf7275dbd7a0288fcd8"
+    },
+    {
+      "path": "Assets/Editor/Workers/Phase2APlayModeChecks.cs.meta",
+      "after": "ac1d50fe66a352cb4c08d37d0c07ff41b55bf0a97a5188dbdaafac25216d9288"
+    },
+    {
+      "path": "Assets/Editor/Workers/Phase2ARunner.cs",
+      "after": "40120773e2c18c8f80807ae9533bd7ac71574cd50fd8411364eb2c7c2900c4d5"
+    },
+    {
+      "path": "Assets/Editor/Workers/Phase2ARunner.cs.meta",
+      "after": "62617c9099e8bc68e178ff157684e168537b1af94bd1dd91f51b748f5bcb2361"
+    },
+    {
+      "path": "Assets/Editor/Workers/Phase2ASetup.cs",
+      "after": "464a5403f27f20173325663b98d9c6e72f9d5e6583b45e2a919e950af05b3c65"
+    },
+    {
+      "path": "Assets/Editor/Workers/Phase2ASetup.cs.meta",
+      "after": "151bc53b6b99ba4ef45bca1b172eb7983b369c3ca94828a77a8578a04f38f499"
+    },
+    {
+      "path": "Assets/Scripts/Workers/WorkerProfile.cs",
+      "after": "c17b060a17c217797fd39777cfbbea9bcd3fb196144cbfac5f5da021b1992cb6"
+    },
+    {
+      "path": "Assets/Scripts/Workers/WorkerProfile.cs.meta",
+      "after": "8bac508f9d01a53b1c2a1f71cca869806e0e3a8fe3d154555886b3e7bdbf9790"
+    },
+    {
+      "path": "Assets/Scripts/Workers/WorkerRouteExport.cs",
+      "after": "f6a6b5beff9a6d0132b51c014b4e6a3a90de42db7e6774239b1fb89215c0468f"
+    },
+    {
+      "path": "Assets/Scripts/Workers/WorkerRouteExport.cs.meta",
+      "after": "b71cdb2a4a0cd0ef617923903b5402bd224b1f2dbde05d2057ed1ec7c27cb268"
+    },
+    {
+      "path": "Assets/Scripts/Workers/WorkerRouteRenderer.cs",
+      "after": "cf46d00f8f5b1c348a05471f99cd6095abc5275c1c27f879267a1dad80d85549"
+    },
+    {
+      "path": "Assets/Scripts/Workers/WorkerRouteRenderer.cs.meta",
+      "after": "4b6f50fdadb99a270dad660b41dd1108ecf7ccce9bc4bca786bdaf48ad2b16cf"
+    },
+    {
+      "path": "Assets/Scripts/Workers/WorkerRuntimeAgent.cs",
+      "after": "5e1fc5f61676d19ce377bc7f803a452bbc6a1a8a4e100f873ad9e80c47cce4ec"
+    },
+    {
+      "path": "Assets/Scripts/Workers/WorkerRuntimeAgent.cs.meta",
+      "after": "29f8eea2383be6a1885b1a8f0edee35635b3a5ec8b4c173ef3b9be4270d459e3"
+    },
+    {
+      "path": "Assets/Scripts/Workers/WorkerSelectUI.cs",
+      "after": "65404418a7cc5dfbac8dff4e46dbdfbcbd6f654cb71053bcebda14047826cc78"
+    },
+    {
+      "path": "Assets/Scripts/Workers/WorkerSelectUI.cs.meta",
+      "after": "ff4e0ff1c2ce3aa8a8f03f20cb2198cb3408ca5476f838a621569843b1281609"
+    },
+    {
+      "path": "Assets/Workers/Avatars/OUTFITTING_PIPE.prefab",
+      "after": "438d60b45d9f7fa6658437249e285657c19a2026eb56f4e86facec872a57033b"
+    },
+    {
+      "path": "Assets/Workers/Avatars/OUTFITTING_PIPE.prefab.meta",
+      "after": "2257e8911caa9b3bd35d88e9858b692748cb4b50b3e5d4f3e527f678888703af"
+    },
+    {
+      "path": "Assets/Workers/Avatars/RIGGER.prefab",
+      "after": "ede09bf1b9951fd9d23df3629b4df22089430fccfa858c85145bd2bac4b09e9a"
+    },
+    {
+      "path": "Assets/Workers/Avatars/RIGGER.prefab.meta",
+      "after": "3f79aba5234cd42e038c74488d427aad46efc4b99d0c5c291d0d2226f3152424"
+    },
+    {
+      "path": "Assets/Workers/Avatars/SIGNALER.prefab",
+      "after": "8af28ad4657797a63b446b9b3e6eba6b09e88a88c03d4b86d8d484b2ad8eedb6"
+    },
+    {
+      "path": "Assets/Workers/Avatars/SIGNALER.prefab.meta",
+      "after": "b61a1ad107f17267fd655138c399be06c77a550d3aa7b9ee6af189a9cbe2fea9"
+    },
+    {
+      "path": "Assets/Workers/Avatars/WELDER_FITTER.prefab",
+      "after": "25f8382988bdcea944e4a1a9618c7097bc96e196264698da73acf1b1fc956325"
+    },
+    {
+      "path": "Assets/Workers/Avatars/WELDER_FITTER.prefab.meta",
+      "after": "e23289676a4ea6fbfbef92f942b446fc8fb3351942fa06313c7475727490cb84"
+    },
+    {
+      "path": "Assets/Workers/Data/WorkerUiStrings.json",
+      "after": "0c64fd0c1b533c6c5c0a5a519d1d35e01d147f5b4d70ac7935e5546b4c46823f"
+    },
+    {
+      "path": "Assets/Workers/Data/WorkerUiStrings.json.meta",
+      "after": "dca59754ce0d43825cc09fcfeed595d775a1673897f87222fb7b3f067ed8dd64"
+    },
+    {
+      "path": "Assets/Workers/Materials/BootsVisor.mat",
+      "after": "7292a746a36b4d6c231762ced58353900e51ddb4eea03ebef2a73279236cad79"
+    },
+    {
+      "path": "Assets/Workers/Materials/BootsVisor.mat.meta",
+      "after": "babd5b70ac00bb0563558caeda4da0d937ed910c0ead51ae3e0d24fd5d72c28b"
+    },
+    {
+      "path": "Assets/Workers/Materials/HelmetYellow.mat",
+      "after": "79ae88975c12f77a1a44b165cd7bd7e4f7849d116d4013f3f939ee46653dd6e0"
+    },
+    {
+      "path": "Assets/Workers/Materials/HelmetYellow.mat.meta",
+      "after": "93076898b1dfe8ddc2d3a8dfd2fe215d6caa8b3894fc8230697535d046f7eb89"
+    },
+    {
+      "path": "Assets/Workers/Materials/LeatherPPE.mat",
+      "after": "4acb24820447854f4a9672a366d5b6a26eae0940c127b4ecd14a8cb7aa599941"
+    },
+    {
+      "path": "Assets/Workers/Materials/LeatherPPE.mat.meta",
+      "after": "6f2317412acf9db5259805ed986af41a6714ac7e43f9aaa2a242d2e37c6528cb"
+    },
+    {
+      "path": "Assets/Workers/Materials/NeutralMannequin.mat",
+      "after": "2169a498f546df797d400b672a4587a441ee39ff5b21f91c501fadd7b2a8607e"
+    },
+    {
+      "path": "Assets/Workers/Materials/NeutralMannequin.mat.meta",
+      "after": "04f3cdfde939a4a045b8a9927b383fa1c0e98d1d2d29298a024f860ce65973ce"
+    },
+    {
+      "path": "Assets/Workers/Materials/Reflective.mat",
+      "after": "d64588745ce0c2c64a5f9c049a0222781dc30675e7580246e8b485c1a473eea9"
+    },
+    {
+      "path": "Assets/Workers/Materials/Reflective.mat.meta",
+      "after": "b90430c375ca4c1b85f8190de8fa36c303e9003b7419633aa226263526f88add"
+    },
+    {
+      "path": "Assets/Workers/Materials/SignalVest.mat",
+      "after": "240519cca8b5386af8e6c61e49481cd5bc43c8d98b13f55d923bb6c675f4a468"
+    },
+    {
+      "path": "Assets/Workers/Materials/SignalVest.mat.meta",
+      "after": "3931696d2d8394815e4a2de0da0f96c1174fae24721568436abce3b72e538ab8"
+    },
+    {
+      "path": "Assets/Workers/Materials/WorkwearBlue.mat",
+      "after": "ab5c530d227a27cd99ec306add18dd646d0a3b0e4e2e7321a3a8ebebbba64fb1"
+    },
+    {
+      "path": "Assets/Workers/Materials/WorkwearBlue.mat.meta",
+      "after": "81d6a5aa0cf6d287412453682eee1575e3770118ad62d482c442546bf6c15418"
+    },
+    {
+      "path": "Assets/Workers/Materials/WorkwearGray.mat",
+      "after": "c5e3fbac70a478541783daa45986e6e5b853a812e1ffe71353189a79d4e0e671"
+    },
+    {
+      "path": "Assets/Workers/Materials/WorkwearGray.mat.meta",
+      "after": "8ea918cf3ecc46f3e2b8895f5bd38ba362217aaaaa60d255c9c8b91aa48a4ace"
+    },
+    {
+      "path": "Assets/Workers/Meshes/OUTFITTING_PIPE_BootsVisor.asset",
+      "after": "7aaabd0bfda0e3e69dbc858b958822642a3f5caf970333174dfcedb8611e863b"
+    },
+    {
+      "path": "Assets/Workers/Meshes/OUTFITTING_PIPE_BootsVisor.asset.meta",
+      "after": "5cabc91ea3dd45a4612631437c2f70172f7cb20e07c7684f454792bdbef9a1ae"
+    },
+    {
+      "path": "Assets/Workers/Meshes/OUTFITTING_PIPE_HelmetYellow.asset",
+      "after": "55c0125213fe3a0644430efa42cc460366fcc9ca54a217fce7a380bf2faebdd7"
+    },
+    {
+      "path": "Assets/Workers/Meshes/OUTFITTING_PIPE_HelmetYellow.asset.meta",
+      "after": "d667b19ea257d8cce5e3adcf1277d51df409bf09425c24450cbd4f11432e9cc9"
+    },
+    {
+      "path": "Assets/Workers/Meshes/OUTFITTING_PIPE_LeatherPPE.asset",
+      "after": "730a0ee73c9ea80e58f64e33393779e60d30a339b62343cf5cf7bc328de39033"
+    },
+    {
+      "path": "Assets/Workers/Meshes/OUTFITTING_PIPE_LeatherPPE.asset.meta",
+      "after": "8275694cc350ee286f066969a2a381e77611eff5a0af8d12cb72313f5d4d61f0"
+    },
+    {
+      "path": "Assets/Workers/Meshes/OUTFITTING_PIPE_NeutralMannequin.asset",
+      "after": "6d5e86d1648163aa358b338e0a55906a73713d180b2519b0bced541fa44a126e"
+    },
+    {
+      "path": "Assets/Workers/Meshes/OUTFITTING_PIPE_NeutralMannequin.asset.meta",
+      "after": "1e7d334a13cd1261ee423bb15ef6a62926800e7cc49ffc70a93f538e4aa6da7a"
+    },
+    {
+      "path": "Assets/Workers/Meshes/OUTFITTING_PIPE_Reflective.asset",
+      "after": "a423ec49bacd4e2a7f2d72c7b49145ac732c3059d0005f1c11edfea5af07b6b3"
+    },
+    {
+      "path": "Assets/Workers/Meshes/OUTFITTING_PIPE_Reflective.asset.meta",
+      "after": "e292527abf76fd4ea7935dff49fe8905a0f24e59ca07c5cb9959c0fab152480a"
+    },
+    {
+      "path": "Assets/Workers/Meshes/OUTFITTING_PIPE_WorkwearBlue.asset",
+      "after": "40bd07d6bca521a4360cda8cf361a6f91eb4f49f1cb747560d816d507cd14d18"
+    },
+    {
+      "path": "Assets/Workers/Meshes/OUTFITTING_PIPE_WorkwearBlue.asset.meta",
+      "after": "d65791b1a640bcfe1e79898b81db787cd1ae9fe804fcbf724a665b4542042a25"
+    },
+    {
+      "path": "Assets/Workers/Meshes/OUTFITTING_PIPE_WorkwearGray.asset",
+      "after": "2f377b3c9a6ecc7296a50c2e5c5aa9709441a62d6d6c4c345f05a415f57be3a1"
+    },
+    {
+      "path": "Assets/Workers/Meshes/OUTFITTING_PIPE_WorkwearGray.asset.meta",
+      "after": "5969df86f0372fc0de9bc7e4e8836a802dd2b9a72b74a323323dfa4a43ed9632"
+    },
+    {
+      "path": "Assets/Workers/Meshes/RIGGER_BootsVisor.asset",
+      "after": "f8c663b4009c91871d04b028b014c38ff4ad629c414653e5ee77d9689e72ad94"
+    },
+    {
+      "path": "Assets/Workers/Meshes/RIGGER_BootsVisor.asset.meta",
+      "after": "7b6e5540a08d2bab0b6561112f0b621361f8374d13ea9f4fe1f72684576c3ccd"
+    },
+    {
+      "path": "Assets/Workers/Meshes/RIGGER_HelmetYellow.asset",
+      "after": "61aaa288d119b04e877c1399200fad17933faf064ac134152de805569ab266da"
+    },
+    {
+      "path": "Assets/Workers/Meshes/RIGGER_HelmetYellow.asset.meta",
+      "after": "e421716829ffb98b4e031844a59927bd7406191721933863963100ad0c77a151"
+    },
+    {
+      "path": "Assets/Workers/Meshes/RIGGER_LeatherPPE.asset",
+      "after": "acefbade2304fb4bb24b7e34689c4a3c11067fa36e6584fb641a946c23537b63"
+    },
+    {
+      "path": "Assets/Workers/Meshes/RIGGER_LeatherPPE.asset.meta",
+      "after": "205e7003ea0c3046f154792cdcf46038ff0b32800a9097653ac59335d5fcb066"
+    },
+    {
+      "path": "Assets/Workers/Meshes/RIGGER_NeutralMannequin.asset",
+      "after": "51ffd234f4179cdcb4a995707cb5002b31a0e417edc50d9e2315cdda550ecbf3"
+    },
+    {
+      "path": "Assets/Workers/Meshes/RIGGER_NeutralMannequin.asset.meta",
+      "after": "58df957811675b348cd9fc36dac9fe2fdde1d32be59169538e1b36f307bf1962"
+    },
+    {
+      "path": "Assets/Workers/Meshes/RIGGER_Reflective.asset",
+      "after": "17629a41bb96536acde0fd545efbfa9fc210fb669e3391670216af7f1e19da75"
+    },
+    {
+      "path": "Assets/Workers/Meshes/RIGGER_Reflective.asset.meta",
+      "after": "84bd0862bd6657719f4a9f74ef6275df9d02e11e0e461cd3c047ef18d8f1bb64"
+    },
+    {
+      "path": "Assets/Workers/Meshes/RIGGER_WorkwearBlue.asset",
+      "after": "677031f5821f1196de8a4b2a6888e414de0b6f2ef152553c01fe8941ef148cf9"
+    },
+    {
+      "path": "Assets/Workers/Meshes/RIGGER_WorkwearBlue.asset.meta",
+      "after": "aeeadd913317b3652ec09d63ff2681005a42c32e9e8e53a1f4b323d24cada401"
+    },
+    {
+      "path": "Assets/Workers/Meshes/RIGGER_WorkwearGray.asset",
+      "after": "a8ccebc94f612c962c5b8b870eb22fecabc79eb82a9c23d62a6a1480b69d55bf"
+    },
+    {
+      "path": "Assets/Workers/Meshes/RIGGER_WorkwearGray.asset.meta",
+      "after": "871527acd45403b6f5c3043cb9541735fbaf9d2df69efc0bcb001367e926c44b"
+    },
+    {
+      "path": "Assets/Workers/Meshes/SIGNALER_BootsVisor.asset",
+      "after": "3c8e6999caded16869f089b6fa1fafc0caacd304fb00795c330daea294a91fac"
+    },
+    {
+      "path": "Assets/Workers/Meshes/SIGNALER_BootsVisor.asset.meta",
+      "after": "416014ca9a4572d69453ec8bb3821785f1855125300c3ad963aa225d00bf29e2"
+    },
+    {
+      "path": "Assets/Workers/Meshes/SIGNALER_HelmetYellow.asset",
+      "after": "80bc4b5e66f1fab5979e5165a590108cb220d9dfeef5e251a337b99ba81a97a3"
+    },
+    {
+      "path": "Assets/Workers/Meshes/SIGNALER_HelmetYellow.asset.meta",
+      "after": "a216bbda32251099405858b52832fdb1925f584e91fc105855a88c6cc8709c4d"
+    },
+    {
+      "path": "Assets/Workers/Meshes/SIGNALER_NeutralMannequin.asset",
+      "after": "05f65174fb128c65236c858ae6bf789477fd234ea1c2d34daa1dd67b15b8f42e"
+    },
+    {
+      "path": "Assets/Workers/Meshes/SIGNALER_NeutralMannequin.asset.meta",
+      "after": "ab552a5189a81a51260bf52167ecabe718edaa332a05a748593c9c574a86c070"
+    },
+    {
+      "path": "Assets/Workers/Meshes/SIGNALER_Reflective.asset",
+      "after": "aac3c9f8fe768d7876128fb5671d2af96e11eba818a5531b605218d9b2b09973"
+    },
+    {
+      "path": "Assets/Workers/Meshes/SIGNALER_Reflective.asset.meta",
+      "after": "940a34d88f899ba9f67d39ea666c33b3235866ef37ed413cff2401791a332637"
+    },
+    {
+      "path": "Assets/Workers/Meshes/SIGNALER_SignalVest.asset",
+      "after": "c5d94a06ce63d4ab04a94b5c3ddec2f7891286c99c5c8d9bc55876bcc2c92af0"
+    },
+    {
+      "path": "Assets/Workers/Meshes/SIGNALER_SignalVest.asset.meta",
+      "after": "c7cf2fbcb0b6f6151d9171fa5ab94db6e245797dd83abd667e37dc94aa5fcabc"
+    },
+    {
+      "path": "Assets/Workers/Meshes/SIGNALER_WorkwearBlue.asset",
+      "after": "7b2fb80a382448cc0b7a9d48220b4bb103ed415fc2aed9826d79c40c7580c1da"
+    },
+    {
+      "path": "Assets/Workers/Meshes/SIGNALER_WorkwearBlue.asset.meta",
+      "after": "936868a6ebb4ecb7fc631f2b5147607384eb7d0aa0b29e8b3800a34802c07e5a"
+    },
+    {
+      "path": "Assets/Workers/Meshes/SIGNALER_WorkwearGray.asset",
+      "after": "bf2ef2f3146054f03e6da9d5911597638b5e34acc6b1837c638ec1240ef5eb6f"
+    },
+    {
+      "path": "Assets/Workers/Meshes/SIGNALER_WorkwearGray.asset.meta",
+      "after": "7ca291b3251c7c4d44ae2a54bb7ec1cfd59e195c1db037635cc65bb8163043f7"
+    },
+    {
+      "path": "Assets/Workers/Meshes/WELDER_FITTER_BootsVisor.asset",
+      "after": "1b534006915231e5c710b6b918879a8862a5a8e2c1b0960e100cd8bb8e84ab93"
+    },
+    {
+      "path": "Assets/Workers/Meshes/WELDER_FITTER_BootsVisor.asset.meta",
+      "after": "9e1b488a7d6818f5e6b7d5cbac37cd46e1a8b9aa21302c082f20a02338fb405e"
+    },
+    {
+      "path": "Assets/Workers/Meshes/WELDER_FITTER_HelmetYellow.asset",
+      "after": "6c07c6a8011ef02244119147799a045f54ce8d3e6619e5176d13ffcc7f7c715f"
+    },
+    {
+      "path": "Assets/Workers/Meshes/WELDER_FITTER_HelmetYellow.asset.meta",
+      "after": "6b14af4de53e1475e3b81f34184ace7278bbb541681967adda7a5b406b7dd662"
+    },
+    {
+      "path": "Assets/Workers/Meshes/WELDER_FITTER_LeatherPPE.asset",
+      "after": "65c157a13351e99e282392559ad3303c5e2ac0fe2c5873cf8f6f10bf054a9be0"
+    },
+    {
+      "path": "Assets/Workers/Meshes/WELDER_FITTER_LeatherPPE.asset.meta",
+      "after": "1d08b26a286ad0141365af0813147104c7d62a38767fd0d7b148f89a1122a2ab"
+    },
+    {
+      "path": "Assets/Workers/Meshes/WELDER_FITTER_NeutralMannequin.asset",
+      "after": "2127fccde88b7b975ca55982a6747d7792846dc71b234dd85dcf82b1ababf27d"
+    },
+    {
+      "path": "Assets/Workers/Meshes/WELDER_FITTER_NeutralMannequin.asset.meta",
+      "after": "2841c053085e634c5563666fceae84b5398f69673ca2a98a004fad5a6fbae9f8"
+    },
+    {
+      "path": "Assets/Workers/Meshes/WELDER_FITTER_Reflective.asset",
+      "after": "7f785185ef3c3980dd38eb9cb0cd01bf75a6ac216f0c920338fd0fae9e3bf0fd"
+    },
+    {
+      "path": "Assets/Workers/Meshes/WELDER_FITTER_Reflective.asset.meta",
+      "after": "b1e0cbbe40c4bc7d724b61c38abe041f572fbf7fcf94482aeaa6183c21f5b37d"
+    },
+    {
+      "path": "Assets/Workers/Meshes/WELDER_FITTER_WorkwearBlue.asset",
+      "after": "2aac3f7a15dd3e73025b6b3f682c52441f89688b4d39b96f70b2f6637e7823d0"
+    },
+    {
+      "path": "Assets/Workers/Meshes/WELDER_FITTER_WorkwearBlue.asset.meta",
+      "after": "c3b2cdf792d4d28e3fdbe508870d60d48f03b02ca48f3853623c8deff80c835e"
+    },
+    {
+      "path": "Assets/Workers/Meshes/WELDER_FITTER_WorkwearGray.asset",
+      "after": "1d6fd5748780597928995abd902ae26e14df3def991b2ba86ca0b220ab11ca8e"
+    },
+    {
+      "path": "Assets/Workers/Meshes/WELDER_FITTER_WorkwearGray.asset.meta",
+      "after": "3c5284fcc54048e679742afaec7f17eca99193ec5eddc94c7bb1e8c732066e79"
+    },
+    {
+      "path": "Assets/Workers/Profiles/WKR_OUTFIT_01.asset",
+      "after": "34893691cbdad11f2f2a82a60475de2a4f4837f68840180641fd55f3e35e1fd6"
+    },
+    {
+      "path": "Assets/Workers/Profiles/WKR_OUTFIT_01.asset.meta",
+      "after": "588297d8e4a9e34ea8f09dc7f65c7645d6a664b7561b28c47753d482fcce937c"
+    },
+    {
+      "path": "Assets/Workers/Profiles/WKR_RIG_01.asset",
+      "after": "950d9cf61a0b85369c52b4250eb7887b0b73e9856723e8b04ee01d985b9af837"
+    },
+    {
+      "path": "Assets/Workers/Profiles/WKR_RIG_01.asset.meta",
+      "after": "3b751d56a4f69d6b64c70cd60850f6f16679cf63b9876d58b4dfbb2f64c05c55"
+    },
+    {
+      "path": "Assets/Workers/Profiles/WKR_SIGNAL_01.asset",
+      "after": "e8e85587c0d7e3b30b9b3da4fe95b9ae29dde374679d2fec4a034ada3dada154"
+    },
+    {
+      "path": "Assets/Workers/Profiles/WKR_SIGNAL_01.asset.meta",
+      "after": "96a5a4bb57d87f629cce80c3a40d9ad00ed4b870e7972d0b96ce995855ac299a"
+    },
+    {
+      "path": "Assets/Workers/Profiles/WKR_WELD_01.asset",
+      "after": "120269b3ce556983eaeceb6c234a2224e981484a479de9158adb4a41a29c1fff"
+    },
+    {
+      "path": "Assets/Workers/Profiles/WKR_WELD_01.asset.meta",
+      "after": "76b5986cb4c3c207f0c26b2ce1d06484720488ec9ec3adefdc4d03aa6d0129f4"
+    }
+  ],
+  "removed": [],
+  "testFileCount": 15,
+  "testChanges": [
+    {
+      "path": "Assets/Editor/Prediction/LiveLoadSceneRelativeChecks.cs",
+      "before": "d28023582f00fe4da3de0485f6ee710b0f53beab67bfeb77a567b8c7bcd9a348",
+      "after": "5f84a49a48ac6c864d1981b1ca91a7ef25f1aa2c48d42e1055dd97e0706c0a03"
+    }
+  ],
+  "originalSceneRelativeByteTextPrefixPreserved": true,
+  "originalSceneRelativePreservedByteCount": 12846,
+  "unchangedTests": [
+    {
+      "path": "Assets/Editor/AccidentEvidence/AccidentEvidenceChecks.cs",
+      "sha256": "2adcab8ebfa67791db6cd8f3d9f4fa41511d44951c045f97bc9af21d3e585192"
+    },
+    {
+      "path": "Assets/Editor/Prediction/LiveLoadPathPlayModeChecks.cs",
+      "sha256": "1f24eec45461e98178ee61c7eaf4a090d2df3577afcda9bdb7fe343757ca8283"
+    },
+    {
+      "path": "Assets/Editor/ShipyardDB/ConfidenceRegressionRunner.cs",
+      "sha256": "8d1a17ddd7446ff85c0f8780bf2a75880bb60137a7259c3b7864f3059a226f02"
+    },
+    {
+      "path": "Assets/Editor/ShipyardDB/FacilityValueEvidenceChecks.cs",
+      "sha256": "6b5c951ea94ac3d80059fbdc7228b8b11bac162e772469374483aead602eea89"
+    },
+    {
+      "path": "Assets/Editor/ShipyardDB/ShipyardConfidenceChecks.cs",
+      "sha256": "4d241581c4eeb6f8c07cd32d4e3dc731f11982fffc0d7dd16b2cd2bc0e9b5322"
+    },
+    {
+      "path": "Assets/Editor/ShipyardDB/ShipyardPublicDataChecks.cs",
+      "sha256": "d4c28c3cb0f9c5ff6ffc93bec3474fda6e1ffa58cee77b6c296f0d2580f82d72"
+    },
+    {
+      "path": "Assets/Editor/Timing/CommandTimelinePlayModeChecks.cs",
+      "sha256": "19219866f6936180663a521e149a3be21d87349364437bec9c0ada63790b2f62"
+    },
+    {
+      "path": "Assets/Editor/UI/FacilityEntranceChecks.cs",
+      "sha256": "f5a724648eb13609a93e88e652cfcfad357d29324bf4314ecec62212b90babc8"
+    },
+    {
+      "path": "Assets/Editor/UI/FacilityEntranceRegressionRunner.cs",
+      "sha256": "0f53c48dd63b578b734c02eecfe7c45f4bb9c38df8c1b41a9f270e2f15c625dd"
+    },
+    {
+      "path": "Assets/Editor/UI/OperatorCommandUIPlayModeChecks.cs",
+      "sha256": "5743d1958e52b434baa9e72a0a2cfd0108e51677966f5b5b93c454ad882d2fee"
+    },
+    {
+      "path": "Assets/Editor/UI/ShipyardExploreChecks.cs",
+      "sha256": "fdef9fd7d7b1dadc4437dbd6a297054bb88aa3fd0cfdb194e903faed3ebb696a"
+    },
+    {
+      "path": "Assets/Editor/UI/ShipyardPlayChecks.cs",
+      "sha256": "170adfde3ff5b2f6e598e629cdc947da8453901d1b4798f832de0213cb0b30f4"
+    },
+    {
+      "path": "Assets/Editor/UI/TaskHmiPlayChecks.cs",
+      "sha256": "00481633ffd1ecd2f7fc222063610a669f60cfe1c5ea5761bb932fdb012ba613"
+    },
+    {
+      "path": "Assets/Editor/UI/WorkerRouteRiskChecks.cs",
+      "sha256": "b3e4ac9d33a4eacf1d0e81a8be046151736442832dd341213e8c3ac90d88b643"
+    }
+  ],
+  "unchangedCore": [
+    {
+      "path": "Assets/Editor/Prediction/LiveLoadPathPlayModeChecks.cs",
+      "sha256": "1f24eec45461e98178ee61c7eaf4a090d2df3577afcda9bdb7fe343757ca8283"
+    },
+    {
+      "path": "Assets/Editor/UI/WorkerRouteRiskChecks.cs",
+      "sha256": "b3e4ac9d33a4eacf1d0e81a8be046151736442832dd341213e8c3ac90d88b643"
+    },
+    {
+      "path": "Assets/Editor/UI/WorkerRouteRiskSetup.cs",
+      "sha256": "38d3b11c7f767641f8daf9222222e2c9a5c4cbe51162d145aa4ed9632d866009"
+    },
+    {
+      "path": "Assets/Scripts/CommandReceiver.cs",
+      "sha256": "4f3fb0c225ad2802822e25e97724bfce0d614d917e141bf4b8dbd8e7598a1e08"
+    },
+    {
+      "path": "Assets/Scripts/CraneFaultInjector.cs",
+      "sha256": "510334fb26fd5b6fc39f85715f91d5afee49686588ddb3b723c1a337a87a4e1b"
+    },
+    {
+      "path": "Assets/Scripts/Prediction/LiveLoadPathTracker.cs",
+      "sha256": "b5ce45b17c0250f7d5851d3073afbc4a40aed1777723618599c0dd3016aba13e"
+    },
+    {
+      "path": "Assets/Scripts/Prediction/LiveLoadPathVisualizer.cs",
+      "sha256": "87cadb3ec5b7724a3a5ab5789762c031b0eb291bb319821d4f3c7395e1049ad6"
+    },
+    {
+      "path": "Assets/Scripts/Prediction/LoadProfile.cs",
+      "sha256": "6c53532b585e3dd81b231ee93cd942da0ed83468ccfdb1d3e241262a8aecc44f"
+    },
+    {
+      "path": "Assets/Scripts/Prediction/PredictedPathEngine.cs",
+      "sha256": "81d199ef03e9c2ddd550db51d6ee73b40467ed4453ca3f632e7fc020a66209eb"
+    },
+    {
+      "path": "Assets/Scripts/Prediction/PredictedPathVisualizer.cs",
+      "sha256": "d68773aea6e1d57e593dc5eb362051073f07e7603e1e9036ab7686be8db417a6"
+    },
+    {
+      "path": "Assets/Scripts/Prediction/SweptSegment.cs",
+      "sha256": "889848c4237d39115a3a83a69cbe275149752590a1c3e912c7474aa722407acf"
+    },
+    {
+      "path": "Assets/Scripts/Shipyard/Explorer/ExplorerHazardEvaluator.cs",
+      "sha256": "6f7a056e6fdd06e76230f0ef682b02b046f37e98e7ac35ee96d1a8e194a9677a"
+    },
+    {
+      "path": "Assets/Scripts/TowerCraneController.cs",
+      "sha256": "02a3300c5f2801da503d833f0bf208f0ab308c1b0c33f4cc85e76a4905419978"
+    },
+    {
+      "path": "Assets/Scripts/VerificationEngine.cs",
+      "sha256": "9bcb28c4aea6ed459ad3f5f05fbfc39e6e26f8ec81652c4faefc41e35627b37e"
+    },
+    {
+      "path": "Assets/Scripts/WorkerRoute/WorkerRouteRiskDashboard.cs",
+      "sha256": "d2bc9a571e2476833868ea910ce2599ec27671dce183da134cc7b6aa68b44074"
+    },
+    {
+      "path": "Assets/Scripts/WorkerRoute/WorkerRouteRiskEngine.cs",
+      "sha256": "b989a57dde0bf0db766ba3342d71c76fc86dda654d95ae30b36baad192590dbd"
+    }
+  ]
+}

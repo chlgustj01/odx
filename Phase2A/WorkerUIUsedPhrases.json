@@ -1,0 +1,470 @@
+[
+  {
+    "screen": "WorkerUI/active/KO",
+    "text": "현재 분석 대상 작업자"
+  },
+  {
+    "screen": "WorkerUI/active/EN",
+    "text": "ACTIVE WORKER"
+  },
+  {
+    "screen": "WorkerUI/active/VI",
+    "text": "NGƯỜI ĐANG PHÂN TÍCH"
+  },
+  {
+    "screen": "WorkerUI/choose/KO",
+    "text": "현재 분석 대상 작업자 선택"
+  },
+  {
+    "screen": "WorkerUI/choose/EN",
+    "text": "CHOOSE CURRENT ACTIVE WORKER"
+  },
+  {
+    "screen": "WorkerUI/choose/VI",
+    "text": "CHỌN NGƯỜI ĐANG PHÂN TÍCH"
+  },
+  {
+    "screen": "WorkerUI/change/KO",
+    "text": "작업자 변경"
+  },
+  {
+    "screen": "WorkerUI/change/EN",
+    "text": "CHANGE WORKER"
+  },
+  {
+    "screen": "WorkerUI/change/VI",
+    "text": "ĐỔI NGƯỜI"
+  },
+  {
+    "screen": "WorkerUI/facility/KO",
+    "text": "작업구역"
+  },
+  {
+    "screen": "WorkerUI/facility/EN",
+    "text": "Facility"
+  },
+  {
+    "screen": "WorkerUI/facility/VI",
+    "text": "Khu vực"
+  },
+  {
+    "screen": "WorkerUI/route/KO",
+    "text": "이동 기록"
+  },
+  {
+    "screen": "WorkerUI/route/EN",
+    "text": "Route"
+  },
+  {
+    "screen": "WorkerUI/route/VI",
+    "text": "Lộ trình"
+  },
+  {
+    "screen": "WorkerUI/sessionRisk/KO",
+    "text": "세션 위험"
+  },
+  {
+    "screen": "WorkerUI/sessionRisk/EN",
+    "text": "Session Risk"
+  },
+  {
+    "screen": "WorkerUI/sessionRisk/VI",
+    "text": "Rủi ro phiên"
+  },
+  {
+    "screen": "WorkerUI/riskNotEvaluated/KO",
+    "text": "2A 미평가"
+  },
+  {
+    "screen": "WorkerUI/riskNotEvaluated/EN",
+    "text": "NOT EVALUATED IN 2A"
+  },
+  {
+    "screen": "WorkerUI/riskNotEvaluated/VI",
+    "text": "CHƯA ĐÁNH GIÁ 2A"
+  },
+  {
+    "screen": "WorkerUI/current/KO",
+    "text": "현재 작업자 경로"
+  },
+  {
+    "screen": "WorkerUI/current/EN",
+    "text": "CURRENT WORKER"
+  },
+  {
+    "screen": "WorkerUI/current/VI",
+    "text": "NGƯỜI HIỆN TẠI"
+  },
+  {
+    "screen": "WorkerUI/all/KO",
+    "text": "전체 작업자 경로"
+  },
+  {
+    "screen": "WorkerUI/all/EN",
+    "text": "ALL WORKERS"
+  },
+  {
+    "screen": "WorkerUI/all/VI",
+    "text": "TẤT CẢ NGƯỜI"
+  },
+  {
+    "screen": "WorkerUI/clear/KO",
+    "text": "현재 세션 지우기"
+  },
+  {
+    "screen": "WorkerUI/clear/EN",
+    "text": "CLEAR SESSION"
+  },
+  {
+    "screen": "WorkerUI/clear/VI",
+    "text": "XÓA PHIÊN"
+  },
+  {
+    "screen": "WorkerUI/export/KO",
+    "text": "내보내기"
+  },
+  {
+    "screen": "WorkerUI/export/EN",
+    "text": "EXPORT"
+  },
+  {
+    "screen": "WorkerUI/export/VI",
+    "text": "XUẤT"
+  },
+  {
+    "screen": "WorkerUI/allDisclosure/KO",
+    "text": "기록 시점이 다른 경로를 겹쳐 표시 (DEMO)"
+  },
+  {
+    "screen": "WorkerUI/allDisclosure/EN",
+    "text": "Routes recorded at different times overlap (DEMO)"
+  },
+  {
+    "screen": "WorkerUI/allDisclosure/VI",
+    "text": "Chồng lộ trình ghi ở thời điểm khác nhau (DEMO)"
+  },
+  {
+    "screen": "WorkerUI/routePreferenceDisclosure/KO",
+    "text": "역할별 DEMO 선호 / 실제 허가 경로 아님"
+  },
+  {
+    "screen": "WorkerUI/routePreferenceDisclosure/EN",
+    "text": "ROLE-BASED DEMO ROUTE / not a permitted route"
+  },
+  {
+    "screen": "WorkerUI/routePreferenceDisclosure/VI",
+    "text": "ƯU TIÊN DEMO / không phải tuyến được cấp phép"
+  },
+  {
+    "screen": "WorkerUI/disclosure/KO",
+    "text": "DEMO / SIMULATION · 실제 작업허가·안전 판정 아님"
+  },
+  {
+    "screen": "WorkerUI/disclosure/EN",
+    "text": "DEMO / SIMULATION · not work permission or safety certification"
+  },
+  {
+    "screen": "WorkerUI/disclosure/VI",
+    "text": "DEMO / SIMULATION · không phải giấy phép hay chứng nhận an toàn"
+  },
+  {
+    "screen": "WorkerUI/close/KO",
+    "text": "닫기"
+  },
+  {
+    "screen": "WorkerUI/close/EN",
+    "text": "CLOSE"
+  },
+  {
+    "screen": "WorkerUI/close/VI",
+    "text": "ĐÓNG"
+  },
+  {
+    "screen": "WorkerUI/previous/KO",
+    "text": "이전 작업자"
+  },
+  {
+    "screen": "WorkerUI/previous/EN",
+    "text": "PREVIOUS"
+  },
+  {
+    "screen": "WorkerUI/previous/VI",
+    "text": "TRƯỚC"
+  },
+  {
+    "screen": "WorkerUI/next/KO",
+    "text": "다음 작업자"
+  },
+  {
+    "screen": "WorkerUI/next/EN",
+    "text": "NEXT"
+  },
+  {
+    "screen": "WorkerUI/next/VI",
+    "text": "TIẾP"
+  },
+  {
+    "screen": "WorkerUI/select/KO",
+    "text": "현재 분석 대상 작업자로 선택"
+  },
+  {
+    "screen": "WorkerUI/select/EN",
+    "text": "SELECT ACTIVE WORKER"
+  },
+  {
+    "screen": "WorkerUI/select/VI",
+    "text": "CHỌN NGƯỜI HIỆN TẠI"
+  },
+  {
+    "screen": "WorkerUI/accidentEvidence/KO",
+    "text": "역할 기반 사고 근거 보기"
+  },
+  {
+    "screen": "WorkerUI/accidentEvidence/EN",
+    "text": "VIEW ROLE ACCIDENT EVIDENCE"
+  },
+  {
+    "screen": "WorkerUI/accidentEvidence/VI",
+    "text": "XEM DỮ LIỆU TAI NẠN THEO VAI TRÒ"
+  },
+  {
+    "screen": "WorkerUI/noRoleData/KO",
+    "text": "역할 기반 사고 필터 데이터 없음"
+  },
+  {
+    "screen": "WorkerUI/noRoleData/EN",
+    "text": "No role-based accident filter data"
+  },
+  {
+    "screen": "WorkerUI/noRoleData/VI",
+    "text": "Không có dữ liệu lọc tai nạn theo vai trò"
+  },
+  {
+    "screen": "WorkerUI/matchingCases/KO",
+    "text": "해당 역할 기록"
+  },
+  {
+    "screen": "WorkerUI/matchingCases/EN",
+    "text": "Matching role records"
+  },
+  {
+    "screen": "WorkerUI/matchingCases/VI",
+    "text": "Bản ghi cùng vai trò"
+  },
+  {
+    "screen": "WorkerUI/translationNotice/KO",
+    "text": "베트남어 번역 검수 필요"
+  },
+  {
+    "screen": "WorkerUI/translationNotice/EN",
+    "text": "Vietnamese translation needs review"
+  },
+  {
+    "screen": "WorkerUI/translationNotice/VI",
+    "text": "Bản dịch tiếng Việt cần kiểm tra"
+  },
+  {
+    "screen": "WorkerUI/exported/KO",
+    "text": "저장 경로"
+  },
+  {
+    "screen": "WorkerUI/exported/EN",
+    "text": "Export path"
+  },
+  {
+    "screen": "WorkerUI/exported/VI",
+    "text": "Đường dẫn xuất"
+  },
+  {
+    "screen": "WorkerUI/analysisContext/KO",
+    "text": "분석 대상"
+  },
+  {
+    "screen": "WorkerUI/analysisContext/EN",
+    "text": "ACTIVE ANALYSIS"
+  },
+  {
+    "screen": "WorkerUI/analysisContext/VI",
+    "text": "ĐỐI TƯỢNG PHÂN TÍCH"
+  },
+  {
+    "screen": "WorkerUI/existingHazard/KO",
+    "text": "기존 공간 위험"
+  },
+  {
+    "screen": "WorkerUI/existingHazard/EN",
+    "text": "EXISTING GEOMETRY"
+  },
+  {
+    "screen": "WorkerUI/existingHazard/VI",
+    "text": "NGUY CƠ HÌNH HỌC"
+  },
+  {
+    "screen": "WorkerUI/rulesDeferred/KO",
+    "text": "역할별 위험 규칙: 2A 미평가"
+  },
+  {
+    "screen": "WorkerUI/rulesDeferred/EN",
+    "text": "Role hazard rules: NOT EVALUATED IN 2A"
+  },
+  {
+    "screen": "WorkerUI/rulesDeferred/VI",
+    "text": "Quy tắc theo vai trò: CHƯA ĐÁNH GIÁ 2A"
+  },
+  {
+    "screen": "WorkerCard/WKR_SIGNAL_01/KO",
+    "text": "크레인 신호수"
+  },
+  {
+    "screen": "WorkerDescription/WKR_SIGNAL_01/KO",
+    "text": "주요 작업: 인양 신호 전달·작업 협의\n주요 위험: 하중 이동, 끼임, 차량\n주요 작업구역: 크레인 작업구역 주변\nPPE: 형광 조끼, 무전기, 수신호 장갑, 호루라기\nDEMO 선호: 인양 구역 주변 / 예상 하중 경로 회피"
+  },
+  {
+    "screen": "WorkerCard/WKR_SIGNAL_01/EN",
+    "text": "CRANE SIGNALER"
+  },
+  {
+    "screen": "WorkerDescription/WKR_SIGNAL_01/EN",
+    "text": "WORK: lifting signals and coordination\nHAZARDS: moving load, pinch points, traffic\nAREAS: crane operating area\nPPE: hi-vis vest, radio, signal gloves, whistle\nDEMO PREFERENCE: lifting perimeter; avoid swept load path"
+  },
+  {
+    "screen": "WorkerCard/WKR_SIGNAL_01/VI",
+    "text": "Người ra tín hiệu cẩu"
+  },
+  {
+    "screen": "WorkerDescription/WKR_SIGNAL_01/VI",
+    "text": "CÔNG VIỆC: tín hiệu nâng và phối hợp\nNGUY CƠ: tải di chuyển, kẹp, xe cộ\nKHU VỰC: quanh khu vận hành cẩu\nPPE: áo phản quang, bộ đàm, găng tay, còi\nƯU TIÊN DEMO: quanh khu nâng; tránh đường tải"
+  },
+  {
+    "screen": "WorkerTechnicalLabels",
+    "text": "WKR_SIGNAL_01 SIGNALER S - - - -"
+  },
+  {
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01",
+    "text": "CA-00159 / [조선14호] 크레인으로 중량물(밸브) 이동중 낙하"
+  },
+  {
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01",
+    "text": "CA-00211 / OO지구 토목건축공사현장에서 인양중이던 자재 이탈로 아래에서 작업중이던 근로자 부딪힘"
+  },
+  {
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01",
+    "text": "CA-00270 / 송도11-1공구 기반시설 건설공사(1-2구역) 낙하물 재해"
+  },
+  {
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01",
+    "text": "CA-00286 / 크레인 인양작업간 붐대가 부러지며 크레인 후크에 맞음"
+  },
+  {
+    "screen": "WorkerRoleAccidentEvidence/WKR_SIGNAL_01",
+    "text": "CA-00289 / 23-M-중앙수사대 시설공사(3045)"
+  },
+  {
+    "screen": "WorkerCard/WKR_RIG_01/KO",
+    "text": "줄걸이(리깅) 작업자"
+  },
+  {
+    "screen": "WorkerDescription/WKR_RIG_01/KO",
+    "text": "주요 작업: 줄걸이·하중 결속·착지 보조\n주요 위험: 하중, 끼임, 추락\n주요 작업구역: 결속·착지 지점 주변\nPPE: 하네스, 태그라인, 장갑\nDEMO 선호: 결속 지점 / 예상 하중 경로 회피"
+  },
+  {
+    "screen": "WorkerCard/WKR_RIG_01/EN",
+    "text": "RIGGER"
+  },
+  {
+    "screen": "WorkerDescription/WKR_RIG_01/EN",
+    "text": "WORK: rigging, securing loads, landing support\nHAZARDS: load, pinch points, falls\nAREAS: rigging and landing points\nPPE: harness, tag line, gloves\nDEMO PREFERENCE: rigging points; avoid swept load path"
+  },
+  {
+    "screen": "WorkerCard/WKR_RIG_01/VI",
+    "text": "Thợ móc cáp"
+  },
+  {
+    "screen": "WorkerDescription/WKR_RIG_01/VI",
+    "text": "CÔNG VIỆC: móc cáp, buộc tải, hỗ trợ hạ tải\nNGUY CƠ: tải, kẹp, ngã\nKHU VỰC: điểm móc và hạ tải\nPPE: dây đai, dây giữ tải, găng tay\nƯU TIÊN DEMO: điểm móc; tránh đường tải"
+  },
+  {
+    "screen": "WorkerTechnicalLabels",
+    "text": "WKR_RIG_01 RIGGER R - . - ."
+  },
+  {
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01",
+    "text": "CA-00153 / [조선19-5호]줄걸이 작업 중 파이프에 맞음"
+  },
+  {
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01",
+    "text": "CA-00162 / [조선23호] 데크크레인 실린더 조립중 낙하로 협착"
+  },
+  {
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01",
+    "text": "CA-00165 / [항만4호]각재묶음 양하중 홀드(Hold)로 낙하비래"
+  },
+  {
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01",
+    "text": "CA-00169 / 밸트슬링이 절단되어 화물낙하(해외재해사례4)"
+  },
+  {
+    "screen": "WorkerRoleAccidentEvidence/WKR_RIG_01",
+    "text": "CA-00189 / 타워해체작업중 낙하물(레버블록)에 맞음"
+  },
+  {
+    "screen": "WorkerCard/WKR_WELD_01/KO",
+    "text": "용접·취부공"
+  },
+  {
+    "screen": "WorkerDescription/WKR_WELD_01/KO",
+    "text": "주요 작업: 블록 용접·취부·조립\n주요 위험: 화기, 흄, 화상, 하중\n주요 작업구역: F10 / F11 / F12\nPPE: 용접면, 가죽장갑, 팔토시, 앞치마, 흄 마스크\nDEMO 선호: 블록 조립 / 도장·예상 하중 경로 회피"
+  },
+  {
+    "screen": "WorkerCard/WKR_WELD_01/EN",
+    "text": "WELDER / FITTER"
+  },
+  {
+    "screen": "WorkerDescription/WKR_WELD_01/EN",
+    "text": "WORK: block welding, fitting and assembly\nHAZARDS: hot work, fumes, burns, loads\nAREAS: F10 / F11 / F12\nPPE: welding shield, leather gloves, sleeves, apron, mask\nDEMO PREFERENCE: block assembly; avoid paint/swept path"
+  },
+  {
+    "screen": "WorkerCard/WKR_WELD_01/VI",
+    "text": "Thợ hàn / lắp ráp"
+  },
+  {
+    "screen": "WorkerDescription/WKR_WELD_01/VI",
+    "text": "CÔNG VIỆC: hàn và lắp ráp khối\nNGUY CƠ: công việc nóng, khói, bỏng, tải\nKHU VỰC: F10 / F11 / F12\nPPE: mặt nạ hàn, găng da, tay áo, tạp dề, mặt nạ\nƯU TIÊN DEMO: lắp khối; tránh sơn và đường tải"
+  },
+  {
+    "screen": "WorkerTechnicalLabels",
+    "text": "WKR_WELD_01 WELDER_FITTER W --------"
+  },
+  {
+    "screen": "WorkerCard/WKR_OUTFIT_01/KO",
+    "text": "의장(배관) 작업자"
+  },
+  {
+    "screen": "WorkerDescription/WKR_OUTFIT_01/KO",
+    "text": "주요 작업: 배관 의장·장비 설치\n주요 위험: 끼임, 운반 하중, 전기\n주요 작업구역: 의장·배관 적치·블록 구역\nPPE: 공구벨트, 렌치, 배관 도구, 장갑\nDEMO 선호: 의장 구역 / 예상 하중 경로 회피"
+  },
+  {
+    "screen": "WorkerCard/WKR_OUTFIT_01/EN",
+    "text": "OUTFITTING / PIPE WORKER"
+  },
+  {
+    "screen": "WorkerDescription/WKR_OUTFIT_01/EN",
+    "text": "WORK: pipe outfitting and equipment installation\nHAZARDS: pinch points, loads, electricity\nAREAS: outfitting, pipe staging and blocks\nPPE: tool belt, wrench, pipe tools, gloves\nDEMO PREFERENCE: outfitting; avoid swept load path"
+  },
+  {
+    "screen": "WorkerCard/WKR_OUTFIT_01/VI",
+    "text": "Thợ lắp đặt / đường ống"
+  },
+  {
+    "screen": "WorkerDescription/WKR_OUTFIT_01/VI",
+    "text": "CÔNG VIỆC: lắp ống và thiết bị\nNGUY CƠ: kẹp, tải, điện\nKHU VỰC: lắp đặt, tập kết ống, khối\nPPE: đai dụng cụ, cờ lê, dụng cụ ống, găng tay\nƯU TIÊN DEMO: lắp đặt; tránh đường tải"
+  },
+  {
+    "screen": "WorkerTechnicalLabels",
+    "text": "WKR_OUTFIT_01 OUTFITTING_PIPE P . . . ."
+  },
+  {
+    "screen": "WorkerDynamicFieldVocabulary",
+    "text": "3D PREVIEW / DEMO CM-H04 NOT_AVAILABLE NOT_EVALUATED OUTSIDE SAFE CAUTION DANGER POSITION RESTORED TO SAFE SPAWN NO_VALID_SAFE_SPAWN 0123456789 .,:_/()—-+\\"
+  }
+]

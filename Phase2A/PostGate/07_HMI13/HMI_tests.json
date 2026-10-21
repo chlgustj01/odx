@@ -1,0 +1,63 @@
+{
+  "passed": false,
+  "error": "System.Exception: Stage 9: Truncated text RemainingText in COMMAND: TARGET REACHED\r\n  at TaskHmiPlayChecks.Require (System.Boolean condition, System.String message) [0x00023] in D:\\UnityProject\\CraneSignalAI\\Assets\\Editor\\UI\\TaskHmiPlayChecks.cs:55 \r\n  at TaskHmiPlayChecks.LayoutCheck () [0x0004f] in D:\\UnityProject\\CraneSignalAI\\Assets\\Editor\\UI\\TaskHmiPlayChecks.cs:82 \r\n  at TaskHmiPlayChecks.Tick () [0x0067c] in D:\\UnityProject\\CraneSignalAI\\Assets\\Editor\\UI\\TaskHmiPlayChecks.cs:142 ",
+  "cleanupVerified": true,
+  "method": "1920x1080 Game View; actual TCP; Input System keyboard through existing controller; GraphicRaycaster/Button pointer handlers; TMP layout/glyph checks",
+  "rows": [
+    {
+      "test": "A-HomeIdle",
+      "passed": true,
+      "view": "HOME",
+      "details": {
+        "hazard": "● INACTIVE",
+        "note": "No prediction: honest INACTIVE rather than uncomputed SAFE"
+      }
+    },
+    {
+      "test": "B-SlewVoice",
+      "passed": true,
+      "view": "HOME",
+      "details": {
+        "CurrentValue": 0.0,
+        "CommandTargetValue": 30.0,
+        "RemainingValue": 30.0,
+        "voiceOnlyUnchanged": true
+      }
+    },
+    {
+      "test": "D-Hazard",
+      "passed": true,
+      "view": "HAZARD",
+      "details": null
+    },
+    {
+      "test": "C-LiveMotion",
+      "passed": true,
+      "view": "HOME",
+      "details": {
+        "CurrentValue": 12.9637184,
+        "RemainingValue": 17.0362816,
+        "remainingSegments": 9,
+        "initialSegments": 15
+      }
+    },
+    {
+      "test": "E-Motion",
+      "passed": true,
+      "view": "MOTION",
+      "details": null
+    },
+    {
+      "test": "F-CommandKorean",
+      "passed": true,
+      "view": "COMMAND",
+      "details": null
+    },
+    {
+      "test": "F-CommandVietnamese",
+      "passed": true,
+      "view": "COMMAND",
+      "details": null
+    }
+  ]
+}

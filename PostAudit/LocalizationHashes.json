@@ -1,0 +1,14 @@
+[
+  {
+    "path": "Assets/Scripts/UI/OperatorCommandLocalization.cs",
+    "before": "0247c68cea3d3b66d4b11380fbd8649f8394c40f197bb78d696159c36acac580",
+    "after": "0247c68cea3d3b66d4b11380fbd8649f8394c40f197bb78d696159c36acac580",
+    "match": true
+  },
+  {
+    "path": "Assets/Scripts/UI/OperatorCommandLocalization.cs.meta",
+    "before": null,
+    "after": "b438f806929779fa55552817a41441330bf1ef06573a7db524cdd4bff25a97cf",
+    "match": null
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "profiles": [
+    {
+      "workerId": "WKR_SIGNAL_01",
+      "roleCode": "SIGNALER",
+      "accidentRoleCode": "2",
+      "name": "SIGNALER"
+    },
+    {
+      "workerId": "WKR_RIG_01",
+      "roleCode": "RIGGER",
+      "accidentRoleCode": "3",
+      "name": "RIGGER"
+    },
+    {
+      "workerId": "WKR_WELD_01",
+      "roleCode": "WELDER_FITTER",
+      "accidentRoleCode": "NOT_MAPPED",
+      "name": "WELDER_FITTER"
+    },
+    {
+      "workerId": "WKR_OUTFIT_01",
+      "roleCode": "OUTFITTING_PIPE",
+      "accidentRoleCode": "NOT_MAPPED",
+      "name": "OUTFITTING_PIPE"
+    }
+  ],
+  "characterUnchanged": true,
+  "sceneSaved": true,
+  "phase": "2A ONLY",
+  "newCameras": 0,
+  "newPlayers": 0,
+  "newCharacterControllers": 0
+}

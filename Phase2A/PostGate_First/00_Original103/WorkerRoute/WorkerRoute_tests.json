@@ -1,0 +1,70 @@
+{
+  "passed": true,
+  "error": null,
+  "craneUnchanged": true,
+  "method": "Actual Play Mode + public UI Button listeners + analytic geometry assertions + prediction geometry integration; DEMO data only",
+  "rows": [
+    {
+      "test": "Geometry analytic entry/exit + outside + zero leg + tangent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Welder route intervals, baseline potential hazards and 8-week demo history",
+      "passed": true,
+      "detail": {
+        "Duration": 91.81818,
+        "TotalExposureSeconds": 32.1590958,
+        "AlternativeExposure": 8.295456
+      }
+    },
+    {
+      "test": "Same-endpoint route comparison",
+      "passed": true,
+      "detail": {
+        "TotalExposureSeconds": 8.295456,
+        "AlternativeExposure": 32.1590958
+      }
+    },
+    {
+      "test": "Technician profile, night and history filter",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Demo worker playback advances without original rig movement",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Pause, seek, cumulative exposure and role briefing",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Local demo report + acknowledgement does not clear risk",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Visual filters do not suppress risk",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "LIVE swept area read-only overlap = 100",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Cleared prediction removes LIVE overlap; crane transforms unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Close restores explorer",
+      "passed": true,
+      "detail": null
+    }
+  ]
+}

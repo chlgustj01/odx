@@ -1,0 +1,81 @@
+{
+  "passed": true,
+  "error": null,
+  "method": "Play Mode; GraphicRaycaster + pointer clicks; actual TMP dropdown events; HD/QHD; actual normalized DB; UI source link not opened automatically",
+  "rows": [
+    {
+      "test": "A: actual DB lift preset, Top 5, single load",
+      "passed": true,
+      "data": {
+        "top": "CA-00360",
+        "ms": 64.923200000000008
+      }
+    },
+    {
+      "test": "G: actual result detail/context/mechanisms/evidence/source",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "B/K: work type dropdown changes context and searches once",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "D/E: current incomplete + unknown excluded",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "H: missing source disabled, original row retained",
+      "passed": true,
+      "data": {
+        "accidentId": "CA-00126",
+        "sourceRow": 128
+      }
+    },
+    {
+      "test": "Filters and Top 3/5/10; no near-miss records fabricated",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "Suggestions are DB anchored, separate from approval",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "HD/QHD glyph + fixed header truncation checks",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "No per-frame search, no crane pose changes",
+      "passed": true,
+      "data": {
+        "loadCount": 1,
+        "searchCount": 11
+      }
+    },
+    {
+      "test": "View work area focuses CURRENT facility only",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "L: back restores navigation and original operator input",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "Actual dropdown template and pointer item selection, code 9 retained",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "L: LIVE entry and back retain asset selection and original control",
+      "passed": true,
+      "data": null
+    }
+  ]
+}

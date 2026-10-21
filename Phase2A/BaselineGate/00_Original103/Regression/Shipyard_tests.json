@@ -1,0 +1,159 @@
+{
+  "passed": true,
+  "error": null,
+  "cleanupVerified": true,
+  "method": "1920x1080 Game View; GraphicRaycaster/Button pointer handlers; actual Physics.Raycast facility picker; TCP + isolated Input System keyboard through original controller; TMP truncation/glyph checks",
+  "rows": [
+    {
+      "test": "A-B-Overview",
+      "passed": true,
+      "level": "OVERVIEW",
+      "facility": null,
+      "data": {
+        "facilities": 22,
+        "markers": 22
+      }
+    },
+    {
+      "test": "C-F-ListFocus",
+      "passed": true,
+      "level": "OVERVIEW",
+      "facility": "F01",
+      "data": {
+        "smooth": true
+      }
+    },
+    {
+      "test": "G-Facility",
+      "passed": true,
+      "level": "FACILITY",
+      "facility": "F01",
+      "data": null
+    },
+    {
+      "test": "H-K-Asset",
+      "passed": true,
+      "level": "ASSET",
+      "facility": "F01",
+      "data": {
+        "source": "original TowerCraneRoot"
+      }
+    },
+    {
+      "test": "O-VoicePrediction",
+      "passed": true,
+      "level": "ASSET",
+      "facility": "F01",
+      "data": {
+        "voiceOnlyUnchanged": true,
+        "remaining": 30.0
+      }
+    },
+    {
+      "test": "L-AssetDanger",
+      "passed": true,
+      "level": "ASSET",
+      "facility": "F01",
+      "data": {
+        "craneDanger": true,
+        "facilityDanger": true
+      }
+    },
+    {
+      "test": "O-KeyboardLive",
+      "passed": true,
+      "level": "ASSET",
+      "facility": "F01",
+      "data": {
+        "CurrentValue": 10.9954844,
+        "RemainingValue": 19.0045166,
+        "SignalWarningLeadToMotionSec": 0.508394241
+      }
+    },
+    {
+      "test": "O-Confirm",
+      "passed": true,
+      "level": "ASSET",
+      "facility": "F01",
+      "data": {
+        "ConfirmationLatencySec": 2.1938343,
+        "noMotion": true
+      }
+    },
+    {
+      "test": "I-FacilityBack",
+      "passed": true,
+      "level": "FACILITY",
+      "facility": "F01",
+      "data": null
+    },
+    {
+      "test": "I-L-OverviewDanger",
+      "passed": true,
+      "level": "OVERVIEW",
+      "facility": null,
+      "data": null
+    },
+    {
+      "test": "M-AlarmFacility",
+      "passed": true,
+      "level": "FACILITY",
+      "facility": "F01",
+      "data": null
+    },
+    {
+      "test": "M-DangerCrane",
+      "passed": true,
+      "level": "ASSET",
+      "facility": "F01",
+      "data": null
+    },
+    {
+      "test": "J-PaintSearch",
+      "passed": true,
+      "level": "OVERVIEW",
+      "facility": null,
+      "data": null
+    },
+    {
+      "test": "J-InputFocus",
+      "passed": true,
+      "noMotion": true
+    },
+    {
+      "test": "D-MarkerSelection",
+      "passed": true,
+      "level": "OVERVIEW",
+      "facility": "F22",
+      "data": null
+    },
+    {
+      "test": "E-N-ObjectSelection",
+      "passed": true,
+      "level": "OVERVIEW",
+      "facility": "F03",
+      "data": {
+        "raycast": true,
+        "groundIgnored": true,
+        "resolution": "1920x1080",
+        "truncatedText": false
+      }
+    },
+    {
+      "test": "O-StopRegression",
+      "passed": true,
+      "stop": "STOP_VERIFIED"
+    },
+    {
+      "test": "O-InvalidRegression",
+      "passed": true
+    },
+    {
+      "test": "N-FinalOverview",
+      "passed": true,
+      "level": "OVERVIEW",
+      "facility": null,
+      "data": null
+    }
+  ]
+}

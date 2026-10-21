@@ -1,0 +1,36 @@
+--- FormalOrderedHarness
++++ FinalHarness
+@@ -10,15 +10,6 @@
+  static int Index{get=>SessionState.GetInt(Key+"index",0);set=>SessionState.SetInt(Key+"index",value);}
+  static Job[] Jobs=>JsonConvert.DeserializeObject<Job[]>(SessionState.GetString(Key+"jobs","[]"));static Job Current=>Jobs[Index];static string Folder=>Path.Combine(Root,Current.name);
+  static FacilityEntranceRegressionRunner(){EditorApplication.update+=Tick;EditorApplication.playModeStateChanged+=Mode;}
+- // Editor-only file request bridge lets the same suites finish even when MCP's
+- // domain-reload connection is unavailable. Fixed project-local path, JSON jobs only.
+- static void TryRequest()
+- {
+-  string file=Path.GetFullPath(Path.Combine(Application.dataPath,"../BlockerFix/RunnerRequest.json"));if(!File.Exists(file))return;
+-  var request=JsonConvert.DeserializeObject<Request>(File.ReadAllText(file));File.Delete(file);
+-  if(request.snapshot){Capture(request.root);return;}StartJobs(request.root,request.jobs);
+- }
+- [Serializable] public sealed class Request{public string root;public Job[] jobs;public bool snapshot;}
+  static void Capture(string directory)
+  {
+   Directory.CreateDirectory(directory);var scene=UnityEngine.SceneManagement.SceneManager.GetActiveScene();var r=GameObject.Find("TowerCraneRoot");var p=r.transform.position;var q=r.transform.rotation;var sc=r.transform.localScale;var f=r.GetComponent<CraneFaultInjector>();var sf=new SerializedObject(f);int missing=0;
+@@ -33,7 +24,7 @@
+  {
+   var jobs=new[]{
+    new Job{suite="Original103",name="01_Original103"},new Job{suite="Confidence",name="02_Confidence17"},new Job{suite="Entrance",name="03_Entrance44"},
+-   new Job{suite="LiveLoad",name="04_LegacyLiveLoad",clock=true},new Job{suite="Relative",name="05_SceneRelative"},new Job{suite="Timeline",name="06_Timeline"},
++   new Job{suite="LiveLoad",name="04_LegacyLiveLoad"},new Job{suite="Relative",name="05_SceneRelative"},new Job{suite="Timeline",name="06_Timeline"},
+    new Job{suite="Operator",name="07_OperatorUI",commandUI=true},new Job{suite="HMI",name="08_HMI"}
+   };
+   return StartJobs(root,jobs);
+@@ -80,7 +71,7 @@
+  }
+  static void Tick()
+  {
+-  if(!SessionState.GetBool(Key+"active",false)){TryRequest();return;}
++  if(!SessionState.GetBool(Key+"active",false))return;
+   try{
+    if(Index>=Jobs.Length){RestoreClock();SessionState.SetBool(Key+"active",false);State="complete";Write("COMPLETE");Capture(Root);return;}
+    Helpers();Trace();if(EditorApplication.isCompiling||EditorApplication.isUpdating||EditorApplication.timeSinceStartup<ready)return;

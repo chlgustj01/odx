@@ -38,3 +38,12 @@
 Thumbs.db
 /Assets/StreamingAssets/aa.meta
 /Assets/StreamingAssets/aa/
+
+# Local recovery archives (keep source, reports and audit evidence in Git)
+/Phase2A/Phase2_Start_Baseline/*.bundle
+/Phase2A/Phase2_Start_Baseline/*.zip
+/BlockerFix/Phase1_PostAudit_Blocker_Baseline/*.bundle
+/BlockerFix/Phase1_PostAudit_Blocker_Baseline/*.zip
+# Generated Python bytecode
+__pycache__/
+__pycache__.meta

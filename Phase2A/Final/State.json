@@ -1,0 +1,34 @@
+{
+  "utc": "2026-10-21T15:16:21.8610737Z",
+  "scene": "Assets/Scenes/Main.unity",
+  "dirty": false,
+  "playing": false,
+  "compiling": false,
+  "missingScripts": 0,
+  "position": [
+    -46.0,
+    0.0,
+    32.0
+  ],
+  "rotation": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "scale": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "parent": null,
+  "controllerEnabled": true,
+  "receiverEnabled": true,
+  "faultComponentEnabled": false,
+  "faultEnabled": false,
+  "faultMode": "NONE",
+  "captureDeltaTime": 0.0,
+  "errors": 6,
+  "warnings": 136,
+  "logs": 137
+}

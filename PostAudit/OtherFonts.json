@@ -1,0 +1,26 @@
+[
+  {
+    "path": "Assets/ShipyardDemo/ShipyardUI SDF.asset",
+    "before": "74ad1cfc25d3812d318295c51fc47513c27796fca3b52c796b6c03bf5baa5195",
+    "after": "74ad1cfc25d3812d318295c51fc47513c27796fca3b52c796b6c03bf5baa5195",
+    "changed": false
+  },
+  {
+    "path": "Assets/UI/Fonts/CraneDashboard SDF.asset",
+    "before": "179166af489f32d532137ec3f0c324dbf410a7ec42e840f3da3122d8999a99d3",
+    "after": "fe2fb3e62fa3bee4f0abbd1cbcb21f3ce3cd5336000586fd1a696fdb974f74c3",
+    "changed": true
+  },
+  {
+    "path": "Assets/UI/Fonts/OperatorCommand Korean SDF.asset",
+    "before": "a20a9c424262c22a519805d4fccb631e8fd64b1b5348cfcfd680327be212f0a4",
+    "after": "80cdc5863dbfc01e632f9096af7cf72b720d1def247ce778c59d13aa5eeab4b4",
+    "changed": true
+  },
+  {
+    "path": "Assets/UI/Fonts/OperatorCommand SDF.asset",
+    "before": "4fbc9823c185b2c56e3395726cf0b67f2bdf862841dde1a614e203b4326089ac",
+    "after": "a590f57ab9a76abc200d572d3f772e0f16d487d35a7dbba344686d07787f4429",
+    "changed": true
+  }
+]

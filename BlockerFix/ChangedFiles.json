@@ -1,0 +1,22 @@
+{
+  "changed": [
+    {
+      "path": "Assets/Editor/UI/FacilityEntranceRegressionRunner.cs",
+      "before": "c4b227a331b45b794417ec77bfd1027d3c520c054d025591c02134710716a631",
+      "after": "0f53c48dd63b578b734c02eecfe7c45f4bb9c38df8c1b41a9f270e2f15c625dd"
+    }
+  ],
+  "new": [
+    {
+      "path": "Assets/Editor/Prediction/LiveLoadSceneRelativeChecks.cs",
+      "before": null,
+      "after": "d28023582f00fe4da3de0485f6ee710b0f53beab67bfeb77a567b8c7bcd9a348"
+    },
+    {
+      "path": "Assets/Editor/Prediction/LiveLoadSceneRelativeChecks.cs.meta",
+      "before": null,
+      "after": "7a5859629508c3e193a4dd19b4e23a00080a7acff07171af988364ffbed677db"
+    }
+  ],
+  "missing": []
+}

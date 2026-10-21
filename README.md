@@ -58,3 +58,10 @@ python Assets/Editor/AccidentEvidence/preprocess_accidents.py "source.xlsx" --ou
 최신 기능 통합 시 검색 Core 12개, PLAN UI 13개, 기존 화면·크레인 회귀 19개, Explore 17개, WorkerRoute 11개가 Unity Editor에서 통과했습니다. C# 컴파일 오류·경고 0개를 확인했습니다. 배포 실행 파일·현장 실장비 검증은 별도입니다.
 
 에디터 검증 도구는 `Assets/Editor/`에 있습니다. 과거 setup 도구 일부는 최초 개발 환경의 경로를 포함하므로 일반 실행에는 저장된 Main Scene을 사용하고, setup 재실행 전 경로를 확인하세요.
+
+
+## Public facility reconstruction
+
+Public-data-based reconstructed digital twin prototype / 공개자료 기반 재구성 디지털트윈 프로토타입.
+
+Facility data: Assets/StreamingAssets/ShipyardDB. Background dimensions use one central scale: 10 metres per Unity unit. Facility positions remain a reconstructed layout, not GIS. Existing LIVE rig/safety units remain unchanged DEMO. Unknown building dimensions and crane external shapes are ESTIMATED. F01 jib counts and Goliath dimensions have source conflicts preserved in details.

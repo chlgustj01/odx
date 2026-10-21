@@ -1,0 +1,20 @@
+{
+  "playing": false,
+  "scene": "Assets/Scenes/Main.unity",
+  "dirty": false,
+  "compileFailed": false,
+  "compileErrors": 0,
+  "compileWarnings": 0,
+  "shaderMessages": 0,
+  "faultComponentEnabled": false,
+  "faultEnabled": false,
+  "faultMode": "NONE",
+  "loadVisualSize": "(1.0000, 0.1000, 2.0000)",
+  "loadPosition": "(0.0000, 6.0500, 3.0000)",
+  "inputBehavior": "PointersAndKeyboardsRespectGameViewFocus",
+  "inputBackground": "ResetAndDisableNonBackgroundDevices",
+  "keyboardEnabled": true,
+  "runInBackground": false,
+  "targetFrameRate": -1,
+  "referencesAssigned": true
+}

@@ -1,0 +1,142 @@
+using System;
+using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.InputSystem;
+
+[DefaultExecutionOrder(900)]
+public sealed class ShipyardExploreCameraController : MonoBehaviour
+{
+    public static ShipyardExploreCameraController Instance{get;private set;}
+    public ShipyardUIBinder shipyard;public ShipyardExploreInputGuard inputGuard;
+    public Transform player,body,firstPivot,thirdPivot,interactionOrigin;
+    public CharacterController character;public Camera exploreCamera;public AudioListener exploreListener;
+    public ExplorerHazardEvaluator hazard;public ShipyardExploreHUD hud;
+    public LayerMask groundMask,solidMask,poiMask;
+    [Min(.1f)] public float walkSpeed=3.6f,runSpeed=6.5f,eyeHeight=1.7f,mouseSensitivity=.12f,blendDuration=.75f;
+    public float boundaryRadius=110;
+    public ShipyardNavigationMode Mode=>IsExploring?view:(ShipyardNavigationMode)(int)shipyard.overview.Level;
+    public bool IsExploring{get;private set;}
+    public bool Blending=>IsExploring&&Time.unscaledTime-blendStart<blendDuration;
+    public bool DetailsOpen{get;private set;}
+    public bool ChoiceOpen{get;private set;}
+    public bool ConsumesBack=>IsExploring||ChoiceOpen||Time.frameCount<=suppressBackFrame;
+    public FacilityInfo Facility{get;private set;}
+    public Vector3 LastValidPosition{get;private set;}
+    public int ReturnCount{get;private set;}
+    public ShipyardInteractable Target{get;private set;}
+    public float TargetDistance{get;private set;}
+    public FacilityEntrance EntranceTarget{get;private set;}
+    public float Yaw{get;private set;}
+    public float Pitch{get;private set;}
+    ShipyardNavigationMode view;float verticalSpeed,blendStart;int suppressBackFrame=-1;
+    Vector3 fromPosition;Quaternion fromRotation;
+    bool navEnabled,pickerEnabled,cameraEnabled,listenerEnabled;CursorLockMode oldCursor;bool oldCursorVisible;
+    AudioListener mainListener;bool collisionConfigured;bool[] oldCollision=new bool[32];
+    public bool UiFocused=>DetailsOpen||EventSystem.current!=null&&EventSystem.current.currentSelectedGameObject!=null&&EventSystem.current.currentSelectedGameObject.activeInHierarchy;
+    public bool CanMove=>IsExploring&&!Blending&&!UiFocused&&Cursor.lockState==CursorLockMode.Locked;
+    void Awake(){Instance=this;player.gameObject.SetActive(false);exploreCamera.enabled=false;exploreListener.enabled=false;mainListener=shipyard.navigation.viewCamera.GetComponent<AudioListener>();}
+    public void ShowChoice(){if(shipyard.overview.Level!=ShipyardZoomLevel.FACILITY||IsExploring)return;inputGuard.Acquire();ChoiceOpen=true;hud.SetChoice(true);}
+    public void CancelChoice(){ChoiceOpen=false;hud.SetChoice(false);if(!IsExploring)inputGuard.Release();suppressBackFrame=Time.frameCount+1;ClearUiFocus();}
+    static void ClearUiFocus(){if(EventSystem.current!=null)EventSystem.current.SetSelectedGameObject(null);}
+    public void Enter(bool thirdPerson)
+    {
+        if(IsExploring)return;Facility=shipyard.selection.FacilityContext;if(Facility==null)return;
+        var spawn=FindSpawn(Facility);ChoiceOpen=false;hud.SetChoice(false);
+        inputGuard.Acquire();oldCursor=Cursor.lockState;oldCursorVisible=Cursor.visible;
+        navEnabled=shipyard.navigation.enabled;pickerEnabled=shipyard.overview.GetComponent<ShipyardObjectPicker>().enabled;cameraEnabled=shipyard.navigation.viewCamera.enabled;listenerEnabled=mainListener!=null&&mainListener.enabled;
+        fromPosition=shipyard.navigation.viewCamera.transform.position;fromRotation=shipyard.navigation.viewCamera.transform.rotation;
+        shipyard.navigation.enabled=false;shipyard.overview.GetComponent<ShipyardObjectPicker>().enabled=false;shipyard.navigation.viewCamera.enabled=false;if(mainListener!=null)mainListener.enabled=false;
+        ConfigureCollision(true);player.gameObject.SetActive(true);Teleport(spawn);LastValidPosition=spawn;ReturnCount=0;
+        Yaw=Facility.exploreSpawnPoint!=null?Facility.exploreSpawnPoint.eulerAngles.y:0;Pitch=0;verticalSpeed=0;
+        view=thirdPerson?ShipyardNavigationMode.THIRD_PERSON:ShipyardNavigationMode.FIRST_PERSON;IsExploring=true;DetailsOpen=false;hazard.ResetExposure();
+        exploreCamera.enabled=true;exploreListener.enabled=true;exploreCamera.transform.SetPositionAndRotation(fromPosition,fromRotation);blendStart=Time.unscaledTime;ClearUiFocus();CaptureCursor();hud.SetExploring(true);SetBody();
+    }
+    void ConfigureCollision(bool enable)
+    {
+        int layer=player.gameObject.layer;
+        if(enable&&!collisionConfigured){for(int i=0;i<32;i++){oldCollision[i]=Physics.GetIgnoreLayerCollision(layer,i);Physics.IgnoreLayerCollision(layer,i,((groundMask.value|solidMask.value)&(1<<i))==0);}collisionConfigured=true;}
+        else if(!enable&&collisionConfigured){for(int i=0;i<32;i++)Physics.IgnoreLayerCollision(layer,i,oldCollision[i]);collisionConfigured=false;}
+    }
+    public void Exit()
+    {
+        if(!IsExploring){CancelChoice();return;}IsExploring=false;DetailsOpen=false;suppressBackFrame=Time.frameCount+1;hud.SetExploring(false);player.gameObject.SetActive(false);exploreCamera.enabled=false;exploreListener.enabled=false;
+        ConfigureCollision(false);shipyard.navigation.viewCamera.enabled=cameraEnabled;if(mainListener!=null)mainListener.enabled=listenerEnabled;shipyard.navigation.enabled=navEnabled;shipyard.overview.GetComponent<ShipyardObjectPicker>().enabled=pickerEnabled;
+        shipyard.selection.SelectFacility(Facility);shipyard.overview.EnterFacility();inputGuard.Release();Cursor.lockState=CursorLockMode.None;Cursor.visible=true;ClearUiFocus();
+    }
+    public void SwitchView(){if(!IsExploring)return;view=view==ShipyardNavigationMode.FIRST_PERSON?ShipyardNavigationMode.THIRD_PERSON:ShipyardNavigationMode.FIRST_PERSON;SetBody();}
+    void SetBody(){body.gameObject.SetActive(view==ShipyardNavigationMode.THIRD_PERSON);}
+    public void CaptureCursor(){if(!IsExploring)return;Cursor.lockState=CursorLockMode.Locked;Cursor.visible=false;ClearUiFocus();}
+    public void UnlockCursor(){Cursor.lockState=CursorLockMode.None;Cursor.visible=true;}
+    public void CloseDetails(){DetailsOpen=false;hud.ShowDetails(false,"");CaptureCursor();}
+    public void OpenDetails()
+    {if(Target==null)return;DetailsOpen=true;hud.ShowDetails(true,Target.Details());UnlockCursor();}
+    public void Teleport(Vector3 point){bool enabled=character.enabled;character.enabled=false;player.position=point;character.enabled=enabled;Physics.SyncTransforms();}
+    public bool ValidGround(Vector3 position,out Vector3 grounded)
+    {
+        grounded=position;if(!Physics.Raycast(position+Vector3.up*.7f,Vector3.down,out var hit,1.5f,groundMask,QueryTriggerInteraction.Ignore)||hit.normal.y<.55f)return false;
+        grounded.y=hit.point.y+.035f;return true;
+    }
+    bool ClearBody(Vector3 position)=>!Physics.CheckCapsule(position+Vector3.up*.35f,position+Vector3.up*1.45f,.29f,solidMask,QueryTriggerInteraction.Ignore);
+    public Vector3 FindSpawn(FacilityInfo f)
+    {
+        Vector3 center=f.exploreSpawnPoint!=null?f.exploreSpawnPoint.position:f.focusTarget.position;
+        if(ValidGround(center,out var point)&&ClearBody(point))return point;
+        for(float r=2;r<=65;r+=2)for(int i=0;i<24;i++){float a=i*Mathf.PI/12;var p=center+new Vector3(Mathf.Cos(a)*r,0,Mathf.Sin(a)*r);p.y=0;if(ValidGround(p,out point)&&ClearBody(point))return point;}
+        throw new InvalidOperationException("No valid ground spawn for "+f.facilityId);
+    }
+    public void Move(Vector2 axis,bool run)
+    {
+        if(!CanMove)return;axis=Vector2.ClampMagnitude(axis,1);var direction=Quaternion.Euler(0,Yaw,0)*new Vector3(axis.x,0,axis.y);verticalSpeed=character.isGrounded?-2:Mathf.Max(-25,verticalSpeed-18*Time.unscaledDeltaTime);
+        character.Move((direction*(run?runSpeed:walkSpeed)+Vector3.up*verticalSpeed)*Mathf.Min(Time.unscaledDeltaTime,.05f));
+        if(direction.sqrMagnitude>.001f)body.rotation=Quaternion.Slerp(body.rotation,Quaternion.LookRotation(direction),Time.unscaledDeltaTime*12);
+        CheckBoundary();
+    }
+    public void CheckBoundary()
+    {
+        if(!IsExploring)return;
+        if(Vector3.Distance(player.position,FindBoundaryCenter())>Mathf.Max(boundaryRadius,Mathf.Max(Facility.footprintSize.x,Facility.footprintSize.y))||!ValidGround(player.position,out _))
+        {Teleport(LastValidPosition);verticalSpeed=0;ReturnCount++;hud.Returned();}
+        else LastValidPosition=player.position;
+    }
+    Vector3 FindBoundaryCenter()=>Facility.exploreSpawnPoint!=null?Facility.exploreSpawnPoint.position:Facility.focusTarget.position;
+    void Update()
+    {
+        var k=Keyboard.current;
+        if(ChoiceOpen){if(k!=null&&k.escapeKey.wasPressedThisFrame)CancelChoice();return;}
+        if(!IsExploring)return;
+        if(k!=null&&k.escapeKey.wasPressedThisFrame){if(DetailsOpen)CloseDetails();else Exit();return;}
+        if(k!=null&&k.vKey.wasPressedThisFrame&&!UiFocused)SwitchView();
+        if(k!=null&&k.tabKey.wasPressedThisFrame){if(Cursor.lockState==CursorLockMode.Locked)UnlockCursor();else if(!DetailsOpen)CaptureCursor();}
+        if(k!=null&&k.fKey.wasPressedThisFrame&&EntranceTarget!=null&&!Blending&&!UiFocused){EntranceTarget.TryToggle(this);return;}
+        if(k!=null&&k.eKey.wasPressedThisFrame&&!Blending){if(DetailsOpen)CloseDetails();else OpenDetails();}
+        var m=Mouse.current;if(CanMove&&m!=null){var delta=m.delta.ReadValue();Yaw+=delta.x*mouseSensitivity;Pitch=Mathf.Clamp(Pitch-delta.y*mouseSensitivity,-75,75);}
+        if(!Blending)CheckBoundary();
+    }
+    public void UpdateCamera()
+    {
+        if(!IsExploring)return;
+        firstPivot.position=player.position+Vector3.up*eyeHeight;firstPivot.rotation=Quaternion.Euler(Pitch,Yaw,0);
+        var target=firstPivot.position;var rot=firstPivot.rotation;Vector3 position=target;
+        if(view==ShipyardNavigationMode.THIRD_PERSON)
+        {
+            var third=player.GetComponent<ShipyardThirdPersonController>();target=player.position+Vector3.up*third.height;
+            position=target-rot*Vector3.forward*third.distance;
+            if(Physics.SphereCast(target,.22f,(position-target).normalized,out var hit,third.distance,solidMask|groundMask,QueryTriggerInteraction.Ignore))position=target+(position-target).normalized*Mathf.Max(.25f,hit.distance-.12f);
+            thirdPivot.SetPositionAndRotation(position,rot);
+        }
+        float t=Mathf.SmoothStep(0,1,Mathf.Clamp01((Time.unscaledTime-blendStart)/blendDuration));exploreCamera.transform.SetPositionAndRotation(Vector3.Lerp(fromPosition,position,t),Quaternion.Slerp(fromRotation,rot,t));
+        interactionOrigin.SetPositionAndRotation(exploreCamera.transform.position,exploreCamera.transform.rotation);
+        Target=null;TargetDistance=0;
+        if(!Blending&&Physics.Raycast(exploreCamera.ViewportPointToRay(new Vector3(.5f,.5f,0)),out var poi,8,solidMask|poiMask|groundMask,QueryTriggerInteraction.Collide))
+        {Target=poi.collider.GetComponentInParent<ShipyardInteractable>();TargetDistance=poi.distance;}
+        EntranceTarget=FacilityEntrance.Resolve(this);
+    }
+    void LateUpdate()
+    {
+        if(!IsExploring)return;UpdateCamera();shipyard.canvas.enabled=false;
+        foreach(var r in shipyard.overview.detailRenderers)if(r!=null)r.forceRenderingOff=Facility!=shipyard.overview.liveFacility;
+        foreach(var r in shipyard.overview.workerRenderers)if(r!=null)r.forceRenderingOff=false;
+    }
+    void OnApplicationFocus(bool focus){if(!focus&&IsExploring)UnlockCursor();}
+    void OnDisable(){if(IsExploring)Exit();if(Instance==this)Instance=null;Cursor.lockState=oldCursor==CursorLockMode.Locked?CursorLockMode.None:oldCursor;Cursor.visible=oldCursorVisible||!IsExploring;}
+}

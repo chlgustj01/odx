@@ -1,0 +1,103 @@
+{
+  "passed": true,
+  "fixturePolicy": "TEST-* records are isolated in-memory tests; never added to DB",
+  "rows": [
+    {
+      "test": "Normalization source rows/IDs",
+      "passed": true,
+      "data": {
+        "records": 802
+      }
+    },
+    {
+      "test": "Valid code 9 and false=0 preserved",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "A: lifting/dock/outdoor context ranking",
+      "passed": true,
+      "data": {
+        "top": "TEST-EXACT"
+      }
+    },
+    {
+      "test": "B: work type only change, actual DB ranking changes",
+      "passed": true,
+      "data": {
+        "before": [
+          "CA-00360",
+          "CA-00489",
+          "CA-00607",
+          "CA-00628",
+          "CA-00153",
+          "CA-00181",
+          "CA-00214",
+          "CA-00222",
+          "CA-00271",
+          "CA-00318"
+        ],
+        "after": [
+          "CA-00726",
+          "CA-00729",
+          "CA-00731",
+          "CA-00733",
+          "CA-00360",
+          "CA-00489",
+          "CA-00607",
+          "CA-00628",
+          "CA-00153",
+          "CA-00181"
+        ]
+      }
+    },
+    {
+      "test": "C: Dock to Factory area changes controlled ranking",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "D: UNKNOWN excluded, 80/80=100",
+      "passed": true,
+      "data": {
+        "availableWeight": 80.0,
+        "matchingWeight": 80.0,
+        "similarityScore": 100.0
+      }
+    },
+    {
+      "test": "E: missing work stage still searchable",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "F: sparse case similarity/data completeness separated",
+      "passed": true,
+      "data": {
+        "similarityScore": 100.0,
+        "dataCompleteness": 14.2857141,
+        "comparableFields": 1
+      }
+    },
+    {
+      "test": "I: context first, grade only tie-break",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "Rules: explicit flags only, source column and IDs",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "Filters, mechanisms, Top N, source URLs",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "No input / no comparable result is not SAFE",
+      "passed": true,
+      "data": null
+    }
+  ]
+}

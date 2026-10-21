@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "policy": "value_status is independent of legacy confidence/source grades; preserve unfamiliar codes verbatim",
+  "codes": [
+    {
+      "code": "OFFICIAL",
+      "meaning": "공식/1차 출처에서 직접 확인된 항목"
+    },
+    {
+      "code": "SECONDARY",
+      "meaning": "2차 자료에서 확인되었으나 공식/1차 출처에서는 직접 확인되지 않은 값"
+    },
+    {
+      "code": "ESTIMATED",
+      "meaning": "모델링 목적의 추정값"
+    },
+    {
+      "code": "DEMO",
+      "meaning": "시연용 가상값"
+    },
+    {
+      "code": "UNKNOWN",
+      "meaning": "확인되지 않은 값"
+    }
+  ]
+}

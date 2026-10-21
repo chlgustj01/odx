@@ -1,0 +1,86 @@
+{
+  "passed": true,
+  "error": null,
+  "rows": [
+    {
+      "test": "UI unblocked FacilityDBDetail",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "D F01 selected DB detail",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "DB modal isolates operator and selection",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "JSON loaded once",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "UI unblocked CloseFacilityDB",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "DB close restores operator",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "UI unblocked FacilityDBDetail",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "UI unblocked FacilityDBPlan",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Safety DB paint function suggestion to PLAN",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Unknown task conditions not inferred",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "P Facility context Accident Top 5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "UI unblocked FacilityDBDetail",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "UI unblocked FacilityDBRoute",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "O DB to existing Worker Route",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Explorer DB crane POI metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "J DB/PLAN/Route navigation does not move LIVE rig",
+      "passed": true,
+      "detail": null
+    }
+  ]
+}

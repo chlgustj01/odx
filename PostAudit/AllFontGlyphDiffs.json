@@ -1,0 +1,431 @@
+[
+  {
+    "path": "Assets/UI/Fonts/CraneDashboard SDF.asset",
+    "beforeGlyphs": 130,
+    "afterGlyphs": 132,
+    "addedGlyphCount": 2,
+    "oldGlyphDataChanges": [],
+    "addedCharacters": [
+      {
+        "codepoint": "U+C54A",
+        "character": "않"
+      },
+      {
+        "codepoint": "U+D558",
+        "character": "하"
+      }
+    ],
+    "removedCharacters": [],
+    "nonGlyphDiffEmpty": true
+  },
+  {
+    "path": "Assets/UI/Fonts/OperatorCommand SDF.asset",
+    "beforeGlyphs": 71,
+    "afterGlyphs": 100,
+    "addedGlyphCount": 29,
+    "oldGlyphDataChanges": [],
+    "addedCharacters": [
+      {
+        "codepoint": "U+0028",
+        "character": "("
+      },
+      {
+        "codepoint": "U+0029",
+        "character": ")"
+      },
+      {
+        "codepoint": "U+004A",
+        "character": "J"
+      },
+      {
+        "codepoint": "U+0051",
+        "character": "Q"
+      },
+      {
+        "codepoint": "U+0058",
+        "character": "X"
+      },
+      {
+        "codepoint": "U+005B",
+        "character": "["
+      },
+      {
+        "codepoint": "U+005D",
+        "character": "]"
+      },
+      {
+        "codepoint": "U+0062",
+        "character": "b"
+      },
+      {
+        "codepoint": "U+0066",
+        "character": "f"
+      },
+      {
+        "codepoint": "U+0079",
+        "character": "y"
+      },
+      {
+        "codepoint": "U+00C0",
+        "character": "À"
+      },
+      {
+        "codepoint": "U+00C1",
+        "character": "Á"
+      },
+      {
+        "codepoint": "U+00C3",
+        "character": "Ã"
+      },
+      {
+        "codepoint": "U+00CA",
+        "character": "Ê"
+      },
+      {
+        "codepoint": "U+00D2",
+        "character": "Ò"
+      },
+      {
+        "codepoint": "U+00D3",
+        "character": "Ó"
+      },
+      {
+        "codepoint": "U+00D4",
+        "character": "Ô"
+      },
+      {
+        "codepoint": "U+0110",
+        "character": "Đ"
+      },
+      {
+        "codepoint": "U+01AF",
+        "character": "Ư"
+      },
+      {
+        "codepoint": "U+1EA0",
+        "character": "Ạ"
+      },
+      {
+        "codepoint": "U+1EA2",
+        "character": "Ả"
+      },
+      {
+        "codepoint": "U+1EAC",
+        "character": "Ậ"
+      },
+      {
+        "codepoint": "U+1EC2",
+        "character": "Ể"
+      },
+      {
+        "codepoint": "U+1EC8",
+        "character": "Ỉ"
+      },
+      {
+        "codepoint": "U+1EDC",
+        "character": "Ờ"
+      },
+      {
+        "codepoint": "U+1EE2",
+        "character": "Ợ"
+      },
+      {
+        "codepoint": "U+1EE4",
+        "character": "Ụ"
+      },
+      {
+        "codepoint": "U+1EE6",
+        "character": "Ủ"
+      },
+      {
+        "codepoint": "U+1EF0",
+        "character": "Ự"
+      }
+    ],
+    "removedCharacters": [],
+    "nonGlyphDiffEmpty": true
+  },
+  {
+    "path": "Assets/UI/Fonts/OperatorCommand Korean SDF.asset",
+    "beforeGlyphs": 3,
+    "afterGlyphs": 71,
+    "addedGlyphCount": 68,
+    "oldGlyphDataChanges": [],
+    "addedCharacters": [
+      {
+        "codepoint": "U+AC10",
+        "character": "감"
+      },
+      {
+        "codepoint": "U+AC12",
+        "character": "값"
+      },
+      {
+        "codepoint": "U+AC15",
+        "character": "강"
+      },
+      {
+        "codepoint": "U+ACBD",
+        "character": "경"
+      },
+      {
+        "codepoint": "U+AD8C",
+        "character": "권"
+      },
+      {
+        "codepoint": "U+AE30",
+        "character": "기"
+      },
+      {
+        "codepoint": "U+AE65",
+        "character": "깥"
+      },
+      {
+        "codepoint": "U+B0A8",
+        "character": "남"
+      },
+      {
+        "codepoint": "U+B0B4",
+        "character": "내"
+      },
+      {
+        "codepoint": "U+B2D8",
+        "character": "님"
+      },
+      {
+        "codepoint": "U+B2EC",
+        "character": "달"
+      },
+      {
+        "codepoint": "U+B300",
+        "character": "대"
+      },
+      {
+        "codepoint": "U+B3C4",
+        "character": "도"
+      },
+      {
+        "codepoint": "U+B3D9",
+        "character": "동"
+      },
+      {
+        "codepoint": "U+B4E0",
+        "character": "든"
+      },
+      {
+        "codepoint": "U+B7C9",
+        "character": "량"
+      },
+      {
+        "codepoint": "U+B839",
+        "character": "령"
+      },
+      {
+        "codepoint": "U+B85C",
+        "character": "로"
+      },
+      {
+        "codepoint": "U+B864",
+        "character": "롤"
+      },
+      {
+        "codepoint": "U+B8CC",
+        "character": "료"
+      },
+      {
+        "codepoint": "U+B9AC",
+        "character": "리"
+      },
+      {
+        "codepoint": "U+BA85",
+        "character": "명"
+      },
+      {
+        "codepoint": "U+BAA8",
+        "character": "모"
+      },
+      {
+        "codepoint": "U+BAA9",
+        "character": "목"
+      },
+      {
+        "codepoint": "U+BB3C",
+        "character": "물"
+      },
+      {
+        "codepoint": "U+BBF8",
+        "character": "미"
+      },
+      {
+        "codepoint": "U+BC14",
+        "character": "바"
+      },
+      {
+        "codepoint": "U+C0C1",
+        "character": "상"
+      },
+      {
+        "codepoint": "U+C120",
+        "character": "선"
+      },
+      {
+        "codepoint": "U+C218",
+        "character": "수"
+      },
+      {
+        "codepoint": "U+C2B9",
+        "character": "승"
+      },
+      {
+        "codepoint": "U+C2E0",
+        "character": "신"
+      },
+      {
+        "codepoint": "U+C544",
+        "character": "아"
+      },
+      {
+        "codepoint": "U+C548",
+        "character": "안"
+      },
+      {
+        "codepoint": "U+C54A",
+        "character": "않"
+      },
+      {
+        "codepoint": "U+C5C5",
+        "character": "업"
+      },
+      {
+        "codepoint": "U+C5C6",
+        "character": "없"
+      },
+      {
+        "codepoint": "U+C608",
+        "character": "예"
+      },
+      {
+        "codepoint": "U+C644",
+        "character": "완"
+      },
+      {
+        "codepoint": "U+C6B0",
+        "character": "우"
+      },
+      {
+        "codepoint": "U+C6B4",
+        "character": "운"
+      },
+      {
+        "codepoint": "U+C704",
+        "character": "위"
+      },
+      {
+        "codepoint": "U+C720",
+        "character": "유"
+      },
+      {
+        "codepoint": "U+C740",
+        "character": "은"
+      },
+      {
+        "codepoint": "U+C74C",
+        "character": "음"
+      },
+      {
+        "codepoint": "U+C774",
+        "character": "이"
+      },
+      {
+        "codepoint": "U+C778",
+        "character": "인"
+      },
+      {
+        "codepoint": "U+C790",
+        "character": "자"
+      },
+      {
+        "codepoint": "U+C791",
+        "character": "작"
+      },
+      {
+        "codepoint": "U+C7AC",
+        "character": "재"
+      },
+      {
+        "codepoint": "U+C804",
+        "character": "전"
+      },
+      {
+        "codepoint": "U+C815",
+        "character": "정"
+      },
+      {
+        "codepoint": "U+C88C",
+        "character": "좌"
+      },
+      {
+        "codepoint": "U+C900",
+        "character": "준"
+      },
+      {
+        "codepoint": "U+C9C0",
+        "character": "지"
+      },
+      {
+        "codepoint": "U+CABD",
+        "character": "쪽"
+      },
+      {
+        "codepoint": "U+CE21",
+        "character": "측"
+      },
+      {
+        "codepoint": "U+D0DC",
+        "character": "태"
+      },
+      {
+        "codepoint": "U+D2B8",
+        "character": "트"
+      },
+      {
+        "codepoint": "U+D45C",
+        "character": "표"
+      },
+      {
+        "codepoint": "U+D558",
+        "character": "하"
+      },
+      {
+        "codepoint": "U+D574",
+        "character": "해"
+      },
+      {
+        "codepoint": "U+D5D8",
+        "character": "험"
+      },
+      {
+        "codepoint": "U+D604",
+        "character": "현"
+      },
+      {
+        "codepoint": "U+D654",
+        "character": "화"
+      },
+      {
+        "codepoint": "U+D655",
+        "character": "확"
+      },
+      {
+        "codepoint": "U+D68C",
+        "character": "회"
+      },
+      {
+        "codepoint": "U+D6A8",
+        "character": "효"
+      }
+    ],
+    "removedCharacters": [],
+    "nonGlyphDiffEmpty": true
+  }
+]

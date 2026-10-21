@@ -1,0 +1,94 @@
+{
+  "passed": true,
+  "error": null,
+  "method": "Play Mode with actual CharacterController, virtual Keyboard/Mouse input, real physics raycasts, UI Button listeners; HD/QHD Game View",
+  "rows": [
+    {
+      "test": "A: F01 UI entry, spawn, blend and single listener",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "B: WASD moves Explorer only",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "C: actual virtual Mouse look",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "D: V first-to-third retains player position",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "UI focus blocks player movement",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "E: center ray + E reads original crane details",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "G: separate Explorer swept-area DANGER, Worker_01 unchanged",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "H: sea/boundary restores last valid point",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "I: ESC returns to originating Facility",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "J: Facility Back returns Overview",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "N: third-person spherecast shortens arm before factory wall",
+      "passed": true,
+      "data": {
+        "distance": 3.584999
+      }
+    },
+    {
+      "test": "F: factory collider POI details",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "M: HD and QHD HUD glyph/truncation checks",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "CharacterController stops at factory wall",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "Exit while D held waits for release before crane control resumes",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "K: original D-key crane movement restored",
+      "passed": true,
+      "data": null
+    },
+    {
+      "test": "Spawn F02, F14 and F03 automatic fallback",
+      "passed": true,
+      "data": null
+    }
+  ]
+}
